@@ -1,0 +1,120 @@
+{
+  "subject": "subj01",
+  "roi_set": "NeuroRoute-v1-8ROI",
+  "roi_mapping_path": "/opt/data/private/BA/UMBRAE/roi_indices/subj01_neuroroute_v1.json",
+  "roi_mapping_sha256": "c4f2cc9368e8030a6ff3ce2df77cc93db07c3670960aad64abeff7d0a18750a3",
+  "roi_order": [
+    "V1",
+    "V2",
+    "V3",
+    "hV4",
+    "FFA",
+    "EBA",
+    "PPA",
+    "OPA"
+  ],
+  "roi_counts": {
+    "V1": 1350,
+    "V2": 1433,
+    "V3": 1187,
+    "hV4": 687,
+    "FFA": 687,
+    "EBA": 2238,
+    "PPA": 720,
+    "OPA": 1532
+  },
+  "total_roi_assignments": 9834,
+  "union_voxel_count": 9666,
+  "overlapping_assignments": 168,
+  "overlap_matrix": [
+    [
+      1350,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1433,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1187,
+      0,
+      0,
+      0,
+      0,
+      4
+    ],
+    [
+      0,
+      0,
+      0,
+      687,
+      7,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      7,
+      687,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2238,
+      0,
+      157
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      720,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0,
+      157,
+      0,
+      1532
+    ]
+  ],
+  "random_control": {
+    "seed": 42,
+    "method": "single_seeded_bijection_over_exact_real_roi_union",
+    "uses_visual_or_clip_information": false,
+    "uses_fmri_response_magnitude": false,
+    "same_voxel_universe": true,
+    "same_roi_sizes": true,
+    "same_pairwise_overlap_matrix": true
+  }
+}

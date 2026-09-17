@@ -1,0 +1,13 @@
+{
+  "subject": "subj01",
+  "requested_k_retino": 96,
+  "nominal_k_total_with_four_high_level_tokens": 100,
+  "construction_status": "REJECTED_MISSING_CONTINUOUS_PRF",
+  "features": {
+    "xy_only": "unavailable",
+    "xy_plus_size": "unavailable"
+  },
+  "units": [],
+  "rejection_reason": "The local NSD copy has categorical prf-visualrois/prf-eccrois labels but no voxel-wise polar angle or x/y center, continuous eccentricity, pRF size/sigma, or fit-quality data. Gaussian voxel-to-patch affinity and pRF-coordinate clustering therefore cannot be constructed without fabricating values.",
+  "stimulus_or_clip_features_used_for_assignment": false
+}

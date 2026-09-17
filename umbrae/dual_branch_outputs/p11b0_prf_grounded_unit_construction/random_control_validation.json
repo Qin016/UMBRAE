@@ -1,0 +1,10 @@
+{
+  "same_K": true,
+  "same_parent_roi": true,
+  "same_hemisphere": true,
+  "same_unit_size_vector": true,
+  "same_total_voxel_pool": true,
+  "same_teacher_affinity": true,
+  "membership_differs": true,
+  "status": "PASS"
+}

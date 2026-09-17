@@ -1,0 +1,278 @@
+{
+  "stimulus_manifest_sha256": "bc53abad6bc62ce32b2a228d7d52022fdd0783e0dfc162ca914c9f5bc9ce6ad8",
+  "preregistered_grid_sha256": "2789b747322ae2b0202d7e1f224a90933627d3190b392b9468a88237f732cbde",
+  "feature_cost_discovery_sha256": "1f5d041f942d3bf9a0d87e2857f85927175c7e0eebb521de6276a26fe1af48da",
+  "brain_geometry_discovery_sha256": "c4117e627b3b5fa8dd26b4ae69cdac72e4edcb0cb65cd5e21397c6605f35309a",
+  "clip_geometry_discovery_sha256": "0f86195b26f1abf909ebdfbd70d859fbe3863b07f9dfd8c8969384248b93a72d",
+  "feature_cost_validation_sha256": "117162b64b43d18277c79e7a33a1c320e42ccf6a872ad2355c95f65cf16a5b1b",
+  "brain_geometry_validation_sha256": "9fe6d3dfd2b4f44e548519ff6f3df0860f3ed4daf6cdd98a02b0bfd41515d4e4",
+  "clip_geometry_validation_sha256": "9698b8d43378fb899f25d59b9cd752c8d3a0c7db0390673fb4f4fdaa437755e3",
+  "validation_script_sha256": "29535bf22b0f68ebefb7a8e0cea9a8c6a6ec5436e8fb8d91bef89d0aab7d26e8",
+  "preregistered_grid_unchanged_during_run": true,
+  "roi_order": [
+    "V1",
+    "V2",
+    "V3",
+    "hV4",
+    "FFA",
+    "EBA",
+    "PPA",
+    "OPA"
+  ],
+  "clip_layer_order": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "discovery_count": 4913,
+  "validation_count": 1638,
+  "offline_test_count_loaded": 0,
+  "fixed_geometry_definition": {
+    "stimulus_distance": "1 - cosine similarity",
+    "node_relation": "1 - Spearman correlation of RDM strict upper triangles",
+    "brain_semantics": "ROI representational geometry relation matrix",
+    "anatomical_distance": false,
+    "hierarchy_claimed": false
+  },
+  "fixed_probe_protocol": {
+    "analysis": "cross_fitted_roi_to_clip_feature_compatibility_v2",
+    "source_split": "offline_discovery",
+    "offline_discovery_count": 4913,
+    "offline_validation_loaded": false,
+    "offline_test_loaded": false,
+    "protected_validation_loaded": false,
+    "protected_test_loaded": false,
+    "brain_input": "roi_tokens_before_projector",
+    "brain_storage_file": "brain_roi_features.npy",
+    "brain_input_is_raw_voxel_vector": false,
+    "clip_target": "cached mean_non_cls_patch_tokens per selected layer",
+    "probe_type": "multi-output linear ridge with intercept",
+    "ridge_regularization": {
+      "alpha": 100.0,
+      "objective": "sum_squared_error + alpha * squared_weight_norm",
+      "selection": "pre-specified globally; no validation or per-pair tuning"
+    },
+    "preprocessing": {
+      "brain": "per-dimension center and scale using training-fold mean/std only",
+      "clip_target": "center using training-fold mean only; no target scaling",
+      "std_epsilon": 1e-06,
+      "heldout_statistics_used": false
+    },
+    "cross_fitting": {
+      "folds": 5,
+      "assignment_unit": "unique stable stimulus ID",
+      "random_seed": 42,
+      "folds_disjoint": true,
+      "every_stimulus_predicted_exactly_once": true,
+      "fold_stimulus_id_hashes": [
+        "b26ab8839b341c9fa705463bf3a93c6ac9f868109dca4b42336cecf7ddc49f4c",
+        "ccd1df228bdf90008e8b194210a5c6125408de008962756cb37cdb4fadafd0cd",
+        "ab0dcdab65be223bef44271bb6ed6bf26b8bcfeb9772049f620d545fbcbc6a4d",
+        "f2e0473bc3f1113516ebb47e4b585a8cfa96175e229bac34bdf5f0da3374f129",
+        "f4ca4b03aca00cd8d726442d2c283ec9b995ec9549733e6755b9acdd2ffd7d4e"
+      ],
+      "fold_sizes": [
+        983,
+        983,
+        983,
+        982,
+        982
+      ]
+    },
+    "cost_definition": "mean over OOF stimuli of 1 - cosine(predicted CLIP feature, true CLIP feature)",
+    "feature_cost_shape": [
+      8,
+      6
+    ],
+    "roi_order": [
+      "V1",
+      "V2",
+      "V3",
+      "hV4",
+      "FFA",
+      "EBA",
+      "PPA",
+      "OPA"
+    ],
+    "clip_layer_order": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      24
+    ],
+    "clip_layer_labels": [
+      "L4",
+      "L8",
+      "L12",
+      "L16",
+      "L20",
+      "L24"
+    ],
+    "oof_cost_mean_per_roi_layer": [
+      [
+        0.18059487757021847,
+        0.2645788226476056,
+        0.24277444836226156,
+        0.19094272263298057,
+        0.21755384371282127,
+        0.10916895347628602
+      ],
+      [
+        0.17928846683614783,
+        0.2623584592946552,
+        0.24064386651638736,
+        0.1892445682508747,
+        0.21601250109545403,
+        0.10849017189933549
+      ],
+      [
+        0.1757000153840692,
+        0.2532070623428303,
+        0.23012055263435818,
+        0.18230951123535571,
+        0.21053067697130587,
+        0.10565668340858073
+      ],
+      [
+        0.17655412378705204,
+        0.2537064054772734,
+        0.23003190467101892,
+        0.18143226011886923,
+        0.20857130619796793,
+        0.10462449767937515
+      ],
+      [
+        0.18722846578149235,
+        0.2610235505765988,
+        0.2265242462655131,
+        0.17418770648883314,
+        0.20047898824409532,
+        0.10073516540170177
+      ],
+      [
+        0.17751144691952955,
+        0.24803757208950913,
+        0.2141239975514442,
+        0.16629828695558904,
+        0.19530501831288788,
+        0.0981177242642237
+      ],
+      [
+        0.1734552308082969,
+        0.2440769734509773,
+        0.21358022411025374,
+        0.16722396212053134,
+        0.19709279539384691,
+        0.0993598094060274
+      ],
+      [
+        0.17045372305978176,
+        0.2393538220433919,
+        0.20927310095477827,
+        0.16397265773573647,
+        0.19358859649627533,
+        0.09746210523663969
+      ]
+    ],
+    "oof_cost_std_per_roi_layer": [
+      [
+        0.07319860078416623,
+        0.08381021237894042,
+        0.06610425808466779,
+        0.05791039176764008,
+        0.056586861046084,
+        0.02470110428169291
+      ],
+      [
+        0.07262797201187476,
+        0.08137594263369202,
+        0.06493397017038277,
+        0.05713820660913752,
+        0.056232324497581455,
+        0.024981018305633085
+      ],
+      [
+        0.07029256223661708,
+        0.0787096499159264,
+        0.0609556234497012,
+        0.054295361338934714,
+        0.0542162190137537,
+        0.023907303984007682
+      ],
+      [
+        0.07057907820058294,
+        0.07738851354271864,
+        0.05954423980024527,
+        0.05325464468626269,
+        0.05257793075390472,
+        0.023863681497559696
+      ],
+      [
+        0.07917232815830523,
+        0.08468462093644474,
+        0.06178806147368542,
+        0.052165406127390866,
+        0.05020434978274397,
+        0.023281471450336426
+      ],
+      [
+        0.07525707776515463,
+        0.08127504732628973,
+        0.057279765628825925,
+        0.049690906101502556,
+        0.04926028728897276,
+        0.02218119726091353
+      ],
+      [
+        0.07098678366441019,
+        0.07671753949262385,
+        0.05646090516603724,
+        0.0492771170622291,
+        0.04969193258405359,
+        0.022879529979206528
+      ],
+      [
+        0.07104093872107939,
+        0.07806237267149244,
+        0.05665157497174759,
+        0.049354836100072415,
+        0.04950130190338208,
+        0.022540212934023623
+      ]
+    ],
+    "source_cache_hash": "9b3e5abf1ef4f6c835b87e60cfe74a6878f1735439a51f5bd344dafa099efd53",
+    "source_file_hashes": {
+      "manifest": "bc53abad6bc62ce32b2a228d7d52022fdd0783e0dfc162ca914c9f5bc9ce6ad8",
+      "cache_config": "427292952e082c33c431bd25d41eb0f446c3fe8834df73843e20dc1fdd7d6527",
+      "geometry_fit/brain_roi_features": "f487d4c6b61d03245ccdc8e32c5603bb18884033c1c0b9e03a5ba1a46851977f",
+      "geometry_fit/clip_layer_features": "a9ec5cc5b631db1d4294b8f1b8874fbd153986e90439b216294f867bd0198590"
+    },
+    "manifest_offline_discovery_id_hash": "d7e22716577b142ac8165270f9bdb0ed7fbf5a33256fd69c7798cddd9235ec29",
+    "l24_preference_diagnostic": {
+      "layer_mean_costs": {
+        "L4": 0.1775982937683235,
+        "L8": 0.2532928334903552,
+        "L12": 0.22588404263325193,
+        "L16": 0.1769514594423463,
+        "L20": 0.20489171580308183,
+        "L24": 0.10295188884652125
+      },
+      "lowest_mean_cost_layer": "L24",
+      "l24_is_lowest_mean_cost": true,
+      "l24_margin_to_second_best": 0.07399957059582506,
+      "interpretation": "descriptive compatibility only; not model-depth hierarchy"
+    },
+    "soft_routing_scores_used_as_feature_cost": false,
+    "feature_models_are_probes_only": true,
+    "elapsed_seconds": 2.9151980876922607
+  },
+  "feature_variance_registered_confound": {
+    "rho": 0.776,
+    "p": 0.0236
+  }
+}

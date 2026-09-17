@@ -1,0 +1,51 @@
+{
+  "experiment_name": "dualbranch_s1_p10_tokenmix_adapter_p6real_seed42_protocolv1",
+  "source_kind": "p6_full_real",
+  "trainable_policy": "tokenmix_adapter_and_two_gates_only",
+  "parameter_counts": {
+    "block_without_gates": 4728064,
+    "gates": 2,
+    "total_trainable": 4728066
+  },
+  "trainable_over_brainx_percent": 3.2273354114680535,
+  "initialization_integrity": {
+    "probe_count": 16,
+    "max_abs_error": 0.0,
+    "mean_abs_error": 0.0,
+    "mean_token_cosine": 1.0,
+    "pooled_cosine": 1.0,
+    "relative_delta_norm": 0.0,
+    "g_attn": 0.05002085119485855,
+    "g_ffn": 0.05002085119485855
+  },
+  "initial_adapter_state_sha256": "e092687bc91acf2b8f5c343ebcd14a2695ea57e46235edc4a366a57c25e73775",
+  "source_checkpoint": "dual_branch_outputs/dualbranch_s1_stageC_real_lora_r8_seed42_protocolv1/best.pth",
+  "source_checkpoint_sha256": "e3900c48ff377ebe14b0ceb90c4424906f5c2035875ef5f8ac83f8f79a645483",
+  "mm_projector": "/opt/data/private/BA/UMBRAE/umbrae/model_weights/mm_projector.bin",
+  "mm_projector_sha256": "357a4a6a42c7214ecf3eca7cb17dfdadb9cdb9dba05f1daff764b969c71403ea",
+  "shikra_identifier": "/opt/data/private/BA/UMBRAE/umbrae/model_weights/shikra-7b",
+  "clip_teacher": "openai/clip-vit-large-patch14 hidden_states[-2][:,1:,:]",
+  "teacher_cache_hashes": {
+    "clip_patch_train_fp16_sha256": "fa817f49d9a20f8e2d2beb8b0ff8bcc31ddc4b1d402bd016f3196b935dde34fd",
+    "clip_patch_val_fp16_sha256": "d8cfe84210034e0ccac6799bc46e6e2908959f8f623d53d04610614ce566cb11",
+    "clip_projected_train_fp16_sha256": "4399646222e080f1537267bbcc05cdc170aba4cfff4fb5caf0f0271e260c40f8",
+    "clip_projected_val_fp16_sha256": "c6886c61f25c6b0727c0c7b086e4f3e7e3707a0712cbfe89f3edf43a4305ea60"
+  },
+  "p9_adapter_reference": "LayerNorm(1024)->Linear(1024,256)->GELU->Linear(256,1024), gated token-wise residual",
+  "adapter_architecture": "LN->8-head MHSA->gated residual->LN->FFN(1024,256,1024)->gated residual",
+  "protocol": "protocol_v1",
+  "test_used": false,
+  "seed": 42,
+  "batch_size": 64,
+  "adapter_lr": 5e-05,
+  "gate_lr": 0.0005,
+  "num_heads": 8,
+  "ffn_bottleneck": 256,
+  "gate_logit_init": -2.944,
+  "dropout": 0.0,
+  "train_count": 8559,
+  "validation_count": 300,
+  "brain_representation_frozen": true,
+  "projector_frozen": true,
+  "shikra_used_in_training": false
+}

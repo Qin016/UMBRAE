@@ -1,0 +1,55 @@
+{
+  "protocol_version": "protocol_v1",
+  "split": "val",
+  "sample_count": 300,
+  "sample_ids": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/val/sample_ids.json",
+  "manifest": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/val_manifest.jsonl",
+  "manifest_sha256": "8b7807cf162d8543feebd8d8a3600d56794b585196b33949091c7dc8f4c27467",
+  "selected_clip_layers": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "layer_numbering": "one_based_transformer_block",
+  "clip_model": "openai/clip-vit-large-patch14",
+  "layer_pools_path": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/p3r_cache/val/clip_layer_pools_fp16.npy",
+  "layer_pools_dtype": "float16",
+  "layer_pools_shape": [
+    300,
+    6,
+    1024
+  ],
+  "global_visual_path": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/p3r_cache/val/clip_block23_global_fp16.npy",
+  "global_visual_definition": "hidden_states[-2][:,1:,:].mean(patch_axis)",
+  "global_visual_shape": [
+    300,
+    1024
+  ],
+  "source_stage_a_cache_metadata": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/val/metadata.json",
+  "online_equivalence": [
+    {
+      "sample_id": "sample000000057",
+      "comparison_batch_size": 64,
+      "cosine_similarity": 1.0,
+      "mean_abs_error": 0.0,
+      "max_abs_error": 0.0
+    },
+    {
+      "sample_id": "sample000000012",
+      "comparison_batch_size": 64,
+      "cosine_similarity": 1.0000000000000002,
+      "mean_abs_error": 0.0,
+      "max_abs_error": 0.0
+    },
+    {
+      "sample_id": "sample000000140",
+      "comparison_batch_size": 64,
+      "cosine_similarity": 0.9999999999999999,
+      "mean_abs_error": 0.0,
+      "max_abs_error": 0.0
+    }
+  ]
+}

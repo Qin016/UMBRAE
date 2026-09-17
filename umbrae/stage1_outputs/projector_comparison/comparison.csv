@@ -1,0 +1,3 @@
+name,router_type,best_val_loss,final_val_loss,routing_entropy,max_weight_mean,near_uniform,collapsed_to_single_layer
+soft_projector_mlp,soft,0.11342542540085943,0.11342542540085943,1.626846099194048,0.3711707595929388,False,False
+soft_projector_mlp_balance005,soft,0.12101647924435766,0.12101647924435766,1.7127024813676173,0.3027314875712976,False,False

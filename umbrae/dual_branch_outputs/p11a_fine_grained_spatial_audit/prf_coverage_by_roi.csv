@@ -1,0 +1,5 @@
+roi,total_roi_voxels,categorical_ecc_label_available,continuous_prf_valid,quality_passed,continuous_coverage_ratio,median_ecc,median_sigma,ecc_label_distribution
+V1,1350,1346,0,0,0.0,unavailable,unavailable,"{""ecc0pt5"": 128, ""ecc1"": 178, ""ecc2"": 320, ""ecc4"": 294, ""ecc4+"": 426}"
+V2,1433,1429,0,0,0.0,unavailable,unavailable,"{""ecc0pt5"": 258, ""ecc1"": 138, ""ecc2"": 240, ""ecc4"": 268, ""ecc4+"": 525}"
+V3,1187,1182,0,0,0.0,unavailable,unavailable,"{""ecc0pt5"": 178, ""ecc1"": 105, ""ecc2"": 172, ""ecc4"": 178, ""ecc4+"": 549}"
+hV4,687,684,0,0,0.0,unavailable,unavailable,"{""ecc0pt5"": 108, ""ecc1"": 77, ""ecc2"": 231, ""ecc4"": 129, ""ecc4+"": 139}"

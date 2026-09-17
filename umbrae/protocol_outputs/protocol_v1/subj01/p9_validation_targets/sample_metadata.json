@@ -1,0 +1,2402 @@
+[
+  {
+    "sample_index": 0,
+    "sample_id": "sample000000000",
+    "coco73k_id": 13,
+    "coco_id": 24610,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 1,
+    "sample_id": "sample000000001",
+    "coco73k_id": 27,
+    "coco_id": 254016,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.25, 0, 0)"
+  },
+  {
+    "sample_index": 2,
+    "sample_id": "sample000000002",
+    "coco73k_id": 71,
+    "coco_id": 286908,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 3,
+    "sample_id": "sample000000003",
+    "coco73k_id": 85,
+    "coco_id": 516318,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 4,
+    "sample_id": "sample000000004",
+    "coco73k_id": 88,
+    "coco_id": 464251,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1421875, 0.1421875)"
+  },
+  {
+    "sample_index": 5,
+    "sample_id": "sample000000005",
+    "coco73k_id": 93,
+    "coco_id": 116206,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 6,
+    "sample_id": "sample000000006",
+    "coco73k_id": 95,
+    "coco_id": 192047,
+    "coco_split": "val2017",
+    "crop_box": "(0.25, 0.0, 0, 0)"
+  },
+  {
+    "sample_index": 7,
+    "sample_id": "sample000000007",
+    "coco73k_id": 99,
+    "coco_id": 82180,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16796875, 0.16796875)"
+  },
+  {
+    "sample_index": 8,
+    "sample_id": "sample000000008",
+    "coco73k_id": 103,
+    "coco_id": 264335,
+    "coco_split": "val2017",
+    "crop_box": "(0.125, 0.125, 0, 0)"
+  },
+  {
+    "sample_index": 9,
+    "sample_id": "sample000000009",
+    "coco73k_id": 110,
+    "coco_id": 481480,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.153125, 0.153125)"
+  },
+  {
+    "sample_index": 10,
+    "sample_id": "sample000000010",
+    "coco73k_id": 113,
+    "coco_id": 224664,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 11,
+    "sample_id": "sample000000011",
+    "coco73k_id": 119,
+    "coco_id": 131379,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 12,
+    "sample_id": "sample000000012",
+    "coco73k_id": 140,
+    "coco_id": 270705,
+    "coco_split": "val2017",
+    "crop_box": "(0.12890625, 0.12890625, 0, 0)"
+  },
+  {
+    "sample_index": 13,
+    "sample_id": "sample000000013",
+    "coco73k_id": 144,
+    "coco_id": 229753,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 14,
+    "sample_id": "sample000000014",
+    "coco73k_id": 147,
+    "coco_id": 426372,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.3328125)"
+  },
+  {
+    "sample_index": 15,
+    "sample_id": "sample000000015",
+    "coco73k_id": 154,
+    "coco_id": 16451,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 16,
+    "sample_id": "sample000000016",
+    "coco73k_id": 155,
+    "coco_id": 295316,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 17,
+    "sample_id": "sample000000017",
+    "coco73k_id": 156,
+    "coco_id": 73326,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 18,
+    "sample_id": "sample000000018",
+    "coco73k_id": 169,
+    "coco_id": 557501,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 19,
+    "sample_id": "sample000000019",
+    "coco73k_id": 176,
+    "coco_id": 451043,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 20,
+    "sample_id": "sample000000020",
+    "coco73k_id": 179,
+    "coco_id": 418281,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 21,
+    "sample_id": "sample000000021",
+    "coco73k_id": 189,
+    "coco_id": 221693,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1671875, 0.1671875)"
+  },
+  {
+    "sample_index": 22,
+    "sample_id": "sample000000022",
+    "coco73k_id": 192,
+    "coco_id": 172547,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 23,
+    "sample_id": "sample000000023",
+    "coco73k_id": 194,
+    "coco_id": 221708,
+    "coco_split": "val2017",
+    "crop_box": "(0.125, 0.125, 0, 0)"
+  },
+  {
+    "sample_index": 24,
+    "sample_id": "sample000000024",
+    "coco73k_id": 198,
+    "coco_id": 98839,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 25,
+    "sample_id": "sample000000025",
+    "coco73k_id": 200,
+    "coco_id": 459662,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 26,
+    "sample_id": "sample000000026",
+    "coco73k_id": 204,
+    "coco_id": 492077,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 27,
+    "sample_id": "sample000000027",
+    "coco73k_id": 206,
+    "coco_id": 51976,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.165625, 0.165625)"
+  },
+  {
+    "sample_index": 28,
+    "sample_id": "sample000000028",
+    "coco73k_id": 214,
+    "coco_id": 107087,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.3328125)"
+  },
+  {
+    "sample_index": 29,
+    "sample_id": "sample000000029",
+    "coco73k_id": 221,
+    "coco_id": 213593,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1671875, 0.1671875)"
+  },
+  {
+    "sample_index": 30,
+    "sample_id": "sample000000030",
+    "coco73k_id": 222,
+    "coco_id": 25181,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 31,
+    "sample_id": "sample000000031",
+    "coco73k_id": 224,
+    "coco_id": 49761,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.12578125, 0.12578125)"
+  },
+  {
+    "sample_index": 32,
+    "sample_id": "sample000000032",
+    "coco73k_id": 228,
+    "coco_id": 393838,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 33,
+    "sample_id": "sample000000033",
+    "coco73k_id": 236,
+    "coco_id": 361103,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 34,
+    "sample_id": "sample000000034",
+    "coco73k_id": 239,
+    "coco_id": 443844,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16484375, 0.16484375)"
+  },
+  {
+    "sample_index": 35,
+    "sample_id": "sample000000035",
+    "coco73k_id": 242,
+    "coco_id": 41633,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.3296875, 0.0)"
+  },
+  {
+    "sample_index": 36,
+    "sample_id": "sample000000036",
+    "coco73k_id": 246,
+    "coco_id": 350003,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 37,
+    "sample_id": "sample000000037",
+    "coco73k_id": 251,
+    "coco_id": 398810,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 38,
+    "sample_id": "sample000000038",
+    "coco73k_id": 266,
+    "coco_id": 225405,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.13203125, 0.13203125)"
+  },
+  {
+    "sample_index": 39,
+    "sample_id": "sample000000039",
+    "coco73k_id": 269,
+    "coco_id": 336628,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.33125, 0, 0)"
+  },
+  {
+    "sample_index": 40,
+    "sample_id": "sample000000040",
+    "coco73k_id": 270,
+    "coco_id": 303863,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16328125, 0.16328125)"
+  },
+  {
+    "sample_index": 41,
+    "sample_id": "sample000000041",
+    "coco73k_id": 295,
+    "coco_id": 361268,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 42,
+    "sample_id": "sample000000042",
+    "coco73k_id": 304,
+    "coco_id": 90956,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 43,
+    "sample_id": "sample000000043",
+    "coco73k_id": 317,
+    "coco_id": 131938,
+    "coco_split": "val2017",
+    "crop_box": "(0.13828125, 0.13828125, 0, 0)"
+  },
+  {
+    "sample_index": 44,
+    "sample_id": "sample000000044",
+    "coco73k_id": 318,
+    "coco_id": 525155,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1671875, 0.1671875)"
+  },
+  {
+    "sample_index": 45,
+    "sample_id": "sample000000045",
+    "coco73k_id": 322,
+    "coco_id": 459634,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.08359375, 0.08359375)"
+  },
+  {
+    "sample_index": 46,
+    "sample_id": "sample000000046",
+    "coco73k_id": 327,
+    "coco_id": 312192,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 47,
+    "sample_id": "sample000000047",
+    "coco73k_id": 330,
+    "coco_id": 435081,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 48,
+    "sample_id": "sample000000048",
+    "coco73k_id": 351,
+    "coco_id": 312263,
+    "coco_split": "val2017",
+    "crop_box": "(0.08828125, 0.08828125, 0, 0)"
+  },
+  {
+    "sample_index": 49,
+    "sample_id": "sample000000049",
+    "coco73k_id": 356,
+    "coco_id": 205776,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16796875, 0.16796875)"
+  },
+  {
+    "sample_index": 50,
+    "sample_id": "sample000000050",
+    "coco73k_id": 384,
+    "coco_id": 410650,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 51,
+    "sample_id": "sample000000051",
+    "coco73k_id": 392,
+    "coco_id": 229553,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.11875, 0.11875)"
+  },
+  {
+    "sample_index": 52,
+    "sample_id": "sample000000052",
+    "coco73k_id": 398,
+    "coco_id": 475223,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1578125, 0.1578125)"
+  },
+  {
+    "sample_index": 53,
+    "sample_id": "sample000000053",
+    "coco73k_id": 402,
+    "coco_id": 361551,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.25, 0, 0)"
+  },
+  {
+    "sample_index": 54,
+    "sample_id": "sample000000054",
+    "coco73k_id": 409,
+    "coco_id": 500826,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1671875, 0.1671875)"
+  },
+  {
+    "sample_index": 55,
+    "sample_id": "sample000000055",
+    "coco73k_id": 418,
+    "coco_id": 459887,
+    "coco_split": "val2017",
+    "crop_box": "(0.0, 0.25, 0, 0)"
+  },
+  {
+    "sample_index": 56,
+    "sample_id": "sample000000056",
+    "coco73k_id": 425,
+    "coco_id": 418959,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 57,
+    "sample_id": "sample000000057",
+    "coco73k_id": 429,
+    "coco_id": 369812,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.00234375, 0.00234375)"
+  },
+  {
+    "sample_index": 58,
+    "sample_id": "sample000000058",
+    "coco73k_id": 443,
+    "coco_id": 42528,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.11328125, 0.11328125)"
+  },
+  {
+    "sample_index": 59,
+    "sample_id": "sample000000059",
+    "coco73k_id": 444,
+    "coco_id": 42178,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 60,
+    "sample_id": "sample000000060",
+    "coco73k_id": 452,
+    "coco_id": 95069,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 61,
+    "sample_id": "sample000000061",
+    "coco73k_id": 458,
+    "coco_id": 173302,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16796875, 0.16796875)"
+  },
+  {
+    "sample_index": 62,
+    "sample_id": "sample000000062",
+    "coco73k_id": 459,
+    "coco_id": 222455,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 63,
+    "sample_id": "sample000000063",
+    "coco73k_id": 470,
+    "coco_id": 233727,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 64,
+    "sample_id": "sample000000064",
+    "coco73k_id": 477,
+    "coco_id": 263463,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 65,
+    "sample_id": "sample000000065",
+    "coco73k_id": 484,
+    "coco_id": 173371,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 66,
+    "sample_id": "sample000000066",
+    "coco73k_id": 485,
+    "coco_id": 236426,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16484375, 0.16484375)"
+  },
+  {
+    "sample_index": 67,
+    "sample_id": "sample000000067",
+    "coco73k_id": 487,
+    "coco_id": 394559,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.334375, 0, 0)"
+  },
+  {
+    "sample_index": 68,
+    "sample_id": "sample000000068",
+    "coco73k_id": 488,
+    "coco_id": 530061,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.2890625)"
+  },
+  {
+    "sample_index": 69,
+    "sample_id": "sample000000069",
+    "coco73k_id": 513,
+    "coco_id": 419201,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16796875, 0.16796875)"
+  },
+  {
+    "sample_index": 70,
+    "sample_id": "sample000000070",
+    "coco73k_id": 523,
+    "coco_id": 386457,
+    "coco_split": "val2017",
+    "crop_box": "(0.1671875, 0.1671875, 0, 0)"
+  },
+  {
+    "sample_index": 71,
+    "sample_id": "sample000000071",
+    "coco73k_id": 543,
+    "coco_id": 132587,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16796875, 0.16796875)"
+  },
+  {
+    "sample_index": 72,
+    "sample_id": "sample000000072",
+    "coco73k_id": 552,
+    "coco_id": 1532,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 73,
+    "sample_id": "sample000000073",
+    "coco73k_id": 563,
+    "coco_id": 452122,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 74,
+    "sample_id": "sample000000074",
+    "coco73k_id": 571,
+    "coco_id": 419379,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.3328125, 0, 0)"
+  },
+  {
+    "sample_index": 75,
+    "sample_id": "sample000000075",
+    "coco73k_id": 605,
+    "coco_id": 165518,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 76,
+    "sample_id": "sample000000076",
+    "coco73k_id": 608,
+    "coco_id": 206487,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 77,
+    "sample_id": "sample000000077",
+    "coco73k_id": 637,
+    "coco_id": 145591,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 78,
+    "sample_id": "sample000000078",
+    "coco73k_id": 639,
+    "coco_id": 108253,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.25, 0, 0)"
+  },
+  {
+    "sample_index": 79,
+    "sample_id": "sample000000079",
+    "coco73k_id": 653,
+    "coco_id": 575243,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 80,
+    "sample_id": "sample000000080",
+    "coco73k_id": 670,
+    "coco_id": 556000,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.09765625, 0.09765625)"
+  },
+  {
+    "sample_index": 81,
+    "sample_id": "sample000000081",
+    "coco73k_id": 678,
+    "coco_id": 573943,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 82,
+    "sample_id": "sample000000082",
+    "coco73k_id": 682,
+    "coco_id": 131386,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.3328125, 0.0)"
+  },
+  {
+    "sample_index": 83,
+    "sample_id": "sample000000083",
+    "coco73k_id": 683,
+    "coco_id": 386912,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 84,
+    "sample_id": "sample000000084",
+    "coco73k_id": 688,
+    "coco_id": 37751,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 85,
+    "sample_id": "sample000000085",
+    "coco73k_id": 709,
+    "coco_id": 463174,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.3328125)"
+  },
+  {
+    "sample_index": 86,
+    "sample_id": "sample000000086",
+    "coco73k_id": 717,
+    "coco_id": 57672,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 87,
+    "sample_id": "sample000000087",
+    "coco73k_id": 718,
+    "coco_id": 155051,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 88,
+    "sample_id": "sample000000088",
+    "coco73k_id": 731,
+    "coco_id": 108503,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 89,
+    "sample_id": "sample000000089",
+    "coco73k_id": 750,
+    "coco_id": 33109,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 90,
+    "sample_id": "sample000000090",
+    "coco73k_id": 758,
+    "coco_id": 31749,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 91,
+    "sample_id": "sample000000091",
+    "coco73k_id": 767,
+    "coco_id": 198928,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.25, 0, 0)"
+  },
+  {
+    "sample_index": 92,
+    "sample_id": "sample000000092",
+    "coco73k_id": 769,
+    "coco_id": 485424,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 93,
+    "sample_id": "sample000000093",
+    "coco73k_id": 787,
+    "coco_id": 18519,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.1953125, 0, 0)"
+  },
+  {
+    "sample_index": 94,
+    "sample_id": "sample000000094",
+    "coco73k_id": 811,
+    "coco_id": 452793,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 95,
+    "sample_id": "sample000000095",
+    "coco73k_id": 813,
+    "coco_id": 305343,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 96,
+    "sample_id": "sample000000096",
+    "coco73k_id": 824,
+    "coco_id": 2261,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 97,
+    "sample_id": "sample000000097",
+    "coco73k_id": 825,
+    "coco_id": 313562,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.25)"
+  },
+  {
+    "sample_index": 98,
+    "sample_id": "sample000000098",
+    "coco73k_id": 826,
+    "coco_id": 362716,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 99,
+    "sample_id": "sample000000099",
+    "coco73k_id": 828,
+    "coco_id": 320696,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 100,
+    "sample_id": "sample000000100",
+    "coco73k_id": 837,
+    "coco_id": 477441,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 101,
+    "sample_id": "sample000000101",
+    "coco73k_id": 839,
+    "coco_id": 572462,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 102,
+    "sample_id": "sample000000102",
+    "coco73k_id": 846,
+    "coco_id": 493864,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.25, 0, 0)"
+  },
+  {
+    "sample_index": 103,
+    "sample_id": "sample000000103",
+    "coco73k_id": 867,
+    "coco_id": 18150,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 104,
+    "sample_id": "sample000000104",
+    "coco73k_id": 868,
+    "coco_id": 173799,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.090625, 0.090625)"
+  },
+  {
+    "sample_index": 105,
+    "sample_id": "sample000000105",
+    "coco73k_id": 876,
+    "coco_id": 179265,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1671875, 0.1671875)"
+  },
+  {
+    "sample_index": 106,
+    "sample_id": "sample000000106",
+    "coco73k_id": 884,
+    "coco_id": 526751,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 107,
+    "sample_id": "sample000000107",
+    "coco73k_id": 908,
+    "coco_id": 76261,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 108,
+    "sample_id": "sample000000108",
+    "coco73k_id": 912,
+    "coco_id": 92660,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 109,
+    "sample_id": "sample000000109",
+    "coco73k_id": 932,
+    "coco_id": 338325,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.165625, 0.165625)"
+  },
+  {
+    "sample_index": 110,
+    "sample_id": "sample000000110",
+    "coco73k_id": 953,
+    "coco_id": 240250,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 111,
+    "sample_id": "sample000000111",
+    "coco73k_id": 969,
+    "coco_id": 92839,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.09609375, 0.09609375)"
+  },
+  {
+    "sample_index": 112,
+    "sample_id": "sample000000112",
+    "coco73k_id": 971,
+    "coco_id": 215723,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 113,
+    "sample_id": "sample000000113",
+    "coco73k_id": 976,
+    "coco_id": 55072,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 114,
+    "sample_id": "sample000000114",
+    "coco73k_id": 985,
+    "coco_id": 223959,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.25, 0, 0)"
+  },
+  {
+    "sample_index": 115,
+    "sample_id": "sample000000115",
+    "coco73k_id": 989,
+    "coco_id": 559842,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 116,
+    "sample_id": "sample000000116",
+    "coco73k_id": 992,
+    "coco_id": 402720,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 117,
+    "sample_id": "sample000000117",
+    "coco73k_id": 994,
+    "coco_id": 166642,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 118,
+    "sample_id": "sample000000118",
+    "coco73k_id": 998,
+    "coco_id": 51961,
+    "coco_split": "val2017",
+    "crop_box": "(0.16640625, 0.16640625, 0, 0)"
+  },
+  {
+    "sample_index": 119,
+    "sample_id": "sample000000119",
+    "coco73k_id": 1013,
+    "coco_id": 11051,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.08125, 0.08125)"
+  },
+  {
+    "sample_index": 120,
+    "sample_id": "sample000000120",
+    "coco73k_id": 1015,
+    "coco_id": 52017,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16796875, 0.16796875)"
+  },
+  {
+    "sample_index": 121,
+    "sample_id": "sample000000121",
+    "coco73k_id": 1035,
+    "coco_id": 551780,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 122,
+    "sample_id": "sample000000122",
+    "coco73k_id": 1047,
+    "coco_id": 199551,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.165625, 0.165625)"
+  },
+  {
+    "sample_index": 123,
+    "sample_id": "sample000000123",
+    "coco73k_id": 1057,
+    "coco_id": 379800,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.11484375, 0.11484375)"
+  },
+  {
+    "sample_index": 124,
+    "sample_id": "sample000000124",
+    "coco73k_id": 1058,
+    "coco_id": 157767,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 125,
+    "sample_id": "sample000000125",
+    "coco73k_id": 1060,
+    "coco_id": 232348,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1078125, 0.1078125)"
+  },
+  {
+    "sample_index": 126,
+    "sample_id": "sample000000126",
+    "coco73k_id": 1065,
+    "coco_id": 470173,
+    "coco_split": "val2017",
+    "crop_box": "(0.1515625, 0.1515625, 0, 0)"
+  },
+  {
+    "sample_index": 127,
+    "sample_id": "sample000000127",
+    "coco73k_id": 1078,
+    "coco_id": 289741,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 128,
+    "sample_id": "sample000000128",
+    "coco73k_id": 1082,
+    "coco_id": 81061,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1546875, 0.1546875)"
+  },
+  {
+    "sample_index": 129,
+    "sample_id": "sample000000129",
+    "coco73k_id": 1083,
+    "coco_id": 568290,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 130,
+    "sample_id": "sample000000130",
+    "coco73k_id": 1107,
+    "coco_id": 429109,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 131,
+    "sample_id": "sample000000131",
+    "coco73k_id": 1128,
+    "coco_id": 560256,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 132,
+    "sample_id": "sample000000132",
+    "coco73k_id": 1136,
+    "coco_id": 175251,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 133,
+    "sample_id": "sample000000133",
+    "coco73k_id": 1138,
+    "coco_id": 126107,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 134,
+    "sample_id": "sample000000134",
+    "coco73k_id": 1146,
+    "coco_id": 23751,
+    "coco_split": "val2017",
+    "crop_box": "(0.1640625, 0.1640625, 0, 0)"
+  },
+  {
+    "sample_index": 135,
+    "sample_id": "sample000000135",
+    "coco73k_id": 1159,
+    "coco_id": 478420,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.25, 0, 0)"
+  },
+  {
+    "sample_index": 136,
+    "sample_id": "sample000000136",
+    "coco73k_id": 1162,
+    "coco_id": 412887,
+    "coco_split": "val2017",
+    "crop_box": "(0.12265625, 0.12265625, 0, 0)"
+  },
+  {
+    "sample_index": 137,
+    "sample_id": "sample000000137",
+    "coco73k_id": 1174,
+    "coco_id": 231831,
+    "coco_split": "val2017",
+    "crop_box": "(0.12421875, 0.12421875, 0, 0)"
+  },
+  {
+    "sample_index": 138,
+    "sample_id": "sample000000138",
+    "coco73k_id": 1181,
+    "coco_id": 126226,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 139,
+    "sample_id": "sample000000139",
+    "coco73k_id": 1187,
+    "coco_id": 396580,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1640625, 0.1640625)"
+  },
+  {
+    "sample_index": 140,
+    "sample_id": "sample000000140",
+    "coco73k_id": 1192,
+    "coco_id": 265518,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 141,
+    "sample_id": "sample000000141",
+    "coco73k_id": 1196,
+    "coco_id": 389684,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 142,
+    "sample_id": "sample000000142",
+    "coco73k_id": 1197,
+    "coco_id": 411530,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 143,
+    "sample_id": "sample000000143",
+    "coco73k_id": 1204,
+    "coco_id": 68833,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 144,
+    "sample_id": "sample000000144",
+    "coco73k_id": 1233,
+    "coco_id": 519569,
+    "coco_split": "val2017",
+    "crop_box": "(0.1671875, 0.1671875, 0, 0)"
+  },
+  {
+    "sample_index": 145,
+    "sample_id": "sample000000145",
+    "coco73k_id": 1243,
+    "coco_id": 109992,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.334375)"
+  },
+  {
+    "sample_index": 146,
+    "sample_id": "sample000000146",
+    "coco73k_id": 1247,
+    "coco_id": 396729,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16796875, 0.16796875)"
+  },
+  {
+    "sample_index": 147,
+    "sample_id": "sample000000147",
+    "coco73k_id": 1249,
+    "coco_id": 542625,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 148,
+    "sample_id": "sample000000148",
+    "coco73k_id": 1273,
+    "coco_id": 93717,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 149,
+    "sample_id": "sample000000149",
+    "coco73k_id": 1274,
+    "coco_id": 246454,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 150,
+    "sample_id": "sample000000150",
+    "coco73k_id": 1275,
+    "coco_id": 308476,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 151,
+    "sample_id": "sample000000151",
+    "coco73k_id": 1278,
+    "coco_id": 372260,
+    "coco_split": "val2017",
+    "crop_box": "(0.16640625, 0.16640625, 0, 0)"
+  },
+  {
+    "sample_index": 152,
+    "sample_id": "sample000000152",
+    "coco73k_id": 1288,
+    "coco_id": 134722,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 153,
+    "sample_id": "sample000000153",
+    "coco73k_id": 1289,
+    "coco_id": 491130,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.3078125, 0, 0)"
+  },
+  {
+    "sample_index": 154,
+    "sample_id": "sample000000154",
+    "coco73k_id": 1306,
+    "coco_id": 172649,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 155,
+    "sample_id": "sample000000155",
+    "coco73k_id": 1309,
+    "coco_id": 28285,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16796875, 0.16796875)"
+  },
+  {
+    "sample_index": 156,
+    "sample_id": "sample000000156",
+    "coco73k_id": 1323,
+    "coco_id": 552612,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 157,
+    "sample_id": "sample000000157",
+    "coco73k_id": 1331,
+    "coco_id": 282296,
+    "coco_split": "val2017",
+    "crop_box": "(0.25, 0.0, 0, 0)"
+  },
+  {
+    "sample_index": 158,
+    "sample_id": "sample000000158",
+    "coco73k_id": 1339,
+    "coco_id": 298697,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 159,
+    "sample_id": "sample000000159",
+    "coco73k_id": 1345,
+    "coco_id": 569059,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 160,
+    "sample_id": "sample000000160",
+    "coco73k_id": 1346,
+    "coco_id": 200421,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 161,
+    "sample_id": "sample000000161",
+    "coco73k_id": 1352,
+    "coco_id": 560880,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.103125, 0.103125)"
+  },
+  {
+    "sample_index": 162,
+    "sample_id": "sample000000162",
+    "coco73k_id": 1361,
+    "coco_id": 210394,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 163,
+    "sample_id": "sample000000163",
+    "coco73k_id": 1362,
+    "coco_id": 291634,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.3234375, 0, 0)"
+  },
+  {
+    "sample_index": 164,
+    "sample_id": "sample000000164",
+    "coco73k_id": 1368,
+    "coco_id": 405279,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 165,
+    "sample_id": "sample000000165",
+    "coco73k_id": 1372,
+    "coco_id": 255965,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 166,
+    "sample_id": "sample000000166",
+    "coco73k_id": 1378,
+    "coco_id": 118594,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.25, 0.0)"
+  },
+  {
+    "sample_index": 167,
+    "sample_id": "sample000000167",
+    "coco73k_id": 1381,
+    "coco_id": 180878,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 168,
+    "sample_id": "sample000000168",
+    "coco73k_id": 1387,
+    "coco_id": 170893,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 169,
+    "sample_id": "sample000000169",
+    "coco73k_id": 1390,
+    "coco_id": 561009,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 170,
+    "sample_id": "sample000000170",
+    "coco73k_id": 1392,
+    "coco_id": 479099,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 171,
+    "sample_id": "sample000000171",
+    "coco73k_id": 1393,
+    "coco_id": 421757,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 172,
+    "sample_id": "sample000000172",
+    "coco73k_id": 1395,
+    "coco_id": 537241,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 173,
+    "sample_id": "sample000000173",
+    "coco73k_id": 1396,
+    "coco_id": 379476,
+    "coco_split": "val2017",
+    "crop_box": "(0.12109375, 0.12109375, 0, 0)"
+  },
+  {
+    "sample_index": 174,
+    "sample_id": "sample000000174",
+    "coco73k_id": 1400,
+    "coco_id": 331075,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0265625, 0.0265625)"
+  },
+  {
+    "sample_index": 175,
+    "sample_id": "sample000000175",
+    "coco73k_id": 1410,
+    "coco_id": 4765,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 176,
+    "sample_id": "sample000000176",
+    "coco73k_id": 1416,
+    "coco_id": 249786,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.165625, 0.165625)"
+  },
+  {
+    "sample_index": 177,
+    "sample_id": "sample000000177",
+    "coco73k_id": 1421,
+    "coco_id": 421834,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.14296875, 0.14296875)"
+  },
+  {
+    "sample_index": 178,
+    "sample_id": "sample000000178",
+    "coco73k_id": 1423,
+    "coco_id": 463522,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 179,
+    "sample_id": "sample000000179",
+    "coco73k_id": 1442,
+    "coco_id": 471023,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1671875, 0.1671875)"
+  },
+  {
+    "sample_index": 180,
+    "sample_id": "sample000000180",
+    "coco73k_id": 1443,
+    "coco_id": 298994,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.165625, 0.165625)"
+  },
+  {
+    "sample_index": 181,
+    "sample_id": "sample000000181",
+    "coco73k_id": 1444,
+    "coco_id": 323571,
+    "coco_split": "val2017",
+    "crop_box": "(0.253125, 0.0, 0, 0)"
+  },
+  {
+    "sample_index": 182,
+    "sample_id": "sample000000182",
+    "coco73k_id": 1449,
+    "coco_id": 356347,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 183,
+    "sample_id": "sample000000183",
+    "coco73k_id": 1450,
+    "coco_id": 36861,
+    "coco_split": "val2017",
+    "crop_box": "(0.125, 0.125, 0, 0)"
+  },
+  {
+    "sample_index": 184,
+    "sample_id": "sample000000184",
+    "coco73k_id": 1462,
+    "coco_id": 184338,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 185,
+    "sample_id": "sample000000185",
+    "coco73k_id": 1465,
+    "coco_id": 555012,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1671875, 0.1671875)"
+  },
+  {
+    "sample_index": 186,
+    "sample_id": "sample000000186",
+    "coco73k_id": 1466,
+    "coco_id": 274460,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1453125, 0.1453125)"
+  },
+  {
+    "sample_index": 187,
+    "sample_id": "sample000000187",
+    "coco73k_id": 1469,
+    "coco_id": 503841,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0328125, 0.0328125)"
+  },
+  {
+    "sample_index": 188,
+    "sample_id": "sample000000188",
+    "coco73k_id": 1473,
+    "coco_id": 544811,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16484375, 0.16484375)"
+  },
+  {
+    "sample_index": 189,
+    "sample_id": "sample000000189",
+    "coco73k_id": 1487,
+    "coco_id": 364636,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.08359375, 0.08359375)"
+  },
+  {
+    "sample_index": 190,
+    "sample_id": "sample000000190",
+    "coco73k_id": 1488,
+    "coco_id": 454750,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 191,
+    "sample_id": "sample000000191",
+    "coco73k_id": 1493,
+    "coco_id": 151662,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 192,
+    "sample_id": "sample000000192",
+    "coco73k_id": 1500,
+    "coco_id": 118921,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 193,
+    "sample_id": "sample000000193",
+    "coco73k_id": 1510,
+    "coco_id": 45229,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 194,
+    "sample_id": "sample000000194",
+    "coco73k_id": 1512,
+    "coco_id": 60052,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 195,
+    "sample_id": "sample000000195",
+    "coco73k_id": 1515,
+    "coco_id": 110784,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.3234375, 0, 0)"
+  },
+  {
+    "sample_index": 196,
+    "sample_id": "sample000000196",
+    "coco73k_id": 1519,
+    "coco_id": 217285,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 197,
+    "sample_id": "sample000000197",
+    "coco73k_id": 1521,
+    "coco_id": 86220,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.165625, 0.165625)"
+  },
+  {
+    "sample_index": 198,
+    "sample_id": "sample000000198",
+    "coco73k_id": 1556,
+    "coco_id": 151857,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.14609375, 0.14609375)"
+  },
+  {
+    "sample_index": 199,
+    "sample_id": "sample000000199",
+    "coco73k_id": 1584,
+    "coco_id": 85157,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 200,
+    "sample_id": "sample000000200",
+    "coco73k_id": 1589,
+    "coco_id": 192904,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.159375, 0.159375)"
+  },
+  {
+    "sample_index": 201,
+    "sample_id": "sample000000201",
+    "coco73k_id": 1597,
+    "coco_id": 283037,
+    "coco_split": "val2017",
+    "crop_box": "(0.16640625, 0.16640625, 0, 0)"
+  },
+  {
+    "sample_index": 202,
+    "sample_id": "sample000000202",
+    "coco73k_id": 1604,
+    "coco_id": 197796,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1265625, 0.1265625)"
+  },
+  {
+    "sample_index": 203,
+    "sample_id": "sample000000203",
+    "coco73k_id": 1632,
+    "coco_id": 135673,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 204,
+    "sample_id": "sample000000204",
+    "coco73k_id": 1639,
+    "coco_id": 70158,
+    "coco_split": "val2017",
+    "crop_box": "(0.16640625, 0.16640625, 0, 0)"
+  },
+  {
+    "sample_index": 205,
+    "sample_id": "sample000000205",
+    "coco73k_id": 1664,
+    "coco_id": 111207,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.253125, 0, 0)"
+  },
+  {
+    "sample_index": 206,
+    "sample_id": "sample000000206",
+    "coco73k_id": 1667,
+    "coco_id": 521717,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1671875, 0.1671875)"
+  },
+  {
+    "sample_index": 207,
+    "sample_id": "sample000000207",
+    "coco73k_id": 1668,
+    "coco_id": 51314,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 208,
+    "sample_id": "sample000000208",
+    "coco73k_id": 1684,
+    "coco_id": 512657,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 209,
+    "sample_id": "sample000000209",
+    "coco73k_id": 1689,
+    "coco_id": 157807,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.3328125, 0.0)"
+  },
+  {
+    "sample_index": 210,
+    "sample_id": "sample000000210",
+    "coco73k_id": 1701,
+    "coco_id": 17182,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.165625, 0.165625)"
+  },
+  {
+    "sample_index": 211,
+    "sample_id": "sample000000211",
+    "coco73k_id": 1709,
+    "coco_id": 381639,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.0875, 0, 0)"
+  },
+  {
+    "sample_index": 212,
+    "sample_id": "sample000000212",
+    "coco73k_id": 1713,
+    "coco_id": 176847,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 213,
+    "sample_id": "sample000000213",
+    "coco73k_id": 1726,
+    "coco_id": 471789,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 214,
+    "sample_id": "sample000000214",
+    "coco73k_id": 1727,
+    "coco_id": 211069,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.25)"
+  },
+  {
+    "sample_index": 215,
+    "sample_id": "sample000000215",
+    "coco73k_id": 1738,
+    "coco_id": 430871,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.165625, 0.165625)"
+  },
+  {
+    "sample_index": 216,
+    "sample_id": "sample000000216",
+    "coco73k_id": 1740,
+    "coco_id": 463647,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.25, 0.0)"
+  },
+  {
+    "sample_index": 217,
+    "sample_id": "sample000000217",
+    "coco73k_id": 1741,
+    "coco_id": 291619,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 218,
+    "sample_id": "sample000000218",
+    "coco73k_id": 1743,
+    "coco_id": 414510,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.25, 0, 0)"
+  },
+  {
+    "sample_index": 219,
+    "sample_id": "sample000000219",
+    "coco73k_id": 1744,
+    "coco_id": 553776,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.11796875, 0.11796875)"
+  },
+  {
+    "sample_index": 220,
+    "sample_id": "sample000000220",
+    "coco73k_id": 1745,
+    "coco_id": 422706,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.3328125)"
+  },
+  {
+    "sample_index": 221,
+    "sample_id": "sample000000221",
+    "coco73k_id": 1767,
+    "coco_id": 259854,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 222,
+    "sample_id": "sample000000222",
+    "coco73k_id": 1774,
+    "coco_id": 37740,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 223,
+    "sample_id": "sample000000223",
+    "coco73k_id": 1785,
+    "coco_id": 80022,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1671875, 0.1671875)"
+  },
+  {
+    "sample_index": 224,
+    "sample_id": "sample000000224",
+    "coco73k_id": 1786,
+    "coco_id": 250758,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.25)"
+  },
+  {
+    "sample_index": 225,
+    "sample_id": "sample000000225",
+    "coco73k_id": 1818,
+    "coco_id": 472030,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.25, 0.0)"
+  },
+  {
+    "sample_index": 226,
+    "sample_id": "sample000000226",
+    "coco73k_id": 1820,
+    "coco_id": 308193,
+    "coco_split": "val2017",
+    "crop_box": "(0.125, 0.125, 0, 0)"
+  },
+  {
+    "sample_index": 227,
+    "sample_id": "sample000000227",
+    "coco73k_id": 1839,
+    "coco_id": 381971,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 228,
+    "sample_id": "sample000000228",
+    "coco73k_id": 1844,
+    "coco_id": 13348,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 229,
+    "sample_id": "sample000000229",
+    "coco73k_id": 1851,
+    "coco_id": 357430,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 230,
+    "sample_id": "sample000000230",
+    "coco73k_id": 1853,
+    "coco_id": 89697,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16484375, 0.16484375)"
+  },
+  {
+    "sample_index": 231,
+    "sample_id": "sample000000231",
+    "coco73k_id": 1877,
+    "coco_id": 357501,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 232,
+    "sample_id": "sample000000232",
+    "coco73k_id": 1886,
+    "coco_id": 103585,
+    "coco_split": "val2017",
+    "crop_box": "(0.16796875, 0.16796875, 0, 0)"
+  },
+  {
+    "sample_index": 233,
+    "sample_id": "sample000000233",
+    "coco73k_id": 1897,
+    "coco_id": 79034,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 234,
+    "sample_id": "sample000000234",
+    "coco73k_id": 1913,
+    "coco_id": 464089,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 235,
+    "sample_id": "sample000000235",
+    "coco73k_id": 1914,
+    "coco_id": 292060,
+    "coco_split": "val2017",
+    "crop_box": "(0.165625, 0.165625, 0, 0)"
+  },
+  {
+    "sample_index": 236,
+    "sample_id": "sample000000236",
+    "coco73k_id": 1917,
+    "coco_id": 177383,
+    "coco_split": "val2017",
+    "crop_box": "(0.16796875, 0.16796875, 0, 0)"
+  },
+  {
+    "sample_index": 237,
+    "sample_id": "sample000000237",
+    "coco73k_id": 1943,
+    "coco_id": 13597,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.3359375, 0.0)"
+  },
+  {
+    "sample_index": 238,
+    "sample_id": "sample000000238",
+    "coco73k_id": 1948,
+    "coco_id": 79144,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1421875, 0.1421875)"
+  },
+  {
+    "sample_index": 239,
+    "sample_id": "sample000000239",
+    "coco73k_id": 1949,
+    "coco_id": 103723,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.25, 0, 0)"
+  },
+  {
+    "sample_index": 240,
+    "sample_id": "sample000000240",
+    "coco73k_id": 1965,
+    "coco_id": 62808,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.12421875, 0.12421875)"
+  },
+  {
+    "sample_index": 241,
+    "sample_id": "sample000000241",
+    "coco73k_id": 1991,
+    "coco_id": 390555,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16015625, 0.16015625)"
+  },
+  {
+    "sample_index": 242,
+    "sample_id": "sample000000242",
+    "coco73k_id": 2007,
+    "coco_id": 323151,
+    "coco_split": "val2017",
+    "crop_box": "(0.125, 0.125, 0, 0)"
+  },
+  {
+    "sample_index": 243,
+    "sample_id": "sample000000243",
+    "coco73k_id": 2014,
+    "coco_id": 349678,
+    "coco_split": "val2017",
+    "crop_box": "(0.16640625, 0.16640625, 0, 0)"
+  },
+  {
+    "sample_index": 244,
+    "sample_id": "sample000000244",
+    "coco73k_id": 2019,
+    "coco_id": 325114,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 245,
+    "sample_id": "sample000000245",
+    "coco73k_id": 2023,
+    "coco_id": 140203,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 246,
+    "sample_id": "sample000000246",
+    "coco73k_id": 2039,
+    "coco_id": 489014,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 247,
+    "sample_id": "sample000000247",
+    "coco73k_id": 2042,
+    "coco_id": 308793,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 248,
+    "sample_id": "sample000000248",
+    "coco73k_id": 2044,
+    "coco_id": 563758,
+    "coco_split": "val2017",
+    "crop_box": "(0.16484375, 0.16484375, 0, 0)"
+  },
+  {
+    "sample_index": 249,
+    "sample_id": "sample000000249",
+    "coco73k_id": 2047,
+    "coco_id": 210502,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 250,
+    "sample_id": "sample000000250",
+    "coco73k_id": 2048,
+    "coco_id": 63047,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.06171875, 0.06171875)"
+  },
+  {
+    "sample_index": 251,
+    "sample_id": "sample000000251",
+    "coco73k_id": 2049,
+    "coco_id": 480842,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0390625, 0.0390625)"
+  },
+  {
+    "sample_index": 252,
+    "sample_id": "sample000000252",
+    "coco73k_id": 2066,
+    "coco_id": 189775,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 253,
+    "sample_id": "sample000000253",
+    "coco73k_id": 2070,
+    "coco_id": 166165,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.1234375, 0, 0)"
+  },
+  {
+    "sample_index": 254,
+    "sample_id": "sample000000254",
+    "coco73k_id": 2077,
+    "coco_id": 377723,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 255,
+    "sample_id": "sample000000255",
+    "coco73k_id": 2091,
+    "coco_id": 129492,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 256,
+    "sample_id": "sample000000256",
+    "coco73k_id": 2113,
+    "coco_id": 579307,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.25, 0, 0)"
+  },
+  {
+    "sample_index": 257,
+    "sample_id": "sample000000257",
+    "coco73k_id": 2114,
+    "coco_id": 55022,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.25, 0, 0)"
+  },
+  {
+    "sample_index": 258,
+    "sample_id": "sample000000258",
+    "coco73k_id": 2125,
+    "coco_id": 407298,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 259,
+    "sample_id": "sample000000259",
+    "coco73k_id": 2135,
+    "coco_id": 30494,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 260,
+    "sample_id": "sample000000260",
+    "coco73k_id": 2169,
+    "coco_id": 571264,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1671875, 0.1671875)"
+  },
+  {
+    "sample_index": 261,
+    "sample_id": "sample000000261",
+    "coco73k_id": 2182,
+    "coco_id": 186282,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16640625, 0.16640625)"
+  },
+  {
+    "sample_index": 262,
+    "sample_id": "sample000000262",
+    "coco73k_id": 2185,
+    "coco_id": 183965,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 263,
+    "sample_id": "sample000000263",
+    "coco73k_id": 2186,
+    "coco_id": 571313,
+    "coco_split": "val2017",
+    "crop_box": "(0.125, 0.125, 0, 0)"
+  },
+  {
+    "sample_index": 264,
+    "sample_id": "sample000000264",
+    "coco73k_id": 2202,
+    "coco_id": 159399,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 265,
+    "sample_id": "sample000000265",
+    "coco73k_id": 2204,
+    "coco_id": 145597,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 266,
+    "sample_id": "sample000000266",
+    "coco73k_id": 2223,
+    "coco_id": 161820,
+    "coco_split": "val2017",
+    "crop_box": "(0.165625, 0.165625, 0, 0)"
+  },
+  {
+    "sample_index": 267,
+    "sample_id": "sample000000267",
+    "coco73k_id": 2228,
+    "coco_id": 579635,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16484375, 0.16484375)"
+  },
+  {
+    "sample_index": 268,
+    "sample_id": "sample000000268",
+    "coco73k_id": 2235,
+    "coco_id": 1296,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.3328125, 0, 0)"
+  },
+  {
+    "sample_index": 269,
+    "sample_id": "sample000000269",
+    "coco73k_id": 2244,
+    "coco_id": 211042,
+    "coco_split": "val2017",
+    "crop_box": "(0.1421875, 0.1421875, 0, 0)"
+  },
+  {
+    "sample_index": 270,
+    "sample_id": "sample000000270",
+    "coco73k_id": 2259,
+    "coco_id": 562197,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 271,
+    "sample_id": "sample000000271",
+    "coco73k_id": 2264,
+    "coco_id": 415882,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.15, 0, 0)"
+  },
+  {
+    "sample_index": 272,
+    "sample_id": "sample000000272",
+    "coco73k_id": 2271,
+    "coco_id": 227478,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 273,
+    "sample_id": "sample000000273",
+    "coco73k_id": 2272,
+    "coco_id": 97988,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 274,
+    "sample_id": "sample000000274",
+    "coco73k_id": 2275,
+    "coco_id": 498032,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1375, 0.1375)"
+  },
+  {
+    "sample_index": 275,
+    "sample_id": "sample000000275",
+    "coco73k_id": 2285,
+    "coco_id": 88250,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1671875, 0.1671875)"
+  },
+  {
+    "sample_index": 276,
+    "sample_id": "sample000000276",
+    "coco73k_id": 2288,
+    "coco_id": 71877,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.33125, 0, 0)"
+  },
+  {
+    "sample_index": 277,
+    "sample_id": "sample000000277",
+    "coco73k_id": 2293,
+    "coco_id": 88269,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 278,
+    "sample_id": "sample000000278",
+    "coco73k_id": 2307,
+    "coco_id": 465129,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 279,
+    "sample_id": "sample000000279",
+    "coco73k_id": 2321,
+    "coco_id": 366884,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 280,
+    "sample_id": "sample000000280",
+    "coco73k_id": 2324,
+    "coco_id": 162092,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 281,
+    "sample_id": "sample000000281",
+    "coco73k_id": 2327,
+    "coco_id": 551304,
+    "coco_split": "val2017",
+    "crop_box": "(0.125, 0.125, 0, 0)"
+  },
+  {
+    "sample_index": 282,
+    "sample_id": "sample000000282",
+    "coco73k_id": 2337,
+    "coco_id": 134882,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.00078125, 0.00078125)"
+  },
+  {
+    "sample_index": 283,
+    "sample_id": "sample000000283",
+    "coco73k_id": 2340,
+    "coco_id": 432468,
+    "coco_split": "val2017",
+    "crop_box": "(0.16640625, 0.16640625, 0, 0)"
+  },
+  {
+    "sample_index": 284,
+    "sample_id": "sample000000284",
+    "coco73k_id": 2341,
+    "coco_id": 342367,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 285,
+    "sample_id": "sample000000285",
+    "coco73k_id": 2347,
+    "coco_id": 88432,
+    "coco_split": "val2017",
+    "crop_box": "(0.125, 0.125, 0, 0)"
+  },
+  {
+    "sample_index": 286,
+    "sample_id": "sample000000286",
+    "coco73k_id": 2361,
+    "coco_id": 407960,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.1671875, 0.1671875)"
+  },
+  {
+    "sample_index": 287,
+    "sample_id": "sample000000287",
+    "coco73k_id": 2367,
+    "coco_id": 121242,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.16484375, 0.16484375)"
+  },
+  {
+    "sample_index": 288,
+    "sample_id": "sample000000288",
+    "coco73k_id": 2376,
+    "coco_id": 293300,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.3328125)"
+  },
+  {
+    "sample_index": 289,
+    "sample_id": "sample000000289",
+    "coco73k_id": 2401,
+    "coco_id": 386134,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 290,
+    "sample_id": "sample000000290",
+    "coco73k_id": 2413,
+    "coco_id": 368752,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0.25, 0, 0)"
+  },
+  {
+    "sample_index": 291,
+    "sample_id": "sample000000291",
+    "coco73k_id": 2415,
+    "coco_id": 457262,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 292,
+    "sample_id": "sample000000292",
+    "coco73k_id": 2422,
+    "coco_id": 96825,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.10703125, 0.10703125)"
+  },
+  {
+    "sample_index": 293,
+    "sample_id": "sample000000293",
+    "coco73k_id": 2429,
+    "coco_id": 113235,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 294,
+    "sample_id": "sample000000294",
+    "coco73k_id": 2437,
+    "coco_id": 186980,
+    "coco_split": "val2017",
+    "crop_box": "(0.14296875, 0.14296875, 0, 0)"
+  },
+  {
+    "sample_index": 295,
+    "sample_id": "sample000000295",
+    "coco73k_id": 2451,
+    "coco_id": 451693,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.125, 0.125)"
+  },
+  {
+    "sample_index": 296,
+    "sample_id": "sample000000296",
+    "coco73k_id": 2459,
+    "coco_id": 465585,
+    "coco_split": "val2017",
+    "crop_box": "(0.16640625, 0.16640625, 0, 0)"
+  },
+  {
+    "sample_index": 297,
+    "sample_id": "sample000000297",
+    "coco73k_id": 2488,
+    "coco_id": 88848,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 298,
+    "sample_id": "sample000000298",
+    "coco73k_id": 2493,
+    "coco_id": 80666,
+    "coco_split": "val2017",
+    "crop_box": "(0, 0, 0.0, 0.0)"
+  },
+  {
+    "sample_index": 299,
+    "sample_id": "sample000000299",
+    "coco73k_id": 2509,
+    "coco_id": 56127,
+    "coco_split": "val2017",
+    "crop_box": "(0.046875, 0.046875, 0, 0)"
+  }
+]

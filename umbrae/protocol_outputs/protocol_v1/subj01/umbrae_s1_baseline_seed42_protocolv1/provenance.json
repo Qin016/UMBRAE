@@ -1,0 +1,7 @@
+{
+  "protocol_version": "protocol_v1",
+  "git_commit_hash": "UNAVAILABLE",
+  "checkpoint_sha256": "b38aa7ce9d11d56c36ede011ec757a3fda4194c5deaa5f7b0f5f8e42187bb4fb",
+  "roi_mapping_sha256": "c4f2cc9368e8030a6ff3ce2df77cc93db07c3670960aad64abeff7d0a18750a3",
+  "seed": 42
+}

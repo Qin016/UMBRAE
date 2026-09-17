@@ -1,0 +1,30 @@
+{
+  "reference_plan": "T_ref[r,l] = (1/8)*(1/6)",
+  "reference_plan_shape": [
+    8,
+    6
+  ],
+  "reference_plan_total_mass": 1.0,
+  "eps_scale": 1e-12,
+  "s_feature": 0.18190438003847248,
+  "s_gw": 0.202123349231981,
+  "feature_cost_scale": {
+    "min": 0.09555155094549742,
+    "max": 0.2530932964229305,
+    "mean": 0.18190438003847254,
+    "std": 0.04492641201082719
+  },
+  "brain_geometry_scale": {
+    "min": 0.0,
+    "max": 0.9394177167575039,
+    "mean": 0.6360368659316569,
+    "std": 0.27991005242420103
+  },
+  "clip_geometry_scale": {
+    "min": 0.0,
+    "max": 0.8522259999582174,
+    "mean": 0.42662098277603283,
+    "std": 0.2826989558983408
+  },
+  "reuse_rule": "fixed canonical discovery scales; never recalibrate per run/null/subsample"
+}

@@ -1,0 +1,9 @@
+{
+  "PRIMARY_QUALITY_POLICY": "r2_ge10p1",
+  "SECONDARY_QUALITY_POLICY": "r2_gt0",
+  "reason": "R2>=10.1 retains 3,956 retinotopic voxels and prevents the singleton spatial-outlier clusters seen for R2>0 at K>=48; selection used only retention, compactness, unit size, affinity, and stability.",
+  "counts": {
+    "r2_gt0": 4473,
+    "r2_ge10p1": 3956
+  }
+}

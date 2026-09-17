@@ -1,0 +1,233 @@
+{
+  "caption_metrics": {
+    "umbrae": {
+      "BLEU-1": 0.5940562420110147,
+      "BLEU-2": 0.40604714230775546,
+      "BLEU-3": 0.2770938078742723,
+      "BLEU-4": 0.19028850855317814,
+      "ROUGE-L": 0.43617266481957284,
+      "CIDEr": 0.6064128805899661,
+      "sample_count": 982,
+      "denominator": 982,
+      "successful_generations": 982,
+      "empty_outputs": 0,
+      "failed_generations": 0,
+      "failure_policy": "empty caption retained in denominator"
+    },
+    "lora": {
+      "BLEU-1": 0.5915236051501511,
+      "BLEU-2": 0.39988217951891214,
+      "BLEU-3": 0.2687558624726802,
+      "BLEU-4": 0.1833407157444846,
+      "ROUGE-L": 0.43412488082070305,
+      "CIDEr": 0.5816784891303525,
+      "sample_count": 982,
+      "denominator": 982,
+      "successful_generations": 982,
+      "empty_outputs": 0,
+      "failed_generations": 0,
+      "failure_policy": "empty caption retained in denominator"
+    },
+    "full_real": {
+      "BLEU-1": 0.5924069531832576,
+      "BLEU-2": 0.3988844734770319,
+      "BLEU-3": 0.26809362167310224,
+      "BLEU-4": 0.18183095227197188,
+      "ROUGE-L": 0.4349953753934815,
+      "CIDEr": 0.5909716376180367,
+      "sample_count": 982,
+      "denominator": 982,
+      "successful_generations": 981,
+      "empty_outputs": 1,
+      "failed_generations": 0,
+      "failure_policy": "empty caption retained in denominator"
+    },
+    "full_random": {
+      "BLEU-1": 0.5900601116358318,
+      "BLEU-2": 0.39759387738702845,
+      "BLEU-3": 0.26644821033600197,
+      "BLEU-4": 0.1811758394772101,
+      "ROUGE-L": 0.43193581003824727,
+      "CIDEr": 0.5826799876559317,
+      "sample_count": 982,
+      "denominator": 982,
+      "successful_generations": 981,
+      "empty_outputs": 1,
+      "failed_generations": 0,
+      "failure_policy": "empty caption retained in denominator"
+    }
+  },
+  "grounding_metrics": {
+    "umbrae": {
+      "query_count": 2419,
+      "threshold": 0.5,
+      "mean_iou": 0.22082647681236267,
+      "grounding_accuracy": 0.1976023150062009,
+      "parse_failures": 7,
+      "target_failures": 0,
+      "failure_policy": "parse failure becomes [0,0,0,0] and remains in accuracy denominator",
+      "category_metrics": {
+        "coco_cats": {
+          "accuracy": 0.1976023150062009,
+          "iou": 0.22082647681236267,
+          "target_failed": 0,
+          "failed": 7
+        },
+        "salient": {
+          "accuracy": 0.31571109456440805,
+          "iou": 0.3144955039024353,
+          "target_failed": 0,
+          "failed": 4
+        },
+        "salient_creatures": {
+          "accuracy": 0.42428571428571427,
+          "iou": 0.38269221782684326,
+          "target_failed": 0,
+          "failed": 2
+        },
+        "salient_objects": {
+          "accuracy": 0.19751166407465007,
+          "iou": 0.24025335907936096,
+          "target_failed": 0,
+          "failed": 2
+        },
+        "inconspicuous_objects": {
+          "accuracy": 0.05018587360594796,
+          "iou": 0.10391433537006378,
+          "target_failed": 0,
+          "failed": 3
+        }
+      }
+    },
+    "lora": {
+      "query_count": 2419,
+      "threshold": 0.5,
+      "mean_iou": 0.216319739818573,
+      "grounding_accuracy": 0.1951219512195122,
+      "parse_failures": 7,
+      "target_failures": 0,
+      "failure_policy": "parse failure becomes [0,0,0,0] and remains in accuracy denominator",
+      "category_metrics": {
+        "coco_cats": {
+          "accuracy": 0.1951219512195122,
+          "iou": 0.216319739818573,
+          "target_failed": 0,
+          "failed": 7
+        },
+        "salient": {
+          "accuracy": 0.308265078183172,
+          "iou": 0.3074066638946533,
+          "target_failed": 0,
+          "failed": 3
+        },
+        "salient_creatures": {
+          "accuracy": 0.4114285714285714,
+          "iou": 0.3754350543022156,
+          "target_failed": 0,
+          "failed": 2
+        },
+        "salient_objects": {
+          "accuracy": 0.19595645412130638,
+          "iou": 0.2333478033542633,
+          "target_failed": 0,
+          "failed": 1
+        },
+        "inconspicuous_objects": {
+          "accuracy": 0.05390334572490706,
+          "iou": 0.1026303619146347,
+          "target_failed": 0,
+          "failed": 4
+        }
+      }
+    },
+    "full_real": {
+      "query_count": 2419,
+      "threshold": 0.5,
+      "mean_iou": 0.2179408222436905,
+      "grounding_accuracy": 0.19801570897064902,
+      "parse_failures": 4,
+      "target_failures": 0,
+      "failure_policy": "parse failure becomes [0,0,0,0] and remains in accuracy denominator",
+      "category_metrics": {
+        "coco_cats": {
+          "accuracy": 0.19801570897064902,
+          "iou": 0.2179408222436905,
+          "target_failed": 0,
+          "failed": 4
+        },
+        "salient": {
+          "accuracy": 0.31198808637379,
+          "iou": 0.30871835350990295,
+          "target_failed": 0,
+          "failed": 2
+        },
+        "salient_creatures": {
+          "accuracy": 0.41714285714285715,
+          "iou": 0.3799319565296173,
+          "target_failed": 0,
+          "failed": 1
+        },
+        "salient_objects": {
+          "accuracy": 0.19751166407465007,
+          "iou": 0.23119191825389862,
+          "target_failed": 0,
+          "failed": 1
+        },
+        "inconspicuous_objects": {
+          "accuracy": 0.055762081784386616,
+          "iou": 0.10463760048151016,
+          "target_failed": 0,
+          "failed": 2
+        }
+      }
+    },
+    "full_random": {
+      "query_count": 2419,
+      "threshold": 0.5,
+      "mean_iou": 0.21735110878944397,
+      "grounding_accuracy": 0.19429516329061597,
+      "parse_failures": 7,
+      "target_failures": 0,
+      "failure_policy": "parse failure becomes [0,0,0,0] and remains in accuracy denominator",
+      "category_metrics": {
+        "coco_cats": {
+          "accuracy": 0.19429516329061597,
+          "iou": 0.21735110878944397,
+          "target_failed": 0,
+          "failed": 7
+        },
+        "salient": {
+          "accuracy": 0.3052866716306776,
+          "iou": 0.3092162013053894,
+          "target_failed": 0,
+          "failed": 3
+        },
+        "salient_creatures": {
+          "accuracy": 0.4057142857142857,
+          "iou": 0.37813350558280945,
+          "target_failed": 0,
+          "failed": 2
+        },
+        "salient_objects": {
+          "accuracy": 0.19595645412130638,
+          "iou": 0.23418964445590973,
+          "target_failed": 0,
+          "failed": 1
+        },
+        "inconspicuous_objects": {
+          "accuracy": 0.055762081784386616,
+          "iou": 0.10269055515527725,
+          "target_failed": 0,
+          "failed": 4
+        }
+      }
+    }
+  },
+  "compute": {
+    "joint_caption_wall_seconds": 590.1978323459625,
+    "joint_grounding_wall_seconds": 2291.036733150482,
+    "effective_per_model_caption_seconds": 147.54945808649063,
+    "effective_per_model_grounding_seconds": 572.7591832876205,
+    "shared_peak_gpu_memory_gib": 38.36419439315796
+  }
+}

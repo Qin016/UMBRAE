@@ -1,0 +1,209 @@
+{
+  "protocol": "protocol_v1 validation only",
+  "test_used": false,
+  "runs": {
+    "UMBRAE": {
+      "selection_status": "DOWNSTREAM_COMPATIBLE_CHECKPOINT_FOUND",
+      "selected": {
+        "label": "epoch_002",
+        "epoch": 2,
+        "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/umbrae_s1_p9_interface_adapter_base_seed42_protocolv1/epoch_002.pth",
+        "caption": {
+          "BLEU-1": 0.6768589298121345,
+          "BLEU-2": 0.4933413206139719,
+          "BLEU-3": 0.35107407682654174,
+          "BLEU-4": 0.2511946277916395,
+          "ROUGE-L": 0.49591099663176585,
+          "CIDEr": 0.8924922491295166,
+          "sample_count": 300,
+          "success": 300,
+          "empty": 0,
+          "failed": 0,
+          "mean_output_length": 17.213333333333335,
+          "median_output_length": 17.0
+        },
+        "grounding": {
+          "query_count": 840,
+          "mean_iou": 0.24180634319782257,
+          "grounding_accuracy": 0.24047619047619048,
+          "parse_failures": 0,
+          "target_failures": 0
+        },
+        "projected_oracle_gap": 0.3892469660441081,
+        "downstream_compatible": true
+      },
+      "source_interface": {
+        "val_loss": 0.47045734723409016,
+        "val_proj_cos": 0.39347087184588114,
+        "val_proj_mse": 2.851925245920817,
+        "val_preproj_cos": 0.45588886658350625,
+        "val_preserve": 3.826183566276361e-10,
+        "val_norm": 0.2878329545259476,
+        "projected_paired_token_cosine": 0.6065291281541189,
+        "projected_oracle_gap": 0.39347087184588114,
+        "preprojector_paired_cosine": 0.5441111334164938,
+        "adapter_correction_ratio": 0.0,
+        "projected_norm_ratio": 0.6819135546684265,
+        "gate": 0.09975048154592514,
+        "rsa": {
+          "spearman_rsa": 0.8530065518884993,
+          "pearson_rsa": 0.8661474206854414,
+          "stimulus_count": 300
+        },
+        "hard_retrieval": {
+          "K": 99,
+          "candidate_count": 100,
+          "hard_negative_source": "frozen CLIP visual cosine nearest neighbors; target excluded",
+          "recall_at_1": 0.9933333333333333,
+          "recall_at_5": 0.9966666666666667,
+          "recall_at_10": 0.9966666666666667,
+          "mrr": 0.9952564102564103,
+          "median_rank": 1.0,
+          "mean_rank": 1.0433333333333332,
+          "candidate_indices_sha256": "fdc01c5b611300ffea2bbf4e1d26756a51744e5b743a85c4ad571df6c69a8fd0"
+        },
+        "sample_count": 300,
+        "identity_adapter_used_for_measurement": true,
+        "adapter_max_abs_correction": 0.0
+      },
+      "source_downstream": {
+        "label": "source_baseline",
+        "epoch": 0,
+        "checkpoint": null,
+        "caption": {
+          "BLEU-1": 0.6765526866710828,
+          "BLEU-2": 0.4951809854400041,
+          "BLEU-3": 0.34964047632046674,
+          "BLEU-4": 0.24800344356056117,
+          "ROUGE-L": 0.49609924551391205,
+          "CIDEr": 0.8776235207092257,
+          "sample_count": 300,
+          "success": 300,
+          "empty": 0,
+          "failed": 0,
+          "mean_output_length": 17.053333333333335,
+          "median_output_length": 17.0
+        },
+        "grounding": {
+          "query_count": 840,
+          "mean_iou": 0.24107028543949127,
+          "grounding_accuracy": 0.2369047619047619,
+          "parse_failures": 0,
+          "target_failures": 0
+        }
+      },
+      "adapter_gain": {
+        "projected_gap_recovery_ratio": 0.010734989815021247,
+        "cider_gain": 0.014868728420290966,
+        "grounding_gain": 0.0035714285714285865,
+        "cider_oracle_recovery_fraction": 0.019614301098650366,
+        "grounding_oracle_recovery_fraction": 0.012467797756361665
+      },
+      "interface_adapter_effect": "POSITIVE"
+    },
+    "P6 Full Real": {
+      "selection_status": "DOWNSTREAM_COMPATIBLE_CHECKPOINT_FOUND",
+      "selected": {
+        "label": "epoch_008",
+        "epoch": 8,
+        "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p9_interface_adapter_p6real_seed42_protocolv1/epoch_008.pth",
+        "caption": {
+          "BLEU-1": 0.6720689655170097,
+          "BLEU-2": 0.48366486084122495,
+          "BLEU-3": 0.3442192888459344,
+          "BLEU-4": 0.24580015991203194,
+          "ROUGE-L": 0.49462819875707215,
+          "CIDEr": 0.8690608329130879,
+          "sample_count": 300,
+          "success": 300,
+          "empty": 0,
+          "failed": 0,
+          "mean_output_length": 17.226666666666667,
+          "median_output_length": 17.0
+        },
+        "grounding": {
+          "query_count": 840,
+          "mean_iou": 0.2379237562417984,
+          "grounding_accuracy": 0.23452380952380952,
+          "parse_failures": 0,
+          "target_failures": 0
+        },
+        "projected_oracle_gap": 0.38743777592976886,
+        "downstream_compatible": true
+      },
+      "source_interface": {
+        "val_loss": 0.4684731960296631,
+        "val_proj_cos": 0.39174957990646364,
+        "val_proj_mse": 2.8374204508463543,
+        "val_preproj_cos": 0.45455403844515485,
+        "val_preserve": -6.364037667220638e-11,
+        "val_norm": 0.2894008892774582,
+        "projected_paired_token_cosine": 0.6082504200935364,
+        "projected_oracle_gap": 0.39174957990646364,
+        "preprojector_paired_cosine": 0.5454459615548451,
+        "adapter_correction_ratio": 0.0,
+        "projected_norm_ratio": 0.6665292382240295,
+        "gate": 0.09975048154592514,
+        "rsa": {
+          "spearman_rsa": 0.8745419642578643,
+          "pearson_rsa": 0.8881982941378588,
+          "stimulus_count": 300
+        },
+        "hard_retrieval": {
+          "K": 99,
+          "candidate_count": 100,
+          "hard_negative_source": "frozen CLIP visual cosine nearest neighbors; target excluded",
+          "recall_at_1": 0.9966666666666667,
+          "recall_at_5": 1.0,
+          "recall_at_10": 1.0,
+          "mrr": 0.9973333333333333,
+          "median_rank": 1.0,
+          "mean_rank": 1.0133333333333334,
+          "candidate_indices_sha256": "fdc01c5b611300ffea2bbf4e1d26756a51744e5b743a85c4ad571df6c69a8fd0"
+        },
+        "sample_count": 300,
+        "identity_adapter_used_for_measurement": true,
+        "adapter_max_abs_correction": 0.0
+      },
+      "source_downstream": {
+        "label": "source_baseline",
+        "epoch": 0,
+        "checkpoint": null,
+        "caption": {
+          "BLEU-1": 0.6665517241377011,
+          "BLEU-2": 0.4806098303389134,
+          "BLEU-3": 0.3390234425862133,
+          "BLEU-4": 0.23738960584825491,
+          "ROUGE-L": 0.48966877823591887,
+          "CIDEr": 0.857437869365815,
+          "sample_count": 300,
+          "success": 300,
+          "empty": 0,
+          "failed": 0,
+          "mean_output_length": 17.346666666666668,
+          "median_output_length": 17.0
+        },
+        "grounding": {
+          "query_count": 840,
+          "mean_iou": 0.23770882189273834,
+          "grounding_accuracy": 0.2261904761904762,
+          "parse_failures": 0,
+          "target_failures": 0
+        }
+      },
+      "adapter_gain": {
+        "projected_gap_recovery_ratio": 0.011006531207319467,
+        "cider_gain": 0.01162296354727288,
+        "grounding_gain": 0.008333333333333331,
+        "cider_oracle_recovery_fraction": 0.01493491295917678,
+        "grounding_oracle_recovery_fraction": 0.028042638270637733
+      },
+      "interface_adapter_effect": "POSITIVE"
+    }
+  },
+  "P6_INFORMATION_GAIN": "WEAK",
+  "INTERFACE_MISMATCH_HYPOTHESIS": "PARTIALLY_SUPPORTED",
+  "FROZEN_P6_INFORMATION_CONTENT": "PARTIAL",
+  "SIMPLE_TOKENWISE_ADAPTER": "SUFFICIENT",
+  "P9_STATUS": "GENERIC_INTERFACE_ADAPTATION_WORKS"
+}

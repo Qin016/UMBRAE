@@ -1,0 +1,7 @@
+{
+  "POT_AVAILABLE": false,
+  "status": "NOT_RUN_DEPENDENCY_UNAVAILABLE",
+  "reason": "Python package 'ot' is not installed in the brainx environment",
+  "custom_coverage_solver_claimed_as_standard_pot": false,
+  "fallback": "synthetic unit tests in tests/test_fgw_correspondence.py"
+}

@@ -1,0 +1,71 @@
+{
+  "method": "balanced_outer_ot",
+  "candidate_stage": "offline_discovery_only",
+  "scientific_method_selected": false,
+  "source_marginal": [
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ],
+  "target_marginal": "uniform hard constraint",
+  "structure_weight": 0.0,
+  "coverage_weight": 0.0,
+  "entropy_weight": 0.0,
+  "entropy_role": "disabled; not used as a scientific anti-collapse mechanism",
+  "eps_scale": 1e-12,
+  "eps_coverage": 1e-12,
+  "loss_scales": {
+    "s_feature": 0.18190438003847248,
+    "s_gw": 0.202123349231981
+  },
+  "objective": "(1-beta)*feature_raw/(s_feature+eps_scale) + beta*gw_raw/(s_gw+eps_scale) + lambda_cov*KL(target||uniform) + epsilon_entropy*sum(T log(T+eps))",
+  "solver": "scipy exact linear programming with hard marginals",
+  "allows_exact_zero_entries": true,
+  "coverage_guarantees_nonzero_target_mass": false,
+  "learning_rate": null,
+  "max_iterations": null,
+  "tolerance": null,
+  "patience": null,
+  "initializations": {
+    "selection": "not applicable; exact balanced linear program",
+    "solver": "scipy.optimize.linprog(method='highs')",
+    "converged": true,
+    "iterations": 20
+  },
+  "roi_order": [
+    "V1",
+    "V2",
+    "V3",
+    "hV4",
+    "FFA",
+    "EBA",
+    "PPA",
+    "OPA"
+  ],
+  "clip_layer_order": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "matrix_and_provenance_hashes": {
+    "feature_cost_oof_sha256": "11e217440ed1f47e6ca1f9dbeec8a60c7d4147285c4abb77ff0343f7fba8e1a7",
+    "brain_geometry_sha256": "0ce5e158f71f50fe0ccd619890aee75b2d888f372d619fc9a3dc6bf96842f976",
+    "clip_geometry_sha256": "d6524f1537608d1fe6e2e4a719a24432ed22a18757c6d05dea6b8f90abc564bb",
+    "feature_cost_config_sha256": "da65072e9f1fbda76d1db3b6fd31133e3d4e72438aef0d86eb8eeedd9cd6dfa1",
+    "geometry_config_sha256": "84e21a7e2f89936d16cd8c06b010a2c9c205647bf4e733f75301bc0d98e7d258",
+    "stimulus_manifest_sha256": "9ad3e1111e730040e82655ecaad7c76a8b0525574391ecc3ab884d584dfebee0",
+    "loss_scale_calibration_sha256": "56d05a2c16d2b392f7a37efe47bea933161542b588c156b9242650e4aa4c34db"
+  },
+  "offline_validation_loaded": false,
+  "offline_test_loaded": false,
+  "protected_validation_loaded": false,
+  "protected_test_loaded": false
+}

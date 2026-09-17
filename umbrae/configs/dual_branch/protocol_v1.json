@@ -1,0 +1,94 @@
+{
+  "protocol_version": "protocol_v1",
+  "status": "locked",
+  "subjects": ["subj01"],
+  "data_root": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split",
+  "train_split": {
+    "shard_pattern": "train/train_subj01_{0..17}.tar",
+    "manifest": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/train_manifest.jsonl",
+    "manifest_sha256": "75ddb3f94350e54989bc52b94b299cac97b096fe5dcfc869415013ce1df4d663",
+    "sample_count": 8559,
+    "unique_stimulus_count": 8559
+  },
+  "val_split": {
+    "shard_pattern": "val/val_subj01_0.tar",
+    "manifest": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/val_manifest.jsonl",
+    "manifest_sha256": "8b7807cf162d8543feebd8d8a3600d56794b585196b33949091c7dc8f4c27467",
+    "sample_count": 300,
+    "unique_stimulus_count": 300
+  },
+  "test_split": {
+    "shard_pattern": "test/test_subj01_{0..1}.tar",
+    "manifest": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/test_manifest.jsonl",
+    "manifest_sha256": "ebb968dc824e90fedb4e48d7f4a8f02d4ed45bf6f36ef3ccf9586648c01237ae",
+    "sample_count": 982,
+    "unique_stimulus_count": 982
+  },
+  "split_integrity_audit": {
+    "path": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/split_integrity_audit.json",
+    "sha256": "ef561d3f6e54c340373da389de4f7b765185c84c3b375ff380eaa829e9d6a207",
+    "sample_id_cross_split_overlap": 0,
+    "image_sha256_cross_split_overlap": 0,
+    "coco73k_id_cross_split_overlap": 0,
+    "subject_consistency_verified": true
+  },
+  "repeat_policy": {
+    "train": "mean_over_num_uniques_valid_repeats",
+    "validation": "mean_over_num_uniques_valid_repeats",
+    "test": "mean_over_num_uniques_valid_repeats",
+    "branch_consistency": "one preaggregated [B,V] tensor is shared by semantic and structural branches"
+  },
+  "brain_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/train_logs/brainx-v-1-4/last.pth",
+  "brain_checkpoint_sha256": "b38aa7ce9d11d56c36ede011ec757a3fda4194c5deaa5f7b0f5f8e42187bb4fb",
+  "brain_model_kind": "BrainX",
+  "brain_parameter_count": 146500608,
+  "semantic_latent_shape": ["B", 256, 1024],
+  "clip_model": "openai/clip-vit-large-patch14",
+  "clip_feature_definition": "vision_encoder.hidden_states[-2][:,1:,:]",
+  "clip_feature_shape": ["B", 256, 1024],
+  "clip_preprocessing": {
+    "input_color": "RGB",
+    "image_size": 224,
+    "resize": 224,
+    "resize_interpolation": "bicubic",
+    "resize_antialias": true,
+    "center_crop": 224,
+    "normalization_mean": [0.48145466, 0.4578275, 0.40821073],
+    "normalization_std": [0.26862954, 0.26130258, 0.27577711],
+    "validation_test_deterministic": true
+  },
+  "roi_order": ["V1", "V2", "V3", "hV4", "FFA", "EBA", "PPA", "OPA"],
+  "roi_mapping": "/opt/data/private/BA/UMBRAE/roi_indices/subj01_neuroroute_v1.json",
+  "roi_mapping_sha256": "c4f2cc9368e8030a6ff3ce2df77cc93db07c3670960aad64abeff7d0a18750a3",
+  "roi_counts": {"V1": 1350, "V2": 1433, "V3": 1187, "hV4": 687, "FFA": 687, "EBA": 2238, "PPA": 720, "OPA": 1532},
+  "roi_overlap_audit": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/roi_audit.json",
+  "random_structure_control": {
+    "seed": 42,
+    "method": "single_seeded_bijection_over_exact_real_roi_union",
+    "mapping": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/random_structure_control_seed42.json",
+    "mapping_sha256": "e6bcf129189f64d9987421d73f3428d56ba79aef9858c441e249d30a6c46ac12",
+    "exactly_preserves_roi_sizes_and_overlap_structure": true
+  },
+  "pooling": {
+    "semantic": "mean_pool(Z_sem, token_axis=1)",
+    "visual": "mean_pool(V_patch, token_axis=1)",
+    "calibrated": "mean_pool(Z_cal, token_axis=1)",
+    "output_shape": ["B", 1024],
+    "cosine_preprocessing": "L2_normalize"
+  },
+  "retrieval_metrics": {
+    "primary_direction": "brain_to_image",
+    "secondary_direction": "image_to_brain",
+    "metrics": ["Recall@1", "Recall@5", "Recall@10", "median_rank", "mean_rank"],
+    "candidate_pool": "all 300 validation stimuli, identical and square for every method"
+  },
+  "rsa_metric": {
+    "distance": "1 - cosine",
+    "elements": "strict upper triangle",
+    "primary": "Spearman correlation",
+    "secondary": "Pearson correlation"
+  },
+  "primary_seed": 42,
+  "experiment_name_format": "{method}_{subject_as_sN}_{stage}_seed{seed}_{protocol_without_underscore}",
+  "test_set_policy": "sealed_for_development; test requires explicit --allow-test and a preregistered final comparison"
+}

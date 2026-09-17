@@ -51,6 +51,24 @@ zero-shot multimodal brain decoding with universal representations across subjec
 
 <p>UMBRAE decodes multimodal explanations from brain signals. (1) We introduce a <b>universal brain encoder</b> for multimodal-brain alignment and recover conceptual and spatial details by using multimodal large language models. (2) We introduce <b>cross-subject training</b> to overcome unique brain patterns of different individuals. This allows brain signals from multiple subjects to be trained within the same model. (3) Our method supports <b>weakly-supervised subject adaptation</b>, enabling the training of a model for a new subject in a data-efficient manner. (4) For evaluation, we introduce <b>BrainHub</b>, a brain understanding benchmark, based on NSD and COCO.
 
+## NeuroRoute and FGW research extension
+
+This repository extends the upstream UMBRAE implementation with ROI-aware
+NeuroRoute models, multi-layer CLIP supervision, dual-branch ablations, and
+Fused Gromov-Wasserstein (FGW) correspondence experiments. The original UMBRAE
+training and inference paths are preserved.
+
+- [Experiment results and repository map](RESULTS.md)
+- [中文版本演进与实验索引](VERSIONS.md)
+- [Full NeuroRoute experiment summary](umbrae/docs/NEUROROUTE_ALL_EXPERIMENTS_SUMMARY.md)
+- [Reproduction notes](REPRODUCTION.md)
+- [Experiment protocol](umbrae/docs/DUAL_BRANCH_PROTOCOL_V1.md)
+- [FGW cross-subject replication](umbrae/docs/FGW_CROSS_SUBJECT_OFFLINE_REPLICATION_V1.md)
+
+Large NSD data, pretrained weights, caches, checkpoints, and sample-level
+predictions are intentionally excluded from Git. Aggregate metrics, reports,
+plots, configurations, tests, and provenance records are versioned.
+
 ## News :triangular_flag_on_post:
 - [2025/07/10] Check out [VINDEX](https://github.com/weihaox/VINDEX) and [BASIC](https://github.com/weihaox/BASIC) for finer-grained multimodal brain decoding and benchmarking.
 - [2024/07/01] UMBRAE is accepted to ECCV 2024.

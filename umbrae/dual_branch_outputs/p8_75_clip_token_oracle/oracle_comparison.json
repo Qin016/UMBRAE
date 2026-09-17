@@ -1,0 +1,91 @@
+{
+  "main_table": [
+    {
+      "mode": "umbrae",
+      "input_representation": "UMBRAE",
+      "brain_derived": "Yes",
+      "spearman_rsa": 0.45907568653859276,
+      "pearson_rsa": 0.4806679180611326,
+      "projected_oracle_gap": 0.46291551412730014,
+      "CIDEr": 0.6064128805899661,
+      "BLEU-4": 0.19028850855317814,
+      "ROUGE-L": 0.43617266481957284,
+      "mean_iou": 0.22082647681236267,
+      "grounding_accuracy": 0.1976023150062009,
+      "parse_failures": 7
+    },
+    {
+      "mode": "lora",
+      "input_representation": "LoRA",
+      "brain_derived": "Yes",
+      "spearman_rsa": 0.46817694720874714,
+      "pearson_rsa": 0.4917101018880076,
+      "projected_oracle_gap": 0.4622949040106018,
+      "CIDEr": 0.5816784891303525,
+      "BLEU-4": 0.1833407157444846,
+      "ROUGE-L": 0.43412488082070305,
+      "mean_iou": 0.216319739818573,
+      "grounding_accuracy": 0.1951219512195122,
+      "parse_failures": 7
+    },
+    {
+      "mode": "full_real",
+      "input_representation": "Full Real",
+      "brain_derived": "Yes",
+      "spearman_rsa": 0.48000033295227384,
+      "pearson_rsa": 0.5068461184205365,
+      "projected_oracle_gap": 0.46261212223658976,
+      "CIDEr": 0.5909716376180367,
+      "BLEU-4": 0.18183095227197188,
+      "ROUGE-L": 0.4349953753934815,
+      "mean_iou": 0.2179408222436905,
+      "grounding_accuracy": 0.19801570897064902,
+      "parse_failures": 4
+    },
+    {
+      "mode": "full_real_alpha_025",
+      "input_representation": "Full Real \u03b1=.25",
+      "brain_derived": "Yes / diagnostic",
+      "spearman_rsa": 0.46564175854215456,
+      "pearson_rsa": 0.48876423700940974,
+      "projected_oracle_gap": 0.4622725933001144,
+      "CIDEr": 0.6108679465739338,
+      "BLEU-4": 0.19100336225653905,
+      "ROUGE-L": 0.4358595350052822,
+      "mean_iou": 0.2206224799156189,
+      "grounding_accuracy": 0.19842910293509713,
+      "parse_failures": 6
+    },
+    {
+      "mode": "exact_clip_token_oracle",
+      "input_representation": "Exact CLIP Token Oracle",
+      "brain_derived": "No, GT image oracle",
+      "spearman_rsa": 1.0,
+      "pearson_rsa": 1.0,
+      "projected_oracle_gap": 0.0,
+      "CIDEr": 1.6356791113146396,
+      "BLEU-4": 0.5069048353799664,
+      "ROUGE-L": 0.6637519927578481,
+      "mean_iou": 0.4799906611442566,
+      "grounding_accuracy": 0.5233567589913187,
+      "parse_failures": 1
+    }
+  ],
+  "oracle_headroom": {
+    "oracle_minus_umbrae_CIDEr": 1.0292662307246734,
+    "oracle_minus_umbrae_grounding_accuracy": 0.3257544439851178,
+    "oracle_minus_full_real_CIDEr": 1.0447074736966029,
+    "oracle_minus_full_real_grounding_accuracy": 0.3253410500206697
+  },
+  "relative_headroom": {
+    "caption_CIDEr": 1.6973027184437808,
+    "grounding_accuracy": 1.6485355648535567
+  },
+  "DECODER_CAPACITY_HEADROOM": "LARGE",
+  "PROJECTOR_DECODER_CEILING": "NOT_SUPPORTED",
+  "BRAIN_TO_VISUAL_INTERFACE_GAP": "LARGE",
+  "NEXT_STAGE_PRIORITY": "BRAIN_TOKEN_COMPATIBILITY",
+  "oracle_rsa_note": "Oracle RSA is a trivial identity endpoint and not a brain-model performance result.",
+  "P8_75_STATUS": "COMPLETE",
+  "NEW_TRAINING_STARTED": false
+}

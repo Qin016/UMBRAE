@@ -1,0 +1,92 @@
+{
+  "local_cos": {
+    "observed_delta": 7.884979248046876e-05,
+    "ci95": [
+      -0.00071246271332105,
+      0.0008721466263135274
+    ],
+    "probability_delta_gt0": 0.5752,
+    "resampling_unit_count": 300,
+    "repeats": 10000,
+    "seed": 42
+  },
+  "unit_localization_mrr": {
+    "observed_delta": -0.0010619789752946524,
+    "ci95": [
+      -0.002845181299783842,
+      0.000744259692368206
+    ],
+    "probability_delta_gt0": 0.1285,
+    "resampling_unit_count": 300,
+    "repeats": 10000,
+    "seed": 42
+  },
+  "local_sample_mrr": {
+    "observed_delta": -0.002770337059975158,
+    "ci95": [
+      -0.004365789419192041,
+      -0.00129038288556045
+    ],
+    "probability_delta_gt0": 0.0,
+    "resampling_unit_count": 300,
+    "repeats": 10000,
+    "seed": 42
+  },
+  "unit_relation_spearman": {
+    "observed_delta": 0.022554817649434344,
+    "ci95": [
+      0.016413860277297743,
+      0.029000602735415458
+    ],
+    "probability_delta_gt0": 1.0,
+    "resampling_unit_count": 300,
+    "repeats": 10000,
+    "seed": 42
+  },
+  "locality_gap": {
+    "observed_delta": -0.00018955886363983154,
+    "ci95": [
+      -0.0009674530262127519,
+      0.0005696934399505456
+    ],
+    "probability_delta_gt0": 0.3294,
+    "resampling_unit_count": 300,
+    "repeats": 10000,
+    "seed": 42
+  },
+  "unit_bootstrap": {
+    "local_cos": {
+      "observed_delta": 7.885182276368141e-05,
+      "ci95": [
+        -0.0005533916992135346,
+        0.0006784256780520081
+      ],
+      "probability_delta_gt0": 0.6003,
+      "resampling_unit_count": 64,
+      "repeats": 10000,
+      "seed": 42
+    },
+    "localization_MRR": {
+      "observed_delta": -0.001061978975294654,
+      "ci95": [
+        -0.002968500392907442,
+        0.0008944552175650699
+      ],
+      "probability_delta_gt0": 0.1421,
+      "resampling_unit_count": 64,
+      "repeats": 10000,
+      "seed": 42
+    },
+    "sample_MRR": {
+      "observed_delta": -0.002770337059975157,
+      "ci95": [
+        -0.004544515965106382,
+        -0.001103431982128845
+      ],
+      "probability_delta_gt0": 0.0001,
+      "resampling_unit_count": 64,
+      "repeats": 10000,
+      "seed": 42
+    }
+  }
+}

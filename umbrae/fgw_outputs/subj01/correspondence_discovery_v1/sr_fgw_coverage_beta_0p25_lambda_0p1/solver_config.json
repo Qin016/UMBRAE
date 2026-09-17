@@ -1,0 +1,173 @@
+{
+  "method": "sr_fgw_coverage",
+  "candidate_stage": "offline_discovery_only",
+  "scientific_method_selected": false,
+  "source_marginal": [
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ],
+  "target_marginal": "free",
+  "structure_weight": 0.25,
+  "coverage_weight": 0.1,
+  "entropy_weight": 0.0,
+  "entropy_role": "disabled; not used as a scientific anti-collapse mechanism",
+  "eps_scale": 1e-12,
+  "eps_coverage": 1e-12,
+  "loss_scales": {
+    "s_feature": 0.18190438003847248,
+    "s_gw": 0.202123349231981
+  },
+  "objective": "(1-beta)*feature_raw/(s_feature+eps_scale) + beta*gw_raw/(s_gw+eps_scale) + lambda_cov*KL(target||uniform) + epsilon_entropy*sum(T log(T+eps))",
+  "solver": "projected gradient with Euclidean row-simplex projection and backtracking",
+  "allows_exact_zero_entries": true,
+  "coverage_guarantees_nonzero_target_mass": false,
+  "learning_rate": 0.1,
+  "max_iterations": 2500,
+  "tolerance": 1e-11,
+  "patience": 80,
+  "initializations": {
+    "winner_index": 3,
+    "winner_kind": "random",
+    "winner_seed": 37,
+    "selection_metric": "lowest offline_discovery total objective for fixed config",
+    "all_results": [
+      {
+        "initialization_kind": "uniform",
+        "initialization_seed": 0,
+        "components": {
+          "total_objective": 0.7196645554655043,
+          "feature_raw": 0.1421657667565915,
+          "feature_normalized": 0.7815411961259104,
+          "gw_raw": 0.07749392527498769,
+          "gw_normalized": 0.3833991746577629,
+          "coverage_loss": 0.3765886470663081,
+          "entropy_loss": -2.277394224156521,
+          "shannon_plan_entropy": 2.277394224156521
+        },
+        "converged": true,
+        "iterations": 257,
+        "stopping_reason": "objective_patience",
+        "source_marginal_feasibility_error": 0.0
+      },
+      {
+        "initialization_kind": "random",
+        "initialization_seed": 11,
+        "components": {
+          "total_objective": 0.7428330591580304,
+          "feature_raw": 0.14837647484521524,
+          "feature_normalized": 0.8156839038896049,
+          "gw_raw": 0.0814854338416582,
+          "gw_normalized": 0.4031470592134934,
+          "coverage_loss": 0.30283366437453446,
+          "entropy_loss": -2.287524246967487,
+          "shannon_plan_entropy": 2.287524246967487
+        },
+        "converged": true,
+        "iterations": 413,
+        "stopping_reason": "objective_patience",
+        "source_marginal_feasibility_error": 1.3877787807814457e-17
+      },
+      {
+        "initialization_kind": "random",
+        "initialization_seed": 23,
+        "components": {
+          "total_objective": 0.743453929707147,
+          "feature_raw": 0.14821536836889737,
+          "feature_normalized": 0.8147982381553168,
+          "gw_raw": 0.08133311749447196,
+          "gw_normalized": 0.402393478057411,
+          "coverage_loss": 0.31756881576306645,
+          "entropy_loss": -2.287438172974534,
+          "shannon_plan_entropy": 2.287438172974534
+        },
+        "converged": true,
+        "iterations": 413,
+        "stopping_reason": "objective_patience",
+        "source_marginal_feasibility_error": 0.0
+      },
+      {
+        "initialization_kind": "random",
+        "initialization_seed": 37,
+        "components": {
+          "total_objective": 0.7196645554654963,
+          "feature_raw": 0.1421658061830826,
+          "feature_normalized": 0.7815414128688558,
+          "gw_raw": 0.07749386721172363,
+          "gw_normalized": 0.383398887391278,
+          "coverage_loss": 0.37658773966034953,
+          "entropy_loss": -2.2773941720403945,
+          "shannon_plan_entropy": 2.2773941720403945
+        },
+        "converged": true,
+        "iterations": 204,
+        "stopping_reason": "objective_patience",
+        "source_marginal_feasibility_error": 0.0
+      },
+      {
+        "initialization_kind": "feature_informed",
+        "initialization_seed": 0,
+        "components": {
+          "total_objective": 0.7196645554655039,
+          "feature_raw": 0.14216576698383482,
+          "feature_normalized": 0.7815411973751564,
+          "gw_raw": 0.07749392494178428,
+          "gw_normalized": 0.3833991730092477,
+          "coverage_loss": 0.3765886418182474,
+          "entropy_loss": -2.2773942239664393,
+          "shannon_plan_entropy": 2.2773942239664393
+        },
+        "converged": true,
+        "iterations": 283,
+        "stopping_reason": "objective_patience",
+        "source_marginal_feasibility_error": 2.7755575615628914e-17
+      }
+    ],
+    "variability": {
+      "initialization_count": 5,
+      "objective_min": 0.7196645554654963,
+      "objective_max": 0.743453929707147,
+      "objective_range": 0.023789374241650618,
+      "pairwise_plan_frobenius_min": 3.0015677383351463e-09,
+      "pairwise_plan_frobenius_mean": 0.3113121048458081,
+      "pairwise_plan_frobenius_max": 0.4654877146196041,
+      "converged_count": 5
+    }
+  },
+  "roi_order": [
+    "V1",
+    "V2",
+    "V3",
+    "hV4",
+    "FFA",
+    "EBA",
+    "PPA",
+    "OPA"
+  ],
+  "clip_layer_order": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "matrix_and_provenance_hashes": {
+    "feature_cost_oof_sha256": "11e217440ed1f47e6ca1f9dbeec8a60c7d4147285c4abb77ff0343f7fba8e1a7",
+    "brain_geometry_sha256": "0ce5e158f71f50fe0ccd619890aee75b2d888f372d619fc9a3dc6bf96842f976",
+    "clip_geometry_sha256": "d6524f1537608d1fe6e2e4a719a24432ed22a18757c6d05dea6b8f90abc564bb",
+    "feature_cost_config_sha256": "da65072e9f1fbda76d1db3b6fd31133e3d4e72438aef0d86eb8eeedd9cd6dfa1",
+    "geometry_config_sha256": "84e21a7e2f89936d16cd8c06b010a2c9c205647bf4e733f75301bc0d98e7d258",
+    "stimulus_manifest_sha256": "9ad3e1111e730040e82655ecaad7c76a8b0525574391ecc3ab884d584dfebee0",
+    "loss_scale_calibration_sha256": "56d05a2c16d2b392f7a37efe47bea933161542b588c156b9242650e4aa4c34db"
+  },
+  "offline_validation_loaded": false,
+  "offline_test_loaded": false,
+  "protected_validation_loaded": false,
+  "protected_test_loaded": false
+}

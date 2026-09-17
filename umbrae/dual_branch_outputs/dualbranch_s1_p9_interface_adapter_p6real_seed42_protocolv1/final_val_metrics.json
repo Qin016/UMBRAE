@@ -1,0 +1,341 @@
+{
+  "selection_rule": "CIDEr >= source AND grounding accuracy >= source; then lowest projected oracle gap, CIDEr tie-break",
+  "source_baseline": {
+    "label": "source_baseline",
+    "epoch": 0,
+    "checkpoint": null,
+    "caption": {
+      "BLEU-1": 0.6665517241377011,
+      "BLEU-2": 0.4806098303389134,
+      "BLEU-3": 0.3390234425862133,
+      "BLEU-4": 0.23738960584825491,
+      "ROUGE-L": 0.48966877823591887,
+      "CIDEr": 0.857437869365815,
+      "sample_count": 300,
+      "success": 300,
+      "empty": 0,
+      "failed": 0,
+      "mean_output_length": 17.346666666666668,
+      "median_output_length": 17.0
+    },
+    "grounding": {
+      "query_count": 840,
+      "mean_iou": 0.23770882189273834,
+      "grounding_accuracy": 0.2261904761904762,
+      "parse_failures": 0,
+      "target_failures": 0
+    }
+  },
+  "candidates": [
+    {
+      "label": "epoch_002",
+      "epoch": 2,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p9_interface_adapter_p6real_seed42_protocolv1/epoch_002.pth",
+      "caption": {
+        "BLEU-1": 0.6651599443669454,
+        "BLEU-2": 0.4774968012623278,
+        "BLEU-3": 0.339321278105833,
+        "BLEU-4": 0.24218592375802397,
+        "ROUGE-L": 0.48623609140722235,
+        "CIDEr": 0.8467771635217056,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.226666666666667,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.2377825528383255,
+        "grounding_accuracy": 0.22738095238095238,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.38822483738263447,
+      "downstream_compatible": false
+    },
+    {
+      "label": "epoch_004",
+      "epoch": 4,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p9_interface_adapter_p6real_seed42_protocolv1/epoch_004.pth",
+      "caption": {
+        "BLEU-1": 0.6702496532591296,
+        "BLEU-2": 0.48208769793309575,
+        "BLEU-3": 0.34167564420412105,
+        "BLEU-4": 0.24389520741959922,
+        "ROUGE-L": 0.49124555231940437,
+        "CIDEr": 0.8643572265173324,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.106666666666666,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.23791053891181946,
+        "grounding_accuracy": 0.22976190476190475,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.38782432715098064,
+      "downstream_compatible": true
+    },
+    {
+      "label": "epoch_006",
+      "epoch": 6,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p9_interface_adapter_p6real_seed42_protocolv1/epoch_006.pth",
+      "caption": {
+        "BLEU-1": 0.6745152354568301,
+        "BLEU-2": 0.4805411758852942,
+        "BLEU-3": 0.3404557318438015,
+        "BLEU-4": 0.24137396262546298,
+        "ROUGE-L": 0.4898743618858479,
+        "CIDEr": 0.8584413897026055,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.293333333333333,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.23830433189868927,
+        "grounding_accuracy": 0.23452380952380952,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.38755606055259706,
+      "downstream_compatible": true
+    },
+    {
+      "label": "epoch_008",
+      "epoch": 8,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p9_interface_adapter_p6real_seed42_protocolv1/epoch_008.pth",
+      "caption": {
+        "BLEU-1": 0.6720689655170097,
+        "BLEU-2": 0.48366486084122495,
+        "BLEU-3": 0.3442192888459344,
+        "BLEU-4": 0.24580015991203194,
+        "ROUGE-L": 0.49462819875707215,
+        "CIDEr": 0.8690608329130879,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.226666666666667,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.2379237562417984,
+        "grounding_accuracy": 0.23452380952380952,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.38743777592976886,
+      "downstream_compatible": true
+    },
+    {
+      "label": "epoch_010",
+      "epoch": 10,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p9_interface_adapter_p6real_seed42_protocolv1/epoch_010.pth",
+      "caption": {
+        "BLEU-1": 0.6677029360964879,
+        "BLEU-2": 0.47719358555058344,
+        "BLEU-3": 0.33765983978440933,
+        "BLEU-4": 0.23826099457511915,
+        "ROUGE-L": 0.4902474852454956,
+        "CIDEr": 0.8487492229964582,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.30666666666667,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.2393607348203659,
+        "grounding_accuracy": 0.2357142857142857,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.3872935752073924,
+      "downstream_compatible": false
+    },
+    {
+      "label": "epoch_012",
+      "epoch": 12,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p9_interface_adapter_p6real_seed42_protocolv1/epoch_012.pth",
+      "caption": {
+        "BLEU-1": 0.6690796277143506,
+        "BLEU-2": 0.47874866860853743,
+        "BLEU-3": 0.3395447579735659,
+        "BLEU-4": 0.23979088830044729,
+        "ROUGE-L": 0.49079183722604647,
+        "CIDEr": 0.8560098055012575,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.346666666666668,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.24002011120319366,
+        "grounding_accuracy": 0.23333333333333334,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.3872742521762848,
+      "downstream_compatible": false
+    },
+    {
+      "label": "epoch_014",
+      "epoch": 14,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p9_interface_adapter_p6real_seed42_protocolv1/epoch_014.pth",
+      "caption": {
+        "BLEU-1": 0.6659779614322776,
+        "BLEU-2": 0.47682642945019577,
+        "BLEU-3": 0.33848822967906256,
+        "BLEU-4": 0.23984588785137195,
+        "ROUGE-L": 0.48846470830002225,
+        "CIDEr": 0.849476478690252,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.266666666666666,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.23866277933120728,
+        "grounding_accuracy": 0.23214285714285715,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.38721815864245096,
+      "downstream_compatible": false
+    },
+    {
+      "label": "epoch_016",
+      "epoch": 16,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p9_interface_adapter_p6real_seed42_protocolv1/epoch_016.pth",
+      "caption": {
+        "BLEU-1": 0.6691910499137111,
+        "BLEU-2": 0.47949349062509633,
+        "BLEU-3": 0.3397001073119159,
+        "BLEU-4": 0.24010731935525165,
+        "ROUGE-L": 0.4886326999899013,
+        "CIDEr": 0.8464927898726206,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.386666666666667,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.23919273912906647,
+        "grounding_accuracy": 0.23333333333333334,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.3871763257185618,
+      "downstream_compatible": false
+    },
+    {
+      "label": "epoch_018",
+      "epoch": 18,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p9_interface_adapter_p6real_seed42_protocolv1/epoch_018.pth",
+      "caption": {
+        "BLEU-1": 0.6655076495129814,
+        "BLEU-2": 0.477351057577248,
+        "BLEU-3": 0.3372102481640278,
+        "BLEU-4": 0.23823516175933934,
+        "ROUGE-L": 0.4866120642981258,
+        "CIDEr": 0.8477395093542622,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.08,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.23935823142528534,
+        "grounding_accuracy": 0.23095238095238096,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.387116916179657,
+      "downstream_compatible": false
+    },
+    {
+      "label": "epoch_020",
+      "epoch": 20,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p9_interface_adapter_p6real_seed42_protocolv1/epoch_020.pth",
+      "caption": {
+        "BLEU-1": 0.6625215889462306,
+        "BLEU-2": 0.47345487669645525,
+        "BLEU-3": 0.33298302893210296,
+        "BLEU-4": 0.23578163090533782,
+        "ROUGE-L": 0.4860925573741852,
+        "CIDEr": 0.8346748045800993,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.0,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.24129031598567963,
+        "grounding_accuracy": 0.23333333333333334,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.3870458916823069,
+      "downstream_compatible": false
+    }
+  ],
+  "selected": {
+    "label": "epoch_008",
+    "epoch": 8,
+    "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p9_interface_adapter_p6real_seed42_protocolv1/epoch_008.pth",
+    "caption": {
+      "BLEU-1": 0.6720689655170097,
+      "BLEU-2": 0.48366486084122495,
+      "BLEU-3": 0.3442192888459344,
+      "BLEU-4": 0.24580015991203194,
+      "ROUGE-L": 0.49462819875707215,
+      "CIDEr": 0.8690608329130879,
+      "sample_count": 300,
+      "success": 300,
+      "empty": 0,
+      "failed": 0,
+      "mean_output_length": 17.226666666666667,
+      "median_output_length": 17.0
+    },
+    "grounding": {
+      "query_count": 840,
+      "mean_iou": 0.2379237562417984,
+      "grounding_accuracy": 0.23452380952380952,
+      "parse_failures": 0,
+      "target_failures": 0
+    },
+    "projected_oracle_gap": 0.38743777592976886,
+    "downstream_compatible": true
+  },
+  "selection_status": "DOWNSTREAM_COMPATIBLE_CHECKPOINT_FOUND",
+  "test_used": false
+}

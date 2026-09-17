@@ -1,0 +1,41 @@
+{
+  "eccentricity_quantiles": {
+    "low": {
+      "unit_count": 22,
+      "local_cos": 0.5821879506111145,
+      "localization_mrr": 0.10961114081588297
+    },
+    "mid": {
+      "unit_count": 21,
+      "local_cos": 0.6419771313667297,
+      "localization_mrr": 0.12557108515545656
+    },
+    "high": {
+      "unit_count": 21,
+      "local_cos": 0.6539092063903809,
+      "localization_mrr": 0.13006333962778163
+    }
+  },
+  "sigma_quantiles": {
+    "low": {
+      "unit_count": 22,
+      "local_cos": 0.5846002101898193,
+      "localization_mrr": 0.09075313668413061
+    },
+    "mid": {
+      "unit_count": 21,
+      "local_cos": 0.6303461194038391,
+      "localization_mrr": 0.12614647638359747
+    },
+    "high": {
+      "unit_count": 21,
+      "local_cos": 0.6630131602287292,
+      "localization_mrr": 0.14924395272814323
+    }
+  },
+  "quality_local_cos_spearman": -0.05723443223443223,
+  "mean_pairwise_brain_unit_cos": 0.8487939238548279,
+  "mean_pairwise_teacher_unit_cos": 0.6175623536109924,
+  "brain_local_to_global_cos": 0.7323716282844543,
+  "locality_gap": -0.10703179985284805
+}

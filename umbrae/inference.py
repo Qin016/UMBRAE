@@ -42,6 +42,10 @@ parser.add_argument('--save_image', type=bool, default=False, help='save image o
 parser.add_argument('--prompt', required=True, help='prompt for the model')
 parser.add_argument('--subj', type=int, default=1, choices=[1, 2, 5, 7])
 parser.add_argument('--seed', type=int, default=42)
+parser.add_argument('--max_samples', type=int, default=None,
+                    help='optional number of validation samples to process (default: all)')
+parser.add_argument('--max_new_tokens', type=int, default=512,
+                    help='maximum number of tokens generated per sample')
 args = parser.parse_args()
 
 # create global variables without the args prefix
@@ -103,6 +107,8 @@ voxel2emb.eval()
 print('inference: predict image features from fmri...')
 emb_voxel_list, image_list = [], []
 for val_i, (voxel, image) in enumerate(val_dl): 
+    if max_samples is not None and val_i >= max_samples:
+        break
     with torch.no_grad():
         with torch.cuda.amp.autocast():
            # repeat_index = val_i % 3
@@ -163,7 +169,7 @@ gen_kwargs = dict(
     pad_token_id=2, # tokenizer.pad_token_id,
     bos_token_id=1, # tokenizer.bos_token_id,
     eos_token_id=2, # tokenizer.eos_token_id,
-    max_new_tokens=512,
+    max_new_tokens=max_new_tokens,
 )
 
 cap_result = {}

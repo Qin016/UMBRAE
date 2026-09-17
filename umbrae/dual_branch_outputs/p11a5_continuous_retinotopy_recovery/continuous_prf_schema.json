@@ -1,0 +1,56 @@
+{
+  "model": "Compressive Spatial Summation (CSS) pRF",
+  "model_equation": "gain * (stimulus dot unit-normalized isotropic Gaussian(x,y,sigma))^exponent, convolved with HRF plus polynomial baseline terms",
+  "polar_angle_convention": {
+    "raw_field": "angle_deg_raw",
+    "unit": "degrees",
+    "range": "0–360; angle is NaN when fitted eccentricity is exactly zero",
+    "zero_direction": "right horizontal meridian (+x)",
+    "rotation": "90 degrees is upper vertical meridian (+y); angles increase counterclockwise in x-right/y-up coordinates",
+    "hemisphere_convention": "same raw convention for both hemispheres; left-hemisphere color-map reflection in plotting code is visualization-only",
+    "official_source": "analyzePRF.m output documentation and nsddatapaper PARAMETERSnotes.m"
+  },
+  "eccentricity": {
+    "raw_field": "eccentricity_deg_raw",
+    "unit": "degrees visual angle",
+    "conversion_in_release": "fit pixels * (8.4/200)",
+    "release_cap": 1000
+  },
+  "size": {
+    "raw_field": "size_effective_deg_raw",
+    "unit": "degrees visual angle",
+    "semantics": "CSS effective pRF size = Gaussian sigma / sqrt(exponent); this is not raw Gaussian sigma",
+    "release_cap": 1000
+  },
+  "exponent": {
+    "raw_field": "exponent_raw",
+    "unit": "dimensionless",
+    "semantics": "CSS static power-law exponent"
+  },
+  "sigma": {
+    "field": "sigma_gaussian_deg_derived",
+    "raw_or_derived": "derived",
+    "formula": "size_effective_deg_raw * sqrt(exponent_raw)",
+    "unit": "degrees visual angle"
+  },
+  "quality": {
+    "raw_field": "quality_R2_percent_raw",
+    "unit": "percent",
+    "semantics": "training R² after projecting polynomials from data and fit",
+    "range": "generally 0–100 but can be negative; values below -1000 are capped to -1000 in release",
+    "higher_is_better": true
+  },
+  "x": {
+    "field": "x_deg_derived",
+    "raw_or_derived": "derived",
+    "formula": "eccentricity*cos(angle*pi/180)",
+    "unit": "degrees visual angle"
+  },
+  "y": {
+    "field": "y_deg_derived",
+    "raw_or_derived": "derived",
+    "formula": "eccentricity*sin(angle*pi/180)",
+    "unit": "degrees visual angle"
+  },
+  "invalid_policy": "NaN or documented release cap sentinels remain invalid; no imputation"
+}

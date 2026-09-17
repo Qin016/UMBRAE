@@ -1,1 +1,66 @@
+# Operating-system and editor files
 .DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python build and test state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Downloaded datasets, third-party benchmark checkouts, and model assets
+/BrainHub/
+/brainhub/
+/stage1_outputs/
+/umbrae/.cache/
+/umbrae/nsd/
+/umbrae/fgw_cache/
+/umbrae/model_weights/shikra-7b/
+/umbrae/train_logs/
+/umbrae/all_images.pt
+
+# Large binary artifacts. Lightweight JSON/CSV reports and figures remain
+# versioned so that the published experiments are inspectable.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.parquet
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.log
+
+# Raw or sample-level evaluation material; aggregate metrics are retained.
+*.jsonl
+**/coco_annotations/
+**/caption_mapping/
+**/*manifest*.json
+**/*predictions*.json
+**/*prediction*.json
+**/response.txt
+**/worker*.json
+**/worker*.jsonl

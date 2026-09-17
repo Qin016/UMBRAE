@@ -1,0 +1,11 @@
+{
+  "protocol": "multi_positive_coco73k",
+  "num_queries": 300,
+  "num_gallery_items": 300,
+  "num_unique_coco_ids": 300,
+  "average_positives_per_brain_query": 1.0,
+  "average_positives_per_query": 1.0,
+  "average_positives_per_image_query": 1.0,
+  "min_positives_per_query": 1,
+  "max_positives_per_query": 1
+}

@@ -1,0 +1,120 @@
+{
+  "protocol_version": "prompt5b_locked_one_shot_replication_v1",
+  "written_before_subj02_or_subj05_offline_test_index_or_feature_access": true,
+  "eligible_subjects": ["subj02", "subj05"],
+  "ineligible_subjects": {
+    "subj07": {
+      "frozen_validation_status": "INCONCLUSIVE",
+      "offline_test_access_forbidden": true,
+      "tree_sha256_before_prompt5b": "da01eb821a47fba089cfc8e0813890f6044a9995bfef2c6a6a5d0c2d61166963"
+    }
+  },
+  "development_reference": {
+    "subject": "subj01",
+    "offline_test_status": "EXPLORATORY_PASS",
+    "final_plan_sha256": "51e65527f3bbc1a3951ec376dd8be3662cab9e6b5f682d2a0da26fb347e20760",
+    "must_not_be_rerun_or_modified": true
+  },
+  "frozen_scientific_configuration": {
+    "method": "sr_fgw",
+    "structure_weight_beta": 0.5,
+    "coverage_weight_lambda": 0.0,
+    "entropy_weight": 0.0,
+    "roi_order": ["V1", "V2", "V3", "hV4", "FFA", "EBA", "PPA", "OPA"],
+    "clip_layer_order": [4, 8, 12, 16, 20, 24],
+    "brain_geometry": "geometry_v2_corrected",
+    "brain_representation": "roi_tokens_before_projector",
+    "feature_compatibility": "5-fold OOF multi-output ridge ROI-to-CLIP prediction cost",
+    "ridge_alpha": 100.0
+  },
+  "frozen_subject_assets": {
+    "subj02": {
+      "validation_summary_sha256": "54d302798591a00456a0b4ffa5900479bd944caf2c8786b80485acadeb4da310",
+      "locked_configuration_sha256": "cf210b48cd3a70b9fcfce9fdf41703753afa0077e0f161d4a420d2dcb9c8e131",
+      "locked_preregistration_sha256": "77f1397652fba0b55854a0df2930d8135d470dffb277b80f7ed2f4b526221bfb",
+      "selected_initialization": ["feature_informed", 0],
+      "frozen_baseline_initialization": ["random", 1010],
+      "discovery_scale": {"s_feature": 0.18379350068704797, "s_gw": 0.1945130771127488}
+    },
+    "subj05": {
+      "validation_summary_sha256": "5a4c4b67566766405cf66dfb9b1b2f095690e02755939f6329b42a153485f2f6",
+      "locked_configuration_sha256": "c913aa9dc3d883b3be87ac616d35899ce31f4ba40d705b6c4fa177212136ca24",
+      "locked_preregistration_sha256": "bb7cc9e182aa1c903996666609721724c1f01e0637b1cafeed571a81e8795413",
+      "selected_initialization": ["random", 1013],
+      "frozen_baseline_initialization": ["random", 1003],
+      "discovery_scale": {"s_feature": 0.17698953463770248, "s_gw": 0.1749916033240142}
+    }
+  },
+  "final_refit": {
+    "training_split": "offline_discovery union offline_validation",
+    "test_access_before_marker": false,
+    "feature_cost": "5-fold OOF on final training only",
+    "test_probe": "one refit on all final training only",
+    "geometry_anchor_count": 1500,
+    "geometry_seed": 42,
+    "scale_rule": "reuse subject-specific Prompt-5A discovery scale exactly; audit-only final-train uniform reference is not used",
+    "one_primary_plan_per_subject": true,
+    "selected_initialization_substitution_allowed": false,
+    "baseline": {
+      "method": "source_constrained_feature_coverage",
+      "beta": 0.0,
+      "lambda_cov": 1.0,
+      "entropy": 0.0
+    },
+    "solver": {
+      "learning_rate": 0.1,
+      "max_iterations": 2500,
+      "tolerance": 1e-11,
+      "patience": 80,
+      "eps_coverage": 1e-12,
+      "projection": "Euclidean row-simplex projection"
+    }
+  },
+  "offline_test_evaluation": {
+    "paired_subsamples": 200,
+    "paired_subsample_fraction": 0.8,
+    "paired_subsample_without_replacement": true,
+    "paired_subsample_seed": 41001,
+    "structural_null_draws_each": 200,
+    "feature_pairing_null_draws": 20,
+    "null_seed": 42001,
+    "null_fit_initializations": [["uniform", 0], ["feature_informed", 0], ["random", 1001]],
+    "empirical_p": "(1 + count(null_statistic <= real_statistic)) / (1 + null_count)",
+    "feature_pairing_affects_status": false
+  },
+  "offline_test_decision": {
+    "EXPLORATORY_PASS_requires": [
+      "FGW composite below frozen baseline",
+      "paired FGW-minus-baseline normalized GW CI upper bound below zero",
+      "all three one-sided structural-null p-values below 0.05",
+      "pretest freeze marker and unchanged plan hash",
+      "no test fitting, selection, or scientific retuning"
+    ]
+  },
+  "cross_subject_analysis": {
+    "final_plan_subjects": ["subj01", "subj02", "subj05"],
+    "native_layer_order_fixed": true,
+    "roi_row_permutation_null": {
+      "draws": 10000,
+      "seed": 52001,
+      "permutation": "independent ROI row-label permutation within each subject plan",
+      "primary_statistics": [
+        "mean corresponding-ROI cosine similarity",
+        "mean corresponding-ROI JS divergence"
+      ]
+    },
+    "shared_stimulus_minimum": 200,
+    "shared_stimulus_analysis_is_secondary": true,
+    "shared_stimulus_analysis_cannot_change_status": true,
+    "cross_subject_status_rule": "exact Prompt-5B rule; both eligible subjects must pass and ROI correspondence must beat the preregistered row-permutation null for REPLICATION_SUPPORTED"
+  },
+  "implementation_sha256_before_test": {
+    "run_fgw_offline_test.py": "a1637427d576ada0962387de36f4911fd012d030f2a5dd56851959215ea4e2d9"
+  },
+  "hard_stops": {
+    "subj07_offline_test": true,
+    "stage2": true,
+    "perceiver_modification": true,
+    "caption_evaluation": true
+  }
+}

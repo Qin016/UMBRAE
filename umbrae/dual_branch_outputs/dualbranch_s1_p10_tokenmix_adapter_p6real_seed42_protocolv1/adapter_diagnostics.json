@@ -1,0 +1,279 @@
+{
+  "source_interface": {
+    "val_loss": 0.4684731960296631,
+    "val_proj_cos": 0.39174957990646364,
+    "val_proj_mse": 2.8374204508463543,
+    "val_preproj_cos": 0.45455403844515485,
+    "val_preserve": -6.364037667220638e-11,
+    "val_norm": 0.2894008892774582,
+    "projected_paired_token_cosine": 0.6082504200935364,
+    "projected_oracle_gap": 0.39174957990646364,
+    "preprojector_paired_cosine": 0.5454459615548451,
+    "adapter_correction_ratio": 0.0,
+    "projected_norm_ratio": 0.6665292382240295,
+    "gate": 0.09975048154592514,
+    "rsa": {
+      "spearman_rsa": 0.8745419642578643,
+      "pearson_rsa": 0.8881982941378588,
+      "stimulus_count": 300
+    },
+    "hard_retrieval": {
+      "K": 99,
+      "candidate_count": 100,
+      "hard_negative_source": "frozen CLIP visual cosine nearest neighbors; target excluded",
+      "recall_at_1": 0.9966666666666667,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 0.9973333333333333,
+      "median_rank": 1.0,
+      "mean_rank": 1.0133333333333334,
+      "candidate_indices_sha256": "fdc01c5b611300ffea2bbf4e1d26756a51744e5b743a85c4ad571df6c69a8fd0"
+    },
+    "sample_count": 300,
+    "identity_adapter_used_for_measurement": true,
+    "adapter_max_abs_correction": 0.0,
+    "reused_from": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p9_interface_adapter_p6real_seed42_protocolv1/source_interface_baseline.json",
+    "reuse_reason": "identical frozen source cache and frozen mm_projector"
+  },
+  "selected_interface": {
+    "epoch": 4,
+    "train_loss": 0.46550189073376325,
+    "train_proj_cos": 0.38998035924821023,
+    "train_proj_mse": 2.744054019472033,
+    "train_preproj_cos": 0.4542252710766987,
+    "train_preserve": 0.0026988602585414625,
+    "train_norm": 0.23885758367741075,
+    "train_grad_norm": 0.005558645428998481,
+    "val_loss": 0.4640412123998006,
+    "val_proj_cos": 0.3878719238440196,
+    "val_proj_mse": 2.8051923847198488,
+    "val_preproj_cos": 0.4529862058162689,
+    "val_preserve": 0.00290230227013429,
+    "val_norm": 0.2528529433409373,
+    "projected_paired_token_cosine": 0.6121280761559804,
+    "projected_oracle_gap": 0.3878719238440196,
+    "preprojector_paired_cosine": 0.5470137941837311,
+    "source_preservation_cosine": 0.9970976977298657,
+    "adapter_correction_ratio": 0.057109318549434344,
+    "projected_norm_ratio": 0.6783866882324219,
+    "g_attn": 0.059749916195869446,
+    "g_ffn": 0.06494121998548508,
+    "rsa": {
+      "spearman_rsa": 0.8491323873380817,
+      "pearson_rsa": 0.8629881759705162,
+      "stimulus_count": 300
+    },
+    "hard_retrieval": {
+      "K": 99,
+      "candidate_count": 100,
+      "hard_negative_source": "frozen CLIP visual cosine nearest neighbors; target excluded",
+      "recall_at_1": 0.9933333333333333,
+      "recall_at_5": 0.9966666666666667,
+      "recall_at_10": 1.0,
+      "mrr": 0.9953333333333334,
+      "median_rank": 1.0,
+      "mean_rank": 1.0333333333333334,
+      "candidate_indices_sha256": "fdc01c5b611300ffea2bbf4e1d26756a51744e5b743a85c4ad571df6c69a8fd0"
+    },
+    "attention": {
+      "mean_attention_entropy": 4.560987904866536,
+      "normalized_attention_entropy": 0.8225143146514893,
+      "mean_max_attention_weight": 0.10636483718951543,
+      "off_diagonal_attention_mass": 0.9927309513092041,
+      "token_count": 256,
+      "per_head": [
+        {
+          "head": 0,
+          "mean_attention_entropy": 5.156354986826579,
+          "normalized_attention_entropy": 0.9298809615770975,
+          "mean_max_attention_weight": 0.020745421225825945,
+          "off_diagonal_attention_mass": 0.9914808678627014,
+          "token_usage_entropy": 5.533325373331706,
+          "normalized_token_usage_entropy": 0.9978626235326131,
+          "most_used_token_share": 0.005961982241521279,
+          "most_used_token": 241
+        },
+        {
+          "head": 1,
+          "mean_attention_entropy": 3.7971264266967775,
+          "normalized_attention_entropy": 0.6847619215647379,
+          "mean_max_attention_weight": 0.20264104882876077,
+          "off_diagonal_attention_mass": 0.997155331770579,
+          "token_usage_entropy": 5.28904094696045,
+          "normalized_token_usage_entropy": 0.9538091333707174,
+          "most_used_token_share": 0.02156283857921759,
+          "most_used_token": 45
+        },
+        {
+          "head": 2,
+          "mean_attention_entropy": 4.539739061991374,
+          "normalized_attention_entropy": 0.8186823717753092,
+          "mean_max_attention_weight": 0.1358209091424942,
+          "off_diagonal_attention_mass": 0.9896595939000448,
+          "token_usage_entropy": 5.43861078898112,
+          "normalized_token_usage_entropy": 0.9807820765177409,
+          "most_used_token_share": 0.017272463490565618,
+          "most_used_token": 34
+        },
+        {
+          "head": 3,
+          "mean_attention_entropy": 5.106558545430501,
+          "normalized_attention_entropy": 0.9209008145332337,
+          "mean_max_attention_weight": 0.04275411357482274,
+          "off_diagonal_attention_mass": 0.9907434630393982,
+          "token_usage_entropy": 5.532745361328125,
+          "normalized_token_usage_entropy": 0.9977580293019612,
+          "most_used_token_share": 0.007935714771350225,
+          "most_used_token": 45
+        },
+        {
+          "head": 4,
+          "mean_attention_entropy": 4.734683869679769,
+          "normalized_attention_entropy": 0.853838103612264,
+          "mean_max_attention_weight": 0.07977380027373632,
+          "off_diagonal_attention_mass": 0.9931444851557414,
+          "token_usage_entropy": 5.499957021077474,
+          "normalized_token_usage_entropy": 0.991845072110494,
+          "most_used_token_share": 0.011385943355659643,
+          "most_used_token": 45
+        },
+        {
+          "head": 5,
+          "mean_attention_entropy": 5.153090718587239,
+          "normalized_attention_entropy": 0.9292922910054525,
+          "mean_max_attention_weight": 0.02122030757367611,
+          "off_diagonal_attention_mass": 0.9928488222757975,
+          "token_usage_entropy": 5.518777224222819,
+          "normalized_token_usage_entropy": 0.9952390384674072,
+          "most_used_token_share": 0.006095855608582497,
+          "most_used_token": 103
+        },
+        {
+          "head": 6,
+          "mean_attention_entropy": 2.945510810216268,
+          "normalized_attention_entropy": 0.5311842147509257,
+          "mean_max_attention_weight": 0.3238607744375865,
+          "off_diagonal_attention_mass": 0.9956945848464965,
+          "token_usage_entropy": 5.1166368611653645,
+          "normalized_token_usage_entropy": 0.9227183159192404,
+          "most_used_token_share": 0.033227265278498334,
+          "most_used_token": 45
+        },
+        {
+          "head": 7,
+          "mean_attention_entropy": 5.054839986165365,
+          "normalized_attention_entropy": 0.9115740633010865,
+          "mean_max_attention_weight": 0.024102314536770184,
+          "off_diagonal_attention_mass": 0.9911204282442728,
+          "token_usage_entropy": 5.507213478088379,
+          "normalized_token_usage_entropy": 0.9931536761919657,
+          "most_used_token_share": 0.005969960832347473,
+          "most_used_token": 121
+        }
+      ],
+      "attention_collapse_detected": false,
+      "collapse_rule": "any head most_used_token_share > 0.25 or normalized_token_usage_entropy < 0.5"
+    },
+    "sample_count": 300,
+    "epoch_wall_seconds": 274.6529438495636
+  },
+  "selected_attention": {
+    "mean_attention_entropy": 4.560987904866536,
+    "normalized_attention_entropy": 0.8225143146514893,
+    "mean_max_attention_weight": 0.10636483718951543,
+    "off_diagonal_attention_mass": 0.9927309513092041,
+    "token_count": 256,
+    "per_head": [
+      {
+        "head": 0,
+        "mean_attention_entropy": 5.156354986826579,
+        "normalized_attention_entropy": 0.9298809615770975,
+        "mean_max_attention_weight": 0.020745421225825945,
+        "off_diagonal_attention_mass": 0.9914808678627014,
+        "token_usage_entropy": 5.533325373331706,
+        "normalized_token_usage_entropy": 0.9978626235326131,
+        "most_used_token_share": 0.005961982241521279,
+        "most_used_token": 241
+      },
+      {
+        "head": 1,
+        "mean_attention_entropy": 3.7971264266967775,
+        "normalized_attention_entropy": 0.6847619215647379,
+        "mean_max_attention_weight": 0.20264104882876077,
+        "off_diagonal_attention_mass": 0.997155331770579,
+        "token_usage_entropy": 5.28904094696045,
+        "normalized_token_usage_entropy": 0.9538091333707174,
+        "most_used_token_share": 0.02156283857921759,
+        "most_used_token": 45
+      },
+      {
+        "head": 2,
+        "mean_attention_entropy": 4.539739061991374,
+        "normalized_attention_entropy": 0.8186823717753092,
+        "mean_max_attention_weight": 0.1358209091424942,
+        "off_diagonal_attention_mass": 0.9896595939000448,
+        "token_usage_entropy": 5.43861078898112,
+        "normalized_token_usage_entropy": 0.9807820765177409,
+        "most_used_token_share": 0.017272463490565618,
+        "most_used_token": 34
+      },
+      {
+        "head": 3,
+        "mean_attention_entropy": 5.106558545430501,
+        "normalized_attention_entropy": 0.9209008145332337,
+        "mean_max_attention_weight": 0.04275411357482274,
+        "off_diagonal_attention_mass": 0.9907434630393982,
+        "token_usage_entropy": 5.532745361328125,
+        "normalized_token_usage_entropy": 0.9977580293019612,
+        "most_used_token_share": 0.007935714771350225,
+        "most_used_token": 45
+      },
+      {
+        "head": 4,
+        "mean_attention_entropy": 4.734683869679769,
+        "normalized_attention_entropy": 0.853838103612264,
+        "mean_max_attention_weight": 0.07977380027373632,
+        "off_diagonal_attention_mass": 0.9931444851557414,
+        "token_usage_entropy": 5.499957021077474,
+        "normalized_token_usage_entropy": 0.991845072110494,
+        "most_used_token_share": 0.011385943355659643,
+        "most_used_token": 45
+      },
+      {
+        "head": 5,
+        "mean_attention_entropy": 5.153090718587239,
+        "normalized_attention_entropy": 0.9292922910054525,
+        "mean_max_attention_weight": 0.02122030757367611,
+        "off_diagonal_attention_mass": 0.9928488222757975,
+        "token_usage_entropy": 5.518777224222819,
+        "normalized_token_usage_entropy": 0.9952390384674072,
+        "most_used_token_share": 0.006095855608582497,
+        "most_used_token": 103
+      },
+      {
+        "head": 6,
+        "mean_attention_entropy": 2.945510810216268,
+        "normalized_attention_entropy": 0.5311842147509257,
+        "mean_max_attention_weight": 0.3238607744375865,
+        "off_diagonal_attention_mass": 0.9956945848464965,
+        "token_usage_entropy": 5.1166368611653645,
+        "normalized_token_usage_entropy": 0.9227183159192404,
+        "most_used_token_share": 0.033227265278498334,
+        "most_used_token": 45
+      },
+      {
+        "head": 7,
+        "mean_attention_entropy": 5.054839986165365,
+        "normalized_attention_entropy": 0.9115740633010865,
+        "mean_max_attention_weight": 0.024102314536770184,
+        "off_diagonal_attention_mass": 0.9911204282442728,
+        "token_usage_entropy": 5.507213478088379,
+        "normalized_token_usage_entropy": 0.9931536761919657,
+        "most_used_token_share": 0.005969960832347473,
+        "most_used_token": 121
+      }
+    ],
+    "attention_collapse_detected": false,
+    "collapse_rule": "any head most_used_token_share > 0.25 or normalized_token_usage_entropy < 0.5"
+  }
+}

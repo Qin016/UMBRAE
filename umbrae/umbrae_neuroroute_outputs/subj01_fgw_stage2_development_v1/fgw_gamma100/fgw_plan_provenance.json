@@ -1,0 +1,37 @@
+{
+  "bias_layers": "first",
+  "clip_layer_order": [
+    "L4",
+    "L8",
+    "L12",
+    "L16",
+    "L20",
+    "L24"
+  ],
+  "delta": 1e-08,
+  "entropy": 0.0,
+  "gamma": 1.0,
+  "hash_algorithm": "SHA256 over exact .npy file bytes",
+  "lambda_cov": 0.0,
+  "method": "sr_fgw",
+  "path": "/opt/data/private/BA/UMBRAE/umbrae/fgw_outputs/subj01/correspondence_offline_test_v1/final_transport_plan_pretest.npy",
+  "prior_mode": "fgw_prior",
+  "roi_order": [
+    "V1",
+    "V2",
+    "V3",
+    "hV4",
+    "FFA",
+    "EBA",
+    "PPA",
+    "OPA"
+  ],
+  "row_permutation_indices": null,
+  "sha256": "51e65527f3bbc1a3951ec376dd8be3662cab9e6b5f682d2a0da26fb347e20760",
+  "shape": [
+    8,
+    6
+  ],
+  "structure_weight_beta": 0.5,
+  "subject": "subj01"
+}

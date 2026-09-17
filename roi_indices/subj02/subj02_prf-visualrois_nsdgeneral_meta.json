@@ -1,0 +1,87 @@
+{
+  "subject": "subj02",
+  "roi_name": "prf-visualrois",
+  "roi_indices_pkl": "/opt/data/private/BA/UMBRAE/roi_indices/subj02/subj02_prf-visualrois_indices.pkl",
+  "nsdgeneral_nii_path": "/opt/data/private/BA/NSD/nsddata/ppdata/subj02/func1pt8mm/roi/nsdgeneral.nii.gz",
+  "nsdgeneral_shape": [
+    82,
+    106,
+    84
+  ],
+  "nsdgeneral_voxel_count": 14278,
+  "labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "label_names": [
+    "V1v",
+    "V1d",
+    "V2v",
+    "V2d",
+    "V3v",
+    "V3d",
+    "hV4"
+  ],
+  "per_label": {
+    "1": {
+      "name": "V1v",
+      "num_voxels_wholebrain": 544,
+      "num_voxels_in_nsdgeneral": 544,
+      "coverage_ratio": 1.0,
+      "missing_count": 0
+    },
+    "2": {
+      "name": "V1d",
+      "num_voxels_wholebrain": 558,
+      "num_voxels_in_nsdgeneral": 558,
+      "coverage_ratio": 1.0,
+      "missing_count": 0
+    },
+    "3": {
+      "name": "V2v",
+      "num_voxels_wholebrain": 615,
+      "num_voxels_in_nsdgeneral": 615,
+      "coverage_ratio": 1.0,
+      "missing_count": 0
+    },
+    "4": {
+      "name": "V2d",
+      "num_voxels_wholebrain": 460,
+      "num_voxels_in_nsdgeneral": 460,
+      "coverage_ratio": 1.0,
+      "missing_count": 0
+    },
+    "5": {
+      "name": "V3v",
+      "num_voxels_wholebrain": 566,
+      "num_voxels_in_nsdgeneral": 566,
+      "coverage_ratio": 1.0,
+      "missing_count": 0
+    },
+    "6": {
+      "name": "V3d",
+      "num_voxels_wholebrain": 531,
+      "num_voxels_in_nsdgeneral": 531,
+      "coverage_ratio": 1.0,
+      "missing_count": 0
+    },
+    "7": {
+      "name": "hV4",
+      "num_voxels_wholebrain": 483,
+      "num_voxels_in_nsdgeneral": 483,
+      "coverage_ratio": 1.0,
+      "missing_count": 0
+    }
+  },
+  "total_wholebrain_roi_voxels": 3757,
+  "total_nsdgeneral_roi_voxels": 3757,
+  "min_coverage_ratio": 1.0,
+  "created_time": "2026-06-20T06:13:39.780698+00:00",
+  "flat_index_order": "numpy_C_order",
+  "validation": null
+}

@@ -1,0 +1,30 @@
+{
+  "protocol_version": "fgw_stage2_row_derangement_v1",
+  "created_before_stage2_results": true,
+  "permutation_seed": 62001,
+  "rng": "numpy.random.default_rng",
+  "generation_rule": "draw permutation(8) until no fixed points; retain first derangement",
+  "roi_order": [
+    "V1",
+    "V2",
+    "V3",
+    "hV4",
+    "FFA",
+    "EBA",
+    "PPA",
+    "OPA"
+  ],
+  "row_permutation_indices": [3, 4, 6, 2, 1, 7, 5, 0],
+  "row_at_new_roi": {
+    "V1": "hV4",
+    "V2": "FFA",
+    "V3": "PPA",
+    "hV4": "V3",
+    "FFA": "V2",
+    "EBA": "OPA",
+    "PPA": "EBA",
+    "OPA": "V1"
+  },
+  "shared_across_subjects": ["subj01", "subj02", "subj05"],
+  "subj07_excluded": true
+}

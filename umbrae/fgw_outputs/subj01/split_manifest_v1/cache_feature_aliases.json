@@ -1,0 +1,17 @@
+{
+  "brain_roi_features": {
+    "canonical_semantic_name": "roi_tokens_before_projector",
+    "storage_file": "brain_roi_features.npy",
+    "meaning": "fixed-dimensional ROITokenizer output",
+    "is_raw_roi_voxel_vector": false
+  },
+  "roi_tokens_before_projector": {
+    "alias_of": "brain_roi_features",
+    "storage_file": "brain_roi_features.npy"
+  },
+  "projected_roi_features": {
+    "canonical_semantic_name": "projected_roi_features",
+    "storage_file": "projected_roi_features.npy",
+    "meaning": "BrainToCLIPProjector output"
+  }
+}

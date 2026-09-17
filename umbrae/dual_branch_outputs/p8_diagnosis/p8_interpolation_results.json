@@ -1,0 +1,207 @@
+{
+  "alphas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "split": "test",
+  "interpolation_space": "BrainX output before mm_projector",
+  "sanity": {
+    "lora": {
+      "alpha_0_max_abs_error": 0.0,
+      "alpha_1_max_abs_error": 0.0
+    },
+    "full_real": {
+      "alpha_0_max_abs_error": 0.0,
+      "alpha_1_max_abs_error": 0.0
+    },
+    "full_random": {
+      "alpha_0_max_abs_error": 0.0,
+      "alpha_1_max_abs_error": 0.0
+    }
+  },
+  "representation": [
+    {
+      "variant": "lora",
+      "alpha": 0.0,
+      "brain_rsa": {
+        "spearman_rsa": 0.45906886883928133,
+        "pearson_rsa": 0.4806471188273018,
+        "stimulus_count": 982
+      },
+      "variant_to_base_cosine": 1.0,
+      "mean_sample_feature_norm": 10.255610466003418,
+      "feature_norm_ratio_to_base": 1.0
+    },
+    {
+      "variant": "lora",
+      "alpha": 0.25,
+      "brain_rsa": {
+        "spearman_rsa": 0.4618685948361178,
+        "pearson_rsa": 0.4840643215226861,
+        "stimulus_count": 982
+      },
+      "variant_to_base_cosine": 0.9998579025268555,
+      "mean_sample_feature_norm": 10.236956596374512,
+      "feature_norm_ratio_to_base": 0.9982332587242126
+    },
+    {
+      "variant": "lora",
+      "alpha": 0.5,
+      "brain_rsa": {
+        "spearman_rsa": 0.4643186213820635,
+        "pearson_rsa": 0.4870270144110142,
+        "stimulus_count": 982
+      },
+      "variant_to_base_cosine": 0.9994282722473145,
+      "mean_sample_feature_norm": 10.221190452575684,
+      "feature_norm_ratio_to_base": 0.9967641830444336
+    },
+    {
+      "variant": "lora",
+      "alpha": 0.75,
+      "brain_rsa": {
+        "spearman_rsa": 0.46641924729488654,
+        "pearson_rsa": 0.48955892036075405,
+        "stimulus_count": 982
+      },
+      "variant_to_base_cosine": 0.9987063407897949,
+      "mean_sample_feature_norm": 10.208338737487793,
+      "feature_norm_ratio_to_base": 0.9955944418907166
+    },
+    {
+      "variant": "lora",
+      "alpha": 1.0,
+      "brain_rsa": {
+        "spearman_rsa": 0.4681754521773819,
+        "pearson_rsa": 0.49169305165575317,
+        "stimulus_count": 982
+      },
+      "variant_to_base_cosine": 0.9976879358291626,
+      "mean_sample_feature_norm": 10.198427200317383,
+      "feature_norm_ratio_to_base": 0.994724690914154
+    },
+    {
+      "variant": "full_real",
+      "alpha": 0.0,
+      "brain_rsa": {
+        "spearman_rsa": 0.45906886883928133,
+        "pearson_rsa": 0.4806471188273018,
+        "stimulus_count": 982
+      },
+      "variant_to_base_cosine": 1.0,
+      "mean_sample_feature_norm": 10.255610466003418,
+      "feature_norm_ratio_to_base": 1.0
+    },
+    {
+      "variant": "full_real",
+      "alpha": 0.25,
+      "brain_rsa": {
+        "spearman_rsa": 0.46563557448875154,
+        "pearson_rsa": 0.4887432698399928,
+        "stimulus_count": 982
+      },
+      "variant_to_base_cosine": 0.9998102188110352,
+      "mean_sample_feature_norm": 10.151436805725098,
+      "feature_norm_ratio_to_base": 0.9902302622795105
+    },
+    {
+      "variant": "full_real",
+      "alpha": 0.5,
+      "brain_rsa": {
+        "spearman_rsa": 0.47144605124010736,
+        "pearson_rsa": 0.49592128516064815,
+        "stimulus_count": 982
+      },
+      "variant_to_base_cosine": 0.9992213249206543,
+      "mean_sample_feature_norm": 10.051119804382324,
+      "feature_norm_ratio_to_base": 0.9809049963951111
+    },
+    {
+      "variant": "full_real",
+      "alpha": 0.75,
+      "brain_rsa": {
+        "spearman_rsa": 0.47629658190080115,
+        "pearson_rsa": 0.5020038915040064,
+        "stimulus_count": 982
+      },
+      "variant_to_base_cosine": 0.9982022047042847,
+      "mean_sample_feature_norm": 9.954802513122559,
+      "feature_norm_ratio_to_base": 0.972037136554718
+    },
+    {
+      "variant": "full_real",
+      "alpha": 1.0,
+      "brain_rsa": {
+        "spearman_rsa": 0.4799934431481292,
+        "pearson_rsa": 0.5068231022435965,
+        "stimulus_count": 982
+      },
+      "variant_to_base_cosine": 0.9967201352119446,
+      "mean_sample_feature_norm": 9.862640380859375,
+      "feature_norm_ratio_to_base": 0.9636391997337341
+    },
+    {
+      "variant": "full_random",
+      "alpha": 0.0,
+      "brain_rsa": {
+        "spearman_rsa": 0.45906886883928133,
+        "pearson_rsa": 0.4806471188273018,
+        "stimulus_count": 982
+      },
+      "variant_to_base_cosine": 1.0,
+      "mean_sample_feature_norm": 10.255610466003418,
+      "feature_norm_ratio_to_base": 1.0
+    },
+    {
+      "variant": "full_random",
+      "alpha": 0.25,
+      "brain_rsa": {
+        "spearman_rsa": 0.46708198792960354,
+        "pearson_rsa": 0.4901809716965081,
+        "stimulus_count": 982
+      },
+      "variant_to_base_cosine": 0.9998096823692322,
+      "mean_sample_feature_norm": 10.166952133178711,
+      "feature_norm_ratio_to_base": 0.9917103052139282
+    },
+    {
+      "variant": "full_random",
+      "alpha": 0.5,
+      "brain_rsa": {
+        "spearman_rsa": 0.47435875604206545,
+        "pearson_rsa": 0.49884775190246056,
+        "stimulus_count": 982
+      },
+      "variant_to_base_cosine": 0.9992216229438782,
+      "mean_sample_feature_norm": 10.08216381072998,
+      "feature_norm_ratio_to_base": 0.9838587045669556
+    },
+    {
+      "variant": "full_random",
+      "alpha": 0.75,
+      "brain_rsa": {
+        "spearman_rsa": 0.4807083020277128,
+        "pearson_rsa": 0.5064729735377731,
+        "stimulus_count": 982
+      },
+      "variant_to_base_cosine": 0.9982099533081055,
+      "mean_sample_feature_norm": 10.001368522644043,
+      "feature_norm_ratio_to_base": 0.9764561057090759
+    },
+    {
+      "variant": "full_random",
+      "alpha": 1.0,
+      "brain_rsa": {
+        "spearman_rsa": 0.48594433969128525,
+        "pearson_rsa": 0.5129002379741477,
+        "stimulus_count": 982
+      },
+      "variant_to_base_cosine": 0.996747612953186,
+      "mean_sample_feature_norm": 9.92469310760498,
+      "feature_norm_ratio_to_base": 0.969512403011322
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "stage": "A",
+  "steps": [
+    {
+      "step": 1,
+      "uot_loss": 1.0018556118011475,
+      "transport_mass": 0.7371098399162292,
+      "transport_entropy": 7.839293003082275,
+      "structural_grad_norm": 0.13430048525333405,
+      "fusion_grad_norm": 0.0,
+      "gate": 0.01798621006309986,
+      "brainx_trainable_params": 0,
+      "smoke_only_hook": false
+    }
+  ],
+  "peak_gpu_memory_bytes": 1903155712,
+  "parameter_report": {
+    "total": 154060157,
+    "trainable": 3357052,
+    "trainable_ratio": 0.021790526930334102,
+    "semantic_backbone": {
+      "total": 146500608,
+      "trainable": 0
+    },
+    "structural_branch": {
+      "total": 3357052,
+      "trainable": 3357052
+    },
+    "fusion": {
+      "total": 4202497,
+      "trainable": 0
+    },
+    "trainable_parameter_names": [
+      "structural_branch.roi_tokenizer.shared_mlp.0.weight",
+      "structural_branch.roi_tokenizer.shared_mlp.0.bias",
+      "structural_branch.roi_tokenizer.shared_mlp.1.weight",
+      "structural_branch.roi_tokenizer.shared_mlp.1.bias",
+      "structural_branch.roi_tokenizer.shared_mlp.3.weight",
+      "structural_branch.roi_tokenizer.shared_mlp.3.bias",
+      "structural_branch.roi_tokenizer.roi_embeddings.weight",
+      "structural_branch.output_norm.weight",
+      "structural_branch.output_norm.bias"
+    ]
+  },
+  "formal_stage_b_losses": [
+    "semantic_uot"
+  ],
+  "stage_b_loss_hook_reserved": true
+}

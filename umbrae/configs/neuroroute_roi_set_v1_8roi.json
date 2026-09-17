@@ -1,0 +1,10 @@
+{
+  "name": "NeuroRoute-v1-8ROI",
+  "required_rois": ["V1", "V2", "V3", "hV4", "FFA", "EBA", "PPA", "OPA"],
+  "optional_rois": ["RSC"],
+  "excluded_rois": {
+    "RSC": {
+      "reason": "official floc-places:RSC has zero overlap with nsdgeneral across S1/S2/S5/S7"
+    }
+  }
+}

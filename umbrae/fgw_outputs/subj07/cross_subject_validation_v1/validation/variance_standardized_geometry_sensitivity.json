@@ -1,0 +1,43 @@
+{
+  "analysis_name": "variance_standardized_geometry_sensitivity",
+  "used_for_selection": false,
+  "standardization_fit_split": "offline_discovery only",
+  "validation_standardization_uses_discovery_statistics": true,
+  "selected_primary_config": "sr_fgw_beta_0p5",
+  "sensitivity_best_discovery_initialization_index": 1,
+  "sensitivity_best_discovery_initialization": [
+    "feature_informed",
+    0
+  ],
+  "row_correlation": {
+    "count": 8,
+    "mean": 1.0,
+    "std": 0.0,
+    "median": 1.0,
+    "ci_2_5": 1.0,
+    "ci_97_5": 1.0
+  },
+  "row_js_divergence": {
+    "count": 8,
+    "mean": 0.0,
+    "std": 0.0,
+    "median": 0.0,
+    "ci_2_5": 0.0,
+    "ci_97_5": 0.0
+  },
+  "frobenius_distance": 0.0,
+  "frobenius_cosine_similarity": 0.9999999999999998,
+  "preferred_layer_agreement": 1.0,
+  "primary_validation_metrics": {
+    "validation_feature_raw": 0.13689369704205911,
+    "validation_feature_normalized": 0.719502101400829,
+    "validation_gw_raw": 0.07969495243887505,
+    "validation_gw_normalized": 0.38291731139666707,
+    "validation_composite": 0.551209706398748
+  },
+  "sensitivity_validation_metrics_on_standardized_geometry": {
+    "validation_feature_normalized": 0.719502101400829,
+    "validation_gw_normalized": 0.29157773382440405,
+    "validation_composite": 0.5055399176126165
+  }
+}

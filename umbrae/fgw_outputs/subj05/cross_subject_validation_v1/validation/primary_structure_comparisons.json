@@ -1,0 +1,107 @@
+{
+  "selection_affected": false,
+  "comparisons": [
+    {
+      "structural_config": "sr_fgw_beta_0p5",
+      "baseline_kind": "frozen_primary_nonstructural",
+      "baseline_config": "source_constrained_feature_coverage_lambda_1",
+      "structure_weight": 0.5,
+      "coverage_weight": 0.0,
+      "comparison_status": "AVAILABLE",
+      "heldout_feature_difference": -0.07889835094966502,
+      "heldout_gw_difference": -0.3545886937374084,
+      "heldout_composite_difference": -0.21674352234353678,
+      "structural_target_entropy": 1.4941751382843085,
+      "baseline_target_entropy": 1.7609781754270721,
+      "structural_mean_row_entropy": -1.000088900581841e-12,
+      "baseline_mean_row_entropy": 0.30557727598626294,
+      "structural_mean_pairwise_roi_js": 0.5941261547656673,
+      "baseline_mean_pairwise_roi_js": 0.5923430048668706,
+      "structural_near_optimal_count": 3,
+      "baseline_near_optimal_count": 20,
+      "subsample_feature_difference_ci_2_5": -0.0805699516724789,
+      "subsample_feature_difference_ci_97_5": -0.07769793140995526,
+      "subsample_gw_difference_ci_2_5": -0.36335683077651815,
+      "subsample_gw_difference_ci_97_5": -0.3411115401517656,
+      "subsample_composite_difference_ci_2_5": -0.22135829558690773,
+      "subsample_composite_difference_ci_97_5": -0.21012615791522885,
+      "paired_subsampling": {
+        "validation_feature_normalized": {
+          "count": 200,
+          "mean": -0.07895982319194474,
+          "std": 0.0007333437739342665,
+          "median": -0.07896797364655389,
+          "ci_2_5": -0.0805699516724789,
+          "ci_97_5": -0.07769793140995526
+        },
+        "validation_gw_normalized": {
+          "count": 200,
+          "mean": -0.3522514668766258,
+          "std": 0.006207207463403722,
+          "median": -0.3522264687753675,
+          "ci_2_5": -0.36335683077651815,
+          "ci_97_5": -0.3411115401517656
+        },
+        "validation_composite": {
+          "count": 200,
+          "mean": -0.21560564503428525,
+          "std": 0.0031602832347246727,
+          "median": -0.2153683667073576,
+          "ci_2_5": -0.22135829558690773,
+          "ci_97_5": -0.21012615791522885
+        }
+      }
+    },
+    {
+      "structural_config": "sr_fgw_beta_0p5",
+      "baseline_kind": "balanced_outer_ot",
+      "baseline_config": "balanced_outer_ot",
+      "structure_weight": 0.5,
+      "coverage_weight": 0.0,
+      "comparison_status": "AVAILABLE",
+      "heldout_feature_difference": -0.1375039898224144,
+      "heldout_gw_difference": -0.29976673272515797,
+      "heldout_composite_difference": -0.21863536127378624,
+      "structural_target_entropy": 1.4941751382843085,
+      "baseline_target_entropy": 1.7917594692220546,
+      "structural_mean_row_entropy": -1.000088900581841e-12,
+      "baseline_mean_row_entropy": 0.29645507815571687,
+      "structural_mean_pairwise_roi_js": 0.5941261547656673,
+      "baseline_mean_pairwise_roi_js": 0.6096990161872311,
+      "structural_near_optimal_count": 3,
+      "baseline_near_optimal_count": 1,
+      "subsample_feature_difference_ci_2_5": -0.13958228915521884,
+      "subsample_feature_difference_ci_97_5": -0.1358347899432564,
+      "subsample_gw_difference_ci_2_5": -0.3095537805937721,
+      "subsample_gw_difference_ci_97_5": -0.28434859885513236,
+      "subsample_composite_difference_ci_2_5": -0.2241539578205799,
+      "subsample_composite_difference_ci_97_5": -0.21078116101329494,
+      "paired_subsampling": {
+        "validation_feature_normalized": {
+          "count": 200,
+          "mean": -0.13756243159076267,
+          "std": 0.0009544626936864318,
+          "median": -0.13756853981659106,
+          "ci_2_5": -0.13958228915521884,
+          "ci_97_5": -0.1358347899432564
+        },
+        "validation_gw_normalized": {
+          "count": 200,
+          "mean": -0.29680319934349986,
+          "std": 0.006427612408875288,
+          "median": -0.2969184870875424,
+          "ci_2_5": -0.3095537805937721,
+          "ci_97_5": -0.28434859885513236
+        },
+        "validation_composite": {
+          "count": 200,
+          "mean": -0.21718281546713128,
+          "std": 0.003280489405544948,
+          "median": -0.21731693810989577,
+          "ci_2_5": -0.2241539578205799,
+          "ci_97_5": -0.21078116101329494
+        }
+      }
+    }
+  ]
+}

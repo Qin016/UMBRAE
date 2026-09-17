@@ -1,0 +1,126 @@
+{
+  "lock_scope": "configuration only; not a final transport plan",
+  "method": "sr_fgw",
+  "structure_weight": 0.5,
+  "coverage_weight": 0.0,
+  "entropy_weight": 0.0,
+  "solver_settings": {
+    "learning_rate": 0.1,
+    "max_iterations": 2500,
+    "tolerance": 1e-11,
+    "patience": 80,
+    "eps_coverage": 1e-12,
+    "entropy_weight": 0.0,
+    "projection": "Euclidean row-simplex projection"
+  },
+  "initialization_specs": [
+    [
+      "uniform",
+      0
+    ],
+    [
+      "feature_informed",
+      0
+    ],
+    [
+      "random",
+      1001
+    ],
+    [
+      "random",
+      1002
+    ],
+    [
+      "random",
+      1003
+    ],
+    [
+      "random",
+      1004
+    ],
+    [
+      "random",
+      1005
+    ],
+    [
+      "random",
+      1006
+    ],
+    [
+      "random",
+      1007
+    ],
+    [
+      "random",
+      1008
+    ],
+    [
+      "random",
+      1009
+    ],
+    [
+      "random",
+      1010
+    ],
+    [
+      "random",
+      1011
+    ],
+    [
+      "random",
+      1012
+    ],
+    [
+      "random",
+      1013
+    ],
+    [
+      "random",
+      1014
+    ],
+    [
+      "random",
+      1015
+    ],
+    [
+      "random",
+      1016
+    ],
+    [
+      "random",
+      1017
+    ],
+    [
+      "random",
+      1018
+    ]
+  ],
+  "best_discovery_initialization": [
+    "feature_informed",
+    0
+  ],
+  "fixed_loss_calibration": {
+    "s_feature": 0.19026170566397999,
+    "s_gw": 0.20812574951968024,
+    "eps_scale": 1e-12,
+    "rule": "subject discovery matrices evaluated at uniform feasible plan"
+  },
+  "selection_criterion": "model fixed globally; initialization selected by lowest discovery objective",
+  "selection_split": "offline_discovery",
+  "initialization_selection_split": "offline_discovery",
+  "matrix_hashes": {
+    "stimulus_manifest_sha256": "bc53abad6bc62ce32b2a228d7d52022fdd0783e0dfc162ca914c9f5bc9ce6ad8",
+    "preregistered_grid_sha256": "2789b747322ae2b0202d7e1f224a90933627d3190b392b9468a88237f732cbde",
+    "feature_cost_discovery_sha256": "1f5d041f942d3bf9a0d87e2857f85927175c7e0eebb521de6276a26fe1af48da",
+    "brain_geometry_discovery_sha256": "c4117e627b3b5fa8dd26b4ae69cdac72e4edcb0cb65cd5e21397c6605f35309a",
+    "clip_geometry_discovery_sha256": "0f86195b26f1abf909ebdfbd70d859fbe3863b07f9dfd8c8969384248b93a72d",
+    "feature_cost_validation_sha256": "117162b64b43d18277c79e7a33a1c320e42ccf6a872ad2355c95f65cf16a5b1b",
+    "brain_geometry_validation_sha256": "9fe6d3dfd2b4f44e548519ff6f3df0860f3ed4daf6cdd98a02b0bfd41515d4e4",
+    "clip_geometry_validation_sha256": "9698b8d43378fb899f25d59b9cd752c8d3a0c7db0390673fb4f4fdaa437755e3",
+    "validation_script_sha256": "29535bf22b0f68ebefb7a8e0cea9a8c6a6ec5436e8fb8d91bef89d0aab7d26e8"
+  },
+  "VALIDATION_STATUS": "INCONCLUSIVE",
+  "exploratory_single_subject": false,
+  "authorizes_offline_test": false,
+  "best_transport_plan_created": false
+}

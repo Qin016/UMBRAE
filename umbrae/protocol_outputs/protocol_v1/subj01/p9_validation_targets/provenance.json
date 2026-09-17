@@ -1,0 +1,53 @@
+{
+  "protocol": "protocol_v1",
+  "subject": "subj01",
+  "split": "validation",
+  "sample_count": 300,
+  "grounding_query_count": 840,
+  "caption_reference_count": 1500,
+  "caption_map": "/opt/data/private/BA/UMBRAE/umbrae/stage2_outputs/caption_mapping/coco73k_captions.json",
+  "caption_map_sha256": "4839f0ff97d8337d66fdf0929e4ecc700949229334c044c406d3719d3f9f5336",
+  "metadata": "/opt/data/private/BA/NSD/nsddata/experiments/nsd/nsd_stim_info_merged.csv",
+  "metadata_sha256": "e46fca15901196541b8921aa8c03ee9d662e7da085d852e13ebb01f89c7623c6",
+  "instance_schemas": {
+    "train2017": {
+      "images": 118287,
+      "annotations": 860001,
+      "categories": 80,
+      "description": "COCO 2017 Dataset",
+      "path": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/coco_annotations/instances_train2017.json",
+      "sha256": "610fce4944abdeb15354cc765333805529359d12d88f2f711393ca586901d01d"
+    },
+    "val2017": {
+      "images": 5000,
+      "annotations": 36781,
+      "categories": 80,
+      "description": "COCO 2017 Dataset",
+      "path": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/coco_annotations/instances_val2017.json",
+      "sha256": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f"
+    }
+  },
+  "test_transform_audit": {
+    "test_images": 982,
+    "exact_category_set_images": 977,
+    "exact_category_set_fraction": 0.994908350305499,
+    "missing_category_occurrences": {},
+    "extra_category_occurrences": {
+      "refrigerator": 1,
+      "person": 1,
+      "bottle": 1,
+      "dining table": 1,
+      "skateboard": 1
+    },
+    "box_count_mismatches_on_shared_categories": 9,
+    "matched_coordinate_count": 23100,
+    "coordinate_absolute_error_mean": 5.299184480854186e-06,
+    "coordinate_absolute_error_median": 5.2226498076096695e-06,
+    "coordinate_absolute_error_p99": 1.1682049869011225e-05,
+    "coordinate_absolute_error_max": 1.176470588248879e-05,
+    "status": "PASS",
+    "interpretation": "Small extras are attributed to COCO annotation snapshot differences; no existing BrainHub query is missing."
+  },
+  "test_values_used_for_training_or_selection": false,
+  "bbox_rule": "COCO xywh transformed through NSD cropBox then clipped to [0,1]; each visible category is one query and all same-category boxes are retained"
+}

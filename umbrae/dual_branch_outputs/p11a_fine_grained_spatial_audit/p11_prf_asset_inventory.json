@@ -1,0 +1,2402 @@
+[
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj01/label/prf-eccrois.mgz.ctab",
+    "subject": "subj01",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "f3cc4bdbc91f8a2c59e8f87252871f29e17f63806185f67316bd04c708a9625e"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj01/label/prf-visualrois.mgz.ctab",
+    "subject": "subj01",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "a224cd6232add03232580b009999c674e25c223f1719f02c19c2a1220e9737fb"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj02/label/prf-eccrois.mgz.ctab",
+    "subject": "subj02",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "f3cc4bdbc91f8a2c59e8f87252871f29e17f63806185f67316bd04c708a9625e"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj02/label/prf-visualrois.mgz.ctab",
+    "subject": "subj02",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "a224cd6232add03232580b009999c674e25c223f1719f02c19c2a1220e9737fb"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj03/label/prf-eccrois.mgz.ctab",
+    "subject": "subj03",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "f3cc4bdbc91f8a2c59e8f87252871f29e17f63806185f67316bd04c708a9625e"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj03/label/prf-visualrois.mgz.ctab",
+    "subject": "subj03",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "a224cd6232add03232580b009999c674e25c223f1719f02c19c2a1220e9737fb"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj04/label/prf-eccrois.mgz.ctab",
+    "subject": "subj04",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "f3cc4bdbc91f8a2c59e8f87252871f29e17f63806185f67316bd04c708a9625e"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj04/label/prf-visualrois.mgz.ctab",
+    "subject": "subj04",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "a224cd6232add03232580b009999c674e25c223f1719f02c19c2a1220e9737fb"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj05/label/prf-eccrois.mgz.ctab",
+    "subject": "subj05",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "f3cc4bdbc91f8a2c59e8f87252871f29e17f63806185f67316bd04c708a9625e"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj05/label/prf-visualrois.mgz.ctab",
+    "subject": "subj05",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "a224cd6232add03232580b009999c674e25c223f1719f02c19c2a1220e9737fb"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj06/label/prf-eccrois.mgz.ctab",
+    "subject": "subj06",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "f3cc4bdbc91f8a2c59e8f87252871f29e17f63806185f67316bd04c708a9625e"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj06/label/prf-visualrois.mgz.ctab",
+    "subject": "subj06",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "a224cd6232add03232580b009999c674e25c223f1719f02c19c2a1220e9737fb"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj07/label/prf-eccrois.mgz.ctab",
+    "subject": "subj07",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "f3cc4bdbc91f8a2c59e8f87252871f29e17f63806185f67316bd04c708a9625e"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj07/label/prf-visualrois.mgz.ctab",
+    "subject": "subj07",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "a224cd6232add03232580b009999c674e25c223f1719f02c19c2a1220e9737fb"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj08/label/prf-eccrois.mgz.ctab",
+    "subject": "subj08",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "f3cc4bdbc91f8a2c59e8f87252871f29e17f63806185f67316bd04c708a9625e"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/freesurfer/subj08/label/prf-visualrois.mgz.ctab",
+    "subject": "subj08",
+    "space": "native subject FreeSurfer label metadata",
+    "shape": null,
+    "dtype": "text",
+    "unique_values": null,
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "a224cd6232add03232580b009999c674e25c223f1719f02c19c2a1220e9737fb"
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/lh.prf-eccrois.nii.gz",
+    "subject": "subj01",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      81,
+      104,
+      83
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 645900
+      },
+      {
+        "value": 0.0,
+        "count": 50986
+      },
+      {
+        "value": 1.0,
+        "count": 383
+      },
+      {
+        "value": 2.0,
+        "count": 259
+      },
+      {
+        "value": 3.0,
+        "count": 436
+      },
+      {
+        "value": 4.0,
+        "count": 394
+      },
+      {
+        "value": 5.0,
+        "count": 834
+      }
+    ],
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "c36858976b034afa575cc7b022d0401a75689d2c21433f88fe5478fa3a2aa044",
+    "nifti": {
+      "shape": [
+        81,
+        104,
+        83
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -72.0
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -92.69999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -73.80000305175781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/lh.prf-visualrois.nii.gz",
+    "subject": "subj01",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      81,
+      104,
+      83
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 645893
+      },
+      {
+        "value": 0.0,
+        "count": 50987
+      },
+      {
+        "value": 1.0,
+        "count": 351
+      },
+      {
+        "value": 2.0,
+        "count": 335
+      },
+      {
+        "value": 3.0,
+        "count": 357
+      },
+      {
+        "value": 4.0,
+        "count": 299
+      },
+      {
+        "value": 5.0,
+        "count": 325
+      },
+      {
+        "value": 6.0,
+        "count": 298
+      },
+      {
+        "value": 7.0,
+        "count": 347
+      }
+    ],
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "257cb9d90f557abdfec6fc8f40b0d2d08f5ad7d805089196f2f2eafb8fdccf97",
+    "nifti": {
+      "shape": [
+        81,
+        104,
+        83
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -72.0
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -92.69999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -73.80000305175781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/prf-eccrois.nii.gz",
+    "subject": "subj01",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      81,
+      104,
+      83
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 592093
+      },
+      {
+        "value": 0.0,
+        "count": 102445
+      },
+      {
+        "value": 1.0,
+        "count": 676
+      },
+      {
+        "value": 2.0,
+        "count": 498
+      },
+      {
+        "value": 3.0,
+        "count": 967
+      },
+      {
+        "value": 4.0,
+        "count": 869
+      },
+      {
+        "value": 5.0,
+        "count": 1644
+      }
+    ],
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "c4888a0d560534796a84f37285d1bf2f2c7cc2705f31a5f6b51e19c781324e20",
+    "nifti": {
+      "shape": [
+        81,
+        104,
+        83
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -72.0
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -92.69999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -73.80000305175781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/prf-visualrois.nii.gz",
+    "subject": "subj01",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      81,
+      104,
+      83
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 592088
+      },
+      {
+        "value": 0.0,
+        "count": 102447
+      },
+      {
+        "value": 1.0,
+        "count": 594
+      },
+      {
+        "value": 2.0,
+        "count": 756
+      },
+      {
+        "value": 3.0,
+        "count": 834
+      },
+      {
+        "value": 4.0,
+        "count": 599
+      },
+      {
+        "value": 5.0,
+        "count": 646
+      },
+      {
+        "value": 6.0,
+        "count": 541
+      },
+      {
+        "value": 7.0,
+        "count": 687
+      }
+    ],
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "ebc6af4b7aafff04a15ab1555d5f5fccbdbc3f80ffefee12443f9be568a45a1d",
+    "nifti": {
+      "shape": [
+        81,
+        104,
+        83
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -72.0
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -92.69999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -73.80000305175781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/rh.prf-eccrois.nii.gz",
+    "subject": "subj01",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      81,
+      104,
+      83
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 645385
+      },
+      {
+        "value": 0.0,
+        "count": 51459
+      },
+      {
+        "value": 1.0,
+        "count": 293
+      },
+      {
+        "value": 2.0,
+        "count": 239
+      },
+      {
+        "value": 3.0,
+        "count": 531
+      },
+      {
+        "value": 4.0,
+        "count": 475
+      },
+      {
+        "value": 5.0,
+        "count": 810
+      }
+    ],
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "ea09f4f58dfea889866963b641a1bc808a1e56b3ab568a04e090d12a0a37a543",
+    "nifti": {
+      "shape": [
+        81,
+        104,
+        83
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -72.0
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -92.69999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -73.80000305175781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/rh.prf-visualrois.nii.gz",
+    "subject": "subj01",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      81,
+      104,
+      83
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 645387
+      },
+      {
+        "value": 0.0,
+        "count": 51460
+      },
+      {
+        "value": 1.0,
+        "count": 243
+      },
+      {
+        "value": 2.0,
+        "count": 421
+      },
+      {
+        "value": 3.0,
+        "count": 477
+      },
+      {
+        "value": 4.0,
+        "count": 300
+      },
+      {
+        "value": 5.0,
+        "count": 321
+      },
+      {
+        "value": 6.0,
+        "count": 243
+      },
+      {
+        "value": 7.0,
+        "count": 340
+      }
+    ],
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "701c31bc0853e30f94b8c4a45e327b8a901ec05959d525b0b21b15032d61bf4c",
+    "nifti": {
+      "shape": [
+        81,
+        104,
+        83
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -72.0
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -92.69999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -73.80000305175781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj02/func1pt8mm/roi/lh.prf-eccrois.nii.gz",
+    "subject": "subj02",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      82,
+      106,
+      84
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 676258
+      },
+      {
+        "value": 0.0,
+        "count": 51943
+      },
+      {
+        "value": 1.0,
+        "count": 239
+      },
+      {
+        "value": 2.0,
+        "count": 253
+      },
+      {
+        "value": 3.0,
+        "count": 466
+      },
+      {
+        "value": 4.0,
+        "count": 435
+      },
+      {
+        "value": 5.0,
+        "count": 534
+      }
+    ],
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "204a5fc059324af798a44eed5852984fc8f4d76726e7e5d49324e6298ab17d1e",
+    "nifti": {
+      "shape": [
+        82,
+        106,
+        84
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -72.9000015258789
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -94.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -74.69999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj02/func1pt8mm/roi/lh.prf-visualrois.nii.gz",
+    "subject": "subj02",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      82,
+      106,
+      84
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 676250
+      },
+      {
+        "value": 0.0,
+        "count": 51943
+      },
+      {
+        "value": 1.0,
+        "count": 292
+      },
+      {
+        "value": 2.0,
+        "count": 319
+      },
+      {
+        "value": 3.0,
+        "count": 279
+      },
+      {
+        "value": 4.0,
+        "count": 249
+      },
+      {
+        "value": 5.0,
+        "count": 312
+      },
+      {
+        "value": 6.0,
+        "count": 246
+      },
+      {
+        "value": 7.0,
+        "count": 238
+      }
+    ],
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "c9170d006099faad7d95cbe3c09908a1b7bec7e43fed56c6507aa3fdf1807caf",
+    "nifti": {
+      "shape": [
+        82,
+        106,
+        84
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -72.9000015258789
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -94.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -74.69999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj02/func1pt8mm/roi/prf-eccrois.nii.gz",
+    "subject": "subj02",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      82,
+      106,
+      84
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 622273
+      },
+      {
+        "value": 0.0,
+        "count": 104104
+      },
+      {
+        "value": 1.0,
+        "count": 560
+      },
+      {
+        "value": 2.0,
+        "count": 545
+      },
+      {
+        "value": 3.0,
+        "count": 845
+      },
+      {
+        "value": 4.0,
+        "count": 793
+      },
+      {
+        "value": 5.0,
+        "count": 1008
+      }
+    ],
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "c527613af7e2dbaa678553f1472f72140cd72e9e41ea36dfba7c14b27f278d4d",
+    "nifti": {
+      "shape": [
+        82,
+        106,
+        84
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -72.9000015258789
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -94.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -74.69999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj02/func1pt8mm/roi/prf-visualrois.nii.gz",
+    "subject": "subj02",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      82,
+      106,
+      84
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 622266
+      },
+      {
+        "value": 0.0,
+        "count": 104105
+      },
+      {
+        "value": 1.0,
+        "count": 544
+      },
+      {
+        "value": 2.0,
+        "count": 558
+      },
+      {
+        "value": 3.0,
+        "count": 615
+      },
+      {
+        "value": 4.0,
+        "count": 460
+      },
+      {
+        "value": 5.0,
+        "count": 566
+      },
+      {
+        "value": 6.0,
+        "count": 531
+      },
+      {
+        "value": 7.0,
+        "count": 483
+      }
+    ],
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "1a1a14fd77d834f0aa1b8106c7bb7737a7c7026a444a2098ad96c0508d6c8d95",
+    "nifti": {
+      "shape": [
+        82,
+        106,
+        84
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -72.9000015258789
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -94.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -74.69999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj02/func1pt8mm/roi/rh.prf-eccrois.nii.gz",
+    "subject": "subj02",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      82,
+      106,
+      84
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 676143
+      },
+      {
+        "value": 0.0,
+        "count": 52161
+      },
+      {
+        "value": 1.0,
+        "count": 321
+      },
+      {
+        "value": 2.0,
+        "count": 292
+      },
+      {
+        "value": 3.0,
+        "count": 379
+      },
+      {
+        "value": 4.0,
+        "count": 358
+      },
+      {
+        "value": 5.0,
+        "count": 474
+      }
+    ],
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "2da1066f39a1687fbd6376e5b2a8dd046c2aa7a1d1f2bb81eb309e0cd424dfac",
+    "nifti": {
+      "shape": [
+        82,
+        106,
+        84
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -72.9000015258789
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -94.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -74.69999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj02/func1pt8mm/roi/rh.prf-visualrois.nii.gz",
+    "subject": "subj02",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      82,
+      106,
+      84
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 676144
+      },
+      {
+        "value": 0.0,
+        "count": 52162
+      },
+      {
+        "value": 1.0,
+        "count": 252
+      },
+      {
+        "value": 2.0,
+        "count": 239
+      },
+      {
+        "value": 3.0,
+        "count": 336
+      },
+      {
+        "value": 4.0,
+        "count": 211
+      },
+      {
+        "value": 5.0,
+        "count": 254
+      },
+      {
+        "value": 6.0,
+        "count": 285
+      },
+      {
+        "value": 7.0,
+        "count": 245
+      }
+    ],
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "6bb6ecab63fad1b92b3926130eec0866dde70a2160104413278fbe1e9b73f27d",
+    "nifti": {
+      "shape": [
+        82,
+        106,
+        84
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -72.9000015258789
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -94.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -74.69999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj05/func1pt8mm/roi/lh.prf-eccrois.nii.gz",
+    "subject": "subj05",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      79,
+      97,
+      78
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 550596
+      },
+      {
+        "value": 0.0,
+        "count": 45210
+      },
+      {
+        "value": 1.0,
+        "count": 230
+      },
+      {
+        "value": 2.0,
+        "count": 242
+      },
+      {
+        "value": 3.0,
+        "count": 440
+      },
+      {
+        "value": 4.0,
+        "count": 344
+      },
+      {
+        "value": 5.0,
+        "count": 652
+      }
+    ],
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "074e95b54d91305ed2046aca256ce4f2339d85eb53251fa4f816b7e8719f895a",
+    "nifti": {
+      "shape": [
+        79,
+        97,
+        78
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -70.19999694824219
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -86.4000015258789
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -69.30000305175781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj05/func1pt8mm/roi/lh.prf-visualrois.nii.gz",
+    "subject": "subj05",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      79,
+      97,
+      78
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 550591
+      },
+      {
+        "value": 0.0,
+        "count": 45209
+      },
+      {
+        "value": 1.0,
+        "count": 254
+      },
+      {
+        "value": 2.0,
+        "count": 397
+      },
+      {
+        "value": 3.0,
+        "count": 268
+      },
+      {
+        "value": 4.0,
+        "count": 256
+      },
+      {
+        "value": 5.0,
+        "count": 222
+      },
+      {
+        "value": 6.0,
+        "count": 196
+      },
+      {
+        "value": 7.0,
+        "count": 321
+      }
+    ],
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "5e4774ac0c6f9c11710107df0cb0c9c392ef023c4465895c12d1e2c4ce09c8b1",
+    "nifti": {
+      "shape": [
+        79,
+        97,
+        78
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -70.19999694824219
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -86.4000015258789
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -69.30000305175781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj05/func1pt8mm/roi/prf-eccrois.nii.gz",
+    "subject": "subj05",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      79,
+      97,
+      78
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 503141
+      },
+      {
+        "value": 0.0,
+        "count": 90919
+      },
+      {
+        "value": 1.0,
+        "count": 483
+      },
+      {
+        "value": 2.0,
+        "count": 485
+      },
+      {
+        "value": 3.0,
+        "count": 762
+      },
+      {
+        "value": 4.0,
+        "count": 728
+      },
+      {
+        "value": 5.0,
+        "count": 1196
+      }
+    ],
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "4f8846b471e96491523e4617fc9aba61d3b7b890d307087ddb01be49a1d878b2",
+    "nifti": {
+      "shape": [
+        79,
+        97,
+        78
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -70.19999694824219
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -86.4000015258789
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -69.30000305175781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj05/func1pt8mm/roi/prf-visualrois.nii.gz",
+    "subject": "subj05",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      79,
+      97,
+      78
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 503134
+      },
+      {
+        "value": 0.0,
+        "count": 90919
+      },
+      {
+        "value": 1.0,
+        "count": 458
+      },
+      {
+        "value": 2.0,
+        "count": 655
+      },
+      {
+        "value": 3.0,
+        "count": 520
+      },
+      {
+        "value": 4.0,
+        "count": 561
+      },
+      {
+        "value": 5.0,
+        "count": 475
+      },
+      {
+        "value": 6.0,
+        "count": 450
+      },
+      {
+        "value": 7.0,
+        "count": 542
+      }
+    ],
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "2db32b75784b9d2708bae68566c2184496e52127d2c9c5545fbeaf3176cc3b33",
+    "nifti": {
+      "shape": [
+        79,
+        97,
+        78
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -70.19999694824219
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -86.4000015258789
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -69.30000305175781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj05/func1pt8mm/roi/rh.prf-eccrois.nii.gz",
+    "subject": "subj05",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      79,
+      97,
+      78
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 550259
+      },
+      {
+        "value": 0.0,
+        "count": 45709
+      },
+      {
+        "value": 1.0,
+        "count": 253
+      },
+      {
+        "value": 2.0,
+        "count": 243
+      },
+      {
+        "value": 3.0,
+        "count": 322
+      },
+      {
+        "value": 4.0,
+        "count": 384
+      },
+      {
+        "value": 5.0,
+        "count": 544
+      }
+    ],
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "35b136ded41edf6b8a43b0e7be49954f716ca512311d52980c0cfcbff28db333",
+    "nifti": {
+      "shape": [
+        79,
+        97,
+        78
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -70.19999694824219
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -86.4000015258789
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -69.30000305175781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj05/func1pt8mm/roi/rh.prf-visualrois.nii.gz",
+    "subject": "subj05",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      79,
+      97,
+      78
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 550257
+      },
+      {
+        "value": 0.0,
+        "count": 45710
+      },
+      {
+        "value": 1.0,
+        "count": 204
+      },
+      {
+        "value": 2.0,
+        "count": 258
+      },
+      {
+        "value": 3.0,
+        "count": 252
+      },
+      {
+        "value": 4.0,
+        "count": 305
+      },
+      {
+        "value": 5.0,
+        "count": 253
+      },
+      {
+        "value": 6.0,
+        "count": 254
+      },
+      {
+        "value": 7.0,
+        "count": 221
+      }
+    ],
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "93c6cb83e9021e8f4773ca8515911ae953026d45d29eaa1328f9e1662b7283f4",
+    "nifti": {
+      "shape": [
+        79,
+        97,
+        78
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -70.19999694824219
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -86.4000015258789
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -69.30000305175781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj07/func1pt8mm/roi/lh.prf-eccrois.nii.gz",
+    "subject": "subj07",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      78,
+      95,
+      81
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 555484
+      },
+      {
+        "value": 0.0,
+        "count": 43089
+      },
+      {
+        "value": 1.0,
+        "count": 299
+      },
+      {
+        "value": 2.0,
+        "count": 181
+      },
+      {
+        "value": 3.0,
+        "count": 227
+      },
+      {
+        "value": 4.0,
+        "count": 325
+      },
+      {
+        "value": 5.0,
+        "count": 605
+      }
+    ],
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "0e820ff84edac17f15916d22e47b8e7ed0cadab62fc3e2fc4ab28acbe99f91ab",
+    "nifti": {
+      "shape": [
+        78,
+        95,
+        81
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -69.30000305175781
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -84.5999984741211
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -72.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj07/func1pt8mm/roi/lh.prf-visualrois.nii.gz",
+    "subject": "subj07",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      78,
+      95,
+      81
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 555484
+      },
+      {
+        "value": 0.0,
+        "count": 43089
+      },
+      {
+        "value": 1.0,
+        "count": 248
+      },
+      {
+        "value": 2.0,
+        "count": 345
+      },
+      {
+        "value": 3.0,
+        "count": 303
+      },
+      {
+        "value": 4.0,
+        "count": 205
+      },
+      {
+        "value": 5.0,
+        "count": 157
+      },
+      {
+        "value": 6.0,
+        "count": 187
+      },
+      {
+        "value": 7.0,
+        "count": 192
+      }
+    ],
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "35c896187e4619ab48b3dd038a7d8506695397d11a9481db76913ca73693789e",
+    "nifti": {
+      "shape": [
+        78,
+        95,
+        81
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -69.30000305175781
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -84.5999984741211
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -72.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj07/func1pt8mm/roi/prf-eccrois.nii.gz",
+    "subject": "subj07",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      78,
+      95,
+      81
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 509997
+      },
+      {
+        "value": 0.0,
+        "count": 86965
+      },
+      {
+        "value": 1.0,
+        "count": 467
+      },
+      {
+        "value": 2.0,
+        "count": 468
+      },
+      {
+        "value": 3.0,
+        "count": 525
+      },
+      {
+        "value": 4.0,
+        "count": 616
+      },
+      {
+        "value": 5.0,
+        "count": 1172
+      }
+    ],
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "f8f64638ade76fce6a3043c9c265973e031bda7b0c40b0ef0b62d56df87127fb",
+    "nifti": {
+      "shape": [
+        78,
+        95,
+        81
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -69.30000305175781
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -84.5999984741211
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -72.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj07/func1pt8mm/roi/prf-visualrois.nii.gz",
+    "subject": "subj07",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      78,
+      95,
+      81
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 509991
+      },
+      {
+        "value": 0.0,
+        "count": 86968
+      },
+      {
+        "value": 1.0,
+        "count": 524
+      },
+      {
+        "value": 2.0,
+        "count": 618
+      },
+      {
+        "value": 3.0,
+        "count": 558
+      },
+      {
+        "value": 4.0,
+        "count": 428
+      },
+      {
+        "value": 5.0,
+        "count": 371
+      },
+      {
+        "value": 6.0,
+        "count": 355
+      },
+      {
+        "value": 7.0,
+        "count": 397
+      }
+    ],
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "c50ec1ab28bb4be1d7bf7a2498c131cac1e5dd84e48e99b0242ec1d771d6fd80",
+    "nifti": {
+      "shape": [
+        78,
+        95,
+        81
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -69.30000305175781
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -84.5999984741211
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -72.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj07/func1pt8mm/roi/rh.prf-eccrois.nii.gz",
+    "subject": "subj07",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      78,
+      95,
+      81
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 554723
+      },
+      {
+        "value": 0.0,
+        "count": 43876
+      },
+      {
+        "value": 1.0,
+        "count": 168
+      },
+      {
+        "value": 2.0,
+        "count": 287
+      },
+      {
+        "value": 3.0,
+        "count": 298
+      },
+      {
+        "value": 4.0,
+        "count": 291
+      },
+      {
+        "value": 5.0,
+        "count": 567
+      }
+    ],
+    "field_meaning": "categorical eccentricity labels: ecc0pt5,ecc1,ecc2,ecc4,ecc4+",
+    "usable": true,
+    "notes": "Usable as coarse categorical provenance only; exact bin boundaries and continuous eccentricity are not encoded in the file.",
+    "sha256": "52d03ab8805369dd973580a1eb47d488ace92557381e0f575b2cdc201ff94217",
+    "nifti": {
+      "shape": [
+        78,
+        95,
+        81
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -69.30000305175781
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -84.5999984741211
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -72.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  },
+  {
+    "file": "/opt/data/private/BA/NSD/nsddata/ppdata/subj07/func1pt8mm/roi/rh.prf-visualrois.nii.gz",
+    "subject": "subj07",
+    "space": "native subject func1pt8mm volume; directly aligned to nsdgeneral mask",
+    "shape": [
+      78,
+      95,
+      81
+    ],
+    "dtype": "float64",
+    "unique_values": [
+      {
+        "value": -1.0,
+        "count": 554717
+      },
+      {
+        "value": 0.0,
+        "count": 43879
+      },
+      {
+        "value": 1.0,
+        "count": 276
+      },
+      {
+        "value": 2.0,
+        "count": 273
+      },
+      {
+        "value": 3.0,
+        "count": 255
+      },
+      {
+        "value": 4.0,
+        "count": 223
+      },
+      {
+        "value": 5.0,
+        "count": 214
+      },
+      {
+        "value": 6.0,
+        "count": 168
+      },
+      {
+        "value": 7.0,
+        "count": 205
+      }
+    ],
+    "field_meaning": "categorical visual-area labels: V1v,V1d,V2v,V2d,V3v,V3d,hV4",
+    "usable": true,
+    "notes": "Usable for ROI provenance only; not a voxel-wise pRF estimate.",
+    "sha256": "ff69853ea76fcab0a8d013ea1fe1f50e98fce5f92b3ef085a1c262353c3ab1d9",
+    "nifti": {
+      "shape": [
+        78,
+        95,
+        81
+      ],
+      "dtype": "float64",
+      "datatype_code": 64,
+      "pixdim": [
+        1.7999999523162842,
+        1.7999999523162842,
+        1.7999999523162842
+      ],
+      "affine": [
+        [
+          1.7999999523162842,
+          0.0,
+          0.0,
+          -69.30000305175781
+        ],
+        [
+          0.0,
+          1.7999999523162842,
+          0.0,
+          -84.5999984741211
+        ],
+        [
+          0.0,
+          0.0,
+          1.7999999523162842,
+          -72.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "affine_source": "sform",
+      "scl_slope": 0.0,
+      "scl_inter": 0.0
+    }
+  }
+]

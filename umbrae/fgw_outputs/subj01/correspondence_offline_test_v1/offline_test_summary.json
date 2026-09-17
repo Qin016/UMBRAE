@@ -1,0 +1,432 @@
+{
+  "OFFLINE_TEST_STATUS": "EXPLORATORY_PASS",
+  "scope": "strictly subj01 / EXPLORATORY",
+  "FINAL_PLAN_HASH": "51e65527f3bbc1a3951ec376dd8be3662cab9e6b5f682d2a0da26fb347e20760",
+  "plan_frozen_before_test_access": true,
+  "final_fit_count": 6847,
+  "offline_test_count": 1712,
+  "actual_offline_test_id_sha256": "9ea8456faf5338b1f42a8d9e49924fd71e885999f1b5af5e285e9a0c2e4e4f5e",
+  "offline_test_metrics": {
+    "offline_test_feature_raw": 0.1413245018066786,
+    "offline_test_feature_normalized": 0.7769164314570753,
+    "offline_test_gw_raw": 0.06563470025603228,
+    "offline_test_gw_normalized": 0.3247259681036519,
+    "offline_test_composite": 0.5508211997803636,
+    "coupling_diagnostics": {
+      "target_utilization": {
+        "target_marginal": {
+          "L4": 0.25,
+          "L8": 0.0,
+          "L12": 0.125,
+          "L16": 0.125,
+          "L20": 0.125,
+          "L24": 0.375
+        },
+        "target_entropy": 1.4941751382843085,
+        "effective_target_layer_count": 4.455659733490235,
+        "maximum_target_mass": 0.375,
+        "target_mass_sum": 1.0
+      },
+      "roi_rows": {
+        "V1": {
+          "row_distribution": {
+            "L4": 1.0,
+            "L8": 0.0,
+            "L12": 0.0,
+            "L16": 0.0,
+            "L20": 0.0,
+            "L24": 0.0
+          },
+          "row_entropy": -1.000088900581841e-12,
+          "row_max_mass": 1.0,
+          "preferred_layer_descriptive": "L4",
+          "expected_clip_depth_under_coupling": 4.0
+        },
+        "V2": {
+          "row_distribution": {
+            "L4": 1.0,
+            "L8": 0.0,
+            "L12": 0.0,
+            "L16": 0.0,
+            "L20": 0.0,
+            "L24": 0.0
+          },
+          "row_entropy": -1.000088900581841e-12,
+          "row_max_mass": 1.0,
+          "preferred_layer_descriptive": "L4",
+          "expected_clip_depth_under_coupling": 4.0
+        },
+        "V3": {
+          "row_distribution": {
+            "L4": 0.0,
+            "L8": 0.0,
+            "L12": 1.0,
+            "L16": 0.0,
+            "L20": 0.0,
+            "L24": 0.0
+          },
+          "row_entropy": -1.000088900581841e-12,
+          "row_max_mass": 1.0,
+          "preferred_layer_descriptive": "L12",
+          "expected_clip_depth_under_coupling": 12.0
+        },
+        "hV4": {
+          "row_distribution": {
+            "L4": 0.0,
+            "L8": 0.0,
+            "L12": 0.0,
+            "L16": 1.0,
+            "L20": 0.0,
+            "L24": 0.0
+          },
+          "row_entropy": -1.000088900581841e-12,
+          "row_max_mass": 1.0,
+          "preferred_layer_descriptive": "L16",
+          "expected_clip_depth_under_coupling": 16.0
+        },
+        "FFA": {
+          "row_distribution": {
+            "L4": 0.0,
+            "L8": 0.0,
+            "L12": 0.0,
+            "L16": 0.0,
+            "L20": 0.0,
+            "L24": 1.0
+          },
+          "row_entropy": -1.000088900581841e-12,
+          "row_max_mass": 1.0,
+          "preferred_layer_descriptive": "L24",
+          "expected_clip_depth_under_coupling": 24.0
+        },
+        "EBA": {
+          "row_distribution": {
+            "L4": 0.0,
+            "L8": 0.0,
+            "L12": 0.0,
+            "L16": 0.0,
+            "L20": 0.0,
+            "L24": 1.0
+          },
+          "row_entropy": -1.000088900581841e-12,
+          "row_max_mass": 1.0,
+          "preferred_layer_descriptive": "L24",
+          "expected_clip_depth_under_coupling": 24.0
+        },
+        "PPA": {
+          "row_distribution": {
+            "L4": 0.0,
+            "L8": 0.0,
+            "L12": 0.0,
+            "L16": 0.0,
+            "L20": 1.0,
+            "L24": 0.0
+          },
+          "row_entropy": -1.000088900581841e-12,
+          "row_max_mass": 1.0,
+          "preferred_layer_descriptive": "L20",
+          "expected_clip_depth_under_coupling": 20.0
+        },
+        "OPA": {
+          "row_distribution": {
+            "L4": 0.0,
+            "L8": 0.0,
+            "L12": 0.0,
+            "L16": 0.0,
+            "L20": 0.0,
+            "L24": 1.0
+          },
+          "row_entropy": -1.000088900581841e-12,
+          "row_max_mass": 1.0,
+          "preferred_layer_descriptive": "L24",
+          "expected_clip_depth_under_coupling": 24.0
+        }
+      },
+      "mean_row_entropy": -1.000088900581841e-12,
+      "pairwise_jensen_shannon_divergence": [
+        [
+          0.0,
+          0.0,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453
+        ],
+        [
+          0.0,
+          0.0,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453
+        ],
+        [
+          0.6931471805599453,
+          0.6931471805599453,
+          0.0,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453
+        ],
+        [
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.0,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453
+        ],
+        [
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.0,
+          0.0,
+          0.6931471805599453,
+          0.0
+        ],
+        [
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.0,
+          0.0,
+          0.6931471805599453,
+          0.0
+        ],
+        [
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.0,
+          0.6931471805599453
+        ],
+        [
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.6931471805599453,
+          0.0,
+          0.0,
+          0.6931471805599453,
+          0.0
+        ]
+      ],
+      "mean_pairwise_jensen_shannon_divergence": 0.5941261547656673,
+      "row_correlation_matrix": [
+        [
+          1.0,
+          1.0,
+          -0.2,
+          -0.20000000000000004,
+          -0.2,
+          -0.2,
+          -0.2,
+          -0.2
+        ],
+        [
+          1.0,
+          1.0,
+          -0.2,
+          -0.20000000000000004,
+          -0.2,
+          -0.2,
+          -0.2,
+          -0.2
+        ],
+        [
+          -0.2,
+          -0.2,
+          1.0,
+          -0.2,
+          -0.19999999999999998,
+          -0.19999999999999998,
+          -0.2,
+          -0.19999999999999998
+        ],
+        [
+          -0.20000000000000007,
+          -0.20000000000000007,
+          -0.2,
+          1.0,
+          -0.19999999999999998,
+          -0.19999999999999998,
+          -0.20000000000000004,
+          -0.19999999999999998
+        ],
+        [
+          -0.2,
+          -0.2,
+          -0.19999999999999996,
+          -0.19999999999999998,
+          1.0,
+          1.0,
+          -0.19999999999999998,
+          1.0
+        ],
+        [
+          -0.2,
+          -0.2,
+          -0.19999999999999996,
+          -0.19999999999999998,
+          1.0,
+          1.0,
+          -0.19999999999999998,
+          1.0
+        ],
+        [
+          -0.2,
+          -0.2,
+          -0.2,
+          -0.20000000000000004,
+          -0.19999999999999998,
+          -0.19999999999999998,
+          1.0,
+          -0.19999999999999998
+        ],
+        [
+          -0.2,
+          -0.2,
+          -0.19999999999999996,
+          -0.19999999999999998,
+          1.0,
+          1.0,
+          -0.19999999999999998,
+          1.0
+        ]
+      ],
+      "specialization_caution": "High pairwise JS alone is not evidence of meaningful or stable ROI specialization.",
+      "depth_caution": "Expected CLIP depth under coupling is descriptive, not biological hierarchy."
+    },
+    "frozen_plan_sha256_verified": true
+  },
+  "preselected_baseline_metrics": {
+    "offline_test_feature_raw": 0.1565206725953319,
+    "offline_test_feature_normalized": 0.8604557656136018,
+    "offline_test_gw_raw": 0.11606636158749947,
+    "offline_test_gw_normalized": 0.5742352975445383,
+    "offline_test_composite": 0.71734553157907
+  },
+  "fgw_minus_baseline": {
+    "feature_raw": -0.01519617078865329,
+    "feature_normalized": -0.08353933415652648,
+    "gw_raw": -0.05043166133146719,
+    "gw_normalized": -0.24950932944088638,
+    "composite": -0.1665243317987064
+  },
+  "paired_test_subsampling": {
+    "count": 200,
+    "fraction": 0.8,
+    "subset_size": 1370,
+    "seed": 41001,
+    "plans_refit_on_subsamples": false,
+    "paired_differences": {
+      "feature_normalized": {
+        "count": 200,
+        "mean": -0.08352437311677997,
+        "std": 0.0006405162702172851,
+        "median": -0.08356229944240806,
+        "ci_2_5": -0.08469938108359497,
+        "ci_97_5": -0.08208448185660018
+      },
+      "gw_normalized": {
+        "count": 200,
+        "mean": -0.25214570578544626,
+        "std": 0.0038386108448141363,
+        "median": -0.252227800325189,
+        "ci_2_5": -0.2591506324947812,
+        "ci_97_5": -0.24433873590730357
+      },
+      "composite": {
+        "count": 200,
+        "mean": -0.1678350394511131,
+        "std": 0.0019050744391619773,
+        "median": -0.16787047246580572,
+        "ci_2_5": -0.17136874276964204,
+        "ci_97_5": -0.16382690090217458
+      }
+    }
+  },
+  "geometry_null_p_values": {
+    "brain_identity": 0.004975124378109453,
+    "clip_identity": 0.004975124378109453,
+    "independent_roi_stimulus": 0.004975124378109453
+  },
+  "feature_pairing_null": {
+    "count": 20,
+    "offline_test_feature_normalized": {
+      "count": 20,
+      "mean": 0.7784307588604844,
+      "std": 1.1390647892519134e-16,
+      "median": 0.7784307588604845,
+      "ci_2_5": 0.7784307588604845,
+      "ci_97_5": 0.7784307588604845
+    },
+    "offline_test_gw_normalized": {
+      "count": 20,
+      "mean": 0.3232491422880847,
+      "std": 5.695323946259567e-17,
+      "median": 0.32324914228808466,
+      "ci_2_5": 0.32324914228808466,
+      "ci_97_5": 0.32324914228808466
+    },
+    "offline_test_composite": {
+      "count": 20,
+      "mean": 0.5508399505742845,
+      "std": 1.1390647892519134e-16,
+      "median": 0.5508399505742846,
+      "ci_2_5": 0.5508399505742846,
+      "ci_97_5": 0.5508399505742846
+    },
+    "one_sided_p_real_feature_lower": 0.047619047619047616,
+    "affects_locked_configuration": false,
+    "affects_pass_status": false
+  },
+  "decision_criteria": {
+    "composite_lower_than_preselected_baseline": true,
+    "paired_structural_ci_entirely_below_zero": true,
+    "all_geometry_null_p_below_0_05": true,
+    "offline_test_used_for_fitting_or_selection": false,
+    "final_plan_hash_created_before_test_access": true
+  },
+  "interpretation": "The learned correspondence is primarily supported by representational geometry rather than independent evidence from direct ROI-to-layer feature compatibility.",
+  "data_usage": {
+    "offline_test_used_for_fitting": false,
+    "offline_test_used_for_hyperparameter_or_initialization_selection": false,
+    "stage2_run": false,
+    "caption_metrics_used": false
+  },
+  "provenance": {
+    "manifest_sha256": "9ad3e1111e730040e82655ecaad7c76a8b0525574391ecc3ab884d584dfebee0",
+    "locked_configuration_sha256": "e263115b98c8f9c7dd9b35c35651067d24b0bdda84144208242cebe31cb2810c",
+    "validation_summary_sha256": "10d860f8b3ffbedcdd950770e157b7571b88cc715befbf68971ee048f1f6c86f",
+    "final_refit_config_sha256": "5ead1040238d61a7ff5a48a13120d306828c6d5840a1e61240f4987c8abed8f9",
+    "final_plan_sha256_after_test": "51e65527f3bbc1a3951ec376dd8be3662cab9e6b5f682d2a0da26fb347e20760",
+    "baseline_plan_sha256_after_test": "90cdeb344ce181a9f2331cf1542c7424869ce7e8c11bb70800990ead1d3cd3a8",
+    "script_sha256": "1f5f30ac87fbf7e990d367c1ad872bbed86416540a4f19bc6f3672a75c29d655",
+    "pretest_marker": {
+      "timestamp_utc": "2026-08-20T14:27:09.897652+00:00",
+      "FINAL_PLAN_HASH": "51e65527f3bbc1a3951ec376dd8be3662cab9e6b5f682d2a0da26fb347e20760",
+      "final_plan_sha256": "51e65527f3bbc1a3951ec376dd8be3662cab9e6b5f682d2a0da26fb347e20760",
+      "baseline_plan_sha256": "90cdeb344ce181a9f2331cf1542c7424869ce7e8c11bb70800990ead1d3cd3a8",
+      "config_sha256": "5ead1040238d61a7ff5a48a13120d306828c6d5840a1e61240f4987c8abed8f9",
+      "training_stimulus_id_sha256": "70aab79abe9a7c12520b4adae45bc38f90001cad4349a1c1189cac4ffaa7ab75",
+      "stimulus_manifest_sha256": "9ad3e1111e730040e82655ecaad7c76a8b0525574391ecc3ab884d584dfebee0",
+      "offline_test_accessed_before_marker": false,
+      "transport_plan_must_never_change_after_this_marker": true
+    }
+  },
+  "elapsed_seconds": 899.3962829113007
+}

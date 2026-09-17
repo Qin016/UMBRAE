@@ -1,0 +1,24 @@
+{
+  "NSD_VISUAL_ANGLE_MAPPING": "PASS",
+  "VOXEL_PATCH_AFFINITY": "VALID",
+  "QUALITY_POLICY_LOCKED": "r2_ge10p1",
+  "SECONDARY_QUALITY_POLICY": "r2_gt0",
+  "PRIMARY_MAPPING_ID": "quality_r2_ge10p1_xy_k64",
+  "PRIMARY_K_RETINO": 64,
+  "PRIMARY_K_TOTAL": 68,
+  "PRIMARY_FEATURE_SET": "xy",
+  "PRIMARY_AFFINITY_AGGREGATION": "QUALITY_WEIGHTED",
+  "SECONDARY_MAPPING_ID": "quality_r2_ge10p1_xy_k48",
+  "REAL_MAPPING_LOCKED": true,
+  "RANDOM_SPATIAL_CONTROL_READY": true,
+  "SPATIAL_TEACHER_READY": true,
+  "P11B_TRAINING_READY": true,
+  "P11B0_STATUS": "COMPLETE",
+  "NO_TRAINING_STARTED": true,
+  "selected_hashes": {
+    "selected_mapping_real.json": "904d2de9683d9ce280a68fa29c2ba1b4ca4328197a9ddbcdd6db4438db89cfb5",
+    "selected_patch_affinity_real.npy": "168b6ca6c8be11fa8d06dae7d08fca49112b4e29e377be412eeb30aeb610d602",
+    "selected_mapping_random_seed42.json": "c023ad2d2a643aa40b63babe084d119029f3a52a73a3cfcbad77ad59c604348d",
+    "selected_mapping_teacher_shuffle_seed42.json": "0ee5acc94c449f6bf84873fdbcd49b7c6a4e922ca2215134811e621e9d77e906"
+  }
+}

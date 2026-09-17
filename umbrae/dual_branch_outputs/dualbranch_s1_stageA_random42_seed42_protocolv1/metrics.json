@@ -1,0 +1,72 @@
+{
+  "initial": {
+    "uot_loss": 0.995865797996521,
+    "transport_mass": 0.7388835151990255,
+    "normalized_transport_entropy": 0.9852162178357442,
+    "max_transport_fraction": 0.0017822439471880595,
+    "mean_roi_token_norm": 31.99984713236491,
+    "mean_pairwise_roi_cosine": 0.0019727547746151686,
+    "sample_count": 300,
+    "retrieval": {
+      "primary_direction": "brain_to_image",
+      "candidate_count": 300,
+      "brain_to_image": {
+        "recall_at_1": 0.0,
+        "recall_at_5": 0.023333333333333334,
+        "recall_at_10": 0.03666666666666667,
+        "median_rank": 142.0,
+        "mean_rank": 147.75
+      },
+      "image_to_brain": {
+        "recall_at_1": 0.0,
+        "recall_at_5": 0.016666666666666666,
+        "recall_at_10": 0.03666666666666667,
+        "median_rank": 138.5,
+        "mean_rank": 139.03333333333333
+      }
+    },
+    "rsa": {
+      "primary_metric": "spearman_upper_triangle_cosine_rdm",
+      "spearman_rsa": 0.06847274286919727,
+      "pearson_rsa": 0.07233826010125584,
+      "stimulus_count": 300,
+      "rdm_upper_triangle_count": 44850
+    }
+  },
+  "final": {
+    "uot_loss": 0.5142983945210775,
+    "transport_mass": 0.9114016731580098,
+    "normalized_transport_entropy": 0.8781399615605672,
+    "max_transport_fraction": 0.005604462033758561,
+    "mean_roi_token_norm": 32.8849131266276,
+    "mean_pairwise_roi_cosine": 0.5737082187334697,
+    "sample_count": 300,
+    "retrieval": {
+      "primary_direction": "brain_to_image",
+      "candidate_count": 300,
+      "brain_to_image": {
+        "recall_at_1": 0.03666666666666667,
+        "recall_at_5": 0.14,
+        "recall_at_10": 0.20666666666666667,
+        "median_rank": 35.5,
+        "mean_rank": 62.31
+      },
+      "image_to_brain": {
+        "recall_at_1": 0.11333333333333333,
+        "recall_at_5": 0.4066666666666667,
+        "recall_at_10": 0.5866666666666667,
+        "median_rank": 7.0,
+        "mean_rank": 17.823333333333334
+      }
+    },
+    "rsa": {
+      "primary_metric": "spearman_upper_triangle_cosine_rdm",
+      "spearman_rsa": 0.21520977426046287,
+      "pearson_rsa": 0.2190380494039265,
+      "stimulus_count": 300,
+      "rdm_upper_triangle_count": 44850
+    },
+    "best_epoch": 20,
+    "best_val_uot": 0.5142983945210775
+  }
+}

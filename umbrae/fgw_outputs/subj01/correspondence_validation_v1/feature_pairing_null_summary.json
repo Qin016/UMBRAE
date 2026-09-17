@@ -1,0 +1,29 @@
+{
+  "count": 20,
+  "validation_feature_normalized": {
+    "count": 20,
+    "mean": 0.7093244278109324,
+    "std": 1.1390647892519134e-16,
+    "median": 0.7093244278109325,
+    "ci_2_5": 0.7093244278109325,
+    "ci_97_5": 0.7093244278109325
+  },
+  "validation_gw_normalized": {
+    "count": 20,
+    "mean": 0.4374751867900569,
+    "std": 0.0,
+    "median": 0.4374751867900569,
+    "ci_2_5": 0.4374751867900569,
+    "ci_97_5": 0.4374751867900569
+  },
+  "validation_composite": {
+    "count": 20,
+    "mean": 0.5733998073004948,
+    "std": 1.1390647892519134e-16,
+    "median": 0.5733998073004947,
+    "ci_2_5": 0.5733998073004947,
+    "ci_97_5": 0.5733998073004947
+  },
+  "one_sided_p_real_feature_lower": 1.0,
+  "evaluation_matrices": "original unpermuted offline_validation matrices"
+}

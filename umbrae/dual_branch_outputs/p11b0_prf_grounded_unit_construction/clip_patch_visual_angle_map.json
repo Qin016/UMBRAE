@@ -1,0 +1,2573 @@
+{
+  "model": "openai/clip-vit-large-patch14",
+  "layer": "hidden_states[-2][:,1:,:]",
+  "grid": [
+    16,
+    16
+  ],
+  "ordering": "row-major index=row*16+column",
+  "preprocessing": "square 256x256 RGB -> Resize(224,bicubic,antialias) -> CenterCrop(224); square aspect means no FOV crop",
+  "PATCH_FOV_MAPPING": "DIRECT",
+  "patches": [
+    {
+      "patch_index": 0,
+      "row": 0,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": 0.9375,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 1,
+      "row": 0,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": 0.9375,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 2,
+      "row": 0,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": 0.9375,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 3,
+      "row": 0,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": 0.9375,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 4,
+      "row": 0,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": 0.9375,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 5,
+      "row": 0,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": 0.9375,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 6,
+      "row": 0,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": 0.9375,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 7,
+      "row": 0,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": 0.9375,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 8,
+      "row": 0,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": 0.9375,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 9,
+      "row": 0,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": 0.9375,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 10,
+      "row": 0,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": 0.9375,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 11,
+      "row": 0,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": 0.9375,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 12,
+      "row": 0,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": 0.9375,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 13,
+      "row": 0,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": 0.9375,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 14,
+      "row": 0,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": 0.9375,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 15,
+      "row": 0,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": 0.9375,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": 3.9375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 16,
+      "row": 1,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": 0.8125,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 17,
+      "row": 1,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": 0.8125,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 18,
+      "row": 1,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": 0.8125,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 19,
+      "row": 1,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": 0.8125,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 20,
+      "row": 1,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": 0.8125,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 21,
+      "row": 1,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": 0.8125,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 22,
+      "row": 1,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": 0.8125,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 23,
+      "row": 1,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": 0.8125,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 24,
+      "row": 1,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": 0.8125,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 25,
+      "row": 1,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": 0.8125,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 26,
+      "row": 1,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": 0.8125,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 27,
+      "row": 1,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": 0.8125,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 28,
+      "row": 1,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": 0.8125,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 29,
+      "row": 1,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": 0.8125,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 30,
+      "row": 1,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": 0.8125,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 31,
+      "row": 1,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": 0.8125,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": 3.4125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 32,
+      "row": 2,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": 0.6875,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 33,
+      "row": 2,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": 0.6875,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 34,
+      "row": 2,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": 0.6875,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 35,
+      "row": 2,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": 0.6875,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 36,
+      "row": 2,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": 0.6875,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 37,
+      "row": 2,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": 0.6875,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 38,
+      "row": 2,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": 0.6875,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 39,
+      "row": 2,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": 0.6875,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 40,
+      "row": 2,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": 0.6875,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 41,
+      "row": 2,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": 0.6875,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 42,
+      "row": 2,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": 0.6875,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 43,
+      "row": 2,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": 0.6875,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 44,
+      "row": 2,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": 0.6875,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 45,
+      "row": 2,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": 0.6875,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 46,
+      "row": 2,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": 0.6875,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 47,
+      "row": 2,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": 0.6875,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": 2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 48,
+      "row": 3,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": 0.5625,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 49,
+      "row": 3,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": 0.5625,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 50,
+      "row": 3,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": 0.5625,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 51,
+      "row": 3,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": 0.5625,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 52,
+      "row": 3,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": 0.5625,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 53,
+      "row": 3,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": 0.5625,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 54,
+      "row": 3,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": 0.5625,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 55,
+      "row": 3,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": 0.5625,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 56,
+      "row": 3,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": 0.5625,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 57,
+      "row": 3,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": 0.5625,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 58,
+      "row": 3,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": 0.5625,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 59,
+      "row": 3,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": 0.5625,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 60,
+      "row": 3,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": 0.5625,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 61,
+      "row": 3,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": 0.5625,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 62,
+      "row": 3,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": 0.5625,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 63,
+      "row": 3,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": 0.5625,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": 2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 64,
+      "row": 4,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": 0.4375,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 65,
+      "row": 4,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": 0.4375,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 66,
+      "row": 4,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": 0.4375,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 67,
+      "row": 4,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": 0.4375,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 68,
+      "row": 4,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": 0.4375,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 69,
+      "row": 4,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": 0.4375,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 70,
+      "row": 4,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": 0.4375,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 71,
+      "row": 4,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": 0.4375,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 72,
+      "row": 4,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": 0.4375,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 73,
+      "row": 4,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": 0.4375,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 74,
+      "row": 4,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": 0.4375,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 75,
+      "row": 4,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": 0.4375,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 76,
+      "row": 4,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": 0.4375,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 77,
+      "row": 4,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": 0.4375,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 78,
+      "row": 4,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": 0.4375,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 79,
+      "row": 4,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": 0.4375,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": 1.8375,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 80,
+      "row": 5,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": 0.3125,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 81,
+      "row": 5,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": 0.3125,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 82,
+      "row": 5,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": 0.3125,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 83,
+      "row": 5,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": 0.3125,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 84,
+      "row": 5,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": 0.3125,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 85,
+      "row": 5,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": 0.3125,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 86,
+      "row": 5,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": 0.3125,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 87,
+      "row": 5,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": 0.3125,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 88,
+      "row": 5,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": 0.3125,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 89,
+      "row": 5,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": 0.3125,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 90,
+      "row": 5,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": 0.3125,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 91,
+      "row": 5,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": 0.3125,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 92,
+      "row": 5,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": 0.3125,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 93,
+      "row": 5,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": 0.3125,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 94,
+      "row": 5,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": 0.3125,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 95,
+      "row": 5,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": 0.3125,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": 1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 96,
+      "row": 6,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": 0.1875,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 97,
+      "row": 6,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": 0.1875,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 98,
+      "row": 6,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": 0.1875,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 99,
+      "row": 6,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": 0.1875,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 100,
+      "row": 6,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": 0.1875,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 101,
+      "row": 6,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": 0.1875,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 102,
+      "row": 6,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": 0.1875,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 103,
+      "row": 6,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": 0.1875,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 104,
+      "row": 6,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": 0.1875,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 105,
+      "row": 6,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": 0.1875,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 106,
+      "row": 6,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": 0.1875,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 107,
+      "row": 6,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": 0.1875,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 108,
+      "row": 6,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": 0.1875,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 109,
+      "row": 6,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": 0.1875,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 110,
+      "row": 6,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": 0.1875,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 111,
+      "row": 6,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": 0.1875,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": 0.7875000000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 112,
+      "row": 7,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": 0.0625,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 113,
+      "row": 7,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": 0.0625,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 114,
+      "row": 7,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": 0.0625,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 115,
+      "row": 7,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": 0.0625,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 116,
+      "row": 7,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": 0.0625,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 117,
+      "row": 7,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": 0.0625,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 118,
+      "row": 7,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": 0.0625,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 119,
+      "row": 7,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": 0.0625,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 120,
+      "row": 7,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": 0.0625,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 121,
+      "row": 7,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": 0.0625,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 122,
+      "row": 7,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": 0.0625,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 123,
+      "row": 7,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": 0.0625,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 124,
+      "row": 7,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": 0.0625,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 125,
+      "row": 7,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": 0.0625,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 126,
+      "row": 7,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": 0.0625,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 127,
+      "row": 7,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": 0.0625,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": 0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 128,
+      "row": 8,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": -0.0625,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 129,
+      "row": 8,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": -0.0625,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 130,
+      "row": 8,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": -0.0625,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 131,
+      "row": 8,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": -0.0625,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 132,
+      "row": 8,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": -0.0625,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 133,
+      "row": 8,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": -0.0625,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 134,
+      "row": 8,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": -0.0625,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 135,
+      "row": 8,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": -0.0625,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 136,
+      "row": 8,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": -0.0625,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 137,
+      "row": 8,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": -0.0625,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 138,
+      "row": 8,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": -0.0625,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 139,
+      "row": 8,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": -0.0625,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 140,
+      "row": 8,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": -0.0625,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 141,
+      "row": 8,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": -0.0625,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 142,
+      "row": 8,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": -0.0625,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 143,
+      "row": 8,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": -0.0625,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": -0.2625000000000002,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 144,
+      "row": 9,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": -0.1875,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 145,
+      "row": 9,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": -0.1875,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 146,
+      "row": 9,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": -0.1875,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 147,
+      "row": 9,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": -0.1875,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 148,
+      "row": 9,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": -0.1875,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 149,
+      "row": 9,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": -0.1875,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 150,
+      "row": 9,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": -0.1875,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 151,
+      "row": 9,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": -0.1875,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 152,
+      "row": 9,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": -0.1875,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 153,
+      "row": 9,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": -0.1875,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 154,
+      "row": 9,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": -0.1875,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 155,
+      "row": 9,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": -0.1875,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 156,
+      "row": 9,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": -0.1875,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 157,
+      "row": 9,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": -0.1875,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 158,
+      "row": 9,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": -0.1875,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 159,
+      "row": 9,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": -0.1875,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": -0.7874999999999996,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 160,
+      "row": 10,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": -0.3125,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 161,
+      "row": 10,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": -0.3125,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 162,
+      "row": 10,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": -0.3125,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 163,
+      "row": 10,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": -0.3125,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 164,
+      "row": 10,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": -0.3125,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 165,
+      "row": 10,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": -0.3125,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 166,
+      "row": 10,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": -0.3125,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 167,
+      "row": 10,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": -0.3125,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 168,
+      "row": 10,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": -0.3125,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 169,
+      "row": 10,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": -0.3125,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 170,
+      "row": 10,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": -0.3125,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 171,
+      "row": 10,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": -0.3125,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 172,
+      "row": 10,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": -0.3125,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 173,
+      "row": 10,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": -0.3125,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 174,
+      "row": 10,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": -0.3125,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 175,
+      "row": 10,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": -0.3125,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": -1.3125,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 176,
+      "row": 11,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": -0.4375,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 177,
+      "row": 11,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": -0.4375,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 178,
+      "row": 11,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": -0.4375,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 179,
+      "row": 11,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": -0.4375,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 180,
+      "row": 11,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": -0.4375,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 181,
+      "row": 11,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": -0.4375,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 182,
+      "row": 11,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": -0.4375,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 183,
+      "row": 11,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": -0.4375,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 184,
+      "row": 11,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": -0.4375,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 185,
+      "row": 11,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": -0.4375,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 186,
+      "row": 11,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": -0.4375,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 187,
+      "row": 11,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": -0.4375,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 188,
+      "row": 11,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": -0.4375,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 189,
+      "row": 11,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": -0.4375,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 190,
+      "row": 11,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": -0.4375,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 191,
+      "row": 11,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": -0.4375,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": -1.8375000000000004,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 192,
+      "row": 12,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": -0.5625,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 193,
+      "row": 12,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": -0.5625,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 194,
+      "row": 12,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": -0.5625,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 195,
+      "row": 12,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": -0.5625,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 196,
+      "row": 12,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": -0.5625,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 197,
+      "row": 12,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": -0.5625,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 198,
+      "row": 12,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": -0.5625,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 199,
+      "row": 12,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": -0.5625,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 200,
+      "row": 12,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": -0.5625,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 201,
+      "row": 12,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": -0.5625,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 202,
+      "row": 12,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": -0.5625,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 203,
+      "row": 12,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": -0.5625,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 204,
+      "row": 12,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": -0.5625,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 205,
+      "row": 12,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": -0.5625,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 206,
+      "row": 12,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": -0.5625,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 207,
+      "row": 12,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": -0.5625,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": -2.3625,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 208,
+      "row": 13,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": -0.6875,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 209,
+      "row": 13,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": -0.6875,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 210,
+      "row": 13,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": -0.6875,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 211,
+      "row": 13,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": -0.6875,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 212,
+      "row": 13,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": -0.6875,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 213,
+      "row": 13,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": -0.6875,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 214,
+      "row": 13,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": -0.6875,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 215,
+      "row": 13,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": -0.6875,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 216,
+      "row": 13,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": -0.6875,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 217,
+      "row": 13,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": -0.6875,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 218,
+      "row": 13,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": -0.6875,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 219,
+      "row": 13,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": -0.6875,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 220,
+      "row": 13,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": -0.6875,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 221,
+      "row": 13,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": -0.6875,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 222,
+      "row": 13,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": -0.6875,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 223,
+      "row": 13,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": -0.6875,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": -2.8875,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 224,
+      "row": 14,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": -0.8125,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 225,
+      "row": 14,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": -0.8125,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 226,
+      "row": 14,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": -0.8125,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 227,
+      "row": 14,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": -0.8125,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 228,
+      "row": 14,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": -0.8125,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 229,
+      "row": 14,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": -0.8125,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 230,
+      "row": 14,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": -0.8125,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 231,
+      "row": 14,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": -0.8125,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 232,
+      "row": 14,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": -0.8125,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 233,
+      "row": 14,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": -0.8125,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 234,
+      "row": 14,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": -0.8125,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 235,
+      "row": 14,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": -0.8125,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 236,
+      "row": 14,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": -0.8125,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 237,
+      "row": 14,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": -0.8125,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 238,
+      "row": 14,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": -0.8125,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 239,
+      "row": 14,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": -0.8125,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": -3.4125000000000005,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 240,
+      "row": 15,
+      "column": 0,
+      "normalized_x": -0.9375,
+      "normalized_y": -0.9375,
+      "visual_angle_x": -3.9375,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 241,
+      "row": 15,
+      "column": 1,
+      "normalized_x": -0.8125,
+      "normalized_y": -0.9375,
+      "visual_angle_x": -3.4125,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 242,
+      "row": 15,
+      "column": 2,
+      "normalized_x": -0.6875,
+      "normalized_y": -0.9375,
+      "visual_angle_x": -2.8875,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 243,
+      "row": 15,
+      "column": 3,
+      "normalized_x": -0.5625,
+      "normalized_y": -0.9375,
+      "visual_angle_x": -2.3625,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 244,
+      "row": 15,
+      "column": 4,
+      "normalized_x": -0.4375,
+      "normalized_y": -0.9375,
+      "visual_angle_x": -1.8375,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 245,
+      "row": 15,
+      "column": 5,
+      "normalized_x": -0.3125,
+      "normalized_y": -0.9375,
+      "visual_angle_x": -1.3125,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 246,
+      "row": 15,
+      "column": 6,
+      "normalized_x": -0.1875,
+      "normalized_y": -0.9375,
+      "visual_angle_x": -0.7875000000000001,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 247,
+      "row": 15,
+      "column": 7,
+      "normalized_x": -0.0625,
+      "normalized_y": -0.9375,
+      "visual_angle_x": -0.2625000000000002,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 248,
+      "row": 15,
+      "column": 8,
+      "normalized_x": 0.0625,
+      "normalized_y": -0.9375,
+      "visual_angle_x": 0.2625000000000002,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 249,
+      "row": 15,
+      "column": 9,
+      "normalized_x": 0.1875,
+      "normalized_y": -0.9375,
+      "visual_angle_x": 0.7874999999999996,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 250,
+      "row": 15,
+      "column": 10,
+      "normalized_x": 0.3125,
+      "normalized_y": -0.9375,
+      "visual_angle_x": 1.3125,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 251,
+      "row": 15,
+      "column": 11,
+      "normalized_x": 0.4375,
+      "normalized_y": -0.9375,
+      "visual_angle_x": 1.8375000000000004,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 252,
+      "row": 15,
+      "column": 12,
+      "normalized_x": 0.5625,
+      "normalized_y": -0.9375,
+      "visual_angle_x": 2.3625,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 253,
+      "row": 15,
+      "column": 13,
+      "normalized_x": 0.6875,
+      "normalized_y": -0.9375,
+      "visual_angle_x": 2.8875,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 254,
+      "row": 15,
+      "column": 14,
+      "normalized_x": 0.8125,
+      "normalized_y": -0.9375,
+      "visual_angle_x": 3.4125000000000005,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    },
+    {
+      "patch_index": 255,
+      "row": 15,
+      "column": 15,
+      "normalized_x": 0.9375,
+      "normalized_y": -0.9375,
+      "visual_angle_x": 3.937500000000001,
+      "visual_angle_y": -3.937500000000001,
+      "aperture_overlap_fraction": 1.0
+    }
+  ]
+}

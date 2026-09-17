@@ -1,0 +1,77 @@
+{
+  "source_interface": {
+    "val_loss": 0.47045734723409016,
+    "val_proj_cos": 0.39347087184588114,
+    "val_proj_mse": 2.851925245920817,
+    "val_preproj_cos": 0.45588886658350625,
+    "val_preserve": 3.826183566276361e-10,
+    "val_norm": 0.2878329545259476,
+    "projected_paired_token_cosine": 0.6065291281541189,
+    "projected_oracle_gap": 0.39347087184588114,
+    "preprojector_paired_cosine": 0.5441111334164938,
+    "adapter_correction_ratio": 0.0,
+    "projected_norm_ratio": 0.6819135546684265,
+    "gate": 0.09975048154592514,
+    "rsa": {
+      "spearman_rsa": 0.8530065518884993,
+      "pearson_rsa": 0.8661474206854414,
+      "stimulus_count": 300
+    },
+    "hard_retrieval": {
+      "K": 99,
+      "candidate_count": 100,
+      "hard_negative_source": "frozen CLIP visual cosine nearest neighbors; target excluded",
+      "recall_at_1": 0.9933333333333333,
+      "recall_at_5": 0.9966666666666667,
+      "recall_at_10": 0.9966666666666667,
+      "mrr": 0.9952564102564103,
+      "median_rank": 1.0,
+      "mean_rank": 1.0433333333333332,
+      "candidate_indices_sha256": "fdc01c5b611300ffea2bbf4e1d26756a51744e5b743a85c4ad571df6c69a8fd0"
+    },
+    "sample_count": 300,
+    "identity_adapter_used_for_measurement": true,
+    "adapter_max_abs_correction": 0.0
+  },
+  "selected_interface": {
+    "epoch": 2,
+    "train_loss": 0.4682806594855931,
+    "train_proj_cos": 0.3921826795824695,
+    "train_proj_mse": 2.7700641803170964,
+    "train_preproj_cos": 0.45655173079643535,
+    "train_preserve": 0.002398625506329265,
+    "train_norm": 0.25023046006372507,
+    "train_grad_norm": 0.005194257715446451,
+    "val_loss": 0.46588049014409383,
+    "val_proj_cos": 0.3892469660441081,
+    "val_proj_mse": 2.826812884012858,
+    "val_preproj_cos": 0.45457511305809023,
+    "val_preserve": 0.0028244906353453794,
+    "val_norm": 0.2625436733166377,
+    "projected_paired_token_cosine": 0.610753033955892,
+    "projected_oracle_gap": 0.3892469660441081,
+    "preprojector_paired_cosine": 0.5454248869419098,
+    "adapter_correction_ratio": 0.05122452259063721,
+    "projected_norm_ratio": 0.6845579147338867,
+    "gate": 0.12218351662158966,
+    "rsa": {
+      "spearman_rsa": 0.843184821310952,
+      "pearson_rsa": 0.8557284670756474,
+      "stimulus_count": 300
+    },
+    "hard_retrieval": {
+      "K": 99,
+      "candidate_count": 100,
+      "hard_negative_source": "frozen CLIP visual cosine nearest neighbors; target excluded",
+      "recall_at_1": 0.9933333333333333,
+      "recall_at_5": 0.9966666666666667,
+      "recall_at_10": 0.9966666666666667,
+      "mrr": 0.9951851851851852,
+      "median_rank": 1.0,
+      "mean_rank": 1.06,
+      "candidate_indices_sha256": "fdc01c5b611300ffea2bbf4e1d26756a51744e5b743a85c4ad571df6c69a8fd0"
+    },
+    "sample_count": 300,
+    "epoch_wall_seconds": 152.67881083488464
+  }
+}

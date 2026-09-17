@@ -1,0 +1,20 @@
+{
+  "recovery_reason": "interactive status query interrupted pretest feature-pairing null generation",
+  "interrupted_directory": "/opt/data/private/BA/UMBRAE/umbrae/fgw_outputs/subj05/correspondence_offline_test_replication_v1_interrupted_pretest_20260820",
+  "interrupted_before_final_plan_frozen_marker": true,
+  "interrupted_offline_test_accessed": false,
+  "primary_plan_refit_during_recovery": false,
+  "baseline_plan_refit_during_recovery": false,
+  "final_train_matrices_reconstructed_bitwise_identically": true,
+  "saved_hashes": {
+    "primary": "a3d3ab31770ecc0fc62599597538a7b931df2721fdd22aabb13e8e7e8f7c8da0",
+    "baseline": "dec15442ed5fda65f17948b5883193e248b77dbb1c589f2cddacdba0ebb22abd",
+    "feature": "a70957ac44c6e41378533f90ebb3af1673864d14ef75a5bb152bce2b55b6b56c",
+    "brain_geometry": "b9cdb62402068ed1c0027e6125aad5a4996c00d2f5932105dfae91f91982ae6b",
+    "clip_geometry": "80d523d78c8c94749e04c6ef97f40bc92f9c6df333de92b4fe47c85b2902c34d"
+  },
+  "recovered_primary_plan_sha256": "a3d3ab31770ecc0fc62599597538a7b931df2721fdd22aabb13e8e7e8f7c8da0",
+  "recovered_baseline_plan_sha256": "dec15442ed5fda65f17948b5883193e248b77dbb1c589f2cddacdba0ebb22abd",
+  "normal_driver_sha256": "a1637427d576ada0962387de36f4911fd012d030f2a5dd56851959215ea4e2d9",
+  "recovery_driver_sha256": "760cbc97aa215285a2bf28ab719f9a178facd8e1e7b546f125600c410b571719"
+}

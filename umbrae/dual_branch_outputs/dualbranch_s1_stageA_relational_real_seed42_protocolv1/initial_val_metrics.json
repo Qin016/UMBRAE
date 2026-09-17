@@ -1,0 +1,82 @@
+{
+  "total_loss": 2.2022515455881755,
+  "roi_rel_loss": 1.783953798611959,
+  "global_contrastive_loss": 4.182977879842122,
+  "mean_roi_token_norm": 18.556735636393228,
+  "mean_pairwise_roi_cosine": 0.0002889018723120292,
+  "across_sample_variance": 0.32687928795814514,
+  "sample_count": 300,
+  "per_roi_rel_loss": {
+    "V1": 1.7960142262776693,
+    "V2": 1.8240265909830728,
+    "V3": 1.8144903310139975,
+    "hV4": 1.8215851593017578,
+    "FFA": 1.778169453938802,
+    "EBA": 1.7740738677978516,
+    "PPA": 1.6691334788004557,
+    "OPA": 1.7941373697916667
+  },
+  "global_rsa": {
+    "primary_metric": "spearman_upper_triangle_cosine_rdm",
+    "spearman_rsa": 0.09792726920371192,
+    "pearson_rsa": 0.1126214748574709,
+    "stimulus_count": 300,
+    "rdm_upper_triangle_count": 44850
+  },
+  "retrieval": {
+    "primary_direction": "brain_to_image",
+    "candidate_count": 300,
+    "brain_to_image": {
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.02,
+      "recall_at_10": 0.05,
+      "median_rank": 152.0,
+      "mean_rank": 150.41333333333333
+    },
+    "image_to_brain": {
+      "recall_at_1": 0.006666666666666667,
+      "recall_at_5": 0.02,
+      "recall_at_10": 0.04666666666666667,
+      "median_rank": 155.5,
+      "mean_rank": 151.00333333333333
+    }
+  },
+  "roi_wise_rsa": {
+    "per_roi": {
+      "V1": {
+        "spearman": 0.0856405138306388,
+        "pearson": 0.09555676579475403
+      },
+      "V2": {
+        "spearman": 0.0814425634294544,
+        "pearson": 0.0884833037853241
+      },
+      "V3": {
+        "spearman": 0.08687083001595795,
+        "pearson": 0.09419040381908417
+      },
+      "hV4": {
+        "spearman": 0.07660636470125474,
+        "pearson": 0.08782300353050232
+      },
+      "FFA": {
+        "spearman": 0.09485272017191672,
+        "pearson": 0.09827578067779541
+      },
+      "EBA": {
+        "spearman": 0.10041162588017567,
+        "pearson": 0.10334859043359756
+      },
+      "PPA": {
+        "spearman": 0.1523993673998381,
+        "pearson": 0.15574151277542114
+      },
+      "OPA": {
+        "spearman": 0.09836135720902539,
+        "pearson": 0.10306677967309952
+      }
+    },
+    "mean_spearman": 0.09707316782978272,
+    "mean_pearson": 0.10331076756119728
+  }
+}

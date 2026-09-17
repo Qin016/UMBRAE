@@ -1,0 +1,174 @@
+{
+  "preregistration_version": 1,
+  "protocol_name": "locked_cross_subject_validation_v1",
+  "subjects": [
+    "subj02",
+    "subj05",
+    "subj07"
+  ],
+  "written_before_replication_validation_feature_access": true,
+  "subj01_reference_only": {
+    "offline_test_status": "EXPLORATORY_PASS",
+    "final_plan_sha256": "51e65527f3bbc1a3951ec376dd8be3662cab9e6b5f682d2a0da26fb347e20760",
+    "offline_test_directory_tree_sha256_at_preflight": "19af838b0b2c1e90c7e751f94622db65a18fb5092221f16066878e73c8493370",
+    "must_not_be_modified_or_rerun": true
+  },
+  "data_protocol": {
+    "manifest_seed": 42,
+    "split_unit": "unique_stable_stimulus_id",
+    "split_ratios": [0.6, 0.2, 0.2],
+    "split_names": [
+      "offline_discovery",
+      "offline_validation",
+      "offline_test"
+    ],
+    "protect_existing_downstream_validation_and_test_ids": true,
+    "offline_test_access_permitted_in_prompt5a": false
+  },
+  "representations": {
+    "roi_order": ["V1", "V2", "V3", "hV4", "FFA", "EBA", "PPA", "OPA"],
+    "brain_input": "roi_tokens_before_projector",
+    "clip_layer_order": [4, 8, 12, 16, 20, 24],
+    "clip_pooling": "mean_non_cls_patch_tokens",
+    "feature_extraction_seed": 42,
+    "retraining_permitted": false
+  },
+  "geometry_v2": {
+    "distance": "one_minus_cosine",
+    "relation": "one_minus_spearman_of_rdm_upper_triangles",
+    "anchor_count": 1500,
+    "stimulus_subset_size": 600,
+    "stimulus_subset_count": 100,
+    "sampling": "two_disjoint_unique_stimulus_subsets_without_replacement",
+    "null_stimulus_count": 500,
+    "independent_roi_geometry_null_count": 500,
+    "single_roi_null_count": 100,
+    "random_seed": 42,
+    "random_streams": "NumPy SeedSequence child streams exactly as geometry_v2"
+  },
+  "feature_cost": {
+    "fold_count": 5,
+    "probe": "multi_output_linear_ridge_with_intercept",
+    "ridge_alpha": 100.0,
+    "brain_preprocessing": "training_fold_per_dimension_center_and_scale",
+    "clip_preprocessing": "training_fold_center_only",
+    "std_epsilon": 1e-6,
+    "cost": "mean_OOF_one_minus_cosine",
+    "random_seed": 42,
+    "no_hyperparameter_tuning": true
+  },
+  "loss_scale_calibration": {
+    "rule": "evaluate each subject discovery matrices at the uniform feasible plan T_ref[r,l]=(1/8)*(1/6)",
+    "reuse_subj01_numeric_scales": false,
+    "eps_scale": 1e-12
+  },
+  "primary_model": {
+    "method": "sr_fgw",
+    "structure_weight_beta": 0.5,
+    "coverage_weight_lambda": 0.0,
+    "entropy_weight": 0.0,
+    "search_permitted": false
+  },
+  "fixed_baselines": {
+    "primary_nonstructural": {
+      "method": "source_constrained_feature_coverage",
+      "structure_weight_beta": 0.0,
+      "coverage_weight_lambda": 1.0,
+      "entropy_weight": 0.0
+    },
+    "secondary": {
+      "method": "balanced_outer_ot",
+      "structure_weight_beta": 0.0,
+      "hard_uniform_target": true
+    },
+    "selection_or_tuning_per_subject": false
+  },
+  "initialization_protocol": {
+    "selection_split": "offline_discovery_only",
+    "selection_criterion": "lowest_converged_discovery_objective",
+    "specifications": [
+      ["uniform", 0],
+      ["feature_informed", 0],
+      ["random", 1001],
+      ["random", 1002],
+      ["random", 1003],
+      ["random", 1004],
+      ["random", 1005],
+      ["random", 1006],
+      ["random", 1007],
+      ["random", 1008],
+      ["random", 1009],
+      ["random", 1010],
+      ["random", 1011],
+      ["random", 1012],
+      ["random", 1013],
+      ["random", 1014],
+      ["random", 1015],
+      ["random", 1016],
+      ["random", 1017],
+      ["random", 1018]
+    ],
+    "near_optimal_relative_threshold": 0.01,
+    "top_k_identifiability": 5
+  },
+  "solver": {
+    "learning_rate": 0.1,
+    "max_iterations": 2500,
+    "tolerance": 1e-11,
+    "patience": 80,
+    "eps_coverage": 1e-12,
+    "projection": "Euclidean row-simplex projection"
+  },
+  "validation": {
+    "geometry_anchor_count": 1500,
+    "geometry_anchor_seed": 43001,
+    "subsampling_count": 200,
+    "subsampling_fraction": 0.75,
+    "subsampling_without_replacement": true,
+    "subsampling_seed": 41001,
+    "composite_feature_weight": 0.5,
+    "composite_gw_weight": 0.5,
+    "coverage_in_composite": false
+  },
+  "null_protocol": {
+    "brain_geometry_unique_permutations": 200,
+    "clip_geometry_unique_permutations": 200,
+    "independent_roi_stimulus_permutations": 200,
+    "feature_pairing_permutations": 20,
+    "matched_marginal_unique_row_permutations": 500,
+    "random_seed": 42001,
+    "null_fit_initializations": [
+      ["uniform", 0],
+      ["feature_informed", 0],
+      ["random", 1001]
+    ],
+    "fit_split": "shuffled_offline_discovery",
+    "evaluation_split": "original_unpermuted_offline_validation",
+    "p_value": "(1 + count(null_statistic <= real_statistic)) / (1 + null_count)"
+  },
+  "decision_thresholds": {
+    "null_separation_one_sided_p_max": 0.05,
+    "structural_benefit_requires_paired_subsample_gw_difference_ci_97_5_below_zero": true,
+    "structural_benefit_requires_paired_subsample_composite_difference_ci_97_5_below_zero": true,
+    "identifiability_reference_set": "near_optimal_1_percent_if_at_least_two_plans_else_top_5_converged",
+    "minimum_median_preferred_layer_agreement": 0.5,
+    "minimum_median_row_correlation": 0.0,
+    "maximum_selected_composite_coefficient_of_variation": 0.1,
+    "matched_plan_specialization_requires_real_validation_gw_p_max": 0.05,
+    "matched_plan_reproducibility_requires_identifiability_preferred_agreement_above_null_ci_97_5": true,
+    "matched_plan_reproducibility_requires_identifiability_row_correlation_above_null_ci_97_5": true,
+    "feature_pairing_null_is_pass_criterion": false
+  },
+  "variance_standardized_sensitivity": {
+    "run_once_per_subject": true,
+    "discovery_statistics_only": true,
+    "same_locked_model_and_initializations": true,
+    "used_for_selection": false
+  },
+  "hard_stops": {
+    "do_not_load_offline_test_indices_or_features_after_manifest_creation": true,
+    "do_not_refit_discovery_plus_validation": true,
+    "do_not_run_prompt5b": true,
+    "do_not_run_stage2_or_caption_training": true
+  }
+}

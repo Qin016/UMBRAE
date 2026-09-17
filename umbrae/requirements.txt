@@ -1,10 +1,11 @@
 torch
 torchvision
-transformers
+transformers==4.31.0
 datasets
 pillow
 dataclasses
-numpy
+numpy<2
+nibabel
 nltk
 pandas
 mmengine
@@ -13,7 +14,7 @@ einops
 tqdm
 matplotlib
 
-accelerate==0.19.0
+accelerate==0.20.3
 SentencePiece
 
 gradio
@@ -29,3 +30,4 @@ umap-learn
 pycocoevalcap
 wcwidth
 huggingface_hub
+pytest

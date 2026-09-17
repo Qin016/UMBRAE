@@ -1,0 +1,22 @@
+{
+  "count": 200,
+  "validation_gw_normalized": {
+    "count": 200,
+    "mean": 0.35640703264791745,
+    "std": 0.05588430184374272,
+    "median": 0.33468685100569,
+    "ci_2_5": 0.33468685100569,
+    "ci_97_5": 0.5160515249714164
+  },
+  "validation_composite": {
+    "count": 200,
+    "mean": 0.5751902835371382,
+    "std": 0.025600756259710998,
+    "median": 0.5667422457422616,
+    "ci_2_5": 0.5667422457422616,
+    "ci_97_5": 0.6598305058729061
+  },
+  "one_sided_p_real_gw_lower": 0.004975124378109453,
+  "per_roi_permutation_is_independent": true,
+  "evaluation_matrices": "original unpermuted offline_validation matrices"
+}

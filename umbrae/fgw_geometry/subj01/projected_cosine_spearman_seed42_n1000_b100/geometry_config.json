@@ -1,0 +1,158 @@
+{
+  "analysis_name": "subj01_representational_geometry_reliability_s1",
+  "created_unix_time": 1787213752.5070071,
+  "elapsed_seconds": 119.15324211120605,
+  "subject": "subj01",
+  "source_cache_directory": "/opt/data/private/BA/UMBRAE/umbrae/fgw_cache/subj01/train_seed42/geometry_fit",
+  "source_analysis_split": "geometry_fit",
+  "cache_ordered_sample_id_sha256": "297854b3cbf358f97d425f8ec9c768d27481b461b357463479f2c0ec07d7b1b8",
+  "brain_feature": "projected_roi_features",
+  "brain_feature_shape": [
+    5135,
+    8,
+    1024
+  ],
+  "clip_feature_shape": [
+    5135,
+    6,
+    1024
+  ],
+  "roi_names": [
+    "V1",
+    "V2",
+    "V3",
+    "hV4",
+    "FFA",
+    "EBA",
+    "PPA",
+    "OPA"
+  ],
+  "clip_layers": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "clip_layer_labels": [
+    "L4",
+    "L8",
+    "L12",
+    "L16",
+    "L20",
+    "L24"
+  ],
+  "clip_pooling_method": "mean_non_cls_patch_tokens",
+  "geometry_type": "cosine_rsa_spearman",
+  "stimulus_distance": "1 - cosine similarity",
+  "node_relation": "1 - Spearman correlation of upper-triangle RDM vectors",
+  "brain_matrix_semantics": "ROI representational geometry relation matrix",
+  "brain_matrix_is_anatomical_distance": false,
+  "hierarchy_claimed": false,
+  "anchor_subset_size": 1000,
+  "anchor_stable_id_sha256": "107de8f0be26c25f6addda319ef621e5d627e64da9d644ecef811d846c4d8d93",
+  "bootstrap_count": 100,
+  "null_count": 1000,
+  "random_seed": 42,
+  "device": "cuda",
+  "full_stimulus_rdm_saved": false,
+  "memory_strategy": "fixed anchor subset; temporary float32 node RDMs in RAM; upper-triangle vectors for relation estimates",
+  "repeat_metadata_available": true,
+  "trial_metadata_available": true,
+  "repeat_reduction_in_cache": "mean_of_first_num_uniques_rows_in_float32",
+  "repeat_aware_geometry": {
+    "computed": false,
+    "crossnobis_computed": false,
+    "reason": "The cache contains one ROI representation after averaging repeats per stimulus and only one scalar trial_id per sample; it has no repeat-resolved representations or independent session/run partitions."
+  },
+  "voxel_counts": {
+    "V1": 1350,
+    "V2": 1433,
+    "V3": 1187,
+    "hV4": 687,
+    "FFA": 687,
+    "EBA": 2238,
+    "PPA": 720,
+    "OPA": 1532
+  },
+  "voxel_count_error": null,
+  "clip_feature_diagnostics": {
+    "L4": {
+      "mean_feature_variance": 0.004626044238202894,
+      "median_feature_variance": 0.0010503908854645038,
+      "near_zero_variance_fraction": 0.0,
+      "representation_norm_mean": 3.7354949873983623,
+      "representation_norm_std": 0.4388050119001958,
+      "representation_norm_median": 3.6695719684721735,
+      "representation_norm_min": 2.7314525830219853,
+      "representation_norm_max": 6.568238228404381
+    },
+    "L8": {
+      "mean_feature_variance": 0.005080403890540132,
+      "median_feature_variance": 0.002070526688485867,
+      "near_zero_variance_fraction": 0.0,
+      "representation_norm_mean": 3.374400757439654,
+      "representation_norm_std": 0.4317487280776865,
+      "representation_norm_median": 3.2907999741884306,
+      "representation_norm_min": 2.456071081092732,
+      "representation_norm_max": 6.129451252335546
+    },
+    "L12": {
+      "mean_feature_variance": 0.0037229678959896277,
+      "median_feature_variance": 0.0022398690524789546,
+      "near_zero_variance_fraction": 0.0,
+      "representation_norm_mean": 3.071429516636165,
+      "representation_norm_std": 0.29292026160949547,
+      "representation_norm_median": 3.027372760968933,
+      "representation_norm_min": 2.257267282662278,
+      "representation_norm_max": 4.761319269094562
+    },
+    "L16": {
+      "mean_feature_variance": 0.0055175980262422,
+      "median_feature_variance": 0.004250220722253375,
+      "near_zero_variance_fraction": 0.0,
+      "representation_norm_mean": 4.2313428588692865,
+      "representation_norm_std": 0.3983080403231915,
+      "representation_norm_median": 4.201432662564673,
+      "representation_norm_min": 2.9629891583185004,
+      "representation_norm_max": 6.234545740952704
+    },
+    "L20": {
+      "mean_feature_variance": 0.016734070627682236,
+      "median_feature_variance": 0.0150524496965454,
+      "near_zero_variance_fraction": 0.0,
+      "representation_norm_mean": 7.050623777556785,
+      "representation_norm_std": 0.565163369036348,
+      "representation_norm_median": 6.999173909584889,
+      "representation_norm_min": 5.349812453469985,
+      "representation_norm_max": 10.123575536676912
+    },
+    "L24": {
+      "mean_feature_variance": 0.04155130710504473,
+      "median_feature_variance": 0.037353089569567136,
+      "near_zero_variance_fraction": 0.0,
+      "representation_norm_mean": 15.25515616441134,
+      "representation_norm_std": 0.9530824967524746,
+      "representation_norm_median": 15.190205648888453,
+      "representation_norm_min": 12.611897728425316,
+      "representation_norm_max": 19.875229091541755
+    }
+  },
+  "heatmaps_saved": true,
+  "leakage_control": {
+    "only_geometry_fit_loaded": true,
+    "feature_cost_fit_loaded": false,
+    "heldout_eval_loaded": false,
+    "umbrae_loaded": false,
+    "shikra_loaded": false,
+    "stage2_modified": false
+  },
+  "preliminary_go_no_go": {
+    "status": "GO",
+    "rule": "GO requires split-half Spearman above the 97.5th percentile of the node-label permutation null with one-sided p<=0.05, plus bootstrap median Spearman-to-full >=0.5 and its 95% CI lower bound >0",
+    "passes_split_half_null": true,
+    "passes_bootstrap_reproducibility": true,
+    "note": "This is a preliminary representation-reliability gate, not evidence of anatomical distance or cortical hierarchy."
+  }
+}

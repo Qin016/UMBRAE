@@ -1,0 +1,339 @@
+{
+  "target_utilization": {
+    "target_marginal": {
+      "L4": 0.25,
+      "L8": 0.0,
+      "L12": 1.1731764744576134e-06,
+      "L16": 0.24999882659856792,
+      "L20": 2.249576019214025e-10,
+      "L24": 0.5
+    },
+    "target_entropy": 1.0397363432093498,
+    "effective_target_layer_count": 2.828471170401235,
+    "maximum_target_mass": 0.5,
+    "target_mass_sum": 1.0
+  },
+  "roi_rows": {
+    "V1": {
+      "row_distribution": {
+        "L4": 1.0,
+        "L8": 0.0,
+        "L12": 0.0,
+        "L16": 0.0,
+        "L20": 0.0,
+        "L24": 0.0
+      },
+      "row_entropy": -1.000088900581841e-12,
+      "row_max_mass": 1.0,
+      "preferred_layer_descriptive": "L4",
+      "expected_clip_depth_under_coupling": 4.0
+    },
+    "V2": {
+      "row_distribution": {
+        "L4": 1.0,
+        "L8": 0.0,
+        "L12": 0.0,
+        "L16": 0.0,
+        "L20": 0.0,
+        "L24": 0.0
+      },
+      "row_entropy": -1.000088900581841e-12,
+      "row_max_mass": 1.0,
+      "preferred_layer_descriptive": "L4",
+      "expected_clip_depth_under_coupling": 4.0
+    },
+    "V3": {
+      "row_distribution": {
+        "L4": 0.0,
+        "L8": 0.0,
+        "L12": 9.385411795660907e-06,
+        "L16": 0.9999906145882043,
+        "L20": 0.0,
+        "L24": 0.0
+      },
+      "row_entropy": 0.00011803421523655181,
+      "row_max_mass": 0.9999906145882043,
+      "preferred_layer_descriptive": "L16",
+      "expected_clip_depth_under_coupling": 15.999962458352815
+    },
+    "hV4": {
+      "row_distribution": {
+        "L4": 0.0,
+        "L8": 0.0,
+        "L12": 0.0,
+        "L16": 0.9999999982003391,
+        "L20": 1.79966081537122e-09,
+        "L24": 0.0
+      },
+      "row_entropy": 3.8035033180326866e-08,
+      "row_max_mass": 0.9999999982003391,
+      "preferred_layer_descriptive": "L16",
+      "expected_clip_depth_under_coupling": 16.000000007198643
+    },
+    "FFA": {
+      "row_distribution": {
+        "L4": 0.0,
+        "L8": 0.0,
+        "L12": 0.0,
+        "L16": 0.0,
+        "L20": 0.0,
+        "L24": 1.0
+      },
+      "row_entropy": -1.000088900581841e-12,
+      "row_max_mass": 1.0,
+      "preferred_layer_descriptive": "L24",
+      "expected_clip_depth_under_coupling": 24.0
+    },
+    "EBA": {
+      "row_distribution": {
+        "L4": 0.0,
+        "L8": 0.0,
+        "L12": 0.0,
+        "L16": 0.0,
+        "L20": 0.0,
+        "L24": 1.0
+      },
+      "row_entropy": -1.000088900581841e-12,
+      "row_max_mass": 1.0,
+      "preferred_layer_descriptive": "L24",
+      "expected_clip_depth_under_coupling": 24.0
+    },
+    "PPA": {
+      "row_distribution": {
+        "L4": 0.0,
+        "L8": 0.0,
+        "L12": 0.0,
+        "L16": 0.0,
+        "L20": 0.0,
+        "L24": 1.0
+      },
+      "row_entropy": -1.000088900581841e-12,
+      "row_max_mass": 1.0,
+      "preferred_layer_descriptive": "L24",
+      "expected_clip_depth_under_coupling": 24.0
+    },
+    "OPA": {
+      "row_distribution": {
+        "L4": 0.0,
+        "L8": 0.0,
+        "L12": 0.0,
+        "L16": 0.0,
+        "L20": 0.0,
+        "L24": 1.0
+      },
+      "row_entropy": -1.000088900581841e-12,
+      "row_max_mass": 1.0,
+      "preferred_layer_descriptive": "L24",
+      "expected_clip_depth_under_coupling": 24.0
+    }
+  },
+  "mean_row_entropy": 1.4759030533649841e-05,
+  "pairwise_jensen_shannon_divergence": [
+    [
+      0.0,
+      0.0,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454
+    ],
+    [
+      0.0,
+      0.0,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454
+    ],
+    [
+      0.6931471805599454,
+      0.6931471805599454,
+      0.0,
+      3.253370583762024e-06,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454
+    ],
+    [
+      0.6931471805599454,
+      0.6931471805599454,
+      3.253370583762024e-06,
+      0.0,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454
+    ],
+    [
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "mean_pairwise_jensen_shannon_divergence": 0.4951052451631961,
+  "row_correlation_matrix": [
+    [
+      1.0,
+      1.0,
+      -0.20000225251574347,
+      -0.20000000043191862,
+      -0.2,
+      -0.2,
+      -0.2,
+      -0.2
+    ],
+    [
+      1.0,
+      1.0,
+      -0.20000225251574347,
+      -0.20000000043191862,
+      -0.2,
+      -0.2,
+      -0.2,
+      -0.2
+    ],
+    [
+      -0.20000225251574347,
+      -0.20000225251574347,
+      0.9999999999999999,
+      0.9999999999577136,
+      -0.20000225251574347,
+      -0.20000225251574347,
+      -0.20000225251574347,
+      -0.20000225251574347
+    ],
+    [
+      -0.2000000004319186,
+      -0.2000000004319186,
+      0.9999999999577136,
+      1.0,
+      -0.2000000004319186,
+      -0.2000000004319186,
+      -0.2000000004319186,
+      -0.2000000004319186
+    ],
+    [
+      -0.2,
+      -0.2,
+      -0.20000225251574344,
+      -0.20000000043191857,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      -0.2,
+      -0.2,
+      -0.20000225251574344,
+      -0.20000000043191857,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      -0.2,
+      -0.2,
+      -0.20000225251574344,
+      -0.20000000043191857,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      -0.2,
+      -0.2,
+      -0.20000225251574344,
+      -0.20000000043191857,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "specialization_caution": "High pairwise JS alone is not evidence of meaningful or stable ROI specialization.",
+  "depth_caution": "Expected CLIP depth under coupling is descriptive, not biological hierarchy.",
+  "feature_variance_confound_diagnostics": {
+    "registered_prompt2r_rho": 0.776,
+    "registered_prompt2r_p": 0.0236,
+    "feature_variance_vs_row_entropy": {
+      "spearman": -0.7325886315065459,
+      "two_sided_p": 0.03873063222381196
+    },
+    "feature_variance_vs_row_max_mass": {
+      "spearman": 0.7325886315065459,
+      "two_sided_p": 0.03873063222381196
+    },
+    "feature_variance_vs_expected_clip_depth": {
+      "spearman": 0.7023629858283458,
+      "two_sided_p": 0.05207881873737844
+    },
+    "used_for_candidate_selection": false
+  },
+  "optimization": {
+    "total_objective": 0.6647209151789986,
+    "feature_raw": 0.13307890716384488,
+    "feature_normalized": 0.73158715108986,
+    "gw_raw": 0.0877298777052113,
+    "gw_normalized": 0.4340412824056657,
+    "coverage_loss": 0.7520231260187052,
+    "entropy_loss": -2.079456300701622,
+    "shannon_plan_entropy": 2.079456300701622,
+    "method": "sr_fgw_coverage",
+    "structure_weight": 0.25,
+    "coverage_weight": 0.01,
+    "entropy_weight": 0.0,
+    "initialization_variability": {
+      "initialization_count": 5,
+      "objective_min": 0.6647209151789986,
+      "objective_max": 0.6912385808185746,
+      "objective_range": 0.026517665639576027,
+      "pairwise_plan_frobenius_min": 0.05929801632048396,
+      "pairwise_plan_frobenius_mean": 0.3664570627244718,
+      "pairwise_plan_frobenius_max": 0.4999996824331941,
+      "converged_count": 2
+    }
+  }
+}

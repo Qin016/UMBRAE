@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "horizontal_extent_degrees": 8.4,
+  "vertical_extent_degrees": 8.4,
+  "bounds_degrees": {
+    "x": [
+      -4.2,
+      4.2
+    ],
+    "y": [
+      -4.2,
+      4.2
+    ]
+  },
+  "square_aperture": true,
+  "circular_aperture": false,
+  "stimulus_radius_degrees": null,
+  "official_evidence": [
+    {
+      "source": "Allen et al. 2022 Nature Neuroscience, Extended Data Fig. 7 caption",
+      "url": "https://www.nature.com/articles/s41593-021-00962-x",
+      "statement": "total stimulus extent is 8.4\u00b0 \u00d7 8.4\u00b0 in the pRF, fLoc, and NSD experiments"
+    },
+    {
+      "source": "/opt/data/private/BA/NSD/nsd_prf_recovery/subj01/metadata/nsddatapaper_analysis_prf.m",
+      "line": 53,
+      "parameter": "pxtodeg = 8.4/200",
+      "units": "degrees per pRF stimulus pixel"
+    }
+  ],
+  "natural_image_geometry": "square image extent; no circular mask in the NSD natural-image interface",
+  "local_image_audit": {
+    "webdataset_sample_shape": [
+      256,
+      256
+    ],
+    "mode": "RGB"
+  }
+}

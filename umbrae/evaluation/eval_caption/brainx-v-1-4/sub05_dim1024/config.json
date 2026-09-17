@@ -1,0 +1,17 @@
+{
+    "shikra_path": "model_weights/shikra-7b",
+    "brainx_path": "train_logs/brainx-v-1-4/last.pth",
+    "adapter_path": "model_weights/mm_projector.bin",
+    "fmri_encoder": "brainx",
+    "use_norm": false,
+    "use_token": false,
+    "feat_dim": 1024,
+    "data_path": "nsd",
+    "save_path": "evaluation/eval_caption/brainx-v-1-4",
+    "save_image": false,
+    "prompt": "Describe this image <image> as simply as possible.",
+    "subj": 5,
+    "seed": 42,
+    "max_samples": null,
+    "max_new_tokens": 512
+}

@@ -1,0 +1,263 @@
+{
+  "protocol_version": "s1_stage2_development_summary_v1",
+  "development_subject": "subj01",
+  "locked_gamma": 0.25,
+  "status": "READY_FOR_REPLICATION",
+  "runs": [
+    {
+      "run": "uniform_prior",
+      "method": "Uniform prior",
+      "gamma": 0.0,
+      "architecture_48_tokens": true,
+      "selected_epoch": 2,
+      "CIDEr": 0.4003704294917705,
+      "BLEU-1": 0.5234883160684173,
+      "BLEU-2": 0.3491909332236317,
+      "BLEU-3": 0.24146435762256457,
+      "BLEU-4": 0.1709039457453991,
+      "ROUGE-L": 0.40878382571053395,
+      "validation_lm_loss": 1.9156424804528553,
+      "selected_checkpoint": "checkpoint_epoch002.pt",
+      "selected_checkpoint_sha256": "1984f72f69937971dfd2079e062e43816b4e191ab7e3f115c4b81f6c1da8af87",
+      "training_time_seconds": 4549.916787989903,
+      "peak_gpu_memory_bytes": 19675003904,
+      "trainable_parameter_count": 40167424,
+      "frozen_parameter_count": 6890397052,
+      "fgw_trainable_correspondence_parameter_count": 0,
+      "leakage_assertions_passed": true
+    },
+    {
+      "run": "fgw_gamma025",
+      "method": "FGW",
+      "gamma": 0.25,
+      "architecture_48_tokens": true,
+      "selected_epoch": 2,
+      "CIDEr": 0.42219941286267226,
+      "BLEU-1": 0.5270303628733646,
+      "BLEU-2": 0.35062938707306124,
+      "BLEU-3": 0.23727991484700273,
+      "BLEU-4": 0.1636082912138337,
+      "ROUGE-L": 0.4110139225845322,
+      "validation_lm_loss": 1.9199490022659302,
+      "selected_checkpoint": "checkpoint_epoch002.pt",
+      "selected_checkpoint_sha256": "e2bcdff6560e87e13f8fec857477b7fff9804386edbb657624db665f8f072151",
+      "training_time_seconds": 4572.927070399281,
+      "peak_gpu_memory_bytes": 19675003904,
+      "trainable_parameter_count": 40167424,
+      "frozen_parameter_count": 6890397052,
+      "fgw_trainable_correspondence_parameter_count": 0,
+      "leakage_assertions_passed": true
+    },
+    {
+      "run": "fgw_gamma050",
+      "method": "FGW",
+      "gamma": 0.5,
+      "architecture_48_tokens": true,
+      "selected_epoch": 1,
+      "CIDEr": 0.4150722314371146,
+      "BLEU-1": 0.5128589263420724,
+      "BLEU-2": 0.34382210002149793,
+      "BLEU-3": 0.2356661844279469,
+      "BLEU-4": 0.164803740239906,
+      "ROUGE-L": 0.4027829894651382,
+      "validation_lm_loss": 1.9446665271123251,
+      "selected_checkpoint": "checkpoint_epoch001.pt",
+      "selected_checkpoint_sha256": "900b90c231396c934f96fd23e758d037bb0abce0e80344ba875a0ea374f36171",
+      "training_time_seconds": 4588.61830948526,
+      "peak_gpu_memory_bytes": 19675003904,
+      "trainable_parameter_count": 40167424,
+      "frozen_parameter_count": 6890397052,
+      "fgw_trainable_correspondence_parameter_count": 0,
+      "leakage_assertions_passed": true
+    },
+    {
+      "run": "fgw_gamma100",
+      "method": "FGW",
+      "gamma": 1.0,
+      "architecture_48_tokens": true,
+      "selected_epoch": 1,
+      "CIDEr": 0.3936401297660021,
+      "BLEU-1": 0.5147689977278465,
+      "BLEU-2": 0.3418273743694299,
+      "BLEU-3": 0.23409412295105556,
+      "BLEU-4": 0.1643290568482566,
+      "ROUGE-L": 0.39705388215732523,
+      "validation_lm_loss": 1.9383742455641428,
+      "selected_checkpoint": "checkpoint_epoch001.pt",
+      "selected_checkpoint_sha256": "edab9eb76642abddaaeee00c23ecbfa86fdffe354e1fd18269a4503837852f29",
+      "training_time_seconds": 4913.496438623406,
+      "peak_gpu_memory_bytes": 19675003904,
+      "trainable_parameter_count": 40167424,
+      "frozen_parameter_count": 6890397052,
+      "fgw_trainable_correspondence_parameter_count": 0,
+      "leakage_assertions_passed": true
+    },
+    {
+      "run": "row_shuffled_fgw",
+      "method": "Row-shuffled FGW",
+      "gamma": 0.25,
+      "architecture_48_tokens": true,
+      "selected_epoch": 3,
+      "CIDEr": 0.4428686199127886,
+      "BLEU-1": 0.5299248849042888,
+      "BLEU-2": 0.36077950035030515,
+      "BLEU-3": 0.2520708689224981,
+      "BLEU-4": 0.18178076330006424,
+      "ROUGE-L": 0.4151117133607011,
+      "validation_lm_loss": 1.9113587148984272,
+      "selected_checkpoint": "checkpoint_epoch003.pt",
+      "selected_checkpoint_sha256": "82ec4e71ebe874a5c1bb9ef141aee52aaa6e4c422415110d9d237c2d8f5259b9",
+      "training_time_seconds": 5603.212869622745,
+      "peak_gpu_memory_bytes": 19675003904,
+      "trainable_parameter_count": 40167424,
+      "frozen_parameter_count": 6890397052,
+      "fgw_trainable_correspondence_parameter_count": 0,
+      "leakage_assertions_passed": true
+    }
+  ],
+  "comparisons": {
+    "FGW_locked_minus_Uniform": {
+      "CIDEr_point_difference": 0.021828983370901778,
+      "BLEU-4_point_difference": -0.007295654531565415,
+      "ROUGE-L_point_difference": 0.002230096873998222,
+      "CIDEr_per_stimulus_descriptive": {
+        "per_stimulus_mean_difference": 0.02182898337090173,
+        "paired_bootstrap_95_interval": [
+          -0.014713943294611148,
+          0.058860239720299835
+        ],
+        "stimulus_count": 300,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 62002,
+        "descriptive_only": true
+      },
+      "ROUGE-L_per_stimulus_descriptive": {
+        "per_stimulus_mean_difference": 0.0022300968739982167,
+        "paired_bootstrap_95_interval": [
+          -0.009199325679496056,
+          0.013261067144509205
+        ],
+        "stimulus_count": 300,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 62002,
+        "descriptive_only": true
+      },
+      "BLEU-4_interval": null,
+      "BLEU-4_interval_note": "The fixed evaluator exposes corpus BLEU-4, not per-stimulus BLEU-4."
+    },
+    "FGW_locked_minus_RowShuffled": {
+      "CIDEr_point_difference": -0.020669207050116323,
+      "BLEU-4_point_difference": -0.018172472086230546,
+      "ROUGE-L_point_difference": -0.004097790776168897,
+      "CIDEr_per_stimulus_descriptive": {
+        "per_stimulus_mean_difference": -0.020669207050116423,
+        "paired_bootstrap_95_interval": [
+          -0.06597145180140411,
+          0.02088028368399996
+        ],
+        "stimulus_count": 300,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 62002,
+        "descriptive_only": true
+      },
+      "ROUGE-L_per_stimulus_descriptive": {
+        "per_stimulus_mean_difference": -0.004097790776168855,
+        "paired_bootstrap_95_interval": [
+          -0.01727004506886116,
+          0.008729263050659346
+        ],
+        "stimulus_count": 300,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 62002,
+        "descriptive_only": true
+      },
+      "BLEU-4_interval": null,
+      "BLEU-4_interval_note": "The fixed evaluator exposes corpus BLEU-4, not per-stimulus BLEU-4."
+    }
+  },
+  "data_audit": {
+    "train": {
+      "sample_count": 8559,
+      "unique_sample_ids": 8559,
+      "unique_stimuli": 8559,
+      "stimulus_id_sha256": "1e6d1c0b50df629aa5a68107a2866fb68daa11d4ec7ec0278771e1bcb681e300",
+      "sample_id_sha256": "08fe9b1e72de141718c38adfeab25a7d787dc79c08fbcd4ee665b83d6fff5980",
+      "missing_reference_count": 0,
+      "duplicate_reference_count": 2,
+      "reference_count_min": 4,
+      "reference_count_max": 6,
+      "reference_count_mean": 5.000701016473887,
+      "reference_count_histogram": {
+        "4": 14,
+        "5": 8525,
+        "6": 20
+      },
+      "image_or_clip_members_present_but_not_loaded": 8559,
+      "tar_paths": [
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_0.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_1.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_10.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_11.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_12.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_13.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_14.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_15.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_16.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_17.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_2.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_3.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_4.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_5.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_6.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_7.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_8.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_9.tar"
+      ]
+    },
+    "validation": {
+      "sample_count": 300,
+      "unique_sample_ids": 300,
+      "unique_stimuli": 300,
+      "stimulus_id_sha256": "ba1ce60dc8a5e8c2724b94c73de112405bbd32ab9e88b6147a999964a9b7d1d6",
+      "sample_id_sha256": "e9560c2707a2f75f7a844423f82a2cbc9039c9d31db679549240a76eb473fcae",
+      "missing_reference_count": 0,
+      "duplicate_reference_count": 0,
+      "reference_count_min": 5,
+      "reference_count_max": 5,
+      "reference_count_mean": 5.0,
+      "reference_count_histogram": {
+        "5": 300
+      },
+      "image_or_clip_members_present_but_not_loaded": 300,
+      "tar_paths": [
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/val/val_subj01_0.tar"
+      ]
+    },
+    "protected_test": {
+      "sample_count": 982,
+      "unique_sample_ids": 982,
+      "unique_stimuli": 982,
+      "stimulus_id_sha256": "b9d0f9ccabc3cf4645720563e19d0c2997eccc03da66ad705524c2f69981e802",
+      "sample_id_sha256": "4bef081928633650797f1d2726dd1f61de28b9f1858caaca2b09726a1778e948",
+      "missing_reference_count": 0,
+      "duplicate_reference_count": 0,
+      "reference_count_min": 5,
+      "reference_count_max": 6,
+      "reference_count_mean": 5.002036659877801,
+      "reference_count_histogram": {
+        "5": 980,
+        "6": 2
+      },
+      "image_or_clip_members_present_but_not_loaded": 982,
+      "tar_paths": [
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/test/test_subj01_0.tar",
+        "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/test/test_subj01_1.tar"
+      ]
+    },
+    "protected_test_performance_accessed": false
+  },
+  "all_trainable_parameter_sets_identical": true,
+  "all_leakage_assertions_passed": true,
+  "protected_test_metrics_produced": false,
+  "development_intervals_are_descriptive_only": true
+}

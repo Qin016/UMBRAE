@@ -1,0 +1,77 @@
+{
+  "source_interface": {
+    "val_loss": 0.4684731960296631,
+    "val_proj_cos": 0.39174957990646364,
+    "val_proj_mse": 2.8374204508463543,
+    "val_preproj_cos": 0.45455403844515485,
+    "val_preserve": -6.364037667220638e-11,
+    "val_norm": 0.2894008892774582,
+    "projected_paired_token_cosine": 0.6082504200935364,
+    "projected_oracle_gap": 0.39174957990646364,
+    "preprojector_paired_cosine": 0.5454459615548451,
+    "adapter_correction_ratio": 0.0,
+    "projected_norm_ratio": 0.6665292382240295,
+    "gate": 0.09975048154592514,
+    "rsa": {
+      "spearman_rsa": 0.8745419642578643,
+      "pearson_rsa": 0.8881982941378588,
+      "stimulus_count": 300
+    },
+    "hard_retrieval": {
+      "K": 99,
+      "candidate_count": 100,
+      "hard_negative_source": "frozen CLIP visual cosine nearest neighbors; target excluded",
+      "recall_at_1": 0.9966666666666667,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "mrr": 0.9973333333333333,
+      "median_rank": 1.0,
+      "mean_rank": 1.0133333333333334,
+      "candidate_indices_sha256": "fdc01c5b611300ffea2bbf4e1d26756a51744e5b743a85c4ad571df6c69a8fd0"
+    },
+    "sample_count": 300,
+    "identity_adapter_used_for_measurement": true,
+    "adapter_max_abs_correction": 0.0
+  },
+  "selected_interface": {
+    "epoch": 8,
+    "train_loss": 0.4644469616464371,
+    "train_proj_cos": 0.3894377130188526,
+    "train_proj_mse": 2.72384723693303,
+    "train_preproj_cos": 0.45378468086513657,
+    "train_preserve": 0.0032650288265961896,
+    "train_norm": 0.2065805637007047,
+    "train_grad_norm": 0.006290378510161585,
+    "val_loss": 0.46301163991292316,
+    "val_proj_cos": 0.38743777592976886,
+    "val_proj_mse": 2.7788391304016113,
+    "val_preproj_cos": 0.4526509356498718,
+    "val_preserve": 0.0033790888140598934,
+    "val_norm": 0.21824793835481007,
+    "projected_paired_token_cosine": 0.6125622240702311,
+    "projected_oracle_gap": 0.38743777592976886,
+    "preprojector_paired_cosine": 0.5473490643501282,
+    "adapter_correction_ratio": 0.09155232593417167,
+    "projected_norm_ratio": 0.6786942481994629,
+    "gate": 0.19714750349521637,
+    "rsa": {
+      "spearman_rsa": 0.8512976687052656,
+      "pearson_rsa": 0.8652186335481846,
+      "stimulus_count": 300
+    },
+    "hard_retrieval": {
+      "K": 99,
+      "candidate_count": 100,
+      "hard_negative_source": "frozen CLIP visual cosine nearest neighbors; target excluded",
+      "recall_at_1": 0.9933333333333333,
+      "recall_at_5": 0.9966666666666667,
+      "recall_at_10": 0.9966666666666667,
+      "mrr": 0.9952777777777779,
+      "median_rank": 1.0,
+      "mean_rank": 1.04,
+      "candidate_indices_sha256": "fdc01c5b611300ffea2bbf4e1d26756a51744e5b743a85c4ad571df6c69a8fd0"
+    },
+    "sample_count": 300,
+    "epoch_wall_seconds": 552.5570738315582
+  }
+}

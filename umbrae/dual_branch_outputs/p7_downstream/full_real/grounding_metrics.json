@@ -1,0 +1,41 @@
+{
+  "query_count": 2419,
+  "threshold": 0.5,
+  "mean_iou": 0.2179408222436905,
+  "grounding_accuracy": 0.19801570897064902,
+  "parse_failures": 4,
+  "target_failures": 0,
+  "failure_policy": "parse failure becomes [0,0,0,0] and remains in accuracy denominator",
+  "category_metrics": {
+    "coco_cats": {
+      "accuracy": 0.19801570897064902,
+      "iou": 0.2179408222436905,
+      "target_failed": 0,
+      "failed": 4
+    },
+    "salient": {
+      "accuracy": 0.31198808637379,
+      "iou": 0.30871835350990295,
+      "target_failed": 0,
+      "failed": 2
+    },
+    "salient_creatures": {
+      "accuracy": 0.41714285714285715,
+      "iou": 0.3799319565296173,
+      "target_failed": 0,
+      "failed": 1
+    },
+    "salient_objects": {
+      "accuracy": 0.19751166407465007,
+      "iou": 0.23119191825389862,
+      "target_failed": 0,
+      "failed": 1
+    },
+    "inconspicuous_objects": {
+      "accuracy": 0.055762081784386616,
+      "iou": 0.10463760048151016,
+      "target_failed": 0,
+      "failed": 2
+    }
+  }
+}

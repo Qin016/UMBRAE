@@ -1,0 +1,23 @@
+{
+  "mean": {
+    "mean_iou": 0.2181234508752823,
+    "grounding_accuracy": 0.19842910293509713,
+    "parse_failures": 3,
+    "target_failures": 0,
+    "query_count": 2419
+  },
+  "affine": {
+    "mean_iou": 0.16682133078575134,
+    "grounding_accuracy": 0.14634146341463414,
+    "parse_failures": 460,
+    "target_failures": 0,
+    "query_count": 2419
+  },
+  "wct": {
+    "mean_iou": 0.18816502392292023,
+    "grounding_accuracy": 0.1653575857792476,
+    "parse_failures": 180,
+    "target_failures": 0,
+    "query_count": 2419
+  }
+}

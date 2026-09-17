@@ -1,0 +1,125 @@
+{
+  "lock_scope": "configuration only; not a final transport plan",
+  "method": "sr_fgw",
+  "structure_weight": 0.5,
+  "coverage_weight": 0.0,
+  "entropy_weight": 0.0,
+  "solver_settings": {
+    "learning_rate": 0.1,
+    "max_iterations": 2500,
+    "tolerance": 1e-11,
+    "patience": 80,
+    "eps_coverage": 1e-12,
+    "entropy_weight": 0.0,
+    "projection": "Euclidean row-simplex projection"
+  },
+  "initialization_specs": [
+    [
+      "uniform",
+      0
+    ],
+    [
+      "feature_informed",
+      0
+    ],
+    [
+      "random",
+      1001
+    ],
+    [
+      "random",
+      1002
+    ],
+    [
+      "random",
+      1003
+    ],
+    [
+      "random",
+      1004
+    ],
+    [
+      "random",
+      1005
+    ],
+    [
+      "random",
+      1006
+    ],
+    [
+      "random",
+      1007
+    ],
+    [
+      "random",
+      1008
+    ],
+    [
+      "random",
+      1009
+    ],
+    [
+      "random",
+      1010
+    ],
+    [
+      "random",
+      1011
+    ],
+    [
+      "random",
+      1012
+    ],
+    [
+      "random",
+      1013
+    ],
+    [
+      "random",
+      1014
+    ],
+    [
+      "random",
+      1015
+    ],
+    [
+      "random",
+      1016
+    ],
+    [
+      "random",
+      1017
+    ],
+    [
+      "random",
+      1018
+    ]
+  ],
+  "best_discovery_initialization": [
+    "random",
+    1006
+  ],
+  "fixed_loss_calibration": {
+    "s_feature": 0.18190438003847248,
+    "s_gw": 0.202123349231981,
+    "eps_scale": 1e-12
+  },
+  "selection_criterion": "lowest 0.5*validation_feature_norm + 0.5*validation_gw_norm",
+  "selection_split": "offline_validation",
+  "initialization_selection_split": "offline_discovery",
+  "matrix_hashes": {
+    "stimulus_manifest_sha256": "9ad3e1111e730040e82655ecaad7c76a8b0525574391ecc3ab884d584dfebee0",
+    "preregistered_grid_sha256": "ab6bbb2f61906dcfc77fabc28636bb3baca1ed0781393a076dc5c285310d8902",
+    "feature_cost_discovery_sha256": "11e217440ed1f47e6ca1f9dbeec8a60c7d4147285c4abb77ff0343f7fba8e1a7",
+    "brain_geometry_discovery_sha256": "0ce5e158f71f50fe0ccd619890aee75b2d888f372d619fc9a3dc6bf96842f976",
+    "clip_geometry_discovery_sha256": "d6524f1537608d1fe6e2e4a719a24432ed22a18757c6d05dea6b8f90abc564bb",
+    "feature_cost_validation_sha256": "bd8702ea83ebcf35ba1907473f3c01071a95364dd520a023a0b8a997af97ff37",
+    "brain_geometry_validation_sha256": "79583179372f1fc59a2c7a90607a5a3229480b85f98f38f903b14628f65bf1e4",
+    "clip_geometry_validation_sha256": "27bae98fad30d0ee012f3279b2d6963cd0fe6a67c9974ab98cdeb679daff5f71",
+    "validation_script_sha256": "bae5c23ce7080fdf7842e34a506ba2f6ade6d7f8d8ea07c7cb099f32c03b3a76"
+  },
+  "VALIDATION_STATUS": "READY_FOR_OFFLINE_TEST",
+  "exploratory_single_subject": true,
+  "authorizes_offline_test": true,
+  "best_transport_plan_created": false
+}

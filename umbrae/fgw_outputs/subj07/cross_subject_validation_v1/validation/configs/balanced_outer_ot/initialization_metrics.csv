@@ -1,0 +1,2 @@
+initialization_kind,initialization_seed,discovery_objective,converged,iterations,stopping_reason,validation_feature_raw,validation_feature_normalized,validation_gw_raw,validation_gw_normalized,validation_composite
+linear_program,,0.9777236319187633,True,24,linear_program_optimum,0.18178681173961872,0.9554566490627169,0.12264253451402415,0.5892713169632952,0.772363983013006

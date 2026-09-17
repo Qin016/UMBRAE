@@ -1,0 +1,677 @@
+{
+  "analysis_name": "local_minimum_identifiability",
+  "near_optimal_relative_threshold": 0.01,
+  "top_k": 5,
+  "configs": {
+    "sr_fgw_beta_0p5": {
+      "status": "AVAILABLE",
+      "best_converged_discovery_objective": 0.5553984259105149,
+      "near_optimal_relative_threshold": 0.01,
+      "near_optimal_cutoff": 0.56095241016962,
+      "converged_count": 20,
+      "near_optimal_count": 5,
+      "near_optimal_initializations": [
+        [
+          "feature_informed",
+          0
+        ],
+        [
+          "random",
+          1011
+        ],
+        [
+          "uniform",
+          0
+        ],
+        [
+          "random",
+          1002
+        ],
+        [
+          "random",
+          1001
+        ]
+      ],
+      "near_optimal": {
+        "plan_count": 5,
+        "pair_count": 10,
+        "pairwise_frobenius_distance": {
+          "count": 10,
+          "mean": 0.2,
+          "std": 0.10540925533894599,
+          "median": 0.25,
+          "ci_2_5": 0.0,
+          "ci_97_5": 0.25
+        },
+        "mean_row_correlation": {
+          "count": 10,
+          "mean": 0.76,
+          "std": 0.1264911064067352,
+          "median": 0.7,
+          "ci_2_5": 0.7,
+          "ci_97_5": 1.0
+        },
+        "mean_row_js_divergence": {
+          "count": 10,
+          "mean": 0.13862943611198905,
+          "std": 0.07306412814311376,
+          "median": 0.17328679513998632,
+          "ci_2_5": 0.0,
+          "ci_97_5": 0.17328679513998632
+        },
+        "target_marginal_cosine_similarity": {
+          "count": 10,
+          "mean": 0.951135192126215,
+          "std": 0.04205613046906537,
+          "median": 0.9185586535436918,
+          "ci_2_5": 0.9185586535436918,
+          "ci_97_5": 1.0000000000000002
+        },
+        "target_marginal_l1_distance": {
+          "count": 10,
+          "mean": 0.3,
+          "std": 0.2581988897471611,
+          "median": 0.5,
+          "ci_2_5": 0.0,
+          "ci_97_5": 0.5
+        },
+        "preferred_layer_agreement_fraction": {
+          "count": 10,
+          "mean": 0.8,
+          "std": 0.10540925533894598,
+          "median": 0.75,
+          "ci_2_5": 0.75,
+          "ci_97_5": 1.0
+        },
+        "per_roi_row_correlation": [
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 0.28,
+            "std": 0.6196773353931867,
+            "median": -0.19999999999999998,
+            "ci_2_5": -0.19999999999999998,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 0.27999999999999997,
+            "std": 0.6196773353931867,
+            "median": -0.2,
+            "ci_2_5": -0.2,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 0.5199999999999999,
+            "std": 0.6196773353931867,
+            "median": 1.0,
+            "ci_2_5": -0.2,
+            "ci_97_5": 1.0
+          }
+        ]
+      },
+      "top_k": 5,
+      "top_k_initializations": [
+        [
+          "feature_informed",
+          0
+        ],
+        [
+          "random",
+          1011
+        ],
+        [
+          "uniform",
+          0
+        ],
+        [
+          "random",
+          1002
+        ],
+        [
+          "random",
+          1001
+        ]
+      ],
+      "top_k_analysis": {
+        "plan_count": 5,
+        "pair_count": 10,
+        "pairwise_frobenius_distance": {
+          "count": 10,
+          "mean": 0.2,
+          "std": 0.10540925533894599,
+          "median": 0.25,
+          "ci_2_5": 0.0,
+          "ci_97_5": 0.25
+        },
+        "mean_row_correlation": {
+          "count": 10,
+          "mean": 0.76,
+          "std": 0.1264911064067352,
+          "median": 0.7,
+          "ci_2_5": 0.7,
+          "ci_97_5": 1.0
+        },
+        "mean_row_js_divergence": {
+          "count": 10,
+          "mean": 0.13862943611198905,
+          "std": 0.07306412814311376,
+          "median": 0.17328679513998632,
+          "ci_2_5": 0.0,
+          "ci_97_5": 0.17328679513998632
+        },
+        "target_marginal_cosine_similarity": {
+          "count": 10,
+          "mean": 0.951135192126215,
+          "std": 0.04205613046906537,
+          "median": 0.9185586535436918,
+          "ci_2_5": 0.9185586535436918,
+          "ci_97_5": 1.0000000000000002
+        },
+        "target_marginal_l1_distance": {
+          "count": 10,
+          "mean": 0.3,
+          "std": 0.2581988897471611,
+          "median": 0.5,
+          "ci_2_5": 0.0,
+          "ci_97_5": 0.5
+        },
+        "preferred_layer_agreement_fraction": {
+          "count": 10,
+          "mean": 0.8,
+          "std": 0.10540925533894598,
+          "median": 0.75,
+          "ci_2_5": 0.75,
+          "ci_97_5": 1.0
+        },
+        "per_roi_row_correlation": [
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 0.28,
+            "std": 0.6196773353931867,
+            "median": -0.19999999999999998,
+            "ci_2_5": -0.19999999999999998,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 0.27999999999999997,
+            "std": 0.6196773353931867,
+            "median": -0.2,
+            "ci_2_5": -0.2,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 0.5199999999999999,
+            "std": 0.6196773353931867,
+            "median": 1.0,
+            "ci_2_5": -0.2,
+            "ci_97_5": 1.0
+          }
+        ]
+      }
+    },
+    "source_constrained_feature_coverage_lambda_1": {
+      "status": "AVAILABLE",
+      "best_converged_discovery_objective": 0.946360496022904,
+      "near_optimal_relative_threshold": 0.01,
+      "near_optimal_cutoff": 0.955824100983133,
+      "converged_count": 20,
+      "near_optimal_count": 20,
+      "near_optimal_initializations": [
+        [
+          "uniform",
+          0
+        ],
+        [
+          "random",
+          1009
+        ],
+        [
+          "random",
+          1011
+        ],
+        [
+          "random",
+          1004
+        ],
+        [
+          "random",
+          1005
+        ],
+        [
+          "random",
+          1007
+        ],
+        [
+          "random",
+          1008
+        ],
+        [
+          "random",
+          1010
+        ],
+        [
+          "random",
+          1012
+        ],
+        [
+          "feature_informed",
+          0
+        ],
+        [
+          "random",
+          1003
+        ],
+        [
+          "random",
+          1014
+        ],
+        [
+          "random",
+          1001
+        ],
+        [
+          "random",
+          1002
+        ],
+        [
+          "random",
+          1006
+        ],
+        [
+          "random",
+          1013
+        ],
+        [
+          "random",
+          1016
+        ],
+        [
+          "random",
+          1017
+        ],
+        [
+          "random",
+          1018
+        ],
+        [
+          "random",
+          1015
+        ]
+      ],
+      "near_optimal": {
+        "plan_count": 20,
+        "pair_count": 190,
+        "pairwise_frobenius_distance": {
+          "count": 190,
+          "mean": 9.363026635235727e-10,
+          "std": 6.584718846356885e-10,
+          "median": 8.240859818505503e-10,
+          "ci_2_5": 3.7094015253113515e-11,
+          "ci_97_5": 2.101606958102037e-09
+        },
+        "mean_row_correlation": {
+          "count": 190,
+          "mean": 1.0,
+          "std": 2.797499069501051e-17,
+          "median": 1.0,
+          "ci_2_5": 0.9999999999999999,
+          "ci_97_5": 1.0
+        },
+        "mean_row_js_divergence": {
+          "count": 190,
+          "mean": 1.761353454481193e-17,
+          "std": 1.0559097500406092e-17,
+          "median": 1.6873316749701387e-17,
+          "ci_2_5": 6.9215209816997735e-19,
+          "ci_97_5": 4.156187897266894e-17
+        },
+        "target_marginal_cosine_similarity": {
+          "count": 190,
+          "mean": 1.0,
+          "std": 1.3846913936850747e-16,
+          "median": 1.0,
+          "ci_2_5": 0.9999999999999997,
+          "ci_97_5": 1.0000000000000002
+        },
+        "target_marginal_l1_distance": {
+          "count": 190,
+          "mean": 7.298190610329301e-10,
+          "std": 5.132585277979258e-10,
+          "median": 6.423496318186395e-10,
+          "ci_2_5": 2.891363468093822e-11,
+          "ci_97_5": 1.638137896858849e-09
+        },
+        "preferred_layer_agreement_fraction": {
+          "count": 190,
+          "mean": 1.0,
+          "std": 0.0,
+          "median": 1.0,
+          "ci_2_5": 1.0,
+          "ci_97_5": 1.0
+        },
+        "per_roi_row_correlation": [
+          {
+            "count": 190,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 190,
+            "mean": 1.0,
+            "std": 8.314425770155346e-17,
+            "median": 1.0,
+            "ci_2_5": 0.9999999999999997,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 190,
+            "mean": 1.0,
+            "std": 1.5825044499257998e-16,
+            "median": 1.0,
+            "ci_2_5": 0.9999999999999996,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 190,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 190,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 190,
+            "mean": 1.0,
+            "std": 1.0404791257239116e-16,
+            "median": 1.0,
+            "ci_2_5": 0.9999999999999998,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 190,
+            "mean": 1.0,
+            "std": 1.0215022299769586e-16,
+            "median": 1.0,
+            "ci_2_5": 0.9999999999999998,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 190,
+            "mean": 1.0,
+            "std": 8.846468811825001e-17,
+            "median": 1.0,
+            "ci_2_5": 0.9999999999999998,
+            "ci_97_5": 1.0
+          }
+        ]
+      },
+      "top_k": 5,
+      "top_k_initializations": [
+        [
+          "uniform",
+          0
+        ],
+        [
+          "random",
+          1009
+        ],
+        [
+          "random",
+          1011
+        ],
+        [
+          "random",
+          1004
+        ],
+        [
+          "random",
+          1005
+        ]
+      ],
+      "top_k_analysis": {
+        "plan_count": 5,
+        "pair_count": 10,
+        "pairwise_frobenius_distance": {
+          "count": 10,
+          "mean": 6.688259355478221e-10,
+          "std": 4.5559377963836156e-10,
+          "median": 7.364737757471128e-10,
+          "ci_2_5": 8.913544836347053e-11,
+          "ci_97_5": 1.4365949709731744e-09
+        },
+        "mean_row_correlation": {
+          "count": 10,
+          "mean": 1.0,
+          "std": 0.0,
+          "median": 1.0,
+          "ci_2_5": 1.0,
+          "ci_97_5": 1.0
+        },
+        "mean_row_js_divergence": {
+          "count": 10,
+          "mean": 1.47710964546035e-17,
+          "std": 9.157146457946599e-18,
+          "median": 1.5545114628579948e-17,
+          "ci_2_5": 2.89028698842753e-18,
+          "ci_97_5": 3.174903002078234e-17
+        },
+        "target_marginal_cosine_similarity": {
+          "count": 10,
+          "mean": 1.0,
+          "std": 1.227397735431716e-16,
+          "median": 1.0,
+          "ci_2_5": 0.9999999999999999,
+          "ci_97_5": 1.0000000000000002
+        },
+        "target_marginal_l1_distance": {
+          "count": 10,
+          "mean": 5.213292186834196e-10,
+          "std": 3.551212982248933e-10,
+          "median": 5.740585506952556e-10,
+          "ci_2_5": 6.947831546200156e-11,
+          "ci_97_5": 1.1197815077967911e-09
+        },
+        "preferred_layer_agreement_fraction": {
+          "count": 10,
+          "mean": 1.0,
+          "std": 0.0,
+          "median": 1.0,
+          "ci_2_5": 1.0,
+          "ci_97_5": 1.0
+        },
+        "per_roi_row_correlation": [
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 1.1102230246251565e-16,
+            "median": 1.0,
+            "ci_2_5": 0.9999999999999998,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 1.0467283057891834e-16,
+            "median": 1.0,
+            "ci_2_5": 0.9999999999999998,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          },
+          {
+            "count": 10,
+            "mean": 1.0,
+            "std": 0.0,
+            "median": 1.0,
+            "ci_2_5": 1.0,
+            "ci_97_5": 1.0
+          }
+        ]
+      }
+    },
+    "balanced_outer_ot": {
+      "status": "AVAILABLE",
+      "best_converged_discovery_objective": 0.9777236319187633,
+      "near_optimal_relative_threshold": 0.01,
+      "near_optimal_cutoff": 0.9875008682379509,
+      "converged_count": 1,
+      "near_optimal_count": 1,
+      "near_optimal_initializations": [
+        [
+          "linear_program",
+          null
+        ]
+      ],
+      "near_optimal": {
+        "plan_count": 1,
+        "pair_count": 0,
+        "status": "SINGLETON_NO_PAIRWISE_IDENTIFIABILITY_ESTIMATE"
+      },
+      "top_k": 1,
+      "top_k_initializations": [
+        [
+          "linear_program",
+          null
+        ]
+      ],
+      "top_k_analysis": {
+        "plan_count": 1,
+        "pair_count": 0,
+        "status": "SINGLETON_NO_PAIRWISE_IDENTIFIABILITY_ESTIMATE"
+      }
+    }
+  },
+  "unstable_plans_averaged_into_consensus": false
+}

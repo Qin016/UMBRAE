@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "existing_cache": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/val/clip_patch_fp16.npy",
+  "new_online_model": "openai/clip-vit-large-patch14",
+  "feature_definition": "vision_encoder.hidden_states[-2][:,1:,:]",
+  "preprocessing": {
+    "input_color": "RGB",
+    "resize": 224,
+    "interpolation": "bicubic",
+    "antialias": true,
+    "center_crop": 224,
+    "mean": [
+      0.48145466,
+      0.4578275,
+      0.40821073
+    ],
+    "std": [
+      0.26862954,
+      0.26130258,
+      0.27577711
+    ]
+  },
+  "cache_dtype": "float16",
+  "online_compute_dtype": "autocast float16; returned float32",
+  "fixed_samples": [
+    {
+      "index": 12,
+      "sample_id": "sample000000012",
+      "comparison_batch_size": 64,
+      "max_absolute_error": 0.021636962890625,
+      "mean_absolute_error": 8.937630627769977e-05,
+      "cosine_similarity": 0.9999999851859251
+    },
+    {
+      "index": 57,
+      "sample_id": "sample000000057",
+      "comparison_batch_size": 64,
+      "max_absolute_error": 0.024169921875,
+      "mean_absolute_error": 9.20053935260512e-05,
+      "cosine_similarity": 0.9999999821125275
+    },
+    {
+      "index": 140,
+      "sample_id": "sample000000140",
+      "comparison_batch_size": 64,
+      "max_absolute_error": 0.0252685546875,
+      "mean_absolute_error": 8.805067045614123e-05,
+      "cosine_similarity": 0.9999999854231911
+    }
+  ]
+}

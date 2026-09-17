@@ -1,0 +1,136 @@
+{
+  "subject": "subj05",
+  "roi_name": "prf-visualrois",
+  "roi_path": "/opt/data/private/BA/NSD/nsddata/ppdata/subj05/func1pt8mm/roi/prf-visualrois.nii.gz",
+  "roi_shape": [
+    79,
+    97,
+    78
+  ],
+  "affine": [
+    [
+      1.7999999523162842,
+      0.0,
+      0.0,
+      -70.19999694824219
+    ],
+    [
+      0.0,
+      1.7999999523162842,
+      0.0,
+      -86.4000015258789
+    ],
+    [
+      0.0,
+      0.0,
+      1.7999999523162842,
+      -69.30000305175781
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "zooms": [
+    1.7999999523162842,
+    1.7999999523162842,
+    1.7999999523162842
+  ],
+  "valid_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "label_id_to_name": {
+    "1": "V1v",
+    "2": "V1d",
+    "3": "V2v",
+    "4": "V2d",
+    "5": "V3v",
+    "6": "V3d",
+    "7": "hV4"
+  },
+  "voxel_counts": {
+    "1": 458,
+    "2": 655,
+    "3": 520,
+    "4": 561,
+    "5": 475,
+    "6": 450,
+    "7": 542
+  },
+  "total_valid_roi_voxels": 3661,
+  "excluded_labels": [
+    -1,
+    0
+  ],
+  "created_time": "2026-06-20T06:13:35.623126+00:00",
+  "flat_index_order": "numpy_C_order",
+  "roi_overlap": {
+    "sum_label_voxels": 3661,
+    "union_voxels": 3661,
+    "overlap_assignments": 0,
+    "passed": true
+  },
+  "nsdgeneral_overlap": {
+    "path": "/opt/data/private/BA/NSD/nsddata/ppdata/subj05/func1pt8mm/roi/nsdgeneral.nii.gz",
+    "shape": [
+      79,
+      97,
+      78
+    ],
+    "mask_voxels": 13039,
+    "per_label": {
+      "1": {
+        "name": "V1v",
+        "voxels": 458,
+        "overlap_voxels": 458,
+        "overlap_ratio": 1.0
+      },
+      "2": {
+        "name": "V1d",
+        "voxels": 655,
+        "overlap_voxels": 655,
+        "overlap_ratio": 1.0
+      },
+      "3": {
+        "name": "V2v",
+        "voxels": 520,
+        "overlap_voxels": 520,
+        "overlap_ratio": 1.0
+      },
+      "4": {
+        "name": "V2d",
+        "voxels": 561,
+        "overlap_voxels": 561,
+        "overlap_ratio": 1.0
+      },
+      "5": {
+        "name": "V3v",
+        "voxels": 475,
+        "overlap_voxels": 475,
+        "overlap_ratio": 1.0
+      },
+      "6": {
+        "name": "V3d",
+        "voxels": 450,
+        "overlap_voxels": 450,
+        "overlap_ratio": 1.0
+      },
+      "7": {
+        "name": "hV4",
+        "voxels": 542,
+        "overlap_voxels": 542,
+        "overlap_ratio": 1.0
+      }
+    }
+  },
+  "wholebrain_extraction": null,
+  "warnings": []
+}

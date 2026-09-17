@@ -1,0 +1,13 @@
+{
+  "target_marginal": {
+    "L4": 0.25,
+    "L8": 0.0,
+    "L12": 1.1731764744576134e-06,
+    "L16": 0.24999882659856792,
+    "L20": 2.249576019214025e-10,
+    "L24": 0.5
+  },
+  "sum": 1.0,
+  "hard_uniform_target_constraint": false,
+  "coverage_is_soft_and_does_not_guarantee_nonzero_mass": true
+}

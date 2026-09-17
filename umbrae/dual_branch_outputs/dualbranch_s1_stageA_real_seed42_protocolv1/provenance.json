@@ -1,0 +1,14 @@
+{
+  "protocol_version": "protocol_v1",
+  "protocol_path": "/opt/data/private/BA/UMBRAE/umbrae/configs/dual_branch/protocol_v1.json",
+  "protocol_sha256": "ab78ae590c108f0edd26f092a154d8ef690e6660f839c9003f0e413edf0f4626",
+  "git_commit_hash": "UNAVAILABLE",
+  "brain_checkpoint_sha256_locked_but_not_used": "b38aa7ce9d11d56c36ede011ec757a3fda4194c5deaa5f7b0f5f8e42187bb4fb",
+  "active_roi_mapping": "/opt/data/private/BA/UMBRAE/roi_indices/subj01_neuroroute_v1.json",
+  "active_roi_mapping_sha256": "c4f2cc9368e8030a6ff3ce2df77cc93db07c3670960aad64abeff7d0a18750a3",
+  "real_roi_mapping_sha256": "c4f2cc9368e8030a6ff3ce2df77cc93db07c3670960aad64abeff7d0a18750a3",
+  "seed": 42,
+  "initial_parameter_sha256": "c64a7cd56895d80ba16a6bc5c51a87d16367c5f35e436038129d04e1bd8a1f1b",
+  "gpu": "NVIDIA RTX A6000",
+  "training_seconds": 215.22480845451355
+}

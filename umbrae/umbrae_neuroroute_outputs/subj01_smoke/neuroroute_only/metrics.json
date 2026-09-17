@@ -1,0 +1,23 @@
+{
+  "epoch": 1,
+  "train_loss": 18.133708953857422,
+  "val_loss": 8.46709156036377,
+  "caption_metrics": {
+    "BLEU-1": 0.08333333333333333,
+    "BLEU-2": 0.027524094128159027,
+    "BLEU-3": 0.019640024396816252,
+    "BLEU-4": 0.017033186037639283,
+    "ROUGE-L": 0.0,
+    "CIDEr": 0.0,
+    "METEOR": null,
+    "SPICE": null,
+    "unavailable_metrics": {
+      "METEOR": "Java runtime is unavailable",
+      "SPICE": "Java runtime is unavailable"
+    }
+  },
+  "num_generated_captions": 1,
+  "uses_image_clip_tokens_at_eval": false,
+  "bridge_type": "shikra_patch",
+  "fusion_mode": "neuroroute_only"
+}

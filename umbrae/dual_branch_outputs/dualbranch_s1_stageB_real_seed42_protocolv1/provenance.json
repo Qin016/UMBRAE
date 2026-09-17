@@ -1,0 +1,17 @@
+{
+  "protocol_version": "protocol_v1",
+  "protocol_sha256": "ab78ae590c108f0edd26f092a154d8ef690e6660f839c9003f0e413edf0f4626",
+  "git_commit_hash": "UNAVAILABLE",
+  "mapping_kind": "real",
+  "roi_mapping": "/opt/data/private/BA/UMBRAE/roi_indices/subj01_neuroroute_v1.json",
+  "roi_mapping_sha256": "c4f2cc9368e8030a6ff3ce2df77cc93db07c3670960aad64abeff7d0a18750a3",
+  "brainx_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/train_logs/brainx-v-1-4/last.pth",
+  "brainx_checkpoint_sha256": "b38aa7ce9d11d56c36ede011ec757a3fda4194c5deaa5f7b0f5f8e42187bb4fb",
+  "structural_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_stageA_relational_real_seed42_protocolv1/best.pth",
+  "structural_checkpoint_sha256": "4e6149e65379b2eeb53ec293c0a2dca57b4b299fae7d2bc99ee39ad5d7c35ee2",
+  "structural_checkpoint_epoch": 8,
+  "initial_fusion_sha256": "07cc41fc3ea69353c943ce9b54859c1d16d7fe69f2462fae323aef8873ac43d5",
+  "seed": 42,
+  "gpu": "NVIDIA RTX A6000",
+  "training_seconds": 35.48348569869995
+}

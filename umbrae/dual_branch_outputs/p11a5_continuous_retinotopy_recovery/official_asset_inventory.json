@@ -1,0 +1,111 @@
+[
+  {
+    "asset": "angle",
+    "official_evidence": "cvnlab/nsddatapaper main/analysis_prf.m and official S3 object listing",
+    "recovery_status": "AVAILABLE_OFFICIAL_PRECOMPUTED",
+    "available_remotely": true,
+    "available_locally": true,
+    "space": "subj01 func1pt8mm volume",
+    "units": "degrees 0–360",
+    "needed": true,
+    "official_url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/ppdata/subj01/func1pt8mm/prf_angle.nii.gz",
+    "local_file": "/opt/data/private/BA/NSD/nsd_prf_recovery/subj01/source/func1pt8mm/prf_angle.nii.gz",
+    "sha256": "a398fc26451712338346b804b10aae73e28e6c93efd1dc5789d876701da79194"
+  },
+  {
+    "asset": "eccentricity",
+    "official_evidence": "cvnlab/nsddatapaper main/analysis_prf.m and official S3 object listing",
+    "recovery_status": "AVAILABLE_OFFICIAL_PRECOMPUTED",
+    "available_remotely": true,
+    "available_locally": true,
+    "space": "subj01 func1pt8mm volume",
+    "units": "degrees visual angle",
+    "needed": true,
+    "official_url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/ppdata/subj01/func1pt8mm/prf_eccentricity.nii.gz",
+    "local_file": "/opt/data/private/BA/NSD/nsd_prf_recovery/subj01/source/func1pt8mm/prf_eccentricity.nii.gz",
+    "sha256": "cbb174f6d227e23fb43dc57b23bb1a037dc6aa8dadf7a4b528b97bd695ccb817"
+  },
+  {
+    "asset": "size",
+    "official_evidence": "cvnlab/nsddatapaper main/analysis_prf.m and official S3 object listing",
+    "recovery_status": "AVAILABLE_OFFICIAL_PRECOMPUTED",
+    "available_remotely": true,
+    "available_locally": true,
+    "space": "subj01 func1pt8mm volume",
+    "units": "degrees, CSS effective sigma/sqrt(exponent)",
+    "needed": true,
+    "official_url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/ppdata/subj01/func1pt8mm/prf_size.nii.gz",
+    "local_file": "/opt/data/private/BA/NSD/nsd_prf_recovery/subj01/source/func1pt8mm/prf_size.nii.gz",
+    "sha256": "74ba17eda4bdc6ce6fa8126b539572aa78c348b6c1ce684f42537e009e2f574b"
+  },
+  {
+    "asset": "quality",
+    "official_evidence": "cvnlab/nsddatapaper main/analysis_prf.m and official S3 object listing",
+    "recovery_status": "AVAILABLE_OFFICIAL_PRECOMPUTED",
+    "available_remotely": true,
+    "available_locally": true,
+    "space": "subj01 func1pt8mm volume",
+    "units": "R2 percent",
+    "needed": true,
+    "official_url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/ppdata/subj01/func1pt8mm/prf_R2.nii.gz",
+    "local_file": "/opt/data/private/BA/NSD/nsd_prf_recovery/subj01/source/func1pt8mm/prf_R2.nii.gz",
+    "sha256": "547e5adb57ab3d96fb19599a94d58684cb92525d7eff7ab6507b8d4351b9092c"
+  },
+  {
+    "asset": "exponent",
+    "official_evidence": "cvnlab/nsddatapaper main/analysis_prf.m and official S3 object listing",
+    "recovery_status": "AVAILABLE_OFFICIAL_PRECOMPUTED",
+    "available_remotely": true,
+    "available_locally": true,
+    "space": "subj01 func1pt8mm volume",
+    "units": "dimensionless",
+    "needed": true,
+    "official_url": "https://natural-scenes-dataset.s3.amazonaws.com/nsddata/ppdata/subj01/func1pt8mm/prf_exponent.nii.gz",
+    "local_file": "/opt/data/private/BA/NSD/nsd_prf_recovery/subj01/source/func1pt8mm/prf_exponent.nii.gz",
+    "sha256": "ad35561914549fb8bc18825c28bc4068775817e1231a8506b97b98abeeb779b9"
+  },
+  {
+    "asset": "pRF center x/y",
+    "official_evidence": "nsddatapaper PARAMETERSnotes.m formulas",
+    "recovery_status": "AVAILABLE_OFFICIAL_RECOMPUTABLE",
+    "available_remotely": false,
+    "available_locally": true,
+    "space": "visual field",
+    "units": "degrees visual angle",
+    "needed": true,
+    "notes": "Derived, never labeled as raw."
+  },
+  {
+    "asset": "Gaussian sigma",
+    "official_evidence": "analyzePRF.m defines size=sigma/sqrt(exponent)",
+    "recovery_status": "AVAILABLE_OFFICIAL_RECOMPUTABLE",
+    "available_remotely": false,
+    "available_locally": true,
+    "space": "visual field",
+    "units": "degrees visual angle",
+    "needed": true,
+    "notes": "Derived from official effective size and exponent."
+  },
+  {
+    "asset": "surface continuous maps",
+    "official_evidence": "official S3 lh/rh.prf*.mgz listing",
+    "recovery_status": "AVAILABLE_OFFICIAL_PRECOMPUTED",
+    "available_remotely": true,
+    "available_locally": false,
+    "space": "subj01 native FreeSurfer vertices",
+    "units": "parameter-specific",
+    "needed": false,
+    "notes": "Not downloaded because target-space func1pt8mm official volumes exist."
+  },
+  {
+    "asset": "surface geometry for mapping",
+    "official_evidence": "NSD FreeSurfer subject release and nsdcode",
+    "recovery_status": "AVAILABLE_OFFICIAL_PRECOMPUTED",
+    "available_remotely": true,
+    "available_locally": false,
+    "space": "subj01 native FreeSurfer",
+    "units": "millimetres/vertices",
+    "needed": false,
+    "notes": "Not needed on selected exact-grid volume route."
+  }
+]

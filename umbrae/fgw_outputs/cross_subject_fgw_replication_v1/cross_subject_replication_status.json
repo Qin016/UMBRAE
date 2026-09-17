@@ -1,0 +1,16 @@
+{
+  "CROSS_SUBJECT_STATUS": "REPLICATION_SUPPORTED",
+  "both_eligible_replication_subjects_exploratory_pass": true,
+  "both_replication_delta_gw_negative": true,
+  "named_roi_correspondence_exceeds_row_permutation_null": true,
+  "replication_delta_gw_median": -0.2823399356886537,
+  "replication_delta_gw_range": [
+    -0.33430909811232534,
+    -0.23037077326498195
+  ],
+  "replication_delta_gw_sign_consistent": true,
+  "subj07_role": "validation-inconclusive; no offline test and no final plan",
+  "subj07_counted_as_pass_or_fail": false,
+  "scientific_hyperparameter_retuning": false,
+  "inferential_t_test_over_three_subjects": false
+}

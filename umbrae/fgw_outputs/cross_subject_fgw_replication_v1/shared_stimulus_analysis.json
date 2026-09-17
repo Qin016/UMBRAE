@@ -1,0 +1,17 @@
+{
+  "SHARED_STIMULUS_ANALYSIS": "INSUFFICIENT_HELDOUT_SHARED_STIMULI",
+  "minimum_required": 200,
+  "all_three_shared_count": 0,
+  "pairwise_shared_counts": {
+    "subj01-subj02": 0,
+    "subj01-subj05": 0,
+    "subj02-subj05": 0
+  },
+  "subject_offline_test_counts": {
+    "subj01": 1712,
+    "subj02": 1712,
+    "subj05": 1636
+  },
+  "subj07_included": false,
+  "can_change_cross_subject_status": false
+}

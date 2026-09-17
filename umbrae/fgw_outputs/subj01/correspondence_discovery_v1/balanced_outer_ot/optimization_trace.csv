@@ -1,0 +1,2 @@
+initialization_kind,initialization_seed,iteration,total_objective,feature_raw,feature_normalized,gw_raw,gw_normalized,coverage_loss,entropy_loss,shannon_plan_entropy,gradient_norm,step_norm,source_marginal_feasibility_error,target_marginal_feasibility_error,objective_improvement
+linear_program,,20,0.971107817499967,0.1766487654938167,0.971107817499967,0.10825417454534657,0.5355847058548664,6.000163329134502e-12,-2.3758966198250526,2.3758966198250526,,,0.0,2.7755575615628914e-17,

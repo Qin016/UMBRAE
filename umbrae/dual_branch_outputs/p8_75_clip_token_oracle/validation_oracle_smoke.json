@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "split": "validation",
+  "sample_count": 16,
+  "shape_before_projector": [
+    16,
+    256,
+    1024
+  ],
+  "shape_after_projector": [
+    16,
+    256,
+    4096
+  ],
+  "nan_count": 0,
+  "empty_count": 0,
+  "records": [
+    {
+      "sample_id": 0,
+      "response": "<s> A living room with a bookshelf, table and a small white space heater.</s>",
+      "caption": "A living room with a bookshelf, table and a small white space heater.",
+      "status": "success",
+      "output_length": 21
+    },
+    {
+      "sample_id": 1,
+      "response": "<s> Donuts are being fried in an oil machine.</s></s></s></s></s></s></s></s>",
+      "caption": "Donuts are being fried in an oil machine.",
+      "status": "success",
+      "output_length": 21
+    },
+    {
+      "sample_id": 2,
+      "response": "<s> A table topped different plates and bowls of foods.</s></s></s></s></s>",
+      "caption": "A table topped different plates and bowls of foods.",
+      "status": "success",
+      "output_length": 21
+    },
+    {
+      "sample_id": 3,
+      "response": "<s> A man in a wet suit riding a surfboard on a wave.</s></s></s>",
+      "caption": "A man in a wet suit riding a surfboard on a wave.",
+      "status": "success",
+      "output_length": 21
+    },
+    {
+      "sample_id": 4,
+      "response": "<s> A red bird sitting on a wooden deck next to a green plant.</s>",
+      "caption": "A red bird sitting on a wooden deck next to a green plant.",
+      "status": "success",
+      "output_length": 17
+    },
+    {
+      "sample_id": 5,
+      "response": "<s> A cutting board topped with diced up greens.</s></s></s>",
+      "caption": "A cutting board topped with diced up greens.",
+      "status": "success",
+      "output_length": 17
+    },
+    {
+      "sample_id": 6,
+      "response": "<s> A sink in a bathroom under a mirror.</s></s></s></s></s>",
+      "caption": "A sink in a bathroom under a mirror.",
+      "status": "success",
+      "output_length": 17
+    },
+    {
+      "sample_id": 7,
+      "response": "<s> Two stuffed animals are placed on a bench.</s></s></s></s>",
+      "caption": "Two stuffed animals are placed on a bench.",
+      "status": "success",
+      "output_length": 17
+    },
+    {
+      "sample_id": 8,
+      "response": "<s> A bird in flight with its wings spread wide.</s></s></s></s></s></s>",
+      "caption": "A bird in flight with its wings spread wide.",
+      "status": "success",
+      "output_length": 18
+    },
+    {
+      "sample_id": 9,
+      "response": "<s> A couple of jockeys riding horses down a race track.</s>",
+      "caption": "A couple of jockeys riding horses down a race track.",
+      "status": "success",
+      "output_length": 18
+    },
+    {
+      "sample_id": 10,
+      "response": "<s> A group of people flying kites on a sandy beach.</s></s></s>",
+      "caption": "A group of people flying kites on a sandy beach.",
+      "status": "success",
+      "output_length": 18
+    },
+    {
+      "sample_id": 11,
+      "response": "<s> A cake with pink and yellow colors on it.</s></s></s></s>",
+      "caption": "A cake with pink and yellow colors on it.",
+      "status": "success",
+      "output_length": 18
+    },
+    {
+      "sample_id": 12,
+      "response": "<s> A bird sits on top of a wire.</s></s></s></s></s></s></s>",
+      "caption": "A bird sits on top of a wire.",
+      "status": "success",
+      "output_length": 19
+    },
+    {
+      "sample_id": 13,
+      "response": "<s> A group of giraffes eat from the top of trees.</s></s></s>",
+      "caption": "A group of giraffes eat from the top of trees.",
+      "status": "success",
+      "output_length": 19
+    },
+    {
+      "sample_id": 14,
+      "response": "<s> A car is being carried by a large truck.</s></s></s></s></s></s>",
+      "caption": "A car is being carried by a large truck.",
+      "status": "success",
+      "output_length": 19
+    },
+    {
+      "sample_id": 15,
+      "response": "<s> A beach with surfboards, a beach umbrella and a chair.</s>",
+      "caption": "A beach with surfboards, a beach umbrella and a chair.",
+      "status": "success",
+      "output_length": 19
+    }
+  ]
+}

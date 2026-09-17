@@ -1,0 +1,168 @@
+{
+  "MM_PROJECTOR_EQUIVALENCE": "PASS",
+  "projector_frozen": true,
+  "projector_path": "/opt/data/private/BA/UMBRAE/umbrae/model_weights/mm_projector.bin",
+  "shape_before": [
+    982,
+    256,
+    1024
+  ],
+  "shape_after": [
+    982,
+    256,
+    4096
+  ],
+  "modes": {
+    "umbrae": {
+      "brain_token_norm": {
+        "mean": 12.916662216186523,
+        "std": 12.085615158081055,
+        "median": 11.349749565124512,
+        "percentile_5": 8.564686584472657,
+        "percentile_95": 17.017802524566648
+      },
+      "projected_token_norm": {
+        "mean": 73.808349609375,
+        "std": 65.93572235107422,
+        "median": 63.514190673828125,
+        "percentile_5": 48.82963600158691,
+        "percentile_95": 105.60965309143062
+      },
+      "brain_feature_mean_norm": 8.956335121500336,
+      "brain_feature_variance_difference_l2": 0.0,
+      "projected_feature_mean_norm": 55.32004894839141,
+      "projected_feature_variance_difference_l2": 0.0,
+      "brain_feature_mean_drift_l2": 0.0,
+      "projected_feature_mean_drift_l2": 0.0,
+      "brain_space_cka_to_umbrae": 1.0,
+      "projector_space_cka_to_umbrae": 1.0,
+      "rsa_before_projector": {
+        "spearman_rsa": 0.45906886883928133,
+        "pearson_rsa": 0.4806471188273018,
+        "stimulus_count": 982
+      },
+      "rsa_after_projector": {
+        "spearman_rsa": 0.42660620070054284,
+        "pearson_rsa": 0.44286543983228993,
+        "stimulus_count": 982
+      }
+    },
+    "lora": {
+      "brain_token_norm": {
+        "mean": 12.746458053588867,
+        "std": 11.33526611328125,
+        "median": 11.35699462890625,
+        "percentile_5": 8.520465898513795,
+        "percentile_95": 16.588556957244865
+      },
+      "projected_token_norm": {
+        "mean": 72.3998794555664,
+        "std": 61.3565788269043,
+        "median": 63.252830505371094,
+        "percentile_5": 48.59646511077881,
+        "percentile_95": 102.01837425231932
+      },
+      "brain_feature_mean_norm": 8.817624546399692,
+      "brain_feature_variance_difference_l2": 17.13614963264493,
+      "projected_feature_mean_norm": 54.04267297299858,
+      "projected_feature_variance_difference_l2": 17.36920384652861,
+      "brain_feature_mean_drift_l2": 0.3191654811782708,
+      "projected_feature_mean_drift_l2": 2.0888577494699834,
+      "brain_space_cka_to_umbrae": 0.9922098241083539,
+      "projector_space_cka_to_umbrae": 0.9876793106802609,
+      "rsa_before_projector": {
+        "spearman_rsa": 0.4681754521773819,
+        "pearson_rsa": 0.49169305165575317,
+        "stimulus_count": 982
+      },
+      "rsa_after_projector": {
+        "spearman_rsa": 0.4387413108808987,
+        "pearson_rsa": 0.4573065079311182,
+        "stimulus_count": 982
+      },
+      "cosine_to_base_brain": 0.9933515284551865,
+      "cosine_to_base_projected": 0.9943966875251102,
+      "relative_l2_drift_brain": 0.15220823897482855,
+      "relative_l2_drift_projected": 0.15462148925915156,
+      "amplification_ratio": 1.0158549254664335
+    },
+    "full_real": {
+      "brain_token_norm": {
+        "mean": 12.400734901428223,
+        "std": 11.374239921569824,
+        "median": 10.98721694946289,
+        "percentile_5": 8.114444875717163,
+        "percentile_95": 16.383742523193348
+      },
+      "projected_token_norm": {
+        "mean": 70.11180877685547,
+        "std": 61.46117401123047,
+        "median": 61.057952880859375,
+        "percentile_5": 46.444419860839844,
+        "percentile_95": 98.61663665771479
+      },
+      "brain_feature_mean_norm": 8.446050686894564,
+      "brain_feature_variance_difference_l2": 16.897514404101845,
+      "projected_feature_mean_norm": 51.75885164520509,
+      "projected_feature_variance_difference_l2": 18.569927826207156,
+      "brain_feature_mean_drift_l2": 0.5827681660432421,
+      "projected_feature_mean_drift_l2": 3.884367837082079,
+      "brain_space_cka_to_umbrae": 0.9882584070324021,
+      "projector_space_cka_to_umbrae": 0.9759280309644154,
+      "rsa_before_projector": {
+        "spearman_rsa": 0.4799934431481292,
+        "pearson_rsa": 0.5068231022435965,
+        "stimulus_count": 982
+      },
+      "rsa_after_projector": {
+        "spearman_rsa": 0.4445450431703918,
+        "pearson_rsa": 0.4669216774821014,
+        "stimulus_count": 982
+      },
+      "cosine_to_base_brain": 0.991940487183767,
+      "cosine_to_base_projected": 0.9929511061511069,
+      "relative_l2_drift_brain": 0.1574365750619306,
+      "relative_l2_drift_projected": 0.1626707173811937,
+      "amplification_ratio": 1.0332460377596766
+    },
+    "full_random": {
+      "brain_token_norm": {
+        "mean": 12.46069049835205,
+        "std": 11.395597457885742,
+        "median": 11.052703857421875,
+        "percentile_5": 8.14338116645813,
+        "percentile_95": 16.428413486480707
+      },
+      "projected_token_norm": {
+        "mean": 70.4515380859375,
+        "std": 61.48544692993164,
+        "median": 61.46583557128906,
+        "percentile_5": 46.79757556915283,
+        "percentile_95": 98.58641738891585
+      },
+      "brain_feature_mean_norm": 8.503742047568227,
+      "brain_feature_variance_difference_l2": 16.184749519305086,
+      "projected_feature_mean_norm": 52.119564310119685,
+      "projected_feature_variance_difference_l2": 18.325944263913485,
+      "brain_feature_mean_drift_l2": 0.5459720033648227,
+      "projected_feature_mean_drift_l2": 3.6175845557724635,
+      "brain_space_cka_to_umbrae": 0.9887745822247236,
+      "projector_space_cka_to_umbrae": 0.97748970801126,
+      "rsa_before_projector": {
+        "spearman_rsa": 0.48594433969128525,
+        "pearson_rsa": 0.5129002379741477,
+        "stimulus_count": 982
+      },
+      "rsa_after_projector": {
+        "spearman_rsa": 0.45096810591631215,
+        "pearson_rsa": 0.4745324379298303,
+        "stimulus_count": 982
+      },
+      "cosine_to_base_brain": 0.9920286224233157,
+      "cosine_to_base_projected": 0.9931065516656382,
+      "relative_l2_drift_brain": 0.1555372761389848,
+      "relative_l2_drift_projected": 0.16077890399940561,
+      "amplification_ratio": 1.0337001392240983
+    }
+  }
+}

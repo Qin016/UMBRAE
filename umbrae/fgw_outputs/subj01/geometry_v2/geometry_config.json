@@ -1,0 +1,115 @@
+{
+  "analysis_version": "geometry_v2_corrected",
+  "GEOMETRY_STATUS": "GO",
+  "gate": {
+    "stimulus_subset_stability_pass": true,
+    "independent_roi_permutation_null_pass": true,
+    "pathological_roi_check_pass": true,
+    "roi_profile_median_at_or_below_zero_count": 0,
+    "repeat_reliability_status": "NOT_AVAILABLE"
+  },
+  "subject": "subj01",
+  "stimulus_manifest": "/opt/data/private/BA/UMBRAE/umbrae/fgw_outputs/subj01/split_manifest_v1/fgw_stimulus_manifest.json",
+  "manifest_offline_split": "offline_discovery",
+  "offline_discovery_count": 5135,
+  "offline_validation_features_loaded": false,
+  "offline_test_features_loaded": false,
+  "feature_cache_source_splits_read": [
+    "geometry_fit"
+  ],
+  "primary_brain_representation": "roi_tokens_before_projector",
+  "primary_brain_storage_file": "brain_roi_features.npy",
+  "primary_brain_is_raw_voxel_vector": false,
+  "primary_brain_feature_shape": [
+    5135,
+    8,
+    1024
+  ],
+  "clip_feature_shape": [
+    5135,
+    6,
+    1024
+  ],
+  "roi_names": [
+    "V1",
+    "V2",
+    "V3",
+    "hV4",
+    "FFA",
+    "EBA",
+    "PPA",
+    "OPA"
+  ],
+  "clip_layers": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "clip_pooling_method": "mean_non_cls_patch_tokens",
+  "geometry_definition": {
+    "stimulus_distance": "1 - cosine similarity",
+    "node_relation": "1 - Spearman correlation of RDM strict upper triangles",
+    "brain_semantics": "ROI representational geometry relation matrix",
+    "anatomical_distance": false,
+    "hierarchy_claimed": false
+  },
+  "anchor_size": 1500,
+  "anchor_id_sha256": "8a807193d5b26994d838a3fce6ddb62473c632c6da12765fd4a1e2380a8badfd",
+  "subsample_size_each": 600,
+  "subsample_count": 100,
+  "subsampling_with_replacement": false,
+  "null_stimulus_size": 500,
+  "null_count": 500,
+  "single_roi_null_count": 100,
+  "random_seed": 42,
+  "random_stream_spawn_keys": {
+    "anchor_selection": [
+      0
+    ],
+    "brain_subsets": [
+      1
+    ],
+    "clip_subsets": [
+      2
+    ],
+    "null_subset_selection": [
+      3
+    ],
+    "null_permutations": [
+      4
+    ]
+  },
+  "random_streams": "NumPy SeedSequence(seed) independent children: anchor, brain subsets, CLIP subsets, null subset, null permutations",
+  "device": "cuda",
+  "full_stimulus_rdm_saved": false,
+  "legacy_prompt2_output_modified": false,
+  "legacy_bootstrap_with_replacement_primary": false,
+  "repeat_based_measurement_reliability": {
+    "REPEAT_RELIABILITY_STATUS": "NOT_AVAILABLE",
+    "computed": false,
+    "reason": "The existing feature cache stores one ROI-token row after averaging all valid fMRI repeats for each stimulus. It does not contain independent repeat-resolved ROI tokens or session/run partitions, so same-stimulus measurement sets A and B cannot be constructed from this cache.",
+    "disjoint_stimulus_subsets_used_as_repeat_proxy": false,
+    "crossnobis_computed": false,
+    "interpretation_limit": "Stimulus-subset stability does not establish neural measurement reliability."
+  },
+  "roi_confound_audit": {
+    "voxel_count_vs_roi_subset_stability": {
+      "spearman": 0.2644073067120865,
+      "two_sided_p": 0.5268579810497107
+    },
+    "feature_variance_vs_roi_subset_stability": {
+      "spearman": 0.7759705701987263,
+      "two_sided_p": 0.023598217067471977
+    },
+    "snr_proxy_available": false,
+    "repeat_reliability_available": false,
+    "regressed_out": false,
+    "caution": "n=8 ROIs; association tests are descriptive and low-powered"
+  },
+  "roi_mapping_error": null,
+  "heatmaps_saved": true,
+  "elapsed_seconds": 300.9355354309082
+}

@@ -1,0 +1,102 @@
+{
+  "subject": "subj01",
+  "data_root": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split",
+  "shards": {
+    "train": [
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_0.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_1.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_2.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_3.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_4.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_5.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_6.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_7.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_8.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_9.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_10.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_11.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_12.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_13.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_14.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_15.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_16.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_17.tar"
+    ],
+    "val": [
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/val/val_subj01_0.tar"
+    ],
+    "test": [
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/test/test_subj01_0.tar",
+      "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/test/test_subj01_1.tar"
+    ]
+  },
+  "splits": {
+    "train": {
+      "sample_count": 8559,
+      "unique_sample_id_count": 8559,
+      "unique_stimulus_count_image_sha256": 8559,
+      "unique_stimulus_count_coco73k": 8559,
+      "duplicate_sample_ids_within_split": [],
+      "duplicate_image_hashes_within_split": [],
+      "repeat_count_histogram": {
+        "1": 307,
+        "2": 935,
+        "3": 7317
+      }
+    },
+    "val": {
+      "sample_count": 300,
+      "unique_sample_id_count": 300,
+      "unique_stimulus_count_image_sha256": 300,
+      "unique_stimulus_count_coco73k": 300,
+      "duplicate_sample_ids_within_split": [],
+      "duplicate_image_hashes_within_split": [],
+      "repeat_count_histogram": {
+        "1": 12,
+        "2": 24,
+        "3": 264
+      }
+    },
+    "test": {
+      "sample_count": 982,
+      "unique_sample_id_count": 982,
+      "unique_stimulus_count_image_sha256": 982,
+      "unique_stimulus_count_coco73k": 982,
+      "duplicate_sample_ids_within_split": [],
+      "duplicate_image_hashes_within_split": [],
+      "repeat_count_histogram": {
+        "1": 33,
+        "2": 110,
+        "3": 839
+      }
+    }
+  },
+  "cross_split_overlap": {
+    "train_vs_val": {
+      "sample_id_overlap_count": 0,
+      "sample_id_overlap_examples": [],
+      "image_sha256_overlap_count": 0,
+      "image_sha256_overlap_examples": [],
+      "coco73k_id_overlap_count": 0,
+      "coco73k_id_overlap_examples": []
+    },
+    "train_vs_test": {
+      "sample_id_overlap_count": 0,
+      "sample_id_overlap_examples": [],
+      "image_sha256_overlap_count": 0,
+      "image_sha256_overlap_examples": [],
+      "coco73k_id_overlap_count": 0,
+      "coco73k_id_overlap_examples": []
+    },
+    "val_vs_test": {
+      "sample_id_overlap_count": 0,
+      "sample_id_overlap_examples": [],
+      "image_sha256_overlap_count": 0,
+      "image_sha256_overlap_examples": [],
+      "coco73k_id_overlap_count": 0,
+      "coco73k_id_overlap_examples": []
+    }
+  },
+  "stimulus_identity_primary": "image_sha256",
+  "stimulus_identity_secondary": "coco73k_id"
+}

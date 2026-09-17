@@ -1,0 +1,34 @@
+{
+  "uot_loss": 0.995865797996521,
+  "transport_mass": 0.7388835151990255,
+  "normalized_transport_entropy": 0.9852162178357442,
+  "max_transport_fraction": 0.0017822439471880595,
+  "mean_roi_token_norm": 31.99984713236491,
+  "mean_pairwise_roi_cosine": 0.0019727547746151686,
+  "sample_count": 300,
+  "retrieval": {
+    "primary_direction": "brain_to_image",
+    "candidate_count": 300,
+    "brain_to_image": {
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.023333333333333334,
+      "recall_at_10": 0.03666666666666667,
+      "median_rank": 142.0,
+      "mean_rank": 147.75
+    },
+    "image_to_brain": {
+      "recall_at_1": 0.0,
+      "recall_at_5": 0.016666666666666666,
+      "recall_at_10": 0.03666666666666667,
+      "median_rank": 138.5,
+      "mean_rank": 139.03333333333333
+    }
+  },
+  "rsa": {
+    "primary_metric": "spearman_upper_triangle_cosine_rdm",
+    "spearman_rsa": 0.06847274286919727,
+    "pearson_rsa": 0.07233826010125584,
+    "stimulus_count": 300,
+    "rdm_upper_triangle_count": 44850
+  }
+}

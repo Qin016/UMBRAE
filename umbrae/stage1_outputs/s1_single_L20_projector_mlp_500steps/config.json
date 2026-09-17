@@ -1,0 +1,65 @@
+{
+  "config": "configs/neuroroute/stage1_routing_s1_debug.json",
+  "subject": "subj01",
+  "train_tar": [
+    "nsd/webdataset_avg_split/train/train_subj01_0.tar"
+  ],
+  "train_data": null,
+  "val_tar": [
+    "nsd/webdataset_avg_split/val/val_subj01_0.tar"
+  ],
+  "val_data": null,
+  "roi_mapping_json": "/opt/data/private/BA/UMBRAE/roi_indices/subj01_neuroroute_v1.json",
+  "selected_clip_layers": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "clip_model_name_or_path": "openai/clip-vit-large-patch14",
+  "roi_token_dim": 1024,
+  "clip_layer_target_dim": 1024,
+  "use_brain_clip_projector": true,
+  "projector_type": "mlp",
+  "projector_hidden_dim": 1024,
+  "projector_dropout": 0.1,
+  "detach_routed_targets": true,
+  "router_hidden_dim": null,
+  "router_temperature": 1.0,
+  "router_type": "single",
+  "router_topk": 0,
+  "single_router_layer": 20,
+  "hard_intermediate_layers": [
+    8,
+    12,
+    16,
+    20
+  ],
+  "hard_final_layers": [
+    24
+  ],
+  "fmri_repeat_mode": "mean",
+  "batch_size": 16,
+  "epochs": 3,
+  "lr": 0.0001,
+  "weight_decay": 0.01,
+  "mse_weight": 1.0,
+  "cos_weight": 1.0,
+  "router_entropy_weight": 0.0,
+  "router_balance_weight": 0.0,
+  "router_smoothness_weight": 0.0,
+  "device": "cuda",
+  "output_dir": "stage1_outputs/s1_single_L20_projector_mlp_500steps",
+  "debug_max_steps": 500,
+  "num_workers": 0,
+  "show_progress": true,
+  "seed": 42,
+  "train_tar_resolved": [
+    "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj01_0.tar"
+  ],
+  "val_tar_resolved": [
+    "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/val/val_subj01_0.tar"
+  ]
+}

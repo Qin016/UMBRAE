@@ -1,0 +1,102 @@
+{
+  "protocol_version": "protocol_v1",
+  "split": "test",
+  "sample_count": 982,
+  "test_evaluation_started_after_model_selection": true,
+  "representations": {
+    "umbrae": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/p7_downstream/umbrae_z_out_fp16.npy",
+    "lora": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/p7_downstream/lora_z_out_fp16.npy",
+    "full_real": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/p7_downstream/full_real_z_out_fp16.npy",
+    "full_random": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/p7_downstream/full_random_z_out_fp16.npy"
+  },
+  "equivalence": {
+    "umbrae": {
+      "shape": [
+        2,
+        256,
+        1024
+      ],
+      "all_finite": true,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "cosine_similarity": 1.0
+    },
+    "lora": {
+      "shape": [
+        2,
+        256,
+        1024
+      ],
+      "all_finite": true,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "cosine_similarity": 1.0
+    },
+    "full_real": {
+      "shape": [
+        2,
+        256,
+        1024
+      ],
+      "all_finite": true,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "cosine_similarity": 1.0
+    },
+    "full_random": {
+      "shape": [
+        2,
+        256,
+        1024
+      ],
+      "all_finite": true,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "cosine_similarity": 0.9999999403953552
+    }
+  },
+  "projected_token_diagnostics": {
+    "umbrae": {
+      "projected_shape": [
+        982,
+        256,
+        4096
+      ],
+      "projected_token_norm_mean": 73.80833839059119,
+      "projected_token_norm_std": 65.93572339539666,
+      "token_cosine_to_umbrae": 1.0
+    },
+    "lora": {
+      "projected_shape": [
+        982,
+        256,
+        4096
+      ],
+      "projected_token_norm_mean": 72.39988400834156,
+      "projected_token_norm_std": 61.35657913113454,
+      "token_cosine_to_umbrae": 0.9943966875251102
+    },
+    "full_real": {
+      "projected_shape": [
+        982,
+        256,
+        4096
+      ],
+      "projected_token_norm_mean": 70.1118170899432,
+      "projected_token_norm_std": 61.461178496106044,
+      "token_cosine_to_umbrae": 0.9929511061511069
+    },
+    "full_random": {
+      "projected_shape": [
+        982,
+        256,
+        4096
+      ],
+      "projected_token_norm_mean": 70.45154172194222,
+      "projected_token_norm_std": 61.48544571252062,
+      "token_cosine_to_umbrae": 0.9931065516656382
+    }
+  },
+  "brainx_sha256": "b38aa7ce9d11d56c36ede011ec757a3fda4194c5deaa5f7b0f5f8e42187bb4fb",
+  "mm_projector_sha256": "357a4a6a42c7214ecf3eca7cb17dfdadb9cdb9dba05f1daff764b969c71403ea"
+}

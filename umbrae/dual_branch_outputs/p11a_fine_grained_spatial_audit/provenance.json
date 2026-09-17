@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-08-30T12:40:17.380346+00:00",
+  "subject": "subj01",
+  "nsd_root": "/opt/data/private/BA/NSD/nsddata",
+  "nsdgeneral_voxel_count": 15724,
+  "voxel_order": "numpy_C_order over volume, matching existing UMBRAE ROI conversion",
+  "source_files": {
+    "nsdgeneral": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/nsdgeneral.nii.gz",
+    "visual": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/prf-visualrois.nii.gz",
+    "ecc": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/prf-eccrois.nii.gz",
+    "lh": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/lh.nsdgeneral.nii.gz",
+    "rh": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/rh.nsdgeneral.nii.gz"
+  },
+  "source_hashes": {
+    "nsdgeneral": "c16620878feeaf829aa8f0923de141d91970651bbbf54404972f72019c036306",
+    "visual": "ebc6af4b7aafff04a15ab1555d5f5fccbdbc3f80ffefee12443f9be568a45a1d",
+    "ecc": "c4888a0d560534796a84f37285d1bf2f2c7cc2705f31a5f6b51e19c781324e20",
+    "lh": "3e76785ec941054fb6e4001108da1d02b7a5d622b20ce77d6951403de3c0df91",
+    "rh": "ea18ce147edb3df536edfeda5a2382907c470db2842d224fef5ccbaed85a1b51"
+  },
+  "roi_mapping": "/opt/data/private/BA/UMBRAE/roi_indices/subj01_neuroroute_v1.json",
+  "roi_mapping_sha256": "c4f2cc9368e8030a6ff3ce2df77cc93db07c3670960aad64abeff7d0a18750a3",
+  "pRF_quality_threshold": null,
+  "clustering_algorithm": null,
+  "clustering_seed": 42,
+  "candidate_k": [
+    32,
+    48,
+    64,
+    96,
+    128
+  ],
+  "selected_k": null,
+  "visual_angle_mapping_convention": "unavailable; normalized CLIP image coordinates only",
+  "clip_patch_ordering": "row-major from repository flatten(2).transpose(1,2)",
+  "clip_teacher": "openai/clip-vit-large-patch14 hidden_states[-2][:,1:,:]",
+  "stimulus_responses_used_for_mapping": false,
+  "clip_features_used_for_mapping": false,
+  "optimizer_created": false,
+  "backward_called": false,
+  "training_started": false
+}

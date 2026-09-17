@@ -1,0 +1,26 @@
+{
+  "protocol": "Prompt 5A locked cross-subject validation replication",
+  "subj01": {
+    "role": "frozen reference only",
+    "offline_test_status": "EXPLORATORY_PASS",
+    "rerun": false
+  },
+  "subj02": {
+    "VALIDATION_STATUS": "READY_FOR_OFFLINE_TEST",
+    "offline_test_accessed": false
+  },
+  "subj05": {
+    "VALIDATION_STATUS": "READY_FOR_OFFLINE_TEST",
+    "offline_test_accessed": false
+  },
+  "subj07": {
+    "VALIDATION_STATUS": "INCONCLUSIVE",
+    "offline_test_accessed": false,
+    "reason": [
+      "CLIP identity-mismatch structural null p=0.0945273631840796 exceeds 0.05",
+      "near-optimal-plan reproducibility does not exceed the preregistered matched-plan null threshold"
+    ]
+  },
+  "prompt5b_run": false,
+  "stage2_run": false
+}

@@ -1,0 +1,45 @@
+{
+  "config": "configs/dual_branch/stage_a_random42_protocol_v1.json",
+  "protocol": "/opt/data/private/BA/UMBRAE/umbrae/configs/dual_branch/protocol_v1.json",
+  "mapping_kind": "random",
+  "roi_mapping": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/random_structure_control_seed42.json",
+  "train_cache": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/train",
+  "val_cache": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/val",
+  "output_dir": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs",
+  "experiment_name": "dualbranch_s1_stageA_random42_seed42_protocolv1",
+  "batch_size": 64,
+  "num_workers": 4,
+  "max_epochs": 20,
+  "min_epochs": 5,
+  "patience": 5,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "gradient_clip_norm": 1.0,
+  "epsilon": 0.05,
+  "tau": 1.0,
+  "sinkhorn_iters": 100,
+  "sinkhorn_tol": 1e-05,
+  "seed": 42,
+  "device": "cuda",
+  "amp": true,
+  "resume": false,
+  "objective": "semantic_uot_only",
+  "repeat_policy": "mean_over_num_uniques_valid_repeats",
+  "structural_parameter_report": {
+    "total": 3357052,
+    "trainable": 3357052,
+    "roi_tokenizer": {
+      "total": 3355004,
+      "trainable": 3355004
+    },
+    "output_norm": {
+      "total": 2048,
+      "trainable": 2048
+    }
+  },
+  "initial_parameter_sha256": "c64a7cd56895d80ba16a6bc5c51a87d16367c5f35e436038129d04e1bd8a1f1b",
+  "brainx_used": false,
+  "fusion_used": false,
+  "lora_used": false,
+  "test_used": false
+}

@@ -1,0 +1,31 @@
+{
+  "construction": "independent ROI row-label permutation within each frozen subject plan",
+  "draws": 10000,
+  "seed": 52001,
+  "clip_layer_order_permuted": false,
+  "real_mean_corresponding_roi_cosine": 0.8333333333333334,
+  "null_mean_corresponding_roi_cosine": {
+    "count": 10000,
+    "mean": 0.2506791666666667,
+    "std": 0.08873618690223119,
+    "median": 0.25,
+    "ci_2_5": 0.125,
+    "ci_97_5": 0.4583333333333333,
+    "minimum": 0.041666666666666664,
+    "maximum": 0.75
+  },
+  "one_sided_p_real_cosine_higher": 9.999000099990002e-05,
+  "real_mean_corresponding_roi_js": 0.11552453009332421,
+  "null_mean_corresponding_roi_js": {
+    "count": 10000,
+    "mean": 0.5193896229598286,
+    "std": 0.06150723776492188,
+    "median": 0.5198603854199589,
+    "ci_2_5": 0.37545472280330366,
+    "ci_97_5": 0.6065037829899521,
+    "minimum": 0.17328679513998632,
+    "maximum": 0.6642660480366142
+  },
+  "one_sided_p_real_js_lower": 9.999000099990002e-05,
+  "corresponding_named_rows_exceed_null": true
+}

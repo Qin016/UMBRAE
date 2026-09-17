@@ -1,0 +1,13 @@
+{
+  "query_count": 2419,
+  "denominator": 2419,
+  "threshold": 0.5,
+  "mean_iou": 0.4799906611442566,
+  "grounding_accuracy": 0.5233567589913187,
+  "parse_failures": 1,
+  "target_failures": 0,
+  "successful_generations": 2419,
+  "mean_generation_length": 31.0,
+  "median_generation_length": 31.0,
+  "failure_policy": "parse/generation failures retained in denominator"
+}

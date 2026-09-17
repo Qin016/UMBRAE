@@ -1,0 +1,68 @@
+{
+  "protocol_version": "stage2_fgw_gamma_preregistered_v1",
+  "created_before_new_stage2_results": true,
+  "development_subject": "subj01",
+  "excluded_subjects": ["subj02", "subj05", "subj07"],
+  "gamma_grid": [0.25, 0.5, 1.0],
+  "delta": 1e-8,
+  "plan_sha256": "51e65527f3bbc1a3951ec376dd8be3662cab9e6b5f682d2a0da26fb347e20760",
+  "row_shuffle_permutation": [3, 4, 6, 2, 1, 7, 5, 0],
+  "row_shuffle_registration_sha256": "da12d619bcddab013ce62cbbfe0c6cd19a503f1a04ccbb2918e778b2663c526d",
+  "architecture": {
+    "architecture": "UMBRAENeuroRouteAdapter",
+    "fusion_type": "perceiver_resampler",
+    "fusion_dim": 1024,
+    "perceiver_depth": 2,
+    "attention_heads": 8,
+    "umbrae_tokens": 256,
+    "roi_order": ["V1", "V2", "V3", "hV4", "FFA", "EBA", "PPA", "OPA"],
+    "clip_layers": [4, 8, 12, 16, 20, 24],
+    "roi_layer_tokens": 48,
+    "mllm_dim": 4096,
+    "bridge_type": "shikra_patch",
+    "bias_layers": "first"
+  },
+  "architecture_config_sha256": "2a41e852306e3e76860490eee9d15d6f3220384fc1868a82f92fdcc7320eecda",
+  "implementation_hashes": {
+    "umbrae_neuroroute_adapter.py": "e77b3a588b93b67f6b659ff115f4bff78c359189c4da8ed5e0a70a35818160d3",
+    "fgw_stage2_prior.py": "f20e3ec2829414d9cd7ee555540348baacc4be7287a1a66f35d99c3e26e0c98f",
+    "train_umbrae_neuroroute.py": "f699996d12db62b8efdb5bdc86ebe085133cc7a7319128a04c569e01016bdf79",
+    "train_stage2_mllm_neuroroute.py": "45dd45a0eb8f1fe49a15bca1ffc9a70542a1674cc1d2b43962587afe7b918df8",
+    "audit_stage2_fgw_data.py": "07492c67ffc586f1e155862727cc6cf46e1237f88f91f3d3447c4616ac1bb3ef"
+  },
+  "training": {
+    "seed": 42,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "batch_size": 2,
+    "epochs": 3,
+    "prompt": "Describe this image as simply as possible.",
+    "max_text_length": 512,
+    "max_new_tokens": 32,
+    "train_adapter_only": true
+  },
+  "checkpoint_selection_rule": [
+    "higher multi-reference CIDEr",
+    "higher multi-reference ROUGE-L",
+    "higher BLEU-4",
+    "lower validation LM loss"
+  ],
+  "evaluator": {
+    "reference_mode": "multi_reference",
+    "CIDEr": "pycocoevalcap.cider.Cider",
+    "ROUGE-L": "pycocoevalcap.rouge.Rouge",
+    "BLEU_1_to_4": "nltk corpus_bleu with smoothing method1",
+    "caption_mapping_sha256": "4839f0ff97d8337d66fdf0929e4ecc700949229334c044c406d3719d3f9f5336"
+  },
+  "data": {
+    "audit_sha256": "5b3f9412cc2f8f7ea510784049547b94c27d491a7032c369809df7aac1606ca2",
+    "train_count": 8559,
+    "validation_count": 300,
+    "protected_test_count": 982,
+    "train_stimulus_sha256": "1e6d1c0b50df629aa5a68107a2866fb68daa11d4ec7ec0278771e1bcb681e300",
+    "validation_stimulus_sha256": "ba1ce60dc8a5e8c2724b94c73de112405bbd32ab9e88b6147a999964a9b7d1d6",
+    "protected_test_stimulus_sha256": "b9d0f9ccabc3cf4645720563e19d0c2997eccc03da66ad705524c2f69981e802",
+    "protected_test_performance_accessed": false
+  }
+}

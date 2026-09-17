@@ -1,0 +1,27 @@
+{
+  "protocol_version": "protocol_v1",
+  "protocol_sha256": "ab78ae590c108f0edd26f092a154d8ef690e6660f839c9003f0e413edf0f4626",
+  "git_commit_hash": "UNAVAILABLE",
+  "base_brainx_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/train_logs/brainx-v-1-4/last.pth",
+  "base_brainx_sha256": "b38aa7ce9d11d56c36ede011ec757a3fda4194c5deaa5f7b0f5f8e42187bb4fb",
+  "target_modules": [
+    "encoder.perceiver.perceiver.layers.0.0.to_q",
+    "encoder.perceiver.perceiver.layers.0.0.to_kv[value_only]",
+    "encoder.perceiver.perceiver.layers.1.0.to_q",
+    "encoder.perceiver.perceiver.layers.1.0.to_kv[value_only]",
+    "encoder.perceiver.perceiver.layers.2.0.to_q",
+    "encoder.perceiver.perceiver.layers.2.0.to_kv[value_only]",
+    "encoder.perceiver.perceiver.layers.3.0.to_q",
+    "encoder.perceiver.perceiver.layers.3.0.to_kv[value_only]",
+    "encoder.perceiver.perceiver.layers.4.0.to_q",
+    "encoder.perceiver.perceiver.layers.4.0.to_kv[value_only]",
+    "encoder.perceiver.perceiver.layers.5.0.to_q",
+    "encoder.perceiver.perceiver.layers.5.0.to_kv[value_only]"
+  ],
+  "rank": 8,
+  "alpha": 16.0,
+  "dropout": 0.05,
+  "seed": 42,
+  "gpu": "NVIDIA RTX A6000",
+  "training_seconds": 687.7205219268799
+}

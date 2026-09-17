@@ -1,0 +1,64 @@
+{
+  "protocol_version": "protocol_v1",
+  "split": "val",
+  "sample_count": 300,
+  "sample_id_index": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/val/sample_ids.json",
+  "manifest": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/val_manifest.jsonl",
+  "manifest_sha256": "8b7807cf162d8543feebd8d8a3600d56794b585196b33949091c7dc8f4c27467",
+  "repeat_policy": "mean_over_num_uniques_valid_repeats",
+  "fmri_path": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/val/fmri_mean_valid_repeats.npy",
+  "fmri_dtype": "float32",
+  "fmri_shape": [
+    300,
+    15724
+  ],
+  "clip_path": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/val/clip_patch_fp16.npy",
+  "clip_model": "openai/clip-vit-large-patch14",
+  "clip_feature_definition": "vision_encoder.hidden_states[-2][:,1:,:]",
+  "clip_preprocessing": {
+    "input_color": "RGB",
+    "resize": 224,
+    "interpolation": "bicubic",
+    "antialias": true,
+    "center_crop": 224,
+    "mean": [
+      0.48145466,
+      0.4578275,
+      0.40821073
+    ],
+    "std": [
+      0.26862954,
+      0.26130258,
+      0.27577711
+    ]
+  },
+  "clip_dtype": "float16",
+  "clip_shape": [
+    300,
+    256,
+    1024
+  ],
+  "online_equivalence": [
+    {
+      "sample_id": "sample000000057",
+      "comparison_batch_size": 64,
+      "cosine_similarity": 0.9999999821125275,
+      "max_abs_error": 0.024169921875,
+      "mean_abs_error": 9.20053935260512e-05
+    },
+    {
+      "sample_id": "sample000000012",
+      "comparison_batch_size": 64,
+      "cosine_similarity": 0.9999999851859251,
+      "max_abs_error": 0.021636962890625,
+      "mean_abs_error": 8.937630627769977e-05
+    },
+    {
+      "sample_id": "sample000000140",
+      "comparison_batch_size": 64,
+      "cosine_similarity": 0.9999999854231911,
+      "max_abs_error": 0.0252685546875,
+      "mean_abs_error": 8.805067045614123e-05
+    }
+  ]
+}

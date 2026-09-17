@@ -1,0 +1,70 @@
+{
+  "protocol_version": "stage2_fgw_locked_config_v1",
+  "locked_at": "2026-08-21T07:39:53+00:00",
+  "locked_before_row_shuffled_control": true,
+  "development_subject": "subj01",
+  "selected_gamma": 0.25,
+  "selection_basis": "highest selected-checkpoint subj01 validation multi-reference CIDEr among the three preregistered FGW gamma runs",
+  "selection_tie_break_order": [
+    "higher multi-reference CIDEr",
+    "higher multi-reference ROUGE-L",
+    "higher BLEU-4",
+    "lower validation LM loss"
+  ],
+  "gamma_results": [
+    {
+      "gamma": 0.25,
+      "selected_epoch": 2,
+      "CIDEr": 0.42219941286267226,
+      "ROUGE-L": 0.4110139225845322,
+      "BLEU-4": 0.1636082912138337,
+      "validation_lm_loss": 1.9199490022659302,
+      "selected_checkpoint_sha256": "e2bcdff6560e87e13f8fec857477b7fff9804386edbb657624db665f8f072151"
+    },
+    {
+      "gamma": 0.5,
+      "selected_epoch": 1,
+      "CIDEr": 0.4150722314371146,
+      "ROUGE-L": 0.4027829894651382,
+      "BLEU-4": 0.164803740239906,
+      "validation_lm_loss": 1.9446665271123251,
+      "selected_checkpoint_sha256": "900b90c231396c934f96fd23e758d037bb0abce0e80344ba875a0ea374f36171"
+    },
+    {
+      "gamma": 1.0,
+      "selected_epoch": 1,
+      "CIDEr": 0.3936401297660021,
+      "ROUGE-L": 0.39705388215732523,
+      "BLEU-4": 0.1643290568482566,
+      "validation_lm_loss": 1.9383742455641428,
+      "selected_checkpoint_sha256": "edab9eb76642abddaaeee00c23ecbfa86fdffe354e1fd18269a4503837852f29"
+    }
+  ],
+  "delta": 1e-8,
+  "attention_prior_formula_version": "fgw_stage2_attention_logit_prior_v1: A[r,l]=T[r,l]/sum_k(T[r,k]); q_gamma[r,l]=(A[r,l]+delta)^gamma/sum_k((A[r,k]+delta)^gamma); bias[r,l]=log(6*q_gamma[r,l])",
+  "prior_insertion_block": "first ROI-consuming Perceiver cross-attention block only",
+  "roi_layer_token_count": 48,
+  "s1_final_fgw_plan_sha256": "51e65527f3bbc1a3951ec376dd8be3662cab9e6b5f682d2a0da26fb347e20760",
+  "row_shuffle_permutation": [3, 4, 6, 2, 1, 7, 5, 0],
+  "row_shuffle_registration_sha256": "da12d619bcddab013ce62cbbfe0c6cd19a503f1a04ccbb2918e778b2663c526d",
+  "training_seed": 42,
+  "optimizer": {
+    "name": "AdamW",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "batch_size": 2
+  },
+  "epoch_count": 3,
+  "checkpoint_selection_rule": "max multi-reference CIDEr, then ROUGE-L, then BLEU-4, then min validation LM loss",
+  "evaluator": {
+    "reference_mode": "multi_reference",
+    "CIDEr": "pycocoevalcap.cider.Cider",
+    "ROUGE-L": "pycocoevalcap.rouge.Rouge",
+    "BLEU_1_to_4": "nltk corpus_bleu with smoothing method1",
+    "caption_mapping_sha256": "4839f0ff97d8337d66fdf0929e4ecc700949229334c044c406d3719d3f9f5336"
+  },
+  "validation_stimulus_sha256": "ba1ce60dc8a5e8c2724b94c73de112405bbd32ab9e88b6147a999964a9b7d1d6",
+  "protected_test_stimulus_sha256": "b9d0f9ccabc3cf4645720563e19d0c2997eccc03da66ad705524c2f69981e802",
+  "protected_test_performance_accessed": false,
+  "gamma_preregistration": "gamma_preregistered.json"
+}

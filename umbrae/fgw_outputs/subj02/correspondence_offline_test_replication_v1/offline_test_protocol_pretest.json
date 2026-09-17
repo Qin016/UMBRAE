@@ -1,0 +1,95 @@
+{
+  "protocol_version": "prompt5b_locked_one_shot_replication_v1",
+  "subject": "subj02",
+  "offline_test_accessed_when_written": false,
+  "locked_structural": {
+    "method": "sr_fgw",
+    "structure_weight": 0.5,
+    "coverage_weight": 0.0,
+    "entropy_weight": 0.0,
+    "VALIDATION_STATUS": "READY_FOR_OFFLINE_TEST"
+  },
+  "locked_baseline": {
+    "slug": "source_constrained_feature_coverage_lambda_1",
+    "method": "source_constrained_feature_coverage",
+    "structure_weight": 0.0,
+    "coverage_weight": 1.0,
+    "best_discovery_initialization": [
+      "random",
+      1010
+    ]
+  },
+  "feature_protocol": {
+    "final_plan_cost": "5-fold OOF over combined discovery+validation",
+    "test_probe": "same ridge refit once on all combined discovery+validation",
+    "fold_count": 5,
+    "fold_seed": 42,
+    "ridge_alpha": 100.0,
+    "std_epsilon": 1e-06,
+    "cost": "mean over OOF stimuli of 1 - cosine(predicted CLIP feature, true CLIP feature)"
+  },
+  "geometry_protocol": {
+    "stimulus_distance": "1 - cosine similarity",
+    "node_relation": "1 - Spearman correlation of RDM strict upper triangles",
+    "brain_semantics": "ROI representational geometry relation matrix",
+    "anatomical_distance": false,
+    "hierarchy_claimed": false,
+    "brain_representation": "roi_tokens_before_projector",
+    "anchor_count": 1500,
+    "random_seed": 42,
+    "random_stream": "NumPy SeedSequence(seed).spawn(5)[0]",
+    "variance_standardized_geometry_used": false
+  },
+  "loss_calibration_rule": "reuse the subject-specific Prompt-5A discovery calibration exactly, matching the frozen subj01 final-refit rule; no final-train or test recalibration",
+  "fixed_loss_calibration": {
+    "s_feature": 0.18379350068704797,
+    "s_gw": 0.1945130771127488,
+    "eps_scale": 1e-12,
+    "rule": "subject discovery matrices evaluated at uniform feasible plan"
+  },
+  "solver": {
+    "learning_rate": 0.1,
+    "max_iterations": 2500,
+    "tolerance": 1e-11,
+    "patience": 80,
+    "eps_coverage": 1e-12,
+    "entropy_weight": 0.0,
+    "projection": "Euclidean row-simplex projection"
+  },
+  "null_protocol": {
+    "brain_geometry_unique_permutations": 200,
+    "clip_geometry_unique_permutations": 200,
+    "independent_roi_stimulus_permutations": 200,
+    "feature_pairing_permutations": 20,
+    "null_fit_initializations": [
+      [
+        "uniform",
+        0
+      ],
+      [
+        "feature_informed",
+        0
+      ],
+      [
+        "random",
+        1001
+      ]
+    ],
+    "seed": 42001,
+    "fit_split": "offline_discovery + offline_validation only",
+    "test_evaluation": "original unpermuted offline_test matrices"
+  },
+  "test_subsampling": {
+    "count": 200,
+    "fraction": 0.8,
+    "without_replacement": true,
+    "seed": 41001,
+    "plans_refit": false
+  },
+  "decision_rule": {
+    "EXPLORATORY_PASS": "composite difference < 0; paired GW-difference CI upper < 0; all three geometry-null one-sided p < 0.05; no test fitting; pretest hash valid",
+    "FAIL": "mean GW difference >= 0 or any required geometry-null p >= 0.05",
+    "INCONCLUSIVE": "remaining mixed criterion outcomes",
+    "feature_pairing_null_affects_status": false
+  }
+}

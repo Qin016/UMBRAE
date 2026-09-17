@@ -1,0 +1,15 @@
+{
+  "data_root": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split",
+  "subject": "subj01",
+  "split": "val",
+  "allow_test": false,
+  "brainx_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/train_logs/brainx-v-1-4/last.pth",
+  "roi_mapping": "/opt/data/private/BA/UMBRAE/roi_indices/subj01_neuroroute_v1.json",
+  "protocol_version": "protocol_v1",
+  "clip_model": "openai/clip-vit-large-patch14",
+  "batch_size": 16,
+  "num_workers": 1,
+  "device": "cuda",
+  "output_dir": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/umbrae_s1_baseline_seed42_protocolv1",
+  "seed": 42
+}

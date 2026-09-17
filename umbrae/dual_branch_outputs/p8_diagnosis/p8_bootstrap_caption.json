@@ -1,0 +1,214 @@
+{
+  "seed": 8042,
+  "iterations": 10000,
+  "sample_count": 982,
+  "paired_indices": true,
+  "CIDEr_IDF_policy": "fixed locked-test reference-corpus IDF; resampled per-sample CIDEr contributions",
+  "comparisons": {
+    "lora_minus_umbrae": {
+      "CIDEr": {
+        "mean_delta": -0.024808207311897364,
+        "median_delta": -0.0245933848654476,
+        "standard_deviation": 0.01056803503428684,
+        "percentile_2_5": -0.04625971475776157,
+        "percentile_97_5": -0.004405348629205453,
+        "confidence_interval_95": [
+          -0.04625971475776157,
+          -0.004405348629205453
+        ],
+        "probability_delta_gt_0": 0.0091,
+        "probability_delta_lt_0": 0.9909
+      },
+      "BLEU-4": {
+        "mean_delta": -0.007076127110244396,
+        "median_delta": -0.007059216184579428,
+        "standard_deviation": 0.003903011347814141,
+        "percentile_2_5": -0.014826457001431844,
+        "percentile_97_5": 0.0003672836949680446,
+        "confidence_interval_95": [
+          -0.014826457001431844,
+          0.0003672836949680446
+        ],
+        "probability_delta_gt_0": 0.0327,
+        "probability_delta_lt_0": 0.9673
+      },
+      "ROUGE-L": {
+        "mean_delta": -0.0020611322299871324,
+        "median_delta": -0.002064438045600331,
+        "standard_deviation": 0.002958664106093348,
+        "percentile_2_5": -0.007992454401237711,
+        "percentile_97_5": 0.003651033035343526,
+        "confidence_interval_95": [
+          -0.007992454401237711,
+          0.003651033035343526
+        ],
+        "probability_delta_gt_0": 0.2489,
+        "probability_delta_lt_0": 0.7511
+      }
+    },
+    "full_real_minus_umbrae": {
+      "CIDEr": {
+        "mean_delta": -0.01554735045012474,
+        "median_delta": -0.015479391453352809,
+        "standard_deviation": 0.010669403227466331,
+        "percentile_2_5": -0.036524064955085186,
+        "percentile_97_5": 0.00532572830577853,
+        "confidence_interval_95": [
+          -0.036524064955085186,
+          0.00532572830577853
+        ],
+        "probability_delta_gt_0": 0.0716,
+        "probability_delta_lt_0": 0.9284
+      },
+      "BLEU-4": {
+        "mean_delta": -0.008530265664923159,
+        "median_delta": -0.008577234191416733,
+        "standard_deviation": 0.004299932197660393,
+        "percentile_2_5": -0.01708360643626558,
+        "percentile_97_5": -0.00018440789268856325,
+        "confidence_interval_95": [
+          -0.01708360643626558,
+          -0.00018440789268856325
+        ],
+        "probability_delta_gt_0": 0.0226,
+        "probability_delta_lt_0": 0.9774
+      },
+      "ROUGE-L": {
+        "mean_delta": -0.0011875286728864,
+        "median_delta": -0.0011800972927877573,
+        "standard_deviation": 0.003110565442680912,
+        "percentile_2_5": -0.007319394100427379,
+        "percentile_97_5": 0.004889637890814677,
+        "confidence_interval_95": [
+          -0.007319394100427379,
+          0.004889637890814677
+        ],
+        "probability_delta_gt_0": 0.3488,
+        "probability_delta_lt_0": 0.6512
+      }
+    },
+    "full_random_minus_umbrae": {
+      "CIDEr": {
+        "mean_delta": -0.023812377116776928,
+        "median_delta": -0.023781787478652838,
+        "standard_deviation": 0.010944853968532368,
+        "percentile_2_5": -0.04534006568025282,
+        "percentile_97_5": -0.002474097494201609,
+        "confidence_interval_95": [
+          -0.04534006568025282,
+          -0.002474097494201609
+        ],
+        "probability_delta_gt_0": 0.0153,
+        "probability_delta_lt_0": 0.9847
+      },
+      "BLEU-4": {
+        "mean_delta": -0.009215040481814131,
+        "median_delta": -0.00922144724075949,
+        "standard_deviation": 0.0043328568130102186,
+        "percentile_2_5": -0.017846229450322094,
+        "percentile_97_5": -0.0007128041201726479,
+        "confidence_interval_95": [
+          -0.017846229450322094,
+          -0.0007128041201726479
+        ],
+        "probability_delta_gt_0": 0.0165,
+        "probability_delta_lt_0": 0.9835
+      },
+      "ROUGE-L": {
+        "mean_delta": -0.00422842910661513,
+        "median_delta": -0.0042453316411707465,
+        "standard_deviation": 0.003210553754192642,
+        "percentile_2_5": -0.010575775738772225,
+        "percentile_97_5": 0.002207729453513527,
+        "confidence_interval_95": [
+          -0.010575775738772225,
+          0.002207729453513527
+        ],
+        "probability_delta_gt_0": 0.0924,
+        "probability_delta_lt_0": 0.9076
+      }
+    },
+    "full_real_minus_lora": {
+      "CIDEr": {
+        "mean_delta": 0.009260856861772627,
+        "median_delta": 0.009244308713844684,
+        "standard_deviation": 0.008455491013683805,
+        "percentile_2_5": -0.007000101628852683,
+        "percentile_97_5": 0.025790473987354793,
+        "confidence_interval_95": [
+          -0.007000101628852683,
+          0.025790473987354793
+        ],
+        "probability_delta_gt_0": 0.8642,
+        "probability_delta_lt_0": 0.1358
+      },
+      "BLEU-4": {
+        "mean_delta": -0.0014541385546787623,
+        "median_delta": -0.00145762277223975,
+        "standard_deviation": 0.0037952218985509542,
+        "percentile_2_5": -0.008852276643119099,
+        "percentile_97_5": 0.005999074640899199,
+        "confidence_interval_95": [
+          -0.008852276643119099,
+          0.005999074640899199
+        ],
+        "probability_delta_gt_0": 0.352,
+        "probability_delta_lt_0": 0.648
+      },
+      "ROUGE-L": {
+        "mean_delta": 0.0008736035571007328,
+        "median_delta": 0.0008672711051618542,
+        "standard_deviation": 0.0025831781712947195,
+        "percentile_2_5": -0.004156670800196009,
+        "percentile_97_5": 0.005891218556291453,
+        "confidence_interval_95": [
+          -0.004156670800196009,
+          0.005891218556291453
+        ],
+        "probability_delta_gt_0": 0.6333,
+        "probability_delta_lt_0": 0.3667
+      }
+    },
+    "full_real_minus_full_random": {
+      "CIDEr": {
+        "mean_delta": 0.008265026666652183,
+        "median_delta": 0.00831945568745529,
+        "standard_deviation": 0.006037987190576504,
+        "percentile_2_5": -0.0038229741763646545,
+        "percentile_97_5": 0.020192713301394327,
+        "confidence_interval_95": [
+          -0.0038229741763646545,
+          0.020192713301394327
+        ],
+        "probability_delta_gt_0": 0.9147,
+        "probability_delta_lt_0": 0.0853
+      },
+      "BLEU-4": {
+        "mean_delta": 0.0006847748168909731,
+        "median_delta": 0.0006519800416892457,
+        "standard_deviation": 0.0028933935394031317,
+        "percentile_2_5": -0.004964698039260854,
+        "percentile_97_5": 0.006373829515562786,
+        "confidence_interval_95": [
+          -0.004964698039260854,
+          0.006373829515562786
+        ],
+        "probability_delta_gt_0": 0.5979,
+        "probability_delta_lt_0": 0.4021
+      },
+      "ROUGE-L": {
+        "mean_delta": 0.0030409004337287296,
+        "median_delta": 0.0030325349706378513,
+        "standard_deviation": 0.002022174039422471,
+        "percentile_2_5": -0.0009230092680654181,
+        "percentile_97_5": 0.006934068136088627,
+        "confidence_interval_95": [
+          -0.0009230092680654181,
+          0.006934068136088627
+        ],
+        "probability_delta_gt_0": 0.9324,
+        "probability_delta_lt_0": 0.0676
+      }
+    }
+  }
+}

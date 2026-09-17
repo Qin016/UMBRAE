@@ -1,0 +1,166 @@
+{
+  "PRF_DATA_AVAILABILITY": "INSUFFICIENT",
+  "FINE_GRAINED_RETINOTOPIC_TOKENIZATION": "NOT_FEASIBLE",
+  "PRIMARY_K_RETINO": null,
+  "PRIMARY_K_TOTAL": null,
+  "SECONDARY_K": null,
+  "RANDOM_CONTROL_READY": false,
+  "RANDOM_CONTROL_PROTOCOL_DESIGNED": true,
+  "P11B_READY": false,
+  "P11A_STATUS": "BLOCKED",
+  "blockers": [
+    "Missing voxel-wise pRF polar angle/x/y center.",
+    "Missing continuous pRF eccentricity and size/sigma with defined units.",
+    "Missing voxel-wise pRF R2/variance-explained quality.",
+    "Therefore no traceable Gaussian voxel-to-patch affinity, structural candidate clustering, K selection, or executable matched random control can be constructed."
+  ],
+  "asset_count": 40,
+  "voxel_audit": {
+    "shape": [
+      81,
+      104,
+      83
+    ],
+    "voxel_count": 15724,
+    "hemisphere_counts": {
+      "left": 7784,
+      "right": 7940
+    },
+    "source_files": {
+      "nsdgeneral": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/nsdgeneral.nii.gz",
+      "visual": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/prf-visualrois.nii.gz",
+      "ecc": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/prf-eccrois.nii.gz",
+      "lh": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/lh.nsdgeneral.nii.gz",
+      "rh": "/opt/data/private/BA/NSD/nsddata/ppdata/subj01/func1pt8mm/roi/rh.nsdgeneral.nii.gz"
+    },
+    "source_hashes": {
+      "nsdgeneral": "c16620878feeaf829aa8f0923de141d91970651bbbf54404972f72019c036306",
+      "visual": "ebc6af4b7aafff04a15ab1555d5f5fccbdbc3f80ffefee12443f9be568a45a1d",
+      "ecc": "c4888a0d560534796a84f37285d1bf2f2c7cc2705f31a5f6b51e19c781324e20",
+      "lh": "3e76785ec941054fb6e4001108da1d02b7a5d622b20ce77d6951403de3c0df91",
+      "rh": "ea18ce147edb3df536edfeda5a2382907c470db2842d224fef5ccbaed85a1b51"
+    },
+    "flat_index_order": "numpy_C_order over volume, matching existing UMBRAE ROI conversion",
+    "all_volumes_shape_aligned": true,
+    "continuous_prf_valid_voxels": 0
+  },
+  "coverage_by_roi": [
+    {
+      "roi": "V1",
+      "total_roi_voxels": 1350,
+      "categorical_ecc_label_available": 1346,
+      "continuous_prf_valid": 0,
+      "quality_passed": 0,
+      "continuous_coverage_ratio": 0.0,
+      "median_ecc": "unavailable",
+      "median_sigma": "unavailable",
+      "ecc_label_distribution": "{\"ecc0pt5\": 128, \"ecc1\": 178, \"ecc2\": 320, \"ecc4\": 294, \"ecc4+\": 426}"
+    },
+    {
+      "roi": "V2",
+      "total_roi_voxels": 1433,
+      "categorical_ecc_label_available": 1429,
+      "continuous_prf_valid": 0,
+      "quality_passed": 0,
+      "continuous_coverage_ratio": 0.0,
+      "median_ecc": "unavailable",
+      "median_sigma": "unavailable",
+      "ecc_label_distribution": "{\"ecc0pt5\": 258, \"ecc1\": 138, \"ecc2\": 240, \"ecc4\": 268, \"ecc4+\": 525}"
+    },
+    {
+      "roi": "V3",
+      "total_roi_voxels": 1187,
+      "categorical_ecc_label_available": 1182,
+      "continuous_prf_valid": 0,
+      "quality_passed": 0,
+      "continuous_coverage_ratio": 0.0,
+      "median_ecc": "unavailable",
+      "median_sigma": "unavailable",
+      "ecc_label_distribution": "{\"ecc0pt5\": 178, \"ecc1\": 105, \"ecc2\": 172, \"ecc4\": 178, \"ecc4+\": 549}"
+    },
+    {
+      "roi": "hV4",
+      "total_roi_voxels": 687,
+      "categorical_ecc_label_available": 684,
+      "continuous_prf_valid": 0,
+      "quality_passed": 0,
+      "continuous_coverage_ratio": 0.0,
+      "median_ecc": "unavailable",
+      "median_sigma": "unavailable",
+      "ecc_label_distribution": "{\"ecc0pt5\": 108, \"ecc1\": 77, \"ecc2\": 231, \"ecc4\": 129, \"ecc4+\": 139}"
+    }
+  ],
+  "candidate_results": [
+    {
+      "k_retino": 32,
+      "k_total": 36,
+      "min_voxels_per_unit": "unavailable",
+      "median_voxels_per_unit": "unavailable",
+      "mean_voxels_per_unit": "unavailable",
+      "max_voxels_per_unit": "unavailable",
+      "p05_voxels_per_unit": "unavailable",
+      "spatial_compactness": "unavailable",
+      "affinity_redundancy": "unavailable",
+      "effective_rank": "unavailable",
+      "patch_coverage": "unavailable",
+      "status": "REJECTED_MISSING_CONTINUOUS_PRF"
+    },
+    {
+      "k_retino": 48,
+      "k_total": 52,
+      "min_voxels_per_unit": "unavailable",
+      "median_voxels_per_unit": "unavailable",
+      "mean_voxels_per_unit": "unavailable",
+      "max_voxels_per_unit": "unavailable",
+      "p05_voxels_per_unit": "unavailable",
+      "spatial_compactness": "unavailable",
+      "affinity_redundancy": "unavailable",
+      "effective_rank": "unavailable",
+      "patch_coverage": "unavailable",
+      "status": "REJECTED_MISSING_CONTINUOUS_PRF"
+    },
+    {
+      "k_retino": 64,
+      "k_total": 68,
+      "min_voxels_per_unit": "unavailable",
+      "median_voxels_per_unit": "unavailable",
+      "mean_voxels_per_unit": "unavailable",
+      "max_voxels_per_unit": "unavailable",
+      "p05_voxels_per_unit": "unavailable",
+      "spatial_compactness": "unavailable",
+      "affinity_redundancy": "unavailable",
+      "effective_rank": "unavailable",
+      "patch_coverage": "unavailable",
+      "status": "REJECTED_MISSING_CONTINUOUS_PRF"
+    },
+    {
+      "k_retino": 96,
+      "k_total": 100,
+      "min_voxels_per_unit": "unavailable",
+      "median_voxels_per_unit": "unavailable",
+      "mean_voxels_per_unit": "unavailable",
+      "max_voxels_per_unit": "unavailable",
+      "p05_voxels_per_unit": "unavailable",
+      "spatial_compactness": "unavailable",
+      "affinity_redundancy": "unavailable",
+      "effective_rank": "unavailable",
+      "patch_coverage": "unavailable",
+      "status": "REJECTED_MISSING_CONTINUOUS_PRF"
+    },
+    {
+      "k_retino": 128,
+      "k_total": 132,
+      "min_voxels_per_unit": "unavailable",
+      "median_voxels_per_unit": "unavailable",
+      "mean_voxels_per_unit": "unavailable",
+      "max_voxels_per_unit": "unavailable",
+      "p05_voxels_per_unit": "unavailable",
+      "spatial_compactness": "unavailable",
+      "affinity_redundancy": "unavailable",
+      "effective_rank": "unavailable",
+      "patch_coverage": "unavailable",
+      "status": "REJECTED_MISSING_CONTINUOUS_PRF"
+    }
+  ],
+  "no_training": true
+}

@@ -1,0 +1,12 @@
+{
+  "subject": "subj02",
+  "reference_plan": "T_ref[r,l]=(1/8)*(1/6)",
+  "s_feature": 0.18379350068704797,
+  "s_gw": 0.1945130771127488,
+  "eps_scale": 1e-12,
+  "discovery_only": true,
+  "subj01_numeric_scales_reused": false,
+  "validation_accessed": false,
+  "offline_test_accessed": false,
+  "preregistered_config_sha256": "77f1397652fba0b55854a0df2930d8135d470dffb277b80f7ed2f4b526221bfb"
+}

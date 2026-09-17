@@ -1,0 +1,9 @@
+{
+  "intermediate_mode_count": 9,
+  "caption_wall_seconds": 1548.9366598129272,
+  "grounding_wall_seconds": 6203.034765481949,
+  "peak_gpu_memory_gib": 35.13136005401611,
+  "decoder_equivalence": "PASS",
+  "mm_projector_equivalence": "PASS",
+  "training": false
+}

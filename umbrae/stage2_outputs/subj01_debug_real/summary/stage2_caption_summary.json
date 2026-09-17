@@ -1,0 +1,84 @@
+{
+  "runs": [
+    {
+      "name": "l24_only",
+      "output_dir": "/opt/data/private/BA/UMBRAE/umbrae/stage2_outputs/subj01_debug_real/l24_only",
+      "best_val_loss": 6.191120624542236,
+      "final_val_loss": 6.191120624542236,
+      "bleu_4": 0.004149083133536492,
+      "cider": 0.025173522924018282,
+      "meteor": null,
+      "rouge_l": 0.09965649020822424,
+      "spice": null,
+      "num_generated_captions": 10,
+      "uses_image_tokens_at_eval": false,
+      "fusion_mode": "l24_only",
+      "mllm_bridge_type": "generic_inputs_embeds_prefix"
+    },
+    {
+      "name": "routed_only",
+      "output_dir": "/opt/data/private/BA/UMBRAE/umbrae/stage2_outputs/subj01_debug_real/routed_only",
+      "best_val_loss": 3.5519327402114866,
+      "final_val_loss": 3.5519327402114866,
+      "bleu_4": 0.0020530827437662924,
+      "cider": 0.018586466654058158,
+      "meteor": null,
+      "rouge_l": 0.13953342009804257,
+      "spice": null,
+      "num_generated_captions": 10,
+      "uses_image_tokens_at_eval": false,
+      "fusion_mode": "routed_only",
+      "mllm_bridge_type": "generic_inputs_embeds_prefix"
+    },
+    {
+      "name": "concat_soft",
+      "output_dir": "/opt/data/private/BA/UMBRAE/umbrae/stage2_outputs/subj01_debug_real/concat_soft",
+      "best_val_loss": 3.9339532136917112,
+      "final_val_loss": 3.9339532136917112,
+      "bleu_4": 0.00302528149472389,
+      "cider": 0.005701178904920734,
+      "meteor": null,
+      "rouge_l": 0.10241076498530695,
+      "spice": null,
+      "num_generated_captions": 10,
+      "uses_image_tokens_at_eval": false,
+      "fusion_mode": "concat",
+      "mllm_bridge_type": "generic_inputs_embeds_prefix"
+    },
+    {
+      "name": "concat_uniform",
+      "output_dir": "/opt/data/private/BA/UMBRAE/umbrae/stage2_outputs/subj01_debug_real/concat_uniform",
+      "best_val_loss": 3.8717369079589843,
+      "final_val_loss": 3.8717369079589843,
+      "bleu_4": 0.0030708987612633834,
+      "cider": 0.0025016765774731166,
+      "meteor": null,
+      "rouge_l": 0.10168387319532404,
+      "spice": null,
+      "num_generated_captions": 10,
+      "uses_image_tokens_at_eval": false,
+      "fusion_mode": "concat",
+      "mllm_bridge_type": "generic_inputs_embeds_prefix"
+    },
+    {
+      "name": "concat_single_l24",
+      "output_dir": "/opt/data/private/BA/UMBRAE/umbrae/stage2_outputs/subj01_debug_real/concat_single_l24",
+      "best_val_loss": 4.456949234008789,
+      "final_val_loss": 4.456949234008789,
+      "bleu_4": 0.002929139696424615,
+      "cider": 0.05461912790488564,
+      "meteor": null,
+      "rouge_l": 0.0856270376981397,
+      "spice": null,
+      "num_generated_captions": 10,
+      "uses_image_tokens_at_eval": false,
+      "fusion_mode": "concat",
+      "mllm_bridge_type": "generic_inputs_embeds_prefix"
+    }
+  ],
+  "comparisons": {
+    "concat_soft_vs_l24_only_percent": 36.45813977364425,
+    "concat_soft_vs_concat_uniform_percent": -1.6069352647601451,
+    "concat_soft_vs_concat_single_l24_percent": 11.734394826092077
+  }
+}

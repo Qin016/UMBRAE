@@ -1,0 +1,31 @@
+{
+  "subject": "subj01",
+  "train_tar": [
+    "nsd/webdataset_avg_split/train/train_subj01_0.tar"
+  ],
+  "val_tar": [
+    "nsd/webdataset_avg_split/val/val_subj01_0.tar"
+  ],
+  "roi_mapping_json": "/opt/data/private/BA/UMBRAE/roi_indices/subj01_neuroroute_v1.json",
+  "selected_clip_layers": [4, 8, 12, 16, 20, 24],
+  "roi_token_dim": 1024,
+  "clip_layer_target_dim": 1024,
+  "use_brain_clip_projector": true,
+  "projector_type": "mlp",
+  "projector_hidden_dim": 1024,
+  "projector_dropout": 0.1,
+  "detach_routed_targets": true,
+  "batch_size": 2,
+  "epochs": 1,
+  "lr": 0.0001,
+  "weight_decay": 0.01,
+  "fmri_repeat_mode": "mean",
+  "router_type": "soft",
+  "router_temperature": 1.0,
+  "router_topk": 0,
+  "router_entropy_weight": 0.0,
+  "router_balance_weight": 0.0,
+  "router_smoothness_weight": 0.0,
+  "debug_max_steps": 10,
+  "output_dir": "/opt/data/private/BA/UMBRAE/stage1_outputs/subj01_projector_debug"
+}

@@ -1,0 +1,94 @@
+{
+  "all_plans_fitted_and_hashed_before_offline_test_access": true,
+  "evaluation_matrices": "original unpermuted offline_test matrices",
+  "brain_geometry_identity_mismatch": {
+    "count": 200,
+    "offline_test_gw_normalized": {
+      "count": 200,
+      "mean": 0.6633326819654181,
+      "std": 0.10122815406770086,
+      "median": 0.6778715884461523,
+      "ci_2_5": 0.45905722013408345,
+      "ci_97_5": 0.8294886714007974
+    },
+    "offline_test_composite": {
+      "count": 200,
+      "mean": 0.7187098789883315,
+      "std": 0.04908292616703805,
+      "median": 0.7267393436744007,
+      "ci_2_5": 0.5997865266389715,
+      "ci_97_5": 0.7910511725827701
+    },
+    "one_sided_p_real_gw_lower": 0.004975124378109453
+  },
+  "clip_geometry_identity_mismatch": {
+    "count": 200,
+    "offline_test_gw_normalized": {
+      "count": 200,
+      "mean": 0.545917574788898,
+      "std": 0.10814748787398111,
+      "median": 0.5432039026248314,
+      "ci_2_5": 0.38299354627600957,
+      "ci_97_5": 0.7910066395430303
+    },
+    "offline_test_composite": {
+      "count": 200,
+      "mean": 0.6831635335828756,
+      "std": 0.07037900987334707,
+      "median": 0.6777723641619662,
+      "ci_2_5": 0.5702473983408982,
+      "ci_97_5": 0.8587352988339683
+    },
+    "one_sided_p_real_gw_lower": 0.004975124378109453
+  },
+  "independent_roi_stimulus_geometry": {
+    "count": 200,
+    "offline_test_gw_normalized": {
+      "count": 200,
+      "mean": 0.5135109672422705,
+      "std": 0.016847859990480454,
+      "median": 0.5078527296168532,
+      "ci_2_5": 0.5078527296168532,
+      "ci_97_5": 0.5312884116762469
+    },
+    "offline_test_composite": {
+      "count": 200,
+      "mean": 0.645101397251617,
+      "std": 0.0052225125579846024,
+      "median": 0.642950848498431,
+      "ci_2_5": 0.642950848498431,
+      "ci_97_5": 0.6544605053669444
+    },
+    "one_sided_p_real_gw_lower": 0.004975124378109453
+  },
+  "feature_pairing": {
+    "count": 20,
+    "offline_test_feature_normalized": {
+      "count": 20,
+      "mean": 0.7784307588604844,
+      "std": 1.1390647892519134e-16,
+      "median": 0.7784307588604845,
+      "ci_2_5": 0.7784307588604845,
+      "ci_97_5": 0.7784307588604845
+    },
+    "offline_test_gw_normalized": {
+      "count": 20,
+      "mean": 0.3232491422880847,
+      "std": 5.695323946259567e-17,
+      "median": 0.32324914228808466,
+      "ci_2_5": 0.32324914228808466,
+      "ci_97_5": 0.32324914228808466
+    },
+    "offline_test_composite": {
+      "count": 20,
+      "mean": 0.5508399505742845,
+      "std": 1.1390647892519134e-16,
+      "median": 0.5508399505742846,
+      "ci_2_5": 0.5508399505742846,
+      "ci_97_5": 0.5508399505742846
+    },
+    "one_sided_p_real_feature_lower": 0.047619047619047616,
+    "affects_locked_configuration": false,
+    "affects_pass_status": false
+  }
+}

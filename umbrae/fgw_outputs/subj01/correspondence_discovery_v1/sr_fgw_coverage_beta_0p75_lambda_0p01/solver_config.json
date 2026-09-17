@@ -1,0 +1,173 @@
+{
+  "method": "sr_fgw_coverage",
+  "candidate_stage": "offline_discovery_only",
+  "scientific_method_selected": false,
+  "source_marginal": [
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ],
+  "target_marginal": "free",
+  "structure_weight": 0.75,
+  "coverage_weight": 0.01,
+  "entropy_weight": 0.0,
+  "entropy_role": "disabled; not used as a scientific anti-collapse mechanism",
+  "eps_scale": 1e-12,
+  "eps_coverage": 1e-12,
+  "loss_scales": {
+    "s_feature": 0.18190438003847248,
+    "s_gw": 0.202123349231981
+  },
+  "objective": "(1-beta)*feature_raw/(s_feature+eps_scale) + beta*gw_raw/(s_gw+eps_scale) + lambda_cov*KL(target||uniform) + epsilon_entropy*sum(T log(T+eps))",
+  "solver": "projected gradient with Euclidean row-simplex projection and backtracking",
+  "allows_exact_zero_entries": true,
+  "coverage_guarantees_nonzero_target_mass": false,
+  "learning_rate": 0.1,
+  "max_iterations": 2500,
+  "tolerance": 1e-11,
+  "patience": 80,
+  "initializations": {
+    "winner_index": 3,
+    "winner_kind": "random",
+    "winner_seed": 37,
+    "selection_metric": "lowest offline_discovery total objective for fixed config",
+    "all_results": [
+      {
+        "initialization_kind": "uniform",
+        "initialization_seed": 0,
+        "components": {
+          "total_objective": 0.47373607270001267,
+          "feature_raw": 0.16949389559993472,
+          "feature_normalized": 0.9317746805390571,
+          "gw_raw": 0.06431743137853739,
+          "gw_normalized": 0.3182088146797962,
+          "coverage_loss": 0.21357915554012175,
+          "entropy_loss": -2.0980406991048923,
+          "shannon_plan_entropy": 2.0980406991048923
+        },
+        "converged": true,
+        "iterations": 204,
+        "stopping_reason": "objective_patience",
+        "source_marginal_feasibility_error": 0.0
+      },
+      {
+        "initialization_kind": "random",
+        "initialization_seed": 11,
+        "components": {
+          "total_objective": 0.47676527496293997,
+          "feature_raw": 0.1566309200862411,
+          "feature_normalized": 0.8610618394799117,
+          "gw_raw": 0.06954117341875297,
+          "gw_normalized": 0.3440531422156236,
+          "coverage_loss": 0.3459958431244383,
+          "entropy_loss": -2.163505928798549,
+          "shannon_plan_entropy": 2.163505928798549
+        },
+        "converged": false,
+        "iterations": 2500,
+        "stopping_reason": "maximum_iterations",
+        "source_marginal_feasibility_error": 0.0
+      },
+      {
+        "initialization_kind": "random",
+        "initialization_seed": 23,
+        "components": {
+          "total_objective": 0.45676162020564515,
+          "feature_raw": 0.17173307641049324,
+          "feature_normalized": 0.9440843391084254,
+          "gw_raw": 0.05933037709871621,
+          "gw_normalized": 0.2935354936669292,
+          "coverage_loss": 0.05889151783419177,
+          "entropy_loss": -2.079441541671836,
+          "shannon_plan_entropy": 2.079441541671836
+        },
+        "converged": true,
+        "iterations": 99,
+        "stopping_reason": "objective_patience",
+        "source_marginal_feasibility_error": 0.0
+      },
+      {
+        "initialization_kind": "random",
+        "initialization_seed": 37,
+        "components": {
+          "total_objective": 0.4411890057967649,
+          "feature_raw": 0.16970846422571287,
+          "feature_normalized": 0.9329542487590835,
+          "gw_raw": 0.05544198607196837,
+          "gw_normalized": 0.2742977804511947,
+          "coverage_loss": 0.22271082685979832,
+          "entropy_loss": -2.0889090277852156,
+          "shannon_plan_entropy": 2.0889090277852156
+        },
+        "converged": true,
+        "iterations": 179,
+        "stopping_reason": "objective_patience",
+        "source_marginal_feasibility_error": 0.0
+      },
+      {
+        "initialization_kind": "feature_informed",
+        "initialization_seed": 0,
+        "components": {
+          "total_objective": 0.4432256816862372,
+          "feature_raw": 0.15001066309292652,
+          "feature_normalized": 0.824667680131588,
+          "gw_raw": 0.063084833242892,
+          "gw_normalized": 0.3121105675434666,
+          "coverage_loss": 0.2975835995740274,
+          "entropy_loss": -2.079442273041555,
+          "shannon_plan_entropy": 2.079442273041555
+        },
+        "converged": true,
+        "iterations": 119,
+        "stopping_reason": "objective_patience",
+        "source_marginal_feasibility_error": 0.0
+      }
+    ],
+    "variability": {
+      "initialization_count": 5,
+      "objective_min": 0.4411890057967649,
+      "objective_max": 0.47676527496293997,
+      "objective_range": 0.03557626916617507,
+      "pairwise_plan_frobenius_min": 0.25002408883272165,
+      "pairwise_plan_frobenius_mean": 0.4222316204478903,
+      "pairwise_plan_frobenius_max": 0.49910012029353734,
+      "converged_count": 4
+    }
+  },
+  "roi_order": [
+    "V1",
+    "V2",
+    "V3",
+    "hV4",
+    "FFA",
+    "EBA",
+    "PPA",
+    "OPA"
+  ],
+  "clip_layer_order": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "matrix_and_provenance_hashes": {
+    "feature_cost_oof_sha256": "11e217440ed1f47e6ca1f9dbeec8a60c7d4147285c4abb77ff0343f7fba8e1a7",
+    "brain_geometry_sha256": "0ce5e158f71f50fe0ccd619890aee75b2d888f372d619fc9a3dc6bf96842f976",
+    "clip_geometry_sha256": "d6524f1537608d1fe6e2e4a719a24432ed22a18757c6d05dea6b8f90abc564bb",
+    "feature_cost_config_sha256": "da65072e9f1fbda76d1db3b6fd31133e3d4e72438aef0d86eb8eeedd9cd6dfa1",
+    "geometry_config_sha256": "84e21a7e2f89936d16cd8c06b010a2c9c205647bf4e733f75301bc0d98e7d258",
+    "stimulus_manifest_sha256": "9ad3e1111e730040e82655ecaad7c76a8b0525574391ecc3ab884d584dfebee0",
+    "loss_scale_calibration_sha256": "56d05a2c16d2b392f7a37efe47bea933161542b588c156b9242650e4aa4c34db"
+  },
+  "offline_validation_loaded": false,
+  "offline_test_loaded": false,
+  "protected_validation_loaded": false,
+  "protected_test_loaded": false
+}

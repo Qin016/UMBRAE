@@ -1,0 +1,18 @@
+
+Evaluation time: 2026-06-19 09:35:27.722441
+References path: data/caption/fmri_cococap.json
+Candidates path: ../umbrae/evaluation/eval_caption/brainx-v-1-4/sub01_dim1024/fmricap.json
+
+BLEU-1: 0.5938
+BLEU-2: 0.4058
+BLEU-3: 0.2770
+BLEU-4: 0.1902
+METEOR: 0.1939
+ROUGE: 0.4359
+CIDER: 0.6068
+SPICE: 0.1270
+CLIPScore: 0.6772
+RefCLIPScore: 0.7350
+PACScore: 0.7078
+RefPACScore: 0.7676
+SentenceScore: 0.5775

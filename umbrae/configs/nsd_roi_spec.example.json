@@ -1,0 +1,38 @@
+{
+  "V1": {
+    "atlas": "/path/to/nsddata/ppdata/subj01/func1pt8mm/roi/prf-visualrois.nii.gz",
+    "labels": [1, 2]
+  },
+  "V2": {
+    "atlas": "/path/to/nsddata/ppdata/subj01/func1pt8mm/roi/prf-visualrois.nii.gz",
+    "labels": [3, 4]
+  },
+  "V3": {
+    "atlas": "/path/to/nsddata/ppdata/subj01/func1pt8mm/roi/prf-visualrois.nii.gz",
+    "labels": [5, 6]
+  },
+  "hV4": {
+    "atlas": "/path/to/nsddata/ppdata/subj01/func1pt8mm/roi/prf-visualrois.nii.gz",
+    "labels": [7]
+  },
+  "FFA": {
+    "atlas": "/path/to/nsddata/ppdata/subj01/func1pt8mm/roi/floc-faces.nii.gz",
+    "labels": [2, 3]
+  },
+  "PPA": {
+    "atlas": "/path/to/nsddata/ppdata/subj01/func1pt8mm/roi/floc-places.nii.gz",
+    "labels": [2]
+  },
+  "EBA": {
+    "atlas": "/path/to/nsddata/ppdata/subj01/func1pt8mm/roi/floc-bodies.nii.gz",
+    "labels": [1]
+  },
+  "OPA": {
+    "atlas": "/path/to/nsddata/ppdata/subj01/func1pt8mm/roi/floc-places.nii.gz",
+    "labels": [1]
+  },
+  "RSC": {
+    "atlas": "/path/to/nsddata/ppdata/subj01/func1pt8mm/roi/floc-places.nii.gz",
+    "labels": [3]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "protocol_version": "protocol_v1",
+  "split": "test",
+  "sample_count": 982,
+  "test_evaluation_started_after_model_selection": true,
+  "mode": "lora",
+  "role": "ABLATION",
+  "brainx_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/train_logs/brainx-v-1-4/last.pth",
+  "brainx_sha256": "b38aa7ce9d11d56c36ede011ec757a3fda4194c5deaa5f7b0f5f8e42187bb4fb",
+  "mm_projector": "/opt/data/private/BA/UMBRAE/umbrae/model_weights/mm_projector.bin",
+  "mm_projector_sha256": "357a4a6a42c7214ecf3eca7cb17dfdadb9cdb9dba05f1daff764b969c71403ea",
+  "shikra_model_identifier": "/opt/data/private/BA/UMBRAE/umbrae/model_weights/shikra-7b",
+  "decoding": {
+    "caption_prompt": "Describe this image <image> as simply as possible.",
+    "grounding_prompt": "Locate <expr> in <image> and provide its coordinates, please",
+    "max_new_tokens": 512,
+    "do_sample": false,
+    "use_cache": true,
+    "pad_token_id": 2,
+    "bos_token_id": 1,
+    "eos_token_id": 2
+  },
+  "joint_caption_wall_seconds": 590.1978323459625,
+  "joint_grounding_wall_seconds": 2291.036733150482,
+  "effective_per_model_caption_seconds": 147.54945808649063,
+  "effective_per_model_grounding_seconds": 572.7591832876205,
+  "shared_peak_gpu_memory_gib": 38.36419439315796,
+  "lora_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/umbrae_s1_lora_qv_r8_seed42_protocolv1/best.pth",
+  "brainx_checkpoint_sha256": "b38aa7ce9d11d56c36ede011ec757a3fda4194c5deaa5f7b0f5f8e42187bb4fb",
+  "lora_checkpoint_sha256": "048f58633ef743bf95eb174a0dd184731386de0d4e30138af39b424dbecbe144"
+}

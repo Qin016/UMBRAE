@@ -1,0 +1,50 @@
+{
+  "umbrae": {
+    "before": {
+      "spearman_rsa": 0.45906886883928133,
+      "pearson_rsa": 0.4806471188273018,
+      "stimulus_count": 982
+    },
+    "after": {
+      "spearman_rsa": 0.42660620070054284,
+      "pearson_rsa": 0.44286543983228993,
+      "stimulus_count": 982
+    }
+  },
+  "lora": {
+    "before": {
+      "spearman_rsa": 0.4681754521773819,
+      "pearson_rsa": 0.49169305165575317,
+      "stimulus_count": 982
+    },
+    "after": {
+      "spearman_rsa": 0.4387413108808987,
+      "pearson_rsa": 0.4573065079311182,
+      "stimulus_count": 982
+    }
+  },
+  "full_real": {
+    "before": {
+      "spearman_rsa": 0.4799934431481292,
+      "pearson_rsa": 0.5068231022435965,
+      "stimulus_count": 982
+    },
+    "after": {
+      "spearman_rsa": 0.4445450431703918,
+      "pearson_rsa": 0.4669216774821014,
+      "stimulus_count": 982
+    }
+  },
+  "full_random": {
+    "before": {
+      "spearman_rsa": 0.48594433969128525,
+      "pearson_rsa": 0.5129002379741477,
+      "stimulus_count": 982
+    },
+    "after": {
+      "spearman_rsa": 0.45096810591631215,
+      "pearson_rsa": 0.4745324379298303,
+      "stimulus_count": 982
+    }
+  }
+}

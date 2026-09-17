@@ -1,0 +1,75 @@
+{
+  "report": "P4 Gated Fusion Calibration",
+  "protocol_version": "protocol_v1",
+  "checkpoint_selection_metric": "val_total_loss",
+  "comparison": {
+    "frozen_umbrae": {
+      "spearman_rsa": 0.8527783547748258,
+      "pearson_rsa": 0.8659444923997058,
+      "recall_at_1": 0.9933333333333333,
+      "recall_at_5": 0.9966666666666667,
+      "recall_at_10": 0.9966666666666667,
+      "median_rank": 1.0,
+      "mean_rank": 1.0433333333333332,
+      "preservation_cosine": 1.0,
+      "gate": 0.0,
+      "delta_ratio": 0.0,
+      "best_epoch": null,
+      "best_val_total_loss": null
+    },
+    "real_fusion": {
+      "spearman_rsa": 0.8635159936006498,
+      "pearson_rsa": 0.8790288521425821,
+      "recall_at_1": 0.99,
+      "recall_at_5": 0.9966666666666667,
+      "recall_at_10": 1.0,
+      "median_rank": 1.0,
+      "mean_rank": 1.0266666666666666,
+      "preservation_cosine": 0.998466252485911,
+      "gate": 0.018544863909482956,
+      "delta_ratio": 0.04351053088903427,
+      "best_epoch": 4,
+      "best_val_total_loss": 0.07286159406105677
+    },
+    "random_fusion": {
+      "spearman_rsa": 0.8662781698998472,
+      "pearson_rsa": 0.8809886881186774,
+      "recall_at_1": 0.9933333333333333,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "median_rank": 1.0,
+      "mean_rank": 1.0166666666666666,
+      "preservation_cosine": 0.9984818092981974,
+      "gate": 0.01854083314538002,
+      "delta_ratio": 0.046052402009566624,
+      "best_epoch": 4,
+      "best_val_total_loss": 0.07275470763444901
+    }
+  },
+  "geometry_calibration": {
+    "delta_spearman_rsa_real": 0.010737638825824014,
+    "delta_spearman_rsa_random": 0.013499815125021408,
+    "real_minus_random_delta_rsa": -0.002762176299197394
+  },
+  "controls": {
+    "fusion_initialization_sha256": "07cc41fc3ea69353c943ce9b54859c1d16d7fe69f2462fae323aef8873ac43d5",
+    "identical_fusion_initialization": true,
+    "identical_batch_order_rule": "torch.Generator(seed + epoch)",
+    "brainx_frozen": true,
+    "structural_frozen": true,
+    "clip_frozen": true,
+    "fusion_only_optimizer": true,
+    "h_struct_online": true,
+    "z_cal_cached": false,
+    "test_set_used": false
+  },
+  "judgement_thresholds": {
+    "complementarity_margin": 0.001,
+    "retrieval_r1_max_drop": 0.01,
+    "minimum_preservation_cosine": 0.99
+  },
+  "FUSION_UTILITY": "POSITIVE",
+  "STRUCTURAL_COMPLEMENTARITY": "NEGATIVE",
+  "SEMANTIC_PRESERVATION": "PASS",
+  "P4_STATUS": "FUSION_WORKS_STRUCTURE_WEAK"
+}

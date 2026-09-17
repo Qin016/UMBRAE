@@ -1,0 +1,46 @@
+{
+  "epoch": 1,
+  "train_loss": 2.1774472500119253,
+  "val_loss": 2.2497228463490804,
+  "caption_metrics": {
+    "BLEU-1": 0.20837642192347466,
+    "BLEU-2": 0.08509865733020275,
+    "BLEU-3": 0.04344318896885344,
+    "BLEU-4": 0.02691619705279999,
+    "ROUGE-L": 0.20092099764102267,
+    "CIDEr": 0.14309110915404694,
+    "METEOR": null,
+    "SPICE": null,
+    "unavailable_metrics": {
+      "METEOR": "Java runtime is unavailable",
+      "SPICE": "Java runtime is unavailable"
+    }
+  },
+  "ground_truth_image_features_used": false,
+  "global_l24_token_norm": 11.724751472473145,
+  "stage1_aligned_roi_token_norm": 11.78201675415039,
+  "visual_prefix_token_norm": 327.46856689453125,
+  "gate_mean": null,
+  "available": true,
+  "selected_clip_layers": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "l24_usage": 1.0,
+  "expected_depth_per_roi": {
+    "V1": 24.0,
+    "V2": 24.0,
+    "V3": 24.0,
+    "hV4": 24.0,
+    "FFA": 24.0,
+    "EBA": 24.0,
+    "PPA": 24.0,
+    "OPA": 24.0
+  },
+  "early_roi_mean_depth": 24.0,
+  "high_level_roi_mean_depth": 24.0
+}

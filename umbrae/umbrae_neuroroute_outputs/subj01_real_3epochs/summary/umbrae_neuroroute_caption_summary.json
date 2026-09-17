@@ -1,0 +1,132 @@
+{
+  "runs": [
+    {
+      "name": "umbrae_only",
+      "path": "/opt/data/private/BA/UMBRAE/umbrae/umbrae_neuroroute_outputs/subj01_real_3epochs/umbrae_only",
+      "fusion_mode": "umbrae_only",
+      "bridge_type": "shikra_patch",
+      "best_val_loss": 1.8841068772474925,
+      "val_loss": 1.9166464177767435,
+      "BLEU-1": 0.28600823045267487,
+      "BLEU-2": 0.16610206372546643,
+      "BLEU-3": 0.10601775132050763,
+      "BLEU-4": 0.07121833294548442,
+      "ROUGE-L": 0.2948906757907442,
+      "CIDEr": 0.5941734596216924,
+      "num_generated_captions": 300,
+      "uses_image_tokens_at_eval": false,
+      "oracle_image_token_mode": false
+    },
+    {
+      "name": "neuroroute_only",
+      "path": "/opt/data/private/BA/UMBRAE/umbrae/umbrae_neuroroute_outputs/subj01_real_3epochs/neuroroute_only",
+      "fusion_mode": "neuroroute_only",
+      "bridge_type": "shikra_patch",
+      "best_val_loss": 2.175132883787155,
+      "val_loss": 2.175132883787155,
+      "BLEU-1": 0.24542936288088643,
+      "BLEU-2": 0.11584800266940111,
+      "BLEU-3": 0.06549131614562796,
+      "BLEU-4": 0.04199289148637916,
+      "ROUGE-L": 0.23065202217513184,
+      "CIDEr": 0.24602850622717032,
+      "num_generated_captions": 300,
+      "uses_image_tokens_at_eval": false,
+      "oracle_image_token_mode": false
+    },
+    {
+      "name": "umbrae_plus_soft",
+      "path": "/opt/data/private/BA/UMBRAE/umbrae/umbrae_neuroroute_outputs/subj01_real_3epochs/umbrae_plus_soft",
+      "fusion_mode": "umbrae_plus_soft",
+      "bridge_type": "shikra_patch",
+      "best_val_loss": 1.9098960928122202,
+      "val_loss": 1.9098960928122202,
+      "BLEU-1": 0.3178010471204189,
+      "BLEU-2": 0.18740498147685872,
+      "BLEU-3": 0.12139014010632063,
+      "BLEU-4": 0.08418705350391732,
+      "ROUGE-L": 0.3048031409664623,
+      "CIDEr": 0.7130345458540683,
+      "num_generated_captions": 300,
+      "uses_image_tokens_at_eval": false,
+      "oracle_image_token_mode": false
+    },
+    {
+      "name": "umbrae_plus_uniform",
+      "path": "/opt/data/private/BA/UMBRAE/umbrae/umbrae_neuroroute_outputs/subj01_real_3epochs/umbrae_plus_uniform",
+      "fusion_mode": "umbrae_plus_uniform",
+      "bridge_type": "shikra_patch",
+      "best_val_loss": 1.9089403466383617,
+      "val_loss": 1.9089403466383617,
+      "BLEU-1": 0.32588300220750555,
+      "BLEU-2": 0.1967881280722236,
+      "BLEU-3": 0.13036290663442932,
+      "BLEU-4": 0.09118396689878963,
+      "ROUGE-L": 0.30718682653557416,
+      "CIDEr": 0.7582297488304386,
+      "num_generated_captions": 300,
+      "uses_image_tokens_at_eval": false,
+      "oracle_image_token_mode": false
+    },
+    {
+      "name": "umbrae_plus_single_l24",
+      "path": "/opt/data/private/BA/UMBRAE/umbrae/umbrae_neuroroute_outputs/subj01_real_3epochs/umbrae_plus_single_l24",
+      "fusion_mode": "umbrae_plus_single_l24",
+      "bridge_type": "shikra_patch",
+      "best_val_loss": 1.9220395720005035,
+      "val_loss": 1.9220395720005035,
+      "BLEU-1": 0.2813942751615882,
+      "BLEU-2": 0.16199115038410944,
+      "BLEU-3": 0.104864445332251,
+      "BLEU-4": 0.0722280072487057,
+      "ROUGE-L": 0.28402663925731064,
+      "CIDEr": 0.5371556451833339,
+      "num_generated_captions": 300,
+      "uses_image_tokens_at_eval": false,
+      "oracle_image_token_mode": false
+    }
+  ],
+  "best_method_per_metric": {
+    "best_val_loss": "umbrae_only",
+    "val_loss": "umbrae_plus_uniform",
+    "BLEU-1": "umbrae_plus_uniform",
+    "BLEU-2": "umbrae_plus_uniform",
+    "BLEU-3": "umbrae_plus_uniform",
+    "BLEU-4": "umbrae_plus_uniform",
+    "ROUGE-L": "umbrae_plus_uniform",
+    "CIDEr": "umbrae_plus_uniform"
+  },
+  "relative_improvement_percent": {
+    "umbrae_plus_soft_vs_umbrae_only": {
+      "best_val_loss": -1.3687766801426555,
+      "val_loss": 0.35219458852267144,
+      "BLEU-1": 11.116049568722014,
+      "BLEU-2": 12.825197516270332,
+      "BLEU-3": 14.49982535409561,
+      "BLEU-4": 18.209806410885918,
+      "ROUGE-L": 3.3614033909814345,
+      "CIDEr": 20.004442188995487
+    },
+    "umbrae_plus_soft_vs_umbrae_plus_uniform": {
+      "best_val_loss": -0.050066843395163416,
+      "val_loss": -0.050066843395163416,
+      "BLEU-1": -2.4800173781204062,
+      "BLEU-2": -4.768146680027949,
+      "BLEU-3": -6.88291382860203,
+      "BLEU-4": -7.673403157200418,
+      "ROUGE-L": -0.7759725884064862,
+      "CIDEr": -5.960621176639848
+    },
+    "umbrae_plus_soft_vs_umbrae_plus_single_l24": {
+      "best_val_loss": 0.6318017258949604,
+      "val_loss": 0.6318017258949604,
+      "BLEU-1": 12.937993119413823,
+      "BLEU-2": 15.688407071922526,
+      "BLEU-3": 15.759101878343843,
+      "BLEU-4": 16.557353180231782,
+      "ROUGE-L": 7.314983468972941,
+      "CIDEr": 32.74263283795632
+    }
+  },
+  "leakage_check_passed": true
+}

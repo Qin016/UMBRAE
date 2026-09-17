@@ -1,0 +1,168 @@
+{
+  "initial": {
+    "total_loss": 2.2022515455881755,
+    "roi_rel_loss": 1.783953798611959,
+    "global_contrastive_loss": 4.182977879842122,
+    "mean_roi_token_norm": 18.556735636393228,
+    "mean_pairwise_roi_cosine": 0.0002889018723120292,
+    "across_sample_variance": 0.32687928795814514,
+    "sample_count": 300,
+    "per_roi_rel_loss": {
+      "V1": 1.7960142262776693,
+      "V2": 1.8240265909830728,
+      "V3": 1.8144903310139975,
+      "hV4": 1.8215851593017578,
+      "FFA": 1.778169453938802,
+      "EBA": 1.7740738677978516,
+      "PPA": 1.6691334788004557,
+      "OPA": 1.7941373697916667
+    },
+    "global_rsa": {
+      "primary_metric": "spearman_upper_triangle_cosine_rdm",
+      "spearman_rsa": 0.09792726920371192,
+      "pearson_rsa": 0.1126214748574709,
+      "stimulus_count": 300,
+      "rdm_upper_triangle_count": 44850
+    },
+    "retrieval": {
+      "primary_direction": "brain_to_image",
+      "candidate_count": 300,
+      "brain_to_image": {
+        "recall_at_1": 0.0,
+        "recall_at_5": 0.02,
+        "recall_at_10": 0.05,
+        "median_rank": 152.0,
+        "mean_rank": 150.41333333333333
+      },
+      "image_to_brain": {
+        "recall_at_1": 0.006666666666666667,
+        "recall_at_5": 0.02,
+        "recall_at_10": 0.04666666666666667,
+        "median_rank": 155.5,
+        "mean_rank": 151.00333333333333
+      }
+    },
+    "roi_wise_rsa": {
+      "per_roi": {
+        "V1": {
+          "spearman": 0.0856405138306388,
+          "pearson": 0.09555676579475403
+        },
+        "V2": {
+          "spearman": 0.0814425634294544,
+          "pearson": 0.0884833037853241
+        },
+        "V3": {
+          "spearman": 0.08687083001595795,
+          "pearson": 0.09419040381908417
+        },
+        "hV4": {
+          "spearman": 0.07660636470125474,
+          "pearson": 0.08782300353050232
+        },
+        "FFA": {
+          "spearman": 0.09485272017191672,
+          "pearson": 0.09827578067779541
+        },
+        "EBA": {
+          "spearman": 0.10041162588017567,
+          "pearson": 0.10334859043359756
+        },
+        "PPA": {
+          "spearman": 0.1523993673998381,
+          "pearson": 0.15574151277542114
+        },
+        "OPA": {
+          "spearman": 0.09836135720902539,
+          "pearson": 0.10306677967309952
+        }
+      },
+      "mean_spearman": 0.09707316782978272,
+      "mean_pearson": 0.10331076756119728
+    }
+  },
+  "final": {
+    "total_loss": 1.2373334121704103,
+    "roi_rel_loss": 0.9980752762158712,
+    "global_contrastive_loss": 2.392581183115641,
+    "mean_roi_token_norm": 21.864476267496745,
+    "mean_pairwise_roi_cosine": -0.01830387059599161,
+    "across_sample_variance": 0.2832488667964935,
+    "sample_count": 300,
+    "per_roi_rel_loss": {
+      "V1": 1.2836720530192058,
+      "V2": 1.0930952326456707,
+      "V3": 0.9311230977376302,
+      "hV4": 1.037471440633138,
+      "FFA": 1.1113281122843424,
+      "EBA": 0.9053687286376954,
+      "PPA": 0.9037184397379557,
+      "OPA": 0.7188249142964681
+    },
+    "global_rsa": {
+      "primary_metric": "spearman_upper_triangle_cosine_rdm",
+      "spearman_rsa": 0.28071484685194176,
+      "pearson_rsa": 0.30883972395488246,
+      "stimulus_count": 300,
+      "rdm_upper_triangle_count": 44850
+    },
+    "retrieval": {
+      "primary_direction": "brain_to_image",
+      "candidate_count": 300,
+      "brain_to_image": {
+        "recall_at_1": 0.14,
+        "recall_at_5": 0.47,
+        "recall_at_10": 0.6833333333333333,
+        "median_rank": 6.0,
+        "mean_rank": 11.876666666666667
+      },
+      "image_to_brain": {
+        "recall_at_1": 0.17666666666666667,
+        "recall_at_5": 0.5633333333333334,
+        "recall_at_10": 0.7366666666666667,
+        "median_rank": 4.0,
+        "mean_rank": 10.286666666666667
+      }
+    },
+    "roi_wise_rsa": {
+      "per_roi": {
+        "V1": {
+          "spearman": 0.34418083331117383,
+          "pearson": 0.36471641063690186
+        },
+        "V2": {
+          "spearman": 0.43053633607550834,
+          "pearson": 0.462051659822464
+        },
+        "V3": {
+          "spearman": 0.5324531655926776,
+          "pearson": 0.5441849231719971
+        },
+        "hV4": {
+          "spearman": 0.4706963148696126,
+          "pearson": 0.4785313606262207
+        },
+        "FFA": {
+          "spearman": 0.45981841111910143,
+          "pearson": 0.4627593159675598
+        },
+        "EBA": {
+          "spearman": 0.5564826114120538,
+          "pearson": 0.5682796835899353
+        },
+        "PPA": {
+          "spearman": 0.5511552793259149,
+          "pearson": 0.5518702864646912
+        },
+        "OPA": {
+          "spearman": 0.6415204835730317,
+          "pearson": 0.6565153002738953
+        }
+      },
+      "mean_spearman": 0.4983554294098843,
+      "mean_pearson": 0.5111136175692081
+    },
+    "best_epoch": 8,
+    "best_val_total_loss": 1.2373334121704103
+  }
+}

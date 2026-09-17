@@ -1,0 +1,47 @@
+{
+  "splits": {
+    "train": {
+      "p6_cache_vs_online": {
+        "max_abs_error": 0.0625,
+        "mean_abs_error": 0.00027152054826729,
+        "cosine": 0.9999998211860657
+      },
+      "teacher_projected_cache_vs_online": {
+        "max_abs_error": 0.0,
+        "mean_abs_error": 0.0,
+        "cosine": 1.0
+      },
+      "base_cache_shape": [
+        8559,
+        256,
+        1024
+      ],
+      "p6_all_finite": true,
+      "teacher_all_finite": true
+    },
+    "val": {
+      "p6_cache_vs_online": {
+        "max_abs_error": 0.02734375,
+        "mean_abs_error": 0.00022113267914392054,
+        "cosine": 0.9999998807907104
+      },
+      "teacher_projected_cache_vs_online": {
+        "max_abs_error": 0.0,
+        "mean_abs_error": 0.0,
+        "cosine": 1.0
+      },
+      "base_cache_shape": [
+        300,
+        256,
+        1024
+      ],
+      "p6_all_finite": true,
+      "teacher_all_finite": true
+    }
+  },
+  "source_base": "existing frozen UMBRAE Stage-B semantic cache",
+  "source_p6": "frozen P6 Full Real",
+  "mm_projector": "/opt/data/private/BA/UMBRAE/umbrae/model_weights/mm_projector.bin",
+  "mm_projector_sha256": "357a4a6a42c7214ecf3eca7cb17dfdadb9cdb9dba05f1daff764b969c71403ea",
+  "test_used": false
+}

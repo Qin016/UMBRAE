@@ -1,0 +1,144 @@
+{
+  "protocol_version": "prompt4b_locked_one_shot_v1",
+  "offline_test_accessed_when_written": false,
+  "locked_structural": {
+    "method": "sr_fgw",
+    "structure_weight": 0.5,
+    "coverage_weight": 0.0,
+    "entropy_weight": 0.0,
+    "best_discovery_initialization": [
+      "random",
+      1006
+    ],
+    "VALIDATION_STATUS": "READY_FOR_OFFLINE_TEST"
+  },
+  "locked_baseline": {
+    "slug": "source_constrained_feature_coverage_lambda_1",
+    "method": "source_constrained_feature_coverage",
+    "structure_weight": 0.0,
+    "coverage_weight": 1.0,
+    "best_discovery_initialization": [
+      "random",
+      1004
+    ]
+  },
+  "feature_protocol": {
+    "final_plan_cost": "5-fold OOF over combined discovery+validation",
+    "test_probe": "same ridge refit once on all combined discovery+validation",
+    "fold_count": 5,
+    "fold_seed": 42,
+    "ridge_alpha": 100.0,
+    "std_epsilon": 1e-06,
+    "cost": "mean over OOF stimuli of 1 - cosine(predicted CLIP feature, true CLIP feature)"
+  },
+  "geometry_protocol": {
+    "stimulus_distance": "1 - cosine similarity",
+    "node_relation": "1 - Spearman correlation of RDM strict upper triangles",
+    "brain_semantics": "ROI representational geometry relation matrix",
+    "anatomical_distance": false,
+    "hierarchy_claimed": false,
+    "brain_representation": "roi_tokens_before_projector",
+    "anchor_count": 1500,
+    "random_seed": 42,
+    "random_stream": "NumPy SeedSequence(seed).spawn(5)[0]",
+    "variance_standardized_geometry_used": false
+  },
+  "loss_calibration_rule": "reuse Prompt-3 constants exactly; no final-train or test recalibration",
+  "fixed_loss_calibration": {
+    "s_feature": 0.18190438003847248,
+    "s_gw": 0.202123349231981,
+    "eps_scale": 1e-12
+  },
+  "solver": {
+    "learning_rate": 0.1,
+    "max_iterations": 2500,
+    "tolerance": 1e-11,
+    "patience": 80,
+    "eps_coverage": 1e-12,
+    "entropy_weight": 0.0,
+    "projection": "Euclidean row-simplex projection"
+  },
+  "null_protocol": {
+    "brain_geometry_unique_permutations": 200,
+    "clip_geometry_unique_permutations": 200,
+    "independent_roi_stimulus_permutations": 200,
+    "feature_pairing_permutations": 20,
+    "null_fit_initializations": [
+      [
+        "uniform",
+        0
+      ],
+      [
+        "feature_informed",
+        0
+      ],
+      [
+        "random",
+        1001
+      ]
+    ],
+    "seed": 42001,
+    "fit_split": "offline_discovery + offline_validation only",
+    "test_evaluation": "original unpermuted offline_test matrices"
+  },
+  "test_subsampling": {
+    "count": 200,
+    "fraction": 0.8,
+    "without_replacement": true,
+    "seed": 41001,
+    "plans_refit": false
+  },
+  "decision_rule": {
+    "EXPLORATORY_PASS": "composite difference < 0; paired GW-difference CI upper < 0; all three geometry-null one-sided p < 0.05; no test fitting; pretest hash valid",
+    "FAIL": "mean GW difference >= 0 or any required geometry-null p >= 0.05",
+    "INCONCLUSIVE": "remaining mixed criterion outcomes",
+    "feature_pairing_null_affects_status": false
+  },
+  "final_fit_count": 6847,
+  "final_fit_id_sha256": "70aab79abe9a7c12520b4adae45bc38f90001cad4349a1c1189cac4ffaa7ab75",
+  "discovery_id_sha256": "1da5b47facee500b3749f1a973e98a0ffb38fb357dd00e64aa7944eae0d024c6",
+  "validation_id_sha256": "a9285c0b10fe9d627d19386b47ff948d0343c8c5a32b305bebe941229ff0ecd5",
+  "offline_test_declared_id_sha256_pretest": "9ea8456faf5338b1f42a8d9e49924fd71e885999f1b5af5e285e9a0c2e4e4f5e",
+  "offline_test_actual_id_hash_recomputed": false,
+  "protected_overlap": 0,
+  "OOF_fold_id_hashes": [
+    "9b1b64d51f61f497a21ad4896024ab3fdf8c4e679308d1d3eb2c628fb662d4c5",
+    "081c8130de05a55569ee7ac39f11470e729c8f8a8b4e3716db6eb05249b0c6df",
+    "4b733c359f328c4051164e08cafcac809ad5122692f4ff0288792c2d0b482d8b",
+    "0b1066b5019c136137e4ccbedd1b76e0d3f20b62b881ac0d7596616cf409534e",
+    "df3247c7168d3aa106255aa5cd2223776ced145b18a01c324f27d5e923bdb21b"
+  ],
+  "full_probe_parameter_sha256": "245d6bee12e03d071a3fdb08e8cacbc024477572b0bfc05235fe1fc7702b2ef8",
+  "source_hashes": {
+    "stimulus_manifest_sha256": "9ad3e1111e730040e82655ecaad7c76a8b0525574391ecc3ab884d584dfebee0",
+    "preregistered_grid_sha256": "ab6bbb2f61906dcfc77fabc28636bb3baca1ed0781393a076dc5c285310d8902",
+    "feature_cost_discovery_sha256": "11e217440ed1f47e6ca1f9dbeec8a60c7d4147285c4abb77ff0343f7fba8e1a7",
+    "brain_geometry_discovery_sha256": "0ce5e158f71f50fe0ccd619890aee75b2d888f372d619fc9a3dc6bf96842f976",
+    "clip_geometry_discovery_sha256": "d6524f1537608d1fe6e2e4a719a24432ed22a18757c6d05dea6b8f90abc564bb",
+    "feature_cost_validation_sha256": "bd8702ea83ebcf35ba1907473f3c01071a95364dd520a023a0b8a997af97ff37",
+    "brain_geometry_validation_sha256": "79583179372f1fc59a2c7a90607a5a3229480b85f98f38f903b14628f65bf1e4",
+    "clip_geometry_validation_sha256": "27bae98fad30d0ee012f3279b2d6963cd0fe6a67c9974ab98cdeb679daff5f71",
+    "validation_script_sha256": "bae5c23ce7080fdf7842e34a506ba2f6ade6d7f8d8ea07c7cb099f32c03b3a76"
+  },
+  "protocol_config_hashes": {
+    "feature_cost_config_sha256": "da65072e9f1fbda76d1db3b6fd31133e3d4e72438aef0d86eb8eeedd9cd6dfa1",
+    "geometry_config_sha256": "84e21a7e2f89936d16cd8c06b010a2c9c205647bf4e733f75301bc0d98e7d258"
+  },
+  "final_train_matrix_hashes": {
+    "feature": "7a71c42523dcf2017343d165e0f93bfb77c8bcd48ea517b9e16aeaac69154b09",
+    "brain_geometry": "f904181d32be409e4e65e5d62caf2520c65d9422a79cd1cb058822feac837bdc",
+    "clip_geometry": "0811ef483f44b18ff62e5f6e43a949c0c9dda0d2edef6f553c1d102317c088b1"
+  },
+  "final_plan_fit_count": 1,
+  "final_plan_initialization": [
+    "random",
+    1006
+  ],
+  "baseline_plan_initialization": [
+    "random",
+    1004
+  ],
+  "offline_test_used_for_fitting": false,
+  "stage2_run": false,
+  "caption_metrics_used": false
+}

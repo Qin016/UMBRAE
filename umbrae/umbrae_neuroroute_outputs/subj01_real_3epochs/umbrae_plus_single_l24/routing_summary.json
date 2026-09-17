@@ -1,0 +1,25 @@
+{
+  "available": true,
+  "selected_clip_layers": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "l24_usage": 1.0,
+  "expected_depth_per_roi": {
+    "V1": 24.0,
+    "V2": 24.0,
+    "V3": 24.0,
+    "hV4": 24.0,
+    "FFA": 24.0,
+    "EBA": 24.0,
+    "PPA": 24.0,
+    "OPA": 24.0
+  },
+  "early_roi_mean_depth": 24.0,
+  "high_level_roi_mean_depth": 24.0,
+  "uses_image_clip_tokens_at_eval": false
+}

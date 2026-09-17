@@ -1,0 +1,6 @@
+name,output_dir,best_val_loss,final_val_loss,bleu_4,cider,meteor,rouge_l,spice,num_generated_captions,uses_image_tokens_at_eval,fusion_mode,mllm_bridge_type
+l24_only,/opt/data/private/BA/UMBRAE/umbrae/stage2_outputs/subj01_debug_real/l24_only,6.191120624542236,6.191120624542236,0.004149083133536492,0.025173522924018282,,0.09965649020822424,,10,False,l24_only,generic_inputs_embeds_prefix
+routed_only,/opt/data/private/BA/UMBRAE/umbrae/stage2_outputs/subj01_debug_real/routed_only,3.5519327402114866,3.5519327402114866,0.0020530827437662924,0.018586466654058158,,0.13953342009804257,,10,False,routed_only,generic_inputs_embeds_prefix
+concat_soft,/opt/data/private/BA/UMBRAE/umbrae/stage2_outputs/subj01_debug_real/concat_soft,3.9339532136917112,3.9339532136917112,0.00302528149472389,0.005701178904920734,,0.10241076498530695,,10,False,concat,generic_inputs_embeds_prefix
+concat_uniform,/opt/data/private/BA/UMBRAE/umbrae/stage2_outputs/subj01_debug_real/concat_uniform,3.8717369079589843,3.8717369079589843,0.0030708987612633834,0.0025016765774731166,,0.10168387319532404,,10,False,concat,generic_inputs_embeds_prefix
+concat_single_l24,/opt/data/private/BA/UMBRAE/umbrae/stage2_outputs/subj01_debug_real/concat_single_l24,4.456949234008789,4.456949234008789,0.002929139696424615,0.05461912790488564,,0.0856270376981397,,10,False,concat,generic_inputs_embeds_prefix

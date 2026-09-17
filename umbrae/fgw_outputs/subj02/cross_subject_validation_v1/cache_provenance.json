@@ -1,0 +1,188 @@
+{
+  "subject": "subj02",
+  "cache_directory": "/opt/data/private/BA/UMBRAE/umbrae/fgw_cache/subj02/train_seed42",
+  "cache_config_sha256": "04365ca1708bd5142e60ac792dabf9dd8b4c3d25629d25dddad488d9ce65ad85",
+  "metadata_sha256": "4e82341a4a9273101eecccaf05a1578ca26301dbfc4737e10aee6c6fbaa5ee71",
+  "cache_config": {
+    "offline_analysis_only": true,
+    "uses_image_features_only_for_offline_analysis": true,
+    "image_features_used_by_brain_branch": false,
+    "image_features_exported_to_training_or_inference": false,
+    "subject": "subj02",
+    "dataset_split": "train",
+    "sample_count": 8559,
+    "roi_names": [
+      "V1",
+      "V2",
+      "V3",
+      "hV4",
+      "FFA",
+      "EBA",
+      "PPA",
+      "OPA"
+    ],
+    "selected_clip_layers": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      24
+    ],
+    "clip_pooling_method": "mean_non_cls_patch_tokens",
+    "feature_dimensions": {
+      "D_roi": 1024,
+      "D_clip": 1024,
+      "R": 8,
+      "L": 6
+    },
+    "random_seed": 42,
+    "analysis_split_names": [
+      "geometry_fit",
+      "feature_cost_fit",
+      "heldout_eval"
+    ],
+    "splits": {
+      "geometry_fit": {
+        "sample_count": 5135,
+        "unique_stimulus_id_count": 5135,
+        "ordered_sample_id_sha256": "db88e38d5eb4585363a5532906c3d10b0cbf46817986bfe72ae40207a29f4c57",
+        "relative_path": "geometry_fit"
+      },
+      "feature_cost_fit": {
+        "sample_count": 1712,
+        "unique_stimulus_id_count": 1712,
+        "ordered_sample_id_sha256": "1b13fd5d9b77ca4e3554adf3999c5d8e4de4ac04931c108d9f87d54fb66881b6",
+        "relative_path": "feature_cost_fit"
+      },
+      "heldout_eval": {
+        "sample_count": 1712,
+        "unique_stimulus_id_count": 1712,
+        "ordered_sample_id_sha256": "60210bfd42d9385e80e18faa642520710e7a46fdbd84c37dea9bf42f320457ad",
+        "relative_path": "heldout_eval"
+      }
+    },
+    "integrity_checks": {
+      "no_nan_or_inf": true,
+      "matching_sample_axis": true,
+      "exact_tensor_dimensions": true,
+      "deterministic_ordering": true,
+      "unique_stimulus_statistics_recorded": true
+    },
+    "stage1_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/stage1_outputs/cross_subject_projector/subj02/soft/checkpoint_best.pt",
+    "stage1_checkpoint_sha256": "4ccf5ffee8967c60724c78b9ec5f749e2d2f38678e5b2a27196d020c37211fd9",
+    "roi_indices_path": "/opt/data/private/BA/UMBRAE/roi_indices/subj02_neuroroute_v1.json",
+    "roi_indices_sha256": "53ef6fd11f70a36968ebcc11a326937dbd84a29e39750ba89548025352c7e71f",
+    "clip_model_name_or_path": "openai/clip-vit-large-patch14",
+    "source_tar_manifest": [
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_0.tar",
+        "size_bytes": 2271201280,
+        "mtime_ns": 1781071935189075529
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_1.tar",
+        "size_bytes": 2271180800,
+        "mtime_ns": 1781072035165120258
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_2.tar",
+        "size_bytes": 2271344640,
+        "mtime_ns": 1781073066983678828
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_3.tar",
+        "size_bytes": 2271641600,
+        "mtime_ns": 1781071684396643442
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_4.tar",
+        "size_bytes": 2270873600,
+        "mtime_ns": 1781074600976998807
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_5.tar",
+        "size_bytes": 2271651840,
+        "mtime_ns": 1781075059588030052
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_6.tar",
+        "size_bytes": 2271395840,
+        "mtime_ns": 1781071785940882966
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_7.tar",
+        "size_bytes": 2271283200,
+        "mtime_ns": 1781073903618152728
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_8.tar",
+        "size_bytes": 2271395840,
+        "mtime_ns": 1781073295087158364
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_9.tar",
+        "size_bytes": 2271191040,
+        "mtime_ns": 1781072170921096970
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_10.tar",
+        "size_bytes": 2271651840,
+        "mtime_ns": 1781074015058015994
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_11.tar",
+        "size_bytes": 2271365120,
+        "mtime_ns": 1781072476528793833
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_12.tar",
+        "size_bytes": 2271242240,
+        "mtime_ns": 1781072138141110580
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_13.tar",
+        "size_bytes": 2270535680,
+        "mtime_ns": 1781071962529093447
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_14.tar",
+        "size_bytes": 2271477760,
+        "mtime_ns": 1781072592512615406
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_15.tar",
+        "size_bytes": 2271580160,
+        "mtime_ns": 1781072803116232467
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_16.tar",
+        "size_bytes": 2271221760,
+        "mtime_ns": 1781072269573031737
+      },
+      {
+        "path": "/opt/data/private/BA/UMBRAE/umbrae/nsd/webdataset_avg_split/train/train_subj02_17.tar",
+        "size_bytes": 268042240,
+        "mtime_ns": 1781073839986217692
+      }
+    ],
+    "repeat_reduction": "mean_of_first_num_uniques_rows_in_float32",
+    "split_protocol": {
+      "type": "fixed_stimulus_level",
+      "names": [
+        "geometry_fit",
+        "feature_cost_fit",
+        "heldout_eval"
+      ],
+      "ratios_requested": [
+        0.6,
+        0.2,
+        0.2
+      ],
+      "assignment": "sorted unique stable IDs, NumPy default_rng(seed) permutation, largest-remainder counts",
+      "seed": 42
+    }
+  },
+  "reused_existing_cache": false,
+  "frozen_inference_only": true
+}

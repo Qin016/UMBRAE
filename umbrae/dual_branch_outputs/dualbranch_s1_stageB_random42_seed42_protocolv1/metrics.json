@@ -1,0 +1,73 @@
+{
+  "initial": {
+    "total_loss": 0.07428130219380061,
+    "global_loss": 0.06978457828362783,
+    "rel_loss": 0.004496724642813206,
+    "preservation_cosine": 0.9999740417798361,
+    "delta_ratio": 0.0037554086403300364,
+    "gate": 0.01798621006309986,
+    "sample_count": 300,
+    "rsa": {
+      "primary_metric": "spearman_upper_triangle_cosine_rdm",
+      "spearman_rsa": 0.8529942020909382,
+      "pearson_rsa": 0.8661491891241078,
+      "stimulus_count": 300,
+      "rdm_upper_triangle_count": 44850
+    },
+    "retrieval": {
+      "primary_direction": "brain_to_image",
+      "candidate_count": 300,
+      "brain_to_image": {
+        "recall_at_1": 0.9933333333333333,
+        "recall_at_5": 0.9966666666666667,
+        "recall_at_10": 0.9966666666666667,
+        "median_rank": 1.0,
+        "mean_rank": 1.0433333333333332
+      },
+      "image_to_brain": {
+        "recall_at_1": 0.9966666666666667,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "median_rank": 1.0,
+        "mean_rank": 1.0033333333333334
+      }
+    },
+    "initial_fusion_sha256": "07cc41fc3ea69353c943ce9b54859c1d16d7fe69f2462fae323aef8873ac43d5"
+  },
+  "final": {
+    "total_loss": 0.07275470763444901,
+    "global_loss": 0.06994727124770482,
+    "rel_loss": 0.0028074373242755733,
+    "preservation_cosine": 0.9984818092981974,
+    "delta_ratio": 0.046052402009566624,
+    "gate": 0.01854083314538002,
+    "sample_count": 300,
+    "rsa": {
+      "primary_metric": "spearman_upper_triangle_cosine_rdm",
+      "spearman_rsa": 0.8662781698998472,
+      "pearson_rsa": 0.8809886881186774,
+      "stimulus_count": 300,
+      "rdm_upper_triangle_count": 44850
+    },
+    "retrieval": {
+      "primary_direction": "brain_to_image",
+      "candidate_count": 300,
+      "brain_to_image": {
+        "recall_at_1": 0.9933333333333333,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "median_rank": 1.0,
+        "mean_rank": 1.0166666666666666
+      },
+      "image_to_brain": {
+        "recall_at_1": 0.9966666666666667,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "median_rank": 1.0,
+        "mean_rank": 1.0033333333333334
+      }
+    },
+    "best_epoch": 4,
+    "best_val_total_loss": 0.07275470763444901
+  }
+}

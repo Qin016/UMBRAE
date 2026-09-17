@@ -1,0 +1,340 @@
+{
+  "report": "P7 Downstream Validation",
+  "protocol_version": "protocol_v1",
+  "split": "test",
+  "test_evaluation_started_after_model_selection": true,
+  "main_method": "full_real",
+  "random_structural_control": "full_random",
+  "unified_results": [
+    {
+      "model": "UMBRAE",
+      "structural_type": "None",
+      "role": "BASELINE",
+      "spearman_rsa": 0.8527783548,
+      "pearson_rsa": 0.8659444924,
+      "recall_at_1": 0.9933333333,
+      "CIDEr": 0.6064128805899661,
+      "BLEU-4": 0.19028850855317814,
+      "ROUGE-L": 0.43617266481957284,
+      "mean_iou": 0.22082647681236267,
+      "grounding_accuracy": 0.1976023150062009,
+      "caption_integrity": {
+        "sample_count": 982,
+        "successful_generations": 982,
+        "empty_outputs": 0,
+        "failed_generations": 0,
+        "denominator": 982,
+        "failure_policy": "empty caption retained in denominator"
+      },
+      "grounding_integrity": {
+        "query_count": 2419,
+        "parse_failures": 7,
+        "target_failures": 0,
+        "threshold": 0.5,
+        "failure_policy": "parse failure becomes [0,0,0,0] and remains in accuracy denominator"
+      }
+    },
+    {
+      "model": "LoRA-only",
+      "structural_type": "None",
+      "role": "ABLATION",
+      "spearman_rsa": 0.8675653394,
+      "pearson_rsa": 0.8796118013,
+      "recall_at_1": 0.9966666667,
+      "CIDEr": 0.5816784891303525,
+      "BLEU-4": 0.1833407157444846,
+      "ROUGE-L": 0.43412488082070305,
+      "mean_iou": 0.216319739818573,
+      "grounding_accuracy": 0.1951219512195122,
+      "caption_integrity": {
+        "sample_count": 982,
+        "successful_generations": 982,
+        "empty_outputs": 0,
+        "failed_generations": 0,
+        "denominator": 982,
+        "failure_policy": "empty caption retained in denominator"
+      },
+      "grounding_integrity": {
+        "query_count": 2419,
+        "parse_failures": 7,
+        "target_failures": 0,
+        "threshold": 0.5,
+        "failure_policy": "parse failure becomes [0,0,0,0] and remains in accuracy denominator"
+      }
+    },
+    {
+      "model": "Full Real",
+      "structural_type": "Real ROI",
+      "role": "MAIN METHOD",
+      "spearman_rsa": 0.8745309277,
+      "pearson_rsa": 0.8881918487,
+      "recall_at_1": 0.9966666667,
+      "CIDEr": 0.5909716376180367,
+      "BLEU-4": 0.18183095227197188,
+      "ROUGE-L": 0.4349953753934815,
+      "mean_iou": 0.2179408222436905,
+      "grounding_accuracy": 0.19801570897064902,
+      "caption_integrity": {
+        "sample_count": 982,
+        "successful_generations": 981,
+        "empty_outputs": 1,
+        "failed_generations": 0,
+        "denominator": 982,
+        "failure_policy": "empty caption retained in denominator"
+      },
+      "grounding_integrity": {
+        "query_count": 2419,
+        "parse_failures": 4,
+        "target_failures": 0,
+        "threshold": 0.5,
+        "failure_policy": "parse failure becomes [0,0,0,0] and remains in accuracy denominator"
+      }
+    },
+    {
+      "model": "Full Random",
+      "structural_type": "Random partition",
+      "role": "RANDOM STRUCTURAL CONTROL",
+      "spearman_rsa": 0.8751833739,
+      "pearson_rsa": 0.8877349792,
+      "recall_at_1": 0.9966666667,
+      "CIDEr": 0.5826799876559317,
+      "BLEU-4": 0.1811758394772101,
+      "ROUGE-L": 0.43193581003824727,
+      "mean_iou": 0.21735110878944397,
+      "grounding_accuracy": 0.19429516329061597,
+      "caption_integrity": {
+        "sample_count": 982,
+        "successful_generations": 981,
+        "empty_outputs": 1,
+        "failed_generations": 0,
+        "denominator": 982,
+        "failure_policy": "empty caption retained in denominator"
+      },
+      "grounding_integrity": {
+        "query_count": 2419,
+        "parse_failures": 7,
+        "target_failures": 0,
+        "threshold": 0.5,
+        "failure_policy": "parse failure becomes [0,0,0,0] and remains in accuracy denominator"
+      }
+    }
+  ],
+  "downstream_gains": {
+    "lora_minus_umbrae": {
+      "CIDEr": -0.024734391459613647,
+      "BLEU-4": -0.006947792808693537,
+      "ROUGE-L": -0.00204778399886979,
+      "mean_iou": -0.004506736993789673,
+      "grounding_accuracy": -0.0024803637866886996
+    },
+    "full_real_minus_lora": {
+      "CIDEr": 0.009293148487684255,
+      "BLEU-4": -0.0015097634725127207,
+      "ROUGE-L": 0.0008704945727784352,
+      "mean_iou": 0.0016210824251174927,
+      "grounding_accuracy": 0.002893757751136816
+    },
+    "full_random_minus_lora": {
+      "CIDEr": 0.0010014985255791808,
+      "BLEU-4": -0.0021648762672744903,
+      "ROUGE-L": -0.002189070782455782,
+      "mean_iou": 0.0010313689708709717,
+      "grounding_accuracy": -0.0008267879288962332
+    },
+    "full_real_minus_full_random": {
+      "CIDEr": 0.008291649962105074,
+      "BLEU-4": 0.0006551127947617696,
+      "ROUGE-L": 0.0030595653552342172,
+      "mean_iou": 0.000589713454246521,
+      "grounding_accuracy": 0.0037205456800330494
+    }
+  },
+  "pre_evaluation_equivalence": {
+    "umbrae": {
+      "shape": [
+        2,
+        256,
+        1024
+      ],
+      "all_finite": true,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "cosine_similarity": 1.0
+    },
+    "lora": {
+      "shape": [
+        2,
+        256,
+        1024
+      ],
+      "all_finite": true,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "cosine_similarity": 1.0
+    },
+    "full_real": {
+      "shape": [
+        2,
+        256,
+        1024
+      ],
+      "all_finite": true,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "cosine_similarity": 1.0
+    },
+    "full_random": {
+      "shape": [
+        2,
+        256,
+        1024
+      ],
+      "all_finite": true,
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "cosine_similarity": 0.9999999403953552
+    }
+  },
+  "projected_token_diagnostics": {
+    "umbrae": {
+      "projected_shape": [
+        982,
+        256,
+        4096
+      ],
+      "projected_token_norm_mean": 73.80833839059119,
+      "projected_token_norm_std": 65.93572339539666,
+      "token_cosine_to_umbrae": 1.0
+    },
+    "lora": {
+      "projected_shape": [
+        982,
+        256,
+        4096
+      ],
+      "projected_token_norm_mean": 72.39988400834156,
+      "projected_token_norm_std": 61.35657913113454,
+      "token_cosine_to_umbrae": 0.9943966875251102
+    },
+    "full_real": {
+      "projected_shape": [
+        982,
+        256,
+        4096
+      ],
+      "projected_token_norm_mean": 70.1118170899432,
+      "projected_token_norm_std": 61.461178496106044,
+      "token_cosine_to_umbrae": 0.9929511061511069
+    },
+    "full_random": {
+      "projected_shape": [
+        982,
+        256,
+        4096
+      ],
+      "projected_token_norm_mean": 70.45154172194222,
+      "projected_token_norm_std": 61.48544571252062,
+      "token_cosine_to_umbrae": 0.9931065516656382
+    }
+  },
+  "compute": {
+    "joint_caption_wall_seconds": 590.1978323459625,
+    "joint_grounding_wall_seconds": 2291.036733150482,
+    "effective_per_model_caption_seconds": 147.54945808649063,
+    "effective_per_model_grounding_seconds": 572.7591832876205,
+    "shared_peak_gpu_memory_gib": 38.36419439315796
+  },
+  "parameter_efficiency": {
+    "brainx_base_parameters": 146500608,
+    "umbrae_calibration_trainable": 0,
+    "lora_only_trainable": 245760,
+    "lora_only_percent_of_brainx": 0.1677549356,
+    "full_stage_c_lora_trainable": 245760,
+    "full_stage_c_fusion_trainable": 4202497,
+    "full_stage_c_total_trainable": 4448257,
+    "full_stage_c_percent_of_brainx": 3.0363440504,
+    "structural_branch_stage_c": "present but frozen; excluded from Stage-C trainable ratio"
+  },
+  "integrity_audit": {
+    "umbrae": {
+      "caption_rows": 982,
+      "caption_unique_sample_ids": 982,
+      "caption_ids_exactly_0_to_981": true,
+      "caption_status_counts": {
+        "success": 982,
+        "empty": 0,
+        "failed": 0
+      },
+      "caption_denominator": 982,
+      "grounding_rows": 2419,
+      "grounding_unique_query_keys": 2419,
+      "grounding_parse_failures": 7,
+      "grounding_target_failures": 0,
+      "provenance_present": true
+    },
+    "lora": {
+      "caption_rows": 982,
+      "caption_unique_sample_ids": 982,
+      "caption_ids_exactly_0_to_981": true,
+      "caption_status_counts": {
+        "success": 982,
+        "empty": 0,
+        "failed": 0
+      },
+      "caption_denominator": 982,
+      "grounding_rows": 2419,
+      "grounding_unique_query_keys": 2419,
+      "grounding_parse_failures": 7,
+      "grounding_target_failures": 0,
+      "provenance_present": true
+    },
+    "full_real": {
+      "caption_rows": 982,
+      "caption_unique_sample_ids": 982,
+      "caption_ids_exactly_0_to_981": true,
+      "caption_status_counts": {
+        "success": 981,
+        "empty": 1,
+        "failed": 0
+      },
+      "caption_denominator": 982,
+      "grounding_rows": 2419,
+      "grounding_unique_query_keys": 2419,
+      "grounding_parse_failures": 4,
+      "grounding_target_failures": 0,
+      "provenance_present": true
+    },
+    "full_random": {
+      "caption_rows": 982,
+      "caption_unique_sample_ids": 982,
+      "caption_ids_exactly_0_to_981": true,
+      "caption_status_counts": {
+        "success": 981,
+        "empty": 1,
+        "failed": 0
+      },
+      "caption_denominator": 982,
+      "grounding_rows": 2419,
+      "grounding_unique_query_keys": 2419,
+      "grounding_parse_failures": 7,
+      "grounding_target_failures": 0,
+      "provenance_present": true
+    },
+    "cross_model": {
+      "same_caption_sample_order": true,
+      "same_grounding_query_order": true,
+      "all_expected_outputs_present": true
+    }
+  },
+  "integrity_pass": true,
+  "scientific_interpretation": {
+    "DOWNSTREAM_UTILITY": "MIXED",
+    "LORA_DOWNSTREAM_EFFECT": "NEGATIVE",
+    "FUSION_DOWNSTREAM_EFFECT": "WEAK",
+    "REAL_VS_RANDOM_CAPTION": "REAL_BETTER",
+    "REAL_VS_RANDOM_GROUNDING": "REAL_BETTER",
+    "ANATOMICAL_DOWNSTREAM_SIGNAL": "TASK_SPECIFIC",
+    "P7_STATUS": "STRUCTURE_SIGNAL_EMERGES_IN_DOWNSTREAM",
+    "scope_note": "Directional test-set comparison only; effect sizes are small and no uncertainty/significance estimate was requested or computed."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "mapping": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/p11b0_prf_grounded_unit_construction/selected_mapping_real.json",
+  "mapping_sha256": "904d2de9683d9ce280a68fa29c2ba1b4ca4328197a9ddbcdd6db4438db89cfb5",
+  "affinity": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/p11b0_prf_grounded_unit_construction/selected_patch_affinity_real.npy",
+  "affinity_sha256": "168b6ca6c8be11fa8d06dae7d08fca49112b4e29e377be412eeb30aeb610d602",
+  "teacher_definition": "einsum(kp,bpd->bkd) over cached frozen CLIP hidden_states[-2][:,1:,:]",
+  "dtype": "float16",
+  "splits": {
+    "train": {
+      "sample_count": 8559,
+      "source_clip": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/train/clip_patch_fp16.npy",
+      "source_clip_sha256": "fa817f49d9a20f8e2d2beb8b0ff8bcc31ddc4b1d402bd016f3196b935dde34fd",
+      "manifest_sha256": "75ddb3f94350e54989bc52b94b299cac97b096fe5dcfc869415013ce1df4d663",
+      "sample_id_index": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/train/sample_ids.json",
+      "path": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/p11b_local_teacher_k64/train_local_teacher_fp16.npy",
+      "shape": [
+        8559,
+        64,
+        1024
+      ],
+      "sha256": "1e20458a92f4e444c3fb24d06bd4bdba774bb224664b46933f39a1dbb93a578d"
+    },
+    "val": {
+      "sample_count": 300,
+      "source_clip": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/val/clip_patch_fp16.npy",
+      "source_clip_sha256": "d8cfe84210034e0ccac6799bc46e6e2908959f8f623d53d04610614ce566cb11",
+      "manifest_sha256": "8b7807cf162d8543feebd8d8a3600d56794b585196b33949091c7dc8f4c27467",
+      "sample_id_index": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/val/sample_ids.json",
+      "path": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/p11b_local_teacher_k64/val_local_teacher_fp16.npy",
+      "shape": [
+        300,
+        64,
+        1024
+      ],
+      "sha256": "19075dee8207dc134542ac4de45d9d08e8fc58c76bcbb718aa192d75987b1a06"
+    }
+  },
+  "test_loaded": false
+}

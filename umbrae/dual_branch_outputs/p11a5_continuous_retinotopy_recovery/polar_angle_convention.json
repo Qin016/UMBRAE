@@ -1,0 +1,9 @@
+{
+  "raw_field": "angle_deg_raw",
+  "unit": "degrees",
+  "range": "0–360; angle is NaN when fitted eccentricity is exactly zero",
+  "zero_direction": "right horizontal meridian (+x)",
+  "rotation": "90 degrees is upper vertical meridian (+y); angles increase counterclockwise in x-right/y-up coordinates",
+  "hemisphere_convention": "same raw convention for both hemispheres; left-hemisphere color-map reflection in plotting code is visualization-only",
+  "official_source": "analyzePRF.m output documentation and nsddatapaper PARAMETERSnotes.m"
+}

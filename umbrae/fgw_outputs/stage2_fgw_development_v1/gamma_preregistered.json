@@ -1,0 +1,12 @@
+{
+  "canonical_registration": "../stage2_fgw_gamma_preregistered_v1.json",
+  "protocol_version": "stage2_fgw_gamma_preregistered_v1",
+  "gamma_grid": [0.25, 0.5, 1.0],
+  "delta": 1e-8,
+  "plan_sha256": "51e65527f3bbc1a3951ec376dd8be3662cab9e6b5f682d2a0da26fb347e20760",
+  "row_shuffle_permutation": [3, 4, 6, 2, 1, 7, 5, 0],
+  "training_seed": 42,
+  "validation_stimulus_sha256": "ba1ce60dc8a5e8c2724b94c73de112405bbd32ab9e88b6147a999964a9b7d1d6",
+  "protected_test_stimulus_sha256": "b9d0f9ccabc3cf4645720563e19d0c2997eccc03da66ad705524c2f69981e802",
+  "created_before_new_stage2_results": true
+}

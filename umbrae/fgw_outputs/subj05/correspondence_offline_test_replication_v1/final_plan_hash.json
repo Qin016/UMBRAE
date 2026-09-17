@@ -1,0 +1,13 @@
+{
+  "subject": "subj05",
+  "FINAL_PLAN_HASH": "a3d3ab31770ecc0fc62599597538a7b931df2721fdd22aabb13e8e7e8f7c8da0",
+  "hash_algorithm": "SHA256 over exact .npy file bytes",
+  "baseline_plan_sha256": "dec15442ed5fda65f17948b5883193e248b77dbb1c589f2cddacdba0ebb22abd",
+  "final_refit_config_sha256": "f81f76f6dede1b8976aadc7d9631e8a71d2d38d4f975161775ef9379934ac1fd",
+  "pretest_null_plan_hashes": {
+    "pretest_brain_identity_null_plans.npy": "33dc1f42dbf2740e0be812b6fa1971601463ca1870a3bda5d0e2320bc308363d",
+    "pretest_clip_identity_null_plans.npy": "c55eba37de68b6c688718bfaaa7cfac12ed19cec54cd7e627b38999b1b4c1b6a",
+    "pretest_independent_roi_null_plans.npy": "b0d6a25eb774f28f951af70ba6eea5d50ffd9f5139caacc904d7d24c4740819b",
+    "pretest_feature_pairing_null_plans.npy": "43bfdeb0179fab5a19d1404720275155f1ae6dee7469ab3bdb024124c243cae6"
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "selected_hypothesis": "B_0_based_metadata_index",
+  "selection_reason": "Highest coverage; ties prefer the explicit NSD nsdId->cocoId field mapping over 1-based or row-order alternatives.",
+  "total_samples_checked": 982,
+  "total_unique_local_ids": 982,
+  "matched_ids": 982,
+  "missing_ids": 0,
+  "coverage": 1.0,
+  "metadata_file_used": "/opt/data/private/BA/NSD/nsddata/experiments/nsd/nsd_stim_info_merged.csv",
+  "local_field": "nsdId",
+  "coco_field": "cocoId",
+  "coco_caption_files": [
+    "/opt/data/private/BA/UMBRAE/umbrae/stage2_outputs/caption_mapping/coco_annotations/coco2017_captions_raw_id.json"
+  ],
+  "matched_examples": [
+    {
+      "local_id": 2950,
+      "raw_coco_id": 262145,
+      "caption": "People shopping in an open market for vegetables."
+    },
+    {
+      "local_id": 2990,
+      "raw_coco_id": 262239,
+      "caption": "a couple of people are cooking in a room"
+    },
+    {
+      "local_id": 3049,
+      "raw_coco_id": 262414,
+      "caption": "A person in a wetsuit surfing on a turquoise wave."
+    },
+    {
+      "local_id": 3077,
+      "raw_coco_id": 524646,
+      "caption": "a windsurfer some water a hill sand and some kayaks"
+    },
+    {
+      "local_id": 3146,
+      "raw_coco_id": 262690,
+      "caption": "A brick building with a clock on it and pathway."
+    },
+    {
+      "local_id": 3157,
+      "raw_coco_id": 584,
+      "caption": "a plate of yummy food of some kind"
+    },
+    {
+      "local_id": 3164,
+      "raw_coco_id": 605,
+      "caption": "A cup of coffee on a plate with a spoon."
+    },
+    {
+      "local_id": 3171,
+      "raw_coco_id": 625,
+      "caption": "Three young women are trying to catch a frisbee."
+    },
+    {
+      "local_id": 3181,
+      "raw_coco_id": 650,
+      "caption": "a cat is sitting on top of a vehicle"
+    },
+    {
+      "local_id": 3386,
+      "raw_coco_id": 1308,
+      "caption": "A man in swim shorts is riding a surf board."
+    }
+  ],
+  "missing_examples": [],
+  "all_hypotheses": [
+    {
+      "name": "A_raw_coco_image_id",
+      "metadata": null,
+      "local_field": "coco73k.npy",
+      "coco_field": "same_value",
+      "total_unique_local_ids": 982,
+      "matched_ids": 216,
+      "missing_ids": 766,
+      "coverage": 0.219959266802444,
+      "matched_examples": [
+        {
+          "local_id": 3077,
+          "raw_coco_id": 3077,
+          "caption": "A group of men posing for a picture holding tennis racquets."
+        },
+        {
+          "local_id": 3157,
+          "raw_coco_id": 3157,
+          "caption": "A man holding a tennis racquet on a tennis court."
+        },
+        {
+          "local_id": 3386,
+          "raw_coco_id": 3386,
+          "caption": "a bird that is standing on the ground"
+        },
+        {
+          "local_id": 3682,
+          "raw_coco_id": 3682,
+          "caption": "a motor bike is parked outside on the gravel road"
+        },
+        {
+          "local_id": 3729,
+          "raw_coco_id": 3729,
+          "caption": "A tail of a cat hanging on the outside of a suitcase. "
+        },
+        {
+          "local_id": 4051,
+          "raw_coco_id": 4051,
+          "caption": "There is something brown and stringy hanging from, and inside, the bathtub."
+        },
+        {
+          "local_id": 4129,
+          "raw_coco_id": 4129,
+          "caption": "The group of people lay on the beach near a parked bicycle."
+        },
+        {
+          "local_id": 5459,
+          "raw_coco_id": 5459,
+          "caption": "Two people play tennis against a dark backdrop."
+        },
+        {
+          "local_id": 5502,
+          "raw_coco_id": 5502,
+          "caption": "A set of four scenes of people flying a kite over a field."
+        },
+        {
+          "local_id": 5574,
+          "raw_coco_id": 5574,
+          "caption": "a stuffed animal near two fake beds "
+        }
+      ],
+      "missing_examples": [
+        {
+          "local_id": 2950,
+          "raw_coco_id": 2950
+        },
+        {
+          "local_id": 2990,
+          "raw_coco_id": 2990
+        },
+        {
+          "local_id": 3049,
+          "raw_coco_id": 3049
+        },
+        {
+          "local_id": 3146,
+          "raw_coco_id": 3146
+        },
+        {
+          "local_id": 3164,
+          "raw_coco_id": 3164
+        },
+        {
+          "local_id": 3171,
+          "raw_coco_id": 3171
+        },
+        {
+          "local_id": 3181,
+          "raw_coco_id": 3181
+        },
+        {
+          "local_id": 3434,
+          "raw_coco_id": 3434
+        },
+        {
+          "local_id": 3449,
+          "raw_coco_id": 3449
+        },
+        {
+          "local_id": 3489,
+          "raw_coco_id": 3489
+        },
+        {
+          "local_id": 3626,
+          "raw_coco_id": 3626
+        },
+        {
+          "local_id": 3687,
+          "raw_coco_id": 3687
+        },
+        {
+          "local_id": 3809,
+          "raw_coco_id": 3809
+        },
+        {
+          "local_id": 3842,
+          "raw_coco_id": 3842
+        },
+        {
+          "local_id": 3847,
+          "raw_coco_id": 3847
+        },
+        {
+          "local_id": 3856,
+          "raw_coco_id": 3856
+        },
+        {
+          "local_id": 3913,
+          "raw_coco_id": 3913
+        },
+        {
+          "local_id": 3951,
+          "raw_coco_id": 3951
+        },
+        {
+          "local_id": 4058,
+          "raw_coco_id": 4058
+        },
+        {
+          "local_id": 4156,
+          "raw_coco_id": 4156
+        }
+      ]
+    },
+    {
+      "name": "B_0_based_metadata_index",
+      "metadata": "/opt/data/private/BA/NSD/nsddata/experiments/nsd/nsd_stim_info_merged.csv",
+      "local_field": "nsdId",
+      "coco_field": "cocoId",
+      "total_unique_local_ids": 982,
+      "matched_ids": 982,
+      "missing_ids": 0,
+      "coverage": 1.0,
+      "matched_examples": [
+        {
+          "local_id": 2950,
+          "raw_coco_id": 262145,
+          "caption": "People shopping in an open market for vegetables."
+        },
+        {
+          "local_id": 2990,
+          "raw_coco_id": 262239,
+          "caption": "a couple of people are cooking in a room"
+        },
+        {
+          "local_id": 3049,
+          "raw_coco_id": 262414,
+          "caption": "A person in a wetsuit surfing on a turquoise wave."
+        },
+        {
+          "local_id": 3077,
+          "raw_coco_id": 524646,
+          "caption": "a windsurfer some water a hill sand and some kayaks"
+        },
+        {
+          "local_id": 3146,
+          "raw_coco_id": 262690,
+          "caption": "A brick building with a clock on it and pathway."
+        },
+        {
+          "local_id": 3157,
+          "raw_coco_id": 584,
+          "caption": "a plate of yummy food of some kind"
+        },
+        {
+          "local_id": 3164,
+          "raw_coco_id": 605,
+          "caption": "A cup of coffee on a plate with a spoon."
+        },
+        {
+          "local_id": 3171,
+          "raw_coco_id": 625,
+          "caption": "Three young women are trying to catch a frisbee."
+        },
+        {
+          "local_id": 3181,
+          "raw_coco_id": 650,
+          "caption": "a cat is sitting on top of a vehicle"
+        },
+        {
+          "local_id": 3386,
+          "raw_coco_id": 1308,
+          "caption": "A man in swim shorts is riding a surf board."
+        }
+      ],
+      "missing_examples": []
+    },
+    {
+      "name": "C_1_based_metadata_index",
+      "metadata": "/opt/data/private/BA/NSD/nsddata/experiments/nsd/nsd_stim_info_merged.csv",
+      "local_field": "nsdId",
+      "coco_field": "cocoId",
+      "total_unique_local_ids": 982,
+      "matched_ids": 982,
+      "missing_ids": 0,
+      "coverage": 1.0,
+      "matched_examples": [
+        {
+          "local_id": 2950,
+          "raw_coco_id": 311295,
+          "caption": "A field with various wildlife and trees in the background."
+        },
+        {
+          "local_id": 2990,
+          "raw_coco_id": 524382,
+          "caption": "several dogs behind a crate with hay on the ground"
+        },
+        {
+          "local_id": 3049,
+          "raw_coco_id": 568023,
+          "caption": "A man sitting on top of a purple motorcycle."
+        },
+        {
+          "local_id": 3077,
+          "raw_coco_id": 262495,
+          "caption": "A child standing by a fridge holding a bottle"
+        },
+        {
+          "local_id": 3146,
+          "raw_coco_id": 131162,
+          "caption": "A large bottle with a dresser sitting inside of it."
+        },
+        {
+          "local_id": 3157,
+          "raw_coco_id": 262727,
+          "caption": "Grey and white cat sitting on a table in a bow tie."
+        },
+        {
+          "local_id": 3164,
+          "raw_coco_id": 262748,
+          "caption": "A white plate filled with sliced up fruit and a pink spoon."
+        },
+        {
+          "local_id": 3171,
+          "raw_coco_id": 524909,
+          "caption": "A tall animal standing next to a tree."
+        },
+        {
+          "local_id": 3181,
+          "raw_coco_id": 524935,
+          "caption": "there is a small assortment of donuts and sweets on the table"
+        },
+        {
+          "local_id": 3386,
+          "raw_coco_id": 1307,
+          "caption": "A person holding a tray full of orange carrots."
+        }
+      ],
+      "missing_examples": []
+    },
+    {
+      "name": "D_metadata_row_index",
+      "metadata": "/opt/data/private/BA/NSD/nsddata/experiments/nsd/nsd_stim_info_merged.csv",
+      "local_field": "row_index",
+      "coco_field": "cocoId",
+      "total_unique_local_ids": 982,
+      "matched_ids": 982,
+      "missing_ids": 0,
+      "coverage": 1.0,
+      "matched_examples": [
+        {
+          "local_id": 2950,
+          "raw_coco_id": 262145,
+          "caption": "People shopping in an open market for vegetables."
+        },
+        {
+          "local_id": 2990,
+          "raw_coco_id": 262239,
+          "caption": "a couple of people are cooking in a room"
+        },
+        {
+          "local_id": 3049,
+          "raw_coco_id": 262414,
+          "caption": "A person in a wetsuit surfing on a turquoise wave."
+        },
+        {
+          "local_id": 3077,
+          "raw_coco_id": 524646,
+          "caption": "a windsurfer some water a hill sand and some kayaks"
+        },
+        {
+          "local_id": 3146,
+          "raw_coco_id": 262690,
+          "caption": "A brick building with a clock on it and pathway."
+        },
+        {
+          "local_id": 3157,
+          "raw_coco_id": 584,
+          "caption": "a plate of yummy food of some kind"
+        },
+        {
+          "local_id": 3164,
+          "raw_coco_id": 605,
+          "caption": "A cup of coffee on a plate with a spoon."
+        },
+        {
+          "local_id": 3171,
+          "raw_coco_id": 625,
+          "caption": "Three young women are trying to catch a frisbee."
+        },
+        {
+          "local_id": 3181,
+          "raw_coco_id": 650,
+          "caption": "a cat is sitting on top of a vehicle"
+        },
+        {
+          "local_id": 3386,
+          "raw_coco_id": 1308,
+          "caption": "A man in swim shorts is riding a surf board."
+        }
+      ],
+      "missing_examples": []
+    }
+  ]
+}

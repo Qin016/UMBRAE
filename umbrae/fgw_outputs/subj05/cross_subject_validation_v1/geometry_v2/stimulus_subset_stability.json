@@ -1,0 +1,1691 @@
+{
+  "status": "STIMULUS_SUBSET_STABILITY",
+  "not_neural_measurement_reliability": true,
+  "source_split": "offline_discovery",
+  "anchor_size": 1500,
+  "brain": {
+    "sampling": "each replicate draws two disjoint unique-stimulus subsets without replacement from the fixed offline_discovery anchor pool",
+    "replicate_count": 100,
+    "subset_size_each": 600,
+    "upper_triangle_spearman": {
+      "mean": 0.9857909140667761,
+      "std_ddof1": 0.00618170663086231,
+      "median": 0.9860426929392445,
+      "ci_2_5": 0.9728927203065133,
+      "ci_97_5": 0.996168582375479
+    },
+    "frobenius_distance": {
+      "mean": 0.18200933308510284,
+      "std_ddof1": 0.04558293005200064,
+      "median": 0.1838027095488374,
+      "ci_2_5": 0.10512958450908545,
+      "ci_97_5": 0.27437939371875564
+    },
+    "normalized_frobenius_distance": {
+      "mean": 0.018269987065575918,
+      "std_ddof1": 0.004583270919160825,
+      "median": 0.018473886060953508,
+      "ci_2_5": 0.010551441650805472,
+      "ci_97_5": 0.027440227346477327
+    },
+    "frobenius_cosine_similarity": {
+      "mean": 0.9995042951981528,
+      "std_ddof1": 0.0002204815214821641,
+      "median": 0.9995020920888413,
+      "ci_2_5": 0.9990316466831491,
+      "ci_97_5": 0.9998137818758124
+    },
+    "one_minus_normalized_frobenius_distance": {
+      "mean": 0.9817300129344241,
+      "std_ddof1": 0.004583270919160827,
+      "median": 0.9815261139390465,
+      "ci_2_5": 0.9725597726535227,
+      "ci_97_5": 0.9894485583491945
+    },
+    "replicate_metrics": [
+      {
+        "replicate": 0,
+        "upper_triangle_spearman": 0.9956212370005473,
+        "frobenius_distance": 0.1103534546790958,
+        "normalized_frobenius_distance": 0.011107318979114414,
+        "frobenius_cosine_similarity": 0.9997539430863388,
+        "one_minus_normalized_frobenius_distance": 0.9888926810208856
+      },
+      {
+        "replicate": 1,
+        "upper_triangle_spearman": 0.9956212370005473,
+        "frobenius_distance": 0.11838509843660056,
+        "normalized_frobenius_distance": 0.011822436918525095,
+        "frobenius_cosine_similarity": 0.9997291632618728,
+        "one_minus_normalized_frobenius_distance": 0.9881775630814749
+      },
+      {
+        "replicate": 2,
+        "upper_triangle_spearman": 0.9901477832512315,
+        "frobenius_distance": 0.1562789664658665,
+        "normalized_frobenius_distance": 0.015546686583397,
+        "frobenius_cosine_similarity": 0.9995557185314496,
+        "one_minus_normalized_frobenius_distance": 0.984453313416603
+      },
+      {
+        "replicate": 3,
+        "upper_triangle_spearman": 0.9901477832512315,
+        "frobenius_distance": 0.26935203078272324,
+        "normalized_frobenius_distance": 0.027000947494556563,
+        "frobenius_cosine_similarity": 0.9992315041011607,
+        "one_minus_normalized_frobenius_distance": 0.9729990525054434
+      },
+      {
+        "replicate": 4,
+        "upper_triangle_spearman": 0.990695128626163,
+        "frobenius_distance": 0.1515528238595205,
+        "normalized_frobenius_distance": 0.01523016679426241,
+        "frobenius_cosine_similarity": 0.9995563572022447,
+        "one_minus_normalized_frobenius_distance": 0.9847698332057376
+      },
+      {
+        "replicate": 5,
+        "upper_triangle_spearman": 0.9912424740010948,
+        "frobenius_distance": 0.13058139618139522,
+        "normalized_frobenius_distance": 0.013000698923077264,
+        "frobenius_cosine_similarity": 0.9996619671329257,
+        "one_minus_normalized_frobenius_distance": 0.9869993010769227
+      },
+      {
+        "replicate": 6,
+        "upper_triangle_spearman": 0.9885057471264367,
+        "frobenius_distance": 0.18650025133479206,
+        "normalized_frobenius_distance": 0.01864144188395312,
+        "frobenius_cosine_similarity": 0.999360099065796,
+        "one_minus_normalized_frobenius_distance": 0.9813585581160469
+      },
+      {
+        "replicate": 7,
+        "upper_triangle_spearman": 0.9912424740010948,
+        "frobenius_distance": 0.11354254966057561,
+        "normalized_frobenius_distance": 0.011347283958231837,
+        "frobenius_cosine_similarity": 0.9998153186220132,
+        "one_minus_normalized_frobenius_distance": 0.9886527160417682
+      },
+      {
+        "replicate": 8,
+        "upper_triangle_spearman": 0.9846743295019157,
+        "frobenius_distance": 0.1489294399384544,
+        "normalized_frobenius_distance": 0.014864941275587617,
+        "frobenius_cosine_similarity": 0.9995583702479519,
+        "one_minus_normalized_frobenius_distance": 0.9851350587244124
+      },
+      {
+        "replicate": 9,
+        "upper_triangle_spearman": 0.9726327312534209,
+        "frobenius_distance": 0.16844187484017545,
+        "normalized_frobenius_distance": 0.0168551633207773,
+        "frobenius_cosine_similarity": 0.9994957291288524,
+        "one_minus_normalized_frobenius_distance": 0.9831448366792227
+      },
+      {
+        "replicate": 10,
+        "upper_triangle_spearman": 0.9759168035030105,
+        "frobenius_distance": 0.283516733756706,
+        "normalized_frobenius_distance": 0.028707638112311043,
+        "frobenius_cosine_similarity": 0.9984214605650968,
+        "one_minus_normalized_frobenius_distance": 0.971292361887689
+      },
+      {
+        "replicate": 11,
+        "upper_triangle_spearman": 0.990695128626163,
+        "frobenius_distance": 0.19293201783302896,
+        "normalized_frobenius_distance": 0.01927121424831859,
+        "frobenius_cosine_similarity": 0.999309234542281,
+        "one_minus_normalized_frobenius_distance": 0.9807287857516814
+      },
+      {
+        "replicate": 12,
+        "upper_triangle_spearman": 0.9824849480021893,
+        "frobenius_distance": 0.2013294172153383,
+        "normalized_frobenius_distance": 0.020155826461783162,
+        "frobenius_cosine_similarity": 0.9993189321990623,
+        "one_minus_normalized_frobenius_distance": 0.9798441735382168
+      },
+      {
+        "replicate": 13,
+        "upper_triangle_spearman": 0.9819376026272578,
+        "frobenius_distance": 0.23083748331787088,
+        "normalized_frobenius_distance": 0.023136855343875096,
+        "frobenius_cosine_similarity": 0.9992509617204118,
+        "one_minus_normalized_frobenius_distance": 0.9768631446561249
+      },
+      {
+        "replicate": 14,
+        "upper_triangle_spearman": 0.996168582375479,
+        "frobenius_distance": 0.25516755390231144,
+        "normalized_frobenius_distance": 0.02555194913601274,
+        "frobenius_cosine_similarity": 0.999669346735756,
+        "one_minus_normalized_frobenius_distance": 0.9744480508639872
+      },
+      {
+        "replicate": 15,
+        "upper_triangle_spearman": 0.9956212370005473,
+        "frobenius_distance": 0.15303304993650246,
+        "normalized_frobenius_distance": 0.01538196043626253,
+        "frobenius_cosine_similarity": 0.9997816098590327,
+        "one_minus_normalized_frobenius_distance": 0.9846180395637375
+      },
+      {
+        "replicate": 16,
+        "upper_triangle_spearman": 0.9841269841269842,
+        "frobenius_distance": 0.1681875872443806,
+        "normalized_frobenius_distance": 0.017019296148046398,
+        "frobenius_cosine_similarity": 0.9994207678815934,
+        "one_minus_normalized_frobenius_distance": 0.9829807038519536
+      },
+      {
+        "replicate": 17,
+        "upper_triangle_spearman": 0.9863163656267103,
+        "frobenius_distance": 0.165740497007197,
+        "normalized_frobenius_distance": 0.016659667236228207,
+        "frobenius_cosine_similarity": 0.9996578919895198,
+        "one_minus_normalized_frobenius_distance": 0.9833403327637718
+      },
+      {
+        "replicate": 18,
+        "upper_triangle_spearman": 0.9874110563765736,
+        "frobenius_distance": 0.10678594222057083,
+        "normalized_frobenius_distance": 0.010648982627272305,
+        "frobenius_cosine_similarity": 0.9997765240433207,
+        "one_minus_normalized_frobenius_distance": 0.9893510173727277
+      },
+      {
+        "replicate": 19,
+        "upper_triangle_spearman": 0.9863163656267103,
+        "frobenius_distance": 0.18547232290848167,
+        "normalized_frobenius_distance": 0.018757042990800412,
+        "frobenius_cosine_similarity": 0.9994651553865677,
+        "one_minus_normalized_frobenius_distance": 0.9812429570091996
+      },
+      {
+        "replicate": 20,
+        "upper_triangle_spearman": 0.9792008757525997,
+        "frobenius_distance": 0.1543341299794005,
+        "normalized_frobenius_distance": 0.015498546589721968,
+        "frobenius_cosine_similarity": 0.9996750454296287,
+        "one_minus_normalized_frobenius_distance": 0.9845014534102781
+      },
+      {
+        "replicate": 21,
+        "upper_triangle_spearman": 0.9896004378762999,
+        "frobenius_distance": 0.17623237357092425,
+        "normalized_frobenius_distance": 0.017705394908692086,
+        "frobenius_cosine_similarity": 0.9996767586799044,
+        "one_minus_normalized_frobenius_distance": 0.982294605091308
+      },
+      {
+        "replicate": 22,
+        "upper_triangle_spearman": 0.9857690202517788,
+        "frobenius_distance": 0.2863680675860628,
+        "normalized_frobenius_distance": 0.028598956199535813,
+        "frobenius_cosine_similarity": 0.999326647925495,
+        "one_minus_normalized_frobenius_distance": 0.9714010438004642
+      },
+      {
+        "replicate": 23,
+        "upper_triangle_spearman": 0.9917898193760263,
+        "frobenius_distance": 0.09138599766651419,
+        "normalized_frobenius_distance": 0.00914451281733852,
+        "frobenius_cosine_similarity": 0.9998385815701122,
+        "one_minus_normalized_frobenius_distance": 0.9908554871826615
+      },
+      {
+        "replicate": 24,
+        "upper_triangle_spearman": 0.9841269841269842,
+        "frobenius_distance": 0.16972466226697056,
+        "normalized_frobenius_distance": 0.016829959194218785,
+        "frobenius_cosine_similarity": 0.9996193381604902,
+        "one_minus_normalized_frobenius_distance": 0.9831700408057812
+      },
+      {
+        "replicate": 25,
+        "upper_triangle_spearman": 0.9846743295019157,
+        "frobenius_distance": 0.19913614654127315,
+        "normalized_frobenius_distance": 0.019968066440988665,
+        "frobenius_cosine_similarity": 0.9993187839315735,
+        "one_minus_normalized_frobenius_distance": 0.9800319335590113
+      },
+      {
+        "replicate": 26,
+        "upper_triangle_spearman": 0.9956212370005473,
+        "frobenius_distance": 0.08858324267037611,
+        "normalized_frobenius_distance": 0.008912103486945322,
+        "frobenius_cosine_similarity": 0.9998805066461836,
+        "one_minus_normalized_frobenius_distance": 0.9910878965130547
+      },
+      {
+        "replicate": 27,
+        "upper_triangle_spearman": 0.9819376026272578,
+        "frobenius_distance": 0.20637745111357855,
+        "normalized_frobenius_distance": 0.02065527246166672,
+        "frobenius_cosine_similarity": 0.9994128770413834,
+        "one_minus_normalized_frobenius_distance": 0.9793447275383332
+      },
+      {
+        "replicate": 28,
+        "upper_triangle_spearman": 0.9879584017515052,
+        "frobenius_distance": 0.14922819729562467,
+        "normalized_frobenius_distance": 0.01502663178395395,
+        "frobenius_cosine_similarity": 0.999588593059241,
+        "one_minus_normalized_frobenius_distance": 0.9849733682160461
+      },
+      {
+        "replicate": 29,
+        "upper_triangle_spearman": 0.9885057471264367,
+        "frobenius_distance": 0.16212309006568004,
+        "normalized_frobenius_distance": 0.01628462082025637,
+        "frobenius_cosine_similarity": 0.9994955289025184,
+        "one_minus_normalized_frobenius_distance": 0.9837153791797436
+      },
+      {
+        "replicate": 30,
+        "upper_triangle_spearman": 0.9967159277504104,
+        "frobenius_distance": 0.10363097515107488,
+        "normalized_frobenius_distance": 0.010463190291145003,
+        "frobenius_cosine_similarity": 0.9998120833668536,
+        "one_minus_normalized_frobenius_distance": 0.989536809708855
+      },
+      {
+        "replicate": 31,
+        "upper_triangle_spearman": 0.9956212370005473,
+        "frobenius_distance": 0.13959012402178883,
+        "normalized_frobenius_distance": 0.0140265959513567,
+        "frobenius_cosine_similarity": 0.9996073365776654,
+        "one_minus_normalized_frobenius_distance": 0.9859734040486433
+      },
+      {
+        "replicate": 32,
+        "upper_triangle_spearman": 0.9693486590038315,
+        "frobenius_distance": 0.232794164187937,
+        "normalized_frobenius_distance": 0.02353417612964699,
+        "frobenius_cosine_similarity": 0.9989819491645633,
+        "one_minus_normalized_frobenius_distance": 0.976465823870353
+      },
+      {
+        "replicate": 33,
+        "upper_triangle_spearman": 0.9775588396278051,
+        "frobenius_distance": 0.2060574654308699,
+        "normalized_frobenius_distance": 0.020751777991276744,
+        "frobenius_cosine_similarity": 0.9993238960811193,
+        "one_minus_normalized_frobenius_distance": 0.9792482220087233
+      },
+      {
+        "replicate": 34,
+        "upper_triangle_spearman": 0.9792008757525997,
+        "frobenius_distance": 0.22413417915334286,
+        "normalized_frobenius_distance": 0.022529182896789013,
+        "frobenius_cosine_similarity": 0.9990865755194808,
+        "one_minus_normalized_frobenius_distance": 0.9774708171032109
+      },
+      {
+        "replicate": 35,
+        "upper_triangle_spearman": 0.9967159277504104,
+        "frobenius_distance": 0.10755508190270527,
+        "normalized_frobenius_distance": 0.010770786280218941,
+        "frobenius_cosine_similarity": 0.9997785490385458,
+        "one_minus_normalized_frobenius_distance": 0.989229213719781
+      },
+      {
+        "replicate": 36,
+        "upper_triangle_spearman": 0.986863711001642,
+        "frobenius_distance": 0.20716925719979945,
+        "normalized_frobenius_distance": 0.020758965092707235,
+        "frobenius_cosine_similarity": 0.9995129890762128,
+        "one_minus_normalized_frobenius_distance": 0.9792410349072928
+      },
+      {
+        "replicate": 37,
+        "upper_triangle_spearman": 0.9852216748768472,
+        "frobenius_distance": 0.20611755769844217,
+        "normalized_frobenius_distance": 0.020712118788102876,
+        "frobenius_cosine_similarity": 0.9995336114683159,
+        "one_minus_normalized_frobenius_distance": 0.9792878812118971
+      },
+      {
+        "replicate": 38,
+        "upper_triangle_spearman": 0.9885057471264367,
+        "frobenius_distance": 0.23441633419043068,
+        "normalized_frobenius_distance": 0.02349277771493998,
+        "frobenius_cosine_similarity": 0.9994787929352993,
+        "one_minus_normalized_frobenius_distance": 0.97650722228506
+      },
+      {
+        "replicate": 39,
+        "upper_triangle_spearman": 0.9770114942528736,
+        "frobenius_distance": 0.2089883120073185,
+        "normalized_frobenius_distance": 0.021126626237586044,
+        "frobenius_cosine_similarity": 0.9993416388052413,
+        "one_minus_normalized_frobenius_distance": 0.978873373762414
+      },
+      {
+        "replicate": 40,
+        "upper_triangle_spearman": 0.9857690202517788,
+        "frobenius_distance": 0.1506364108524571,
+        "normalized_frobenius_distance": 0.015055001969097984,
+        "frobenius_cosine_similarity": 0.9995509413575866,
+        "one_minus_normalized_frobenius_distance": 0.984944998030902
+      },
+      {
+        "replicate": 41,
+        "upper_triangle_spearman": 0.9846743295019157,
+        "frobenius_distance": 0.2645455915753642,
+        "normalized_frobenius_distance": 0.026537428892762543,
+        "frobenius_cosine_similarity": 0.9994732879742222,
+        "one_minus_normalized_frobenius_distance": 0.9734625711072374
+      },
+      {
+        "replicate": 42,
+        "upper_triangle_spearman": 0.9896004378762999,
+        "frobenius_distance": 0.19527184724561178,
+        "normalized_frobenius_distance": 0.019588090825357184,
+        "frobenius_cosine_similarity": 0.9994723112375055,
+        "one_minus_normalized_frobenius_distance": 0.9804119091746428
+      },
+      {
+        "replicate": 43,
+        "upper_triangle_spearman": 0.9879584017515052,
+        "frobenius_distance": 0.12903455916946277,
+        "normalized_frobenius_distance": 0.01293443436503284,
+        "frobenius_cosine_similarity": 0.9996654641566213,
+        "one_minus_normalized_frobenius_distance": 0.9870655656349672
+      },
+      {
+        "replicate": 44,
+        "upper_triangle_spearman": 0.9819376026272578,
+        "frobenius_distance": 0.1631651281511836,
+        "normalized_frobenius_distance": 0.01635579295973683,
+        "frobenius_cosine_similarity": 0.999482851652408,
+        "one_minus_normalized_frobenius_distance": 0.9836442070402631
+      },
+      {
+        "replicate": 45,
+        "upper_triangle_spearman": 0.9781061850027366,
+        "frobenius_distance": 0.19694897272284928,
+        "normalized_frobenius_distance": 0.019709873396827424,
+        "frobenius_cosine_similarity": 0.9992286787282041,
+        "one_minus_normalized_frobenius_distance": 0.9802901266031726
+      },
+      {
+        "replicate": 46,
+        "upper_triangle_spearman": 0.990695128626163,
+        "frobenius_distance": 0.21428985519344068,
+        "normalized_frobenius_distance": 0.021504216146471973,
+        "frobenius_cosine_similarity": 0.9994934943252692,
+        "one_minus_normalized_frobenius_distance": 0.978495783853528
+      },
+      {
+        "replicate": 47,
+        "upper_triangle_spearman": 0.9781061850027366,
+        "frobenius_distance": 0.1786999444316762,
+        "normalized_frobenius_distance": 0.017938330888219885,
+        "frobenius_cosine_similarity": 0.9993789367029581,
+        "one_minus_normalized_frobenius_distance": 0.9820616691117802
+      },
+      {
+        "replicate": 48,
+        "upper_triangle_spearman": 0.9896004378762999,
+        "frobenius_distance": 0.1608882758831619,
+        "normalized_frobenius_distance": 0.01624688588055257,
+        "frobenius_cosine_similarity": 0.9996820333366143,
+        "one_minus_normalized_frobenius_distance": 0.9837531141194474
+      },
+      {
+        "replicate": 49,
+        "upper_triangle_spearman": 0.9885057471264367,
+        "frobenius_distance": 0.12115667842178633,
+        "normalized_frobenius_distance": 0.01211069055929331,
+        "frobenius_cosine_similarity": 0.9997143200714469,
+        "one_minus_normalized_frobenius_distance": 0.9878893094407067
+      },
+      {
+        "replicate": 50,
+        "upper_triangle_spearman": 0.9841269841269842,
+        "frobenius_distance": 0.16612522394160212,
+        "normalized_frobenius_distance": 0.016683886650238417,
+        "frobenius_cosine_similarity": 0.9994441928160085,
+        "one_minus_normalized_frobenius_distance": 0.9833161133497615
+      },
+      {
+        "replicate": 51,
+        "upper_triangle_spearman": 0.9934318555008209,
+        "frobenius_distance": 0.2540802341545833,
+        "normalized_frobenius_distance": 0.025441731995570354,
+        "frobenius_cosine_similarity": 0.9997065623606327,
+        "one_minus_normalized_frobenius_distance": 0.9745582680044297
+      },
+      {
+        "replicate": 52,
+        "upper_triangle_spearman": 0.9928845101258894,
+        "frobenius_distance": 0.18113953476165184,
+        "normalized_frobenius_distance": 0.018209163929602687,
+        "frobenius_cosine_similarity": 0.999665855302881,
+        "one_minus_normalized_frobenius_distance": 0.9817908360703973
+      },
+      {
+        "replicate": 53,
+        "upper_triangle_spearman": 0.9956212370005473,
+        "frobenius_distance": 0.1161166423390189,
+        "normalized_frobenius_distance": 0.011759752486236829,
+        "frobenius_cosine_similarity": 0.9998062659500756,
+        "one_minus_normalized_frobenius_distance": 0.9882402475137632
+      },
+      {
+        "replicate": 54,
+        "upper_triangle_spearman": 0.986863711001642,
+        "frobenius_distance": 0.1311514196157617,
+        "normalized_frobenius_distance": 0.013222133671544872,
+        "frobenius_cosine_similarity": 0.9997669409068528,
+        "one_minus_normalized_frobenius_distance": 0.9867778663284551
+      },
+      {
+        "replicate": 55,
+        "upper_triangle_spearman": 0.9835796387520527,
+        "frobenius_distance": 0.1993319165707695,
+        "normalized_frobenius_distance": 0.020001626314607727,
+        "frobenius_cosine_similarity": 0.9996493108131453,
+        "one_minus_normalized_frobenius_distance": 0.9799983736853922
+      },
+      {
+        "replicate": 56,
+        "upper_triangle_spearman": 0.9885057471264367,
+        "frobenius_distance": 0.2019090218510409,
+        "normalized_frobenius_distance": 0.020209950356165414,
+        "frobenius_cosine_similarity": 0.9992655782367558,
+        "one_minus_normalized_frobenius_distance": 0.9797900496438345
+      },
+      {
+        "replicate": 57,
+        "upper_triangle_spearman": 0.9824849480021893,
+        "frobenius_distance": 0.1839518905357567,
+        "normalized_frobenius_distance": 0.018503985554537108,
+        "frobenius_cosine_similarity": 0.9994273689591753,
+        "one_minus_normalized_frobenius_distance": 0.9814960144454629
+      },
+      {
+        "replicate": 58,
+        "upper_triangle_spearman": 0.9819376026272578,
+        "frobenius_distance": 0.187758924777495,
+        "normalized_frobenius_distance": 0.018927863054778456,
+        "frobenius_cosine_similarity": 0.9996616706498823,
+        "one_minus_normalized_frobenius_distance": 0.9810721369452216
+      },
+      {
+        "replicate": 59,
+        "upper_triangle_spearman": 0.9759168035030105,
+        "frobenius_distance": 0.192993989472356,
+        "normalized_frobenius_distance": 0.019460881801125363,
+        "frobenius_cosine_similarity": 0.9994587546656309,
+        "one_minus_normalized_frobenius_distance": 0.9805391181988746
+      },
+      {
+        "replicate": 60,
+        "upper_triangle_spearman": 0.9901477832512315,
+        "frobenius_distance": 0.11948177597529137,
+        "normalized_frobenius_distance": 0.011935293626784426,
+        "frobenius_cosine_similarity": 0.9997261083866485,
+        "one_minus_normalized_frobenius_distance": 0.9880647063732155
+      },
+      {
+        "replicate": 61,
+        "upper_triangle_spearman": 0.9896004378762999,
+        "frobenius_distance": 0.21098394489757422,
+        "normalized_frobenius_distance": 0.021064058423910733,
+        "frobenius_cosine_similarity": 0.9995486345786885,
+        "one_minus_normalized_frobenius_distance": 0.9789359415760893
+      },
+      {
+        "replicate": 62,
+        "upper_triangle_spearman": 0.9890530925013684,
+        "frobenius_distance": 0.1995864733587224,
+        "normalized_frobenius_distance": 0.019979124500695215,
+        "frobenius_cosine_similarity": 0.9997067336431065,
+        "one_minus_normalized_frobenius_distance": 0.9800208754993048
+      },
+      {
+        "replicate": 63,
+        "upper_triangle_spearman": 0.9737274220032841,
+        "frobenius_distance": 0.1895621091147273,
+        "normalized_frobenius_distance": 0.018885520574666737,
+        "frobenius_cosine_similarity": 0.9992884369119855,
+        "one_minus_normalized_frobenius_distance": 0.9811144794253333
+      },
+      {
+        "replicate": 64,
+        "upper_triangle_spearman": 0.9819376026272578,
+        "frobenius_distance": 0.17296858888275318,
+        "normalized_frobenius_distance": 0.017399194236529244,
+        "frobenius_cosine_similarity": 0.9996718099468554,
+        "one_minus_normalized_frobenius_distance": 0.9826008057634708
+      },
+      {
+        "replicate": 65,
+        "upper_triangle_spearman": 0.9731800766283524,
+        "frobenius_distance": 0.22751663969143388,
+        "normalized_frobenius_distance": 0.022730960570839124,
+        "frobenius_cosine_similarity": 0.9994481001338453,
+        "one_minus_normalized_frobenius_distance": 0.9772690394291609
+      },
+      {
+        "replicate": 66,
+        "upper_triangle_spearman": 0.9879584017515052,
+        "frobenius_distance": 0.2596680722354799,
+        "normalized_frobenius_distance": 0.02601773769912098,
+        "frobenius_cosine_similarity": 0.9991485295065664,
+        "one_minus_normalized_frobenius_distance": 0.973982262300879
+      },
+      {
+        "replicate": 67,
+        "upper_triangle_spearman": 0.980295566502463,
+        "frobenius_distance": 0.21505614104506182,
+        "normalized_frobenius_distance": 0.02166017154514255,
+        "frobenius_cosine_similarity": 0.9994565445617556,
+        "one_minus_normalized_frobenius_distance": 0.9783398284548575
+      },
+      {
+        "replicate": 68,
+        "upper_triangle_spearman": 0.986863711001642,
+        "frobenius_distance": 0.19133412110023765,
+        "normalized_frobenius_distance": 0.01919219922711009,
+        "frobenius_cosine_similarity": 0.9995372432871631,
+        "one_minus_normalized_frobenius_distance": 0.9808078007728899
+      },
+      {
+        "replicate": 69,
+        "upper_triangle_spearman": 0.9896004378762999,
+        "frobenius_distance": 0.1334541558557007,
+        "normalized_frobenius_distance": 0.013286594637296796,
+        "frobenius_cosine_similarity": 0.9997410205418491,
+        "one_minus_normalized_frobenius_distance": 0.9867134053627032
+      },
+      {
+        "replicate": 70,
+        "upper_triangle_spearman": 0.9819376026272578,
+        "frobenius_distance": 0.1593127081879432,
+        "normalized_frobenius_distance": 0.015986580954542005,
+        "frobenius_cosine_similarity": 0.999505810312517,
+        "one_minus_normalized_frobenius_distance": 0.984013419045458
+      },
+      {
+        "replicate": 71,
+        "upper_triangle_spearman": 0.9852216748768472,
+        "frobenius_distance": 0.1953943084419138,
+        "normalized_frobenius_distance": 0.019723134481757092,
+        "frobenius_cosine_similarity": 0.999487115884183,
+        "one_minus_normalized_frobenius_distance": 0.9802768655182429
+      },
+      {
+        "replicate": 72,
+        "upper_triangle_spearman": 0.9896004378762999,
+        "frobenius_distance": 0.18182759338824767,
+        "normalized_frobenius_distance": 0.018175644119135116,
+        "frobenius_cosine_similarity": 0.9994355416368488,
+        "one_minus_normalized_frobenius_distance": 0.9818243558808649
+      },
+      {
+        "replicate": 73,
+        "upper_triangle_spearman": 0.9813902572523261,
+        "frobenius_distance": 0.16247585844772283,
+        "normalized_frobenius_distance": 0.016292864388873746,
+        "frobenius_cosine_similarity": 0.9995053715488847,
+        "one_minus_normalized_frobenius_distance": 0.9837071356111262
+      },
+      {
+        "replicate": 74,
+        "upper_triangle_spearman": 0.9813902572523261,
+        "frobenius_distance": 0.1646960839802412,
+        "normalized_frobenius_distance": 0.01654025660139053,
+        "frobenius_cosine_similarity": 0.9995879507248445,
+        "one_minus_normalized_frobenius_distance": 0.9834597433986094
+      },
+      {
+        "replicate": 75,
+        "upper_triangle_spearman": 0.9797482211275315,
+        "frobenius_distance": 0.21691073896251073,
+        "normalized_frobenius_distance": 0.021802031634742567,
+        "frobenius_cosine_similarity": 0.9993669667297821,
+        "one_minus_normalized_frobenius_distance": 0.9781979683652574
+      },
+      {
+        "replicate": 76,
+        "upper_triangle_spearman": 0.9863163656267103,
+        "frobenius_distance": 0.1726652707648534,
+        "normalized_frobenius_distance": 0.017346792844657736,
+        "frobenius_cosine_similarity": 0.99953983967946,
+        "one_minus_normalized_frobenius_distance": 0.9826532071553422
+      },
+      {
+        "replicate": 77,
+        "upper_triangle_spearman": 0.9874110563765736,
+        "frobenius_distance": 0.21117988234066518,
+        "normalized_frobenius_distance": 0.021252073638181334,
+        "frobenius_cosine_similarity": 0.9994853177511854,
+        "one_minus_normalized_frobenius_distance": 0.9787479263618186
+      },
+      {
+        "replicate": 78,
+        "upper_triangle_spearman": 0.9939792008757526,
+        "frobenius_distance": 0.12125751748957381,
+        "normalized_frobenius_distance": 0.01215298199408747,
+        "frobenius_cosine_similarity": 0.9997671365205755,
+        "one_minus_normalized_frobenius_distance": 0.9878470180059126
+      },
+      {
+        "replicate": 79,
+        "upper_triangle_spearman": 0.986863711001642,
+        "frobenius_distance": 0.1394393618612665,
+        "normalized_frobenius_distance": 0.01407307041381768,
+        "frobenius_cosine_similarity": 0.9996971905149288,
+        "one_minus_normalized_frobenius_distance": 0.9859269295861823
+      },
+      {
+        "replicate": 80,
+        "upper_triangle_spearman": 0.9797482211275315,
+        "frobenius_distance": 0.2659659400512173,
+        "normalized_frobenius_distance": 0.026855491764309406,
+        "frobenius_cosine_similarity": 0.9988902770606921,
+        "one_minus_normalized_frobenius_distance": 0.9731445082356905
+      },
+      {
+        "replicate": 81,
+        "upper_triangle_spearman": 0.9824849480021893,
+        "frobenius_distance": 0.22304643545898348,
+        "normalized_frobenius_distance": 0.022492264217609848,
+        "frobenius_cosine_similarity": 0.9993785231299719,
+        "one_minus_normalized_frobenius_distance": 0.9775077357823901
+      },
+      {
+        "replicate": 82,
+        "upper_triangle_spearman": 0.9835796387520527,
+        "frobenius_distance": 0.2685445078641142,
+        "normalized_frobenius_distance": 0.027010712702899616,
+        "frobenius_cosine_similarity": 0.9994265468412061,
+        "one_minus_normalized_frobenius_distance": 0.9729892872971004
+      },
+      {
+        "replicate": 83,
+        "upper_triangle_spearman": 0.9808429118773946,
+        "frobenius_distance": 0.15111810644132562,
+        "normalized_frobenius_distance": 0.015118345977840071,
+        "frobenius_cosine_similarity": 0.999562397798077,
+        "one_minus_normalized_frobenius_distance": 0.9848816540221599
+      },
+      {
+        "replicate": 84,
+        "upper_triangle_spearman": 0.9813902572523261,
+        "frobenius_distance": 0.19722960412152196,
+        "normalized_frobenius_distance": 0.0197436279294624,
+        "frobenius_cosine_similarity": 0.9992582826945803,
+        "one_minus_normalized_frobenius_distance": 0.9802563720705376
+      },
+      {
+        "replicate": 85,
+        "upper_triangle_spearman": 0.9939792008757526,
+        "frobenius_distance": 0.21557668072673078,
+        "normalized_frobenius_distance": 0.021919819820618164,
+        "frobenius_cosine_similarity": 0.9994493364318459,
+        "one_minus_normalized_frobenius_distance": 0.9780801801793818
+      },
+      {
+        "replicate": 86,
+        "upper_triangle_spearman": 0.9857690202517788,
+        "frobenius_distance": 0.20225093734602095,
+        "normalized_frobenius_distance": 0.020223564419159876,
+        "frobenius_cosine_similarity": 0.9993400173130284,
+        "one_minus_normalized_frobenius_distance": 0.9797764355808402
+      },
+      {
+        "replicate": 87,
+        "upper_triangle_spearman": 0.9841269841269842,
+        "frobenius_distance": 0.17700043649365588,
+        "normalized_frobenius_distance": 0.017894497652544125,
+        "frobenius_cosine_similarity": 0.999498812628798,
+        "one_minus_normalized_frobenius_distance": 0.9821055023474559
+      },
+      {
+        "replicate": 88,
+        "upper_triangle_spearman": 0.9879584017515052,
+        "frobenius_distance": 0.16441488098454543,
+        "normalized_frobenius_distance": 0.016539896740660847,
+        "frobenius_cosine_similarity": 0.9997082778423533,
+        "one_minus_normalized_frobenius_distance": 0.9834601032593392
+      },
+      {
+        "replicate": 89,
+        "upper_triangle_spearman": 0.9819376026272578,
+        "frobenius_distance": 0.2005989149735939,
+        "normalized_frobenius_distance": 0.020140763011592403,
+        "frobenius_cosine_similarity": 0.9993713401406786,
+        "one_minus_normalized_frobenius_distance": 0.9798592369884076
+      },
+      {
+        "replicate": 90,
+        "upper_triangle_spearman": 0.983032293377121,
+        "frobenius_distance": 0.1836535285619181,
+        "normalized_frobenius_distance": 0.01844378656736991,
+        "frobenius_cosine_similarity": 0.999335717507673,
+        "one_minus_normalized_frobenius_distance": 0.9815562134326301
+      },
+      {
+        "replicate": 91,
+        "upper_triangle_spearman": 0.996168582375479,
+        "frobenius_distance": 0.13242251631352325,
+        "normalized_frobenius_distance": 0.01319563825808203,
+        "frobenius_cosine_similarity": 0.9996907540010006,
+        "one_minus_normalized_frobenius_distance": 0.986804361741918
+      },
+      {
+        "replicate": 92,
+        "upper_triangle_spearman": 0.9720853858784892,
+        "frobenius_distance": 0.18676334857732005,
+        "normalized_frobenius_distance": 0.01879285134210453,
+        "frobenius_cosine_similarity": 0.9993954386833581,
+        "one_minus_normalized_frobenius_distance": 0.9812071486578955
+      },
+      {
+        "replicate": 93,
+        "upper_triangle_spearman": 0.9748221127531472,
+        "frobenius_distance": 0.18558701611079595,
+        "normalized_frobenius_distance": 0.018661264596457314,
+        "frobenius_cosine_similarity": 0.9993120167364995,
+        "one_minus_normalized_frobenius_distance": 0.9813387354035427
+      },
+      {
+        "replicate": 94,
+        "upper_triangle_spearman": 0.9917898193760263,
+        "frobenius_distance": 0.13726385351059597,
+        "normalized_frobenius_distance": 0.013831286868018978,
+        "frobenius_cosine_similarity": 0.9997210859581227,
+        "one_minus_normalized_frobenius_distance": 0.9861687131319811
+      },
+      {
+        "replicate": 95,
+        "upper_triangle_spearman": 0.9857690202517788,
+        "frobenius_distance": 0.16264450952827159,
+        "normalized_frobenius_distance": 0.016378380161869686,
+        "frobenius_cosine_similarity": 0.9995937399013842,
+        "one_minus_normalized_frobenius_distance": 0.9836216198381303
+      },
+      {
+        "replicate": 96,
+        "upper_triangle_spearman": 0.9923371647509577,
+        "frobenius_distance": 0.13092476029942032,
+        "normalized_frobenius_distance": 0.013102588499942685,
+        "frobenius_cosine_similarity": 0.999686624084157,
+        "one_minus_normalized_frobenius_distance": 0.9868974115000573
+      },
+      {
+        "replicate": 97,
+        "upper_triangle_spearman": 0.9775588396278051,
+        "frobenius_distance": 0.27892796018468985,
+        "normalized_frobenius_distance": 0.027828835833523843,
+        "frobenius_cosine_similarity": 0.9993620969989072,
+        "one_minus_normalized_frobenius_distance": 0.9721711641664762
+      },
+      {
+        "replicate": 98,
+        "upper_triangle_spearman": 0.9819376026272578,
+        "frobenius_distance": 0.18812167626123513,
+        "normalized_frobenius_distance": 0.018920615341018354,
+        "frobenius_cosine_similarity": 0.9992848142838774,
+        "one_minus_normalized_frobenius_distance": 0.9810793846589816
+      },
+      {
+        "replicate": 99,
+        "upper_triangle_spearman": 0.9857690202517788,
+        "frobenius_distance": 0.264042985790147,
+        "normalized_frobenius_distance": 0.026508686091985607,
+        "frobenius_cosine_similarity": 0.9994370580904194,
+        "one_minus_normalized_frobenius_distance": 0.9734913139080144
+      }
+    ]
+  },
+  "clip": {
+    "sampling": "each replicate draws two disjoint unique-stimulus subsets without replacement from the fixed offline_discovery anchor pool",
+    "replicate_count": 100,
+    "subset_size_each": 600,
+    "upper_triangle_spearman": {
+      "mean": 0.9956071428571428,
+      "std_ddof1": 0.005534113951985495,
+      "median": 0.9964285714285712,
+      "ci_2_5": 0.978392857142857,
+      "ci_97_5": 1.0
+    },
+    "frobenius_distance": {
+      "mean": 0.13793026211760323,
+      "std_ddof1": 0.04607141484770565,
+      "median": 0.13206160972538136,
+      "ci_2_5": 0.07114574086010293,
+      "ci_97_5": 0.2284674536024944
+    },
+    "normalized_frobenius_distance": {
+      "mean": 0.02167442513482156,
+      "std_ddof1": 0.007232305938654319,
+      "median": 0.020688633610351663,
+      "ci_2_5": 0.011105405036670795,
+      "ci_97_5": 0.03567845390984144
+    },
+    "frobenius_cosine_similarity": {
+      "mean": 0.9993432499141209,
+      "std_ddof1": 0.0004577596382636797,
+      "median": 0.999476449436663,
+      "ci_2_5": 0.9981549332006905,
+      "ci_97_5": 0.9998553173615371
+    },
+    "one_minus_normalized_frobenius_distance": {
+      "mean": 0.9783255748651785,
+      "std_ddof1": 0.0072323059386543214,
+      "median": 0.9793113663896483,
+      "ci_2_5": 0.9643215460901585,
+      "ci_97_5": 0.9888945949633292
+    },
+    "replicate_metrics": [
+      {
+        "replicate": 0,
+        "upper_triangle_spearman": 0.9892857142857142,
+        "frobenius_distance": 0.1531922899188305,
+        "normalized_frobenius_distance": 0.024205127399954153,
+        "frobenius_cosine_similarity": 0.9988606301743598,
+        "one_minus_normalized_frobenius_distance": 0.9757948726000458
+      },
+      {
+        "replicate": 1,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.20411137444002833,
+        "normalized_frobenius_distance": 0.03193316760737759,
+        "frobenius_cosine_similarity": 0.9995430525693135,
+        "one_minus_normalized_frobenius_distance": 0.9680668323926224
+      },
+      {
+        "replicate": 2,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.23289563675386493,
+        "normalized_frobenius_distance": 0.03647785109155778,
+        "frobenius_cosine_similarity": 0.9992305475707112,
+        "one_minus_normalized_frobenius_distance": 0.9635221489084422
+      },
+      {
+        "replicate": 3,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.08704605242554721,
+        "normalized_frobenius_distance": 0.013729892065403763,
+        "frobenius_cosine_similarity": 0.9996570384032346,
+        "one_minus_normalized_frobenius_distance": 0.9862701079345962
+      },
+      {
+        "replicate": 4,
+        "upper_triangle_spearman": 0.9892857142857142,
+        "frobenius_distance": 0.19754135312976984,
+        "normalized_frobenius_distance": 0.031047804191664485,
+        "frobenius_cosine_similarity": 0.9982044051428844,
+        "one_minus_normalized_frobenius_distance": 0.9689521958083355
+      },
+      {
+        "replicate": 5,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.09234169772886387,
+        "normalized_frobenius_distance": 0.014505297395479908,
+        "frobenius_cosine_similarity": 0.9998564145544236,
+        "one_minus_normalized_frobenius_distance": 0.9854947026045201
+      },
+      {
+        "replicate": 6,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.12771670673395855,
+        "normalized_frobenius_distance": 0.01998277188259849,
+        "frobenius_cosine_similarity": 0.9994845800813468,
+        "one_minus_normalized_frobenius_distance": 0.9800172281174016
+      },
+      {
+        "replicate": 7,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.1452675258978507,
+        "normalized_frobenius_distance": 0.022682415199433797,
+        "frobenius_cosine_similarity": 0.9994369023775979,
+        "one_minus_normalized_frobenius_distance": 0.9773175848005662
+      },
+      {
+        "replicate": 8,
+        "upper_triangle_spearman": 0.9749999999999999,
+        "frobenius_distance": 0.2173691676553475,
+        "normalized_frobenius_distance": 0.03395808781744551,
+        "frobenius_cosine_similarity": 0.997899344248024,
+        "one_minus_normalized_frobenius_distance": 0.9660419121825545
+      },
+      {
+        "replicate": 9,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.16585133966635873,
+        "normalized_frobenius_distance": 0.02599200969653631,
+        "frobenius_cosine_similarity": 0.9993541164913708,
+        "one_minus_normalized_frobenius_distance": 0.9740079903034637
+      },
+      {
+        "replicate": 10,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.12490662903629447,
+        "normalized_frobenius_distance": 0.0198952198950178,
+        "frobenius_cosine_similarity": 0.9992085143869551,
+        "one_minus_normalized_frobenius_distance": 0.9801047801049823
+      },
+      {
+        "replicate": 11,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.12548889433621235,
+        "normalized_frobenius_distance": 0.019841039970814493,
+        "frobenius_cosine_similarity": 0.9993053156011692,
+        "one_minus_normalized_frobenius_distance": 0.9801589600291855
+      },
+      {
+        "replicate": 12,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.16142018200936192,
+        "normalized_frobenius_distance": 0.0252538777165824,
+        "frobenius_cosine_similarity": 0.9996163700279784,
+        "one_minus_normalized_frobenius_distance": 0.9747461222834176
+      },
+      {
+        "replicate": 13,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.09608059568854108,
+        "normalized_frobenius_distance": 0.015132059535890436,
+        "frobenius_cosine_similarity": 0.9997793493256455,
+        "one_minus_normalized_frobenius_distance": 0.9848679404641095
+      },
+      {
+        "replicate": 14,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.08564497297883483,
+        "normalized_frobenius_distance": 0.013449890128618382,
+        "frobenius_cosine_similarity": 0.9997405084020156,
+        "one_minus_normalized_frobenius_distance": 0.9865501098713816
+      },
+      {
+        "replicate": 15,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.09361925950539876,
+        "normalized_frobenius_distance": 0.014758159050292112,
+        "frobenius_cosine_similarity": 0.9996993574289786,
+        "one_minus_normalized_frobenius_distance": 0.9852418409497079
+      },
+      {
+        "replicate": 16,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.16989979723756796,
+        "normalized_frobenius_distance": 0.026528239893752307,
+        "frobenius_cosine_similarity": 0.9997968304337307,
+        "one_minus_normalized_frobenius_distance": 0.9734717601062477
+      },
+      {
+        "replicate": 17,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.09709107672901705,
+        "normalized_frobenius_distance": 0.01508722931005757,
+        "frobenius_cosine_similarity": 0.9998541046746625,
+        "one_minus_normalized_frobenius_distance": 0.9849127706899424
+      },
+      {
+        "replicate": 18,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.13668657593747768,
+        "normalized_frobenius_distance": 0.021597050098189515,
+        "frobenius_cosine_similarity": 0.999235610387591,
+        "one_minus_normalized_frobenius_distance": 0.9784029499018105
+      },
+      {
+        "replicate": 19,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.10648552885266414,
+        "normalized_frobenius_distance": 0.016704517598243613,
+        "frobenius_cosine_similarity": 0.9994455435588597,
+        "one_minus_normalized_frobenius_distance": 0.9832954824017563
+      },
+      {
+        "replicate": 20,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.18641067204633016,
+        "normalized_frobenius_distance": 0.029026347572569697,
+        "frobenius_cosine_similarity": 0.9994437606207988,
+        "one_minus_normalized_frobenius_distance": 0.9709736524274303
+      },
+      {
+        "replicate": 21,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.202800248612501,
+        "normalized_frobenius_distance": 0.03157160721076803,
+        "frobenius_cosine_similarity": 0.9988544032970851,
+        "one_minus_normalized_frobenius_distance": 0.968428392789232
+      },
+      {
+        "replicate": 22,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.10201955269552297,
+        "normalized_frobenius_distance": 0.016122543886063528,
+        "frobenius_cosine_similarity": 0.9995051900379155,
+        "one_minus_normalized_frobenius_distance": 0.9838774561139365
+      },
+      {
+        "replicate": 23,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.08616016009380077,
+        "normalized_frobenius_distance": 0.013597527747514118,
+        "frobenius_cosine_similarity": 0.9997822944624758,
+        "one_minus_normalized_frobenius_distance": 0.9864024722524859
+      },
+      {
+        "replicate": 24,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.17120285517005737,
+        "normalized_frobenius_distance": 0.027079690814878557,
+        "frobenius_cosine_similarity": 0.9995167059388815,
+        "one_minus_normalized_frobenius_distance": 0.9729203091851214
+      },
+      {
+        "replicate": 25,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.19032144527478914,
+        "normalized_frobenius_distance": 0.030002962591600985,
+        "frobenius_cosine_similarity": 0.998466403047395,
+        "one_minus_normalized_frobenius_distance": 0.969997037408399
+      },
+      {
+        "replicate": 26,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.10209341954930366,
+        "normalized_frobenius_distance": 0.01586253879102903,
+        "frobenius_cosine_similarity": 0.9996649627355287,
+        "one_minus_normalized_frobenius_distance": 0.9841374612089709
+      },
+      {
+        "replicate": 27,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.12531052358313746,
+        "normalized_frobenius_distance": 0.019931149460309053,
+        "frobenius_cosine_similarity": 0.9995460441828862,
+        "one_minus_normalized_frobenius_distance": 0.980068850539691
+      },
+      {
+        "replicate": 28,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.2160550656884955,
+        "normalized_frobenius_distance": 0.03381002010416486,
+        "frobenius_cosine_similarity": 0.9991450530153317,
+        "one_minus_normalized_frobenius_distance": 0.9661899798958351
+      },
+      {
+        "replicate": 29,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.11222055859592667,
+        "normalized_frobenius_distance": 0.01774783228654908,
+        "frobenius_cosine_similarity": 0.9995574730051651,
+        "one_minus_normalized_frobenius_distance": 0.9822521677134509
+      },
+      {
+        "replicate": 30,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.1267254560990476,
+        "normalized_frobenius_distance": 0.019790927842103095,
+        "frobenius_cosine_similarity": 0.9992625778246842,
+        "one_minus_normalized_frobenius_distance": 0.9802090721578969
+      },
+      {
+        "replicate": 31,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.1516830428362086,
+        "normalized_frobenius_distance": 0.023664048488308158,
+        "frobenius_cosine_similarity": 0.9992662418755596,
+        "one_minus_normalized_frobenius_distance": 0.9763359515116918
+      },
+      {
+        "replicate": 32,
+        "upper_triangle_spearman": 0.9749999999999999,
+        "frobenius_distance": 0.1874545756022758,
+        "normalized_frobenius_distance": 0.029258640760881985,
+        "frobenius_cosine_similarity": 0.9982951602520765,
+        "one_minus_normalized_frobenius_distance": 0.970741359239118
+      },
+      {
+        "replicate": 33,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.20644362048925174,
+        "normalized_frobenius_distance": 0.032997577696502245,
+        "frobenius_cosine_similarity": 0.9992118035775378,
+        "one_minus_normalized_frobenius_distance": 0.9670024223034978
+      },
+      {
+        "replicate": 34,
+        "upper_triangle_spearman": 0.9892857142857142,
+        "frobenius_distance": 0.10812378756173643,
+        "normalized_frobenius_distance": 0.01710262813658702,
+        "frobenius_cosine_similarity": 0.9994273887066776,
+        "one_minus_normalized_frobenius_distance": 0.982897371863413
+      },
+      {
+        "replicate": 35,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.1318954862770086,
+        "normalized_frobenius_distance": 0.021222174950859783,
+        "frobenius_cosine_similarity": 0.9994865619985414,
+        "one_minus_normalized_frobenius_distance": 0.9787778250491402
+      },
+      {
+        "replicate": 36,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.17218705649573993,
+        "normalized_frobenius_distance": 0.026817574381120403,
+        "frobenius_cosine_similarity": 0.9991639535853052,
+        "one_minus_normalized_frobenius_distance": 0.9731824256188796
+      },
+      {
+        "replicate": 37,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.19080750208510028,
+        "normalized_frobenius_distance": 0.030042130151568362,
+        "frobenius_cosine_similarity": 0.99875081609129,
+        "one_minus_normalized_frobenius_distance": 0.9699578698484317
+      },
+      {
+        "replicate": 38,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.13306808301418918,
+        "normalized_frobenius_distance": 0.021012045334087914,
+        "frobenius_cosine_similarity": 0.9995323386061622,
+        "one_minus_normalized_frobenius_distance": 0.978987954665912
+      },
+      {
+        "replicate": 39,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.08961554516665998,
+        "normalized_frobenius_distance": 0.014182587980062228,
+        "frobenius_cosine_similarity": 0.9996142630817101,
+        "one_minus_normalized_frobenius_distance": 0.9858174120199378
+      },
+      {
+        "replicate": 40,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.09662763982699135,
+        "normalized_frobenius_distance": 0.014950878796172544,
+        "frobenius_cosine_similarity": 0.9995620481493012,
+        "one_minus_normalized_frobenius_distance": 0.9850491212038275
+      },
+      {
+        "replicate": 41,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.09792386644730607,
+        "normalized_frobenius_distance": 0.015299474232290791,
+        "frobenius_cosine_similarity": 0.999560198458828,
+        "one_minus_normalized_frobenius_distance": 0.9847005257677092
+      },
+      {
+        "replicate": 42,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.2235731459088745,
+        "normalized_frobenius_distance": 0.03479490965636551,
+        "frobenius_cosine_similarity": 0.9988741203031115,
+        "one_minus_normalized_frobenius_distance": 0.9652050903436344
+      },
+      {
+        "replicate": 43,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.13065677419696395,
+        "normalized_frobenius_distance": 0.02059621498221797,
+        "frobenius_cosine_similarity": 0.9994466425453968,
+        "one_minus_normalized_frobenius_distance": 0.979403785017782
+      },
+      {
+        "replicate": 44,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.21606079767812345,
+        "normalized_frobenius_distance": 0.03427352270071933,
+        "frobenius_cosine_similarity": 0.9989866453270922,
+        "one_minus_normalized_frobenius_distance": 0.9657264772992806
+      },
+      {
+        "replicate": 45,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.0840373060227562,
+        "normalized_frobenius_distance": 0.01329823378964203,
+        "frobenius_cosine_similarity": 0.9997287836497257,
+        "one_minus_normalized_frobenius_distance": 0.986701766210358
+      },
+      {
+        "replicate": 46,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.07426987428880061,
+        "normalized_frobenius_distance": 0.011632466369066067,
+        "frobenius_cosine_similarity": 0.9997358434380084,
+        "one_minus_normalized_frobenius_distance": 0.9883675336309339
+      },
+      {
+        "replicate": 47,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.11318097249883587,
+        "normalized_frobenius_distance": 0.017989190266168607,
+        "frobenius_cosine_similarity": 0.9993878683530207,
+        "one_minus_normalized_frobenius_distance": 0.9820108097338314
+      },
+      {
+        "replicate": 48,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.13458631278745778,
+        "normalized_frobenius_distance": 0.02105206286717774,
+        "frobenius_cosine_similarity": 0.9998853117833045,
+        "one_minus_normalized_frobenius_distance": 0.9789479371328222
+      },
+      {
+        "replicate": 49,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.18956084195565814,
+        "normalized_frobenius_distance": 0.029814081970140904,
+        "frobenius_cosine_similarity": 0.9996793086507461,
+        "one_minus_normalized_frobenius_distance": 0.9701859180298591
+      },
+      {
+        "replicate": 50,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.177623453091116,
+        "normalized_frobenius_distance": 0.028012794000524612,
+        "frobenius_cosine_similarity": 0.999625955423724,
+        "one_minus_normalized_frobenius_distance": 0.9719872059994754
+      },
+      {
+        "replicate": 51,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.1916730985129357,
+        "normalized_frobenius_distance": 0.03015458063125654,
+        "frobenius_cosine_similarity": 0.9991698413876207,
+        "one_minus_normalized_frobenius_distance": 0.9698454193687435
+      },
+      {
+        "replicate": 52,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.11775315887488247,
+        "normalized_frobenius_distance": 0.0183776652101823,
+        "frobenius_cosine_similarity": 0.9997984706199373,
+        "one_minus_normalized_frobenius_distance": 0.9816223347898178
+      },
+      {
+        "replicate": 53,
+        "upper_triangle_spearman": 0.9714285714285713,
+        "frobenius_distance": 0.20778176289363284,
+        "normalized_frobenius_distance": 0.032737999560236215,
+        "frobenius_cosine_similarity": 0.9981101728720388,
+        "one_minus_normalized_frobenius_distance": 0.9672620004397637
+      },
+      {
+        "replicate": 54,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.1019322504323997,
+        "normalized_frobenius_distance": 0.015994737593351183,
+        "frobenius_cosine_similarity": 0.9998093071185332,
+        "one_minus_normalized_frobenius_distance": 0.9840052624066489
+      },
+      {
+        "replicate": 55,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.16175140463173557,
+        "normalized_frobenius_distance": 0.02521579576543755,
+        "frobenius_cosine_similarity": 0.9995655931587533,
+        "one_minus_normalized_frobenius_distance": 0.9747842042345625
+      },
+      {
+        "replicate": 56,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.11070774355235773,
+        "normalized_frobenius_distance": 0.01744460164066774,
+        "frobenius_cosine_similarity": 0.9996451029978247,
+        "one_minus_normalized_frobenius_distance": 0.9825553983593323
+      },
+      {
+        "replicate": 57,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.13422917678867935,
+        "normalized_frobenius_distance": 0.021318262538030076,
+        "frobenius_cosine_similarity": 0.9991378815933816,
+        "one_minus_normalized_frobenius_distance": 0.97868173746197
+      },
+      {
+        "replicate": 58,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.1146194174539986,
+        "normalized_frobenius_distance": 0.018076083947747575,
+        "frobenius_cosine_similarity": 0.999511275574121,
+        "one_minus_normalized_frobenius_distance": 0.9819239160522524
+      },
+      {
+        "replicate": 59,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.09302314581348055,
+        "normalized_frobenius_distance": 0.014607814529240313,
+        "frobenius_cosine_similarity": 0.9998575129278393,
+        "one_minus_normalized_frobenius_distance": 0.9853921854707597
+      },
+      {
+        "replicate": 60,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.21482536253023013,
+        "normalized_frobenius_distance": 0.033827549077873456,
+        "frobenius_cosine_similarity": 0.9992743233803538,
+        "one_minus_normalized_frobenius_distance": 0.9661724509221266
+      },
+      {
+        "replicate": 61,
+        "upper_triangle_spearman": 0.9857142857142854,
+        "frobenius_distance": 0.2433820984125699,
+        "normalized_frobenius_distance": 0.03829289792634925,
+        "frobenius_cosine_similarity": 0.9980482327230974,
+        "one_minus_normalized_frobenius_distance": 0.9617071020736507
+      },
+      {
+        "replicate": 62,
+        "upper_triangle_spearman": 0.982142857142857,
+        "frobenius_distance": 0.1856378724492524,
+        "normalized_frobenius_distance": 0.02920192370557959,
+        "frobenius_cosine_similarity": 0.9984524174921824,
+        "one_minus_normalized_frobenius_distance": 0.9707980762944204
+      },
+      {
+        "replicate": 63,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.07715832805331732,
+        "normalized_frobenius_distance": 0.01212545918338193,
+        "frobenius_cosine_similarity": 0.9997612748820289,
+        "one_minus_normalized_frobenius_distance": 0.9878745408166181
+      },
+      {
+        "replicate": 64,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.08947868051319098,
+        "normalized_frobenius_distance": 0.014118594632160046,
+        "frobenius_cosine_similarity": 0.9996657827262763,
+        "one_minus_normalized_frobenius_distance": 0.98588140536784
+      },
+      {
+        "replicate": 65,
+        "upper_triangle_spearman": 0.9892857142857142,
+        "frobenius_distance": 0.15744544947369196,
+        "normalized_frobenius_distance": 0.02479489421823017,
+        "frobenius_cosine_similarity": 0.9988009390394939,
+        "one_minus_normalized_frobenius_distance": 0.9752051057817698
+      },
+      {
+        "replicate": 66,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.07773603106250497,
+        "normalized_frobenius_distance": 0.012162530458750223,
+        "frobenius_cosine_similarity": 0.9997507117600514,
+        "one_minus_normalized_frobenius_distance": 0.9878374695412497
+      },
+      {
+        "replicate": 67,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.11742429615392308,
+        "normalized_frobenius_distance": 0.018245258808895385,
+        "frobenius_cosine_similarity": 0.9995845331228669,
+        "one_minus_normalized_frobenius_distance": 0.9817547411911046
+      },
+      {
+        "replicate": 68,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.0674933410428746,
+        "normalized_frobenius_distance": 0.01060758842958509,
+        "frobenius_cosine_similarity": 0.9997895217708301,
+        "one_minus_normalized_frobenius_distance": 0.9893924115704149
+      },
+      {
+        "replicate": 69,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.12484089728262887,
+        "normalized_frobenius_distance": 0.019733074444905525,
+        "frobenius_cosine_similarity": 0.999422059287119,
+        "one_minus_normalized_frobenius_distance": 0.9802669255550944
+      },
+      {
+        "replicate": 70,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.11411011703935904,
+        "normalized_frobenius_distance": 0.017893188675330365,
+        "frobenius_cosine_similarity": 0.9995280462310537,
+        "one_minus_normalized_frobenius_distance": 0.9821068113246696
+      },
+      {
+        "replicate": 71,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.07235727283184502,
+        "normalized_frobenius_distance": 0.01142630190282803,
+        "frobenius_cosine_similarity": 0.999768711583927,
+        "one_minus_normalized_frobenius_distance": 0.988573698097172
+      },
+      {
+        "replicate": 72,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.11342772607727605,
+        "normalized_frobenius_distance": 0.017742278770724082,
+        "frobenius_cosine_similarity": 0.9995652646649357,
+        "one_minus_normalized_frobenius_distance": 0.9822577212292759
+      },
+      {
+        "replicate": 73,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.17775205787627427,
+        "normalized_frobenius_distance": 0.027715808670486928,
+        "frobenius_cosine_similarity": 0.9995834516821714,
+        "one_minus_normalized_frobenius_distance": 0.972284191329513
+      },
+      {
+        "replicate": 74,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.17472213643729734,
+        "normalized_frobenius_distance": 0.02730327476129988,
+        "frobenius_cosine_similarity": 0.9990541353199025,
+        "one_minus_normalized_frobenius_distance": 0.9726967252387001
+      },
+      {
+        "replicate": 75,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.07307829115492362,
+        "normalized_frobenius_distance": 0.011310614719507506,
+        "frobenius_cosine_similarity": 0.9997681562282337,
+        "one_minus_normalized_frobenius_distance": 0.9886893852804925
+      },
+      {
+        "replicate": 76,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.08124088156814126,
+        "normalized_frobenius_distance": 0.012752600300359098,
+        "frobenius_cosine_similarity": 0.9996984282642047,
+        "one_minus_normalized_frobenius_distance": 0.9872473996996409
+      },
+      {
+        "replicate": 77,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.23961640409403587,
+        "normalized_frobenius_distance": 0.03762241416961161,
+        "frobenius_cosine_similarity": 0.9993838230504417,
+        "one_minus_normalized_frobenius_distance": 0.9623775858303883
+      },
+      {
+        "replicate": 78,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.180799216732739,
+        "normalized_frobenius_distance": 0.02861958826852741,
+        "frobenius_cosine_similarity": 0.9984529633747721,
+        "one_minus_normalized_frobenius_distance": 0.9713804117314726
+      },
+      {
+        "replicate": 79,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.13222773317375414,
+        "normalized_frobenius_distance": 0.02065158757640212,
+        "frobenius_cosine_similarity": 0.9992026150990818,
+        "one_minus_normalized_frobenius_distance": 0.9793484124235978
+      },
+      {
+        "replicate": 80,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.11919895373471377,
+        "normalized_frobenius_distance": 0.018704547635748726,
+        "frobenius_cosine_similarity": 0.9997677598240303,
+        "one_minus_normalized_frobenius_distance": 0.9812954523642513
+      },
+      {
+        "replicate": 81,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.14022313615228924,
+        "normalized_frobenius_distance": 0.022148939881771804,
+        "frobenius_cosine_similarity": 0.9992545526051942,
+        "one_minus_normalized_frobenius_distance": 0.9778510601182282
+      },
+      {
+        "replicate": 82,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.13373251314768173,
+        "normalized_frobenius_distance": 0.021225996160405824,
+        "frobenius_cosine_similarity": 0.9991724198607026,
+        "one_minus_normalized_frobenius_distance": 0.9787740038395942
+      },
+      {
+        "replicate": 83,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.13781746400184233,
+        "normalized_frobenius_distance": 0.021668235105084335,
+        "frobenius_cosine_similarity": 0.9994683187919792,
+        "one_minus_normalized_frobenius_distance": 0.9783317648949157
+      },
+      {
+        "replicate": 84,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.14107067819371757,
+        "normalized_frobenius_distance": 0.021807887366649414,
+        "frobenius_cosine_similarity": 0.9991248521945626,
+        "one_minus_normalized_frobenius_distance": 0.9781921126333506
+      },
+      {
+        "replicate": 85,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.08687022511785798,
+        "normalized_frobenius_distance": 0.01357579764982212,
+        "frobenius_cosine_similarity": 0.9996387503947818,
+        "one_minus_normalized_frobenius_distance": 0.9864242023501779
+      },
+      {
+        "replicate": 86,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.10733771182261541,
+        "normalized_frobenius_distance": 0.01690215417221025,
+        "frobenius_cosine_similarity": 0.9994293670159461,
+        "one_minus_normalized_frobenius_distance": 0.9830978458277897
+      },
+      {
+        "replicate": 87,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.09677489887757665,
+        "normalized_frobenius_distance": 0.015147973058661925,
+        "frobenius_cosine_similarity": 0.9995450479748648,
+        "one_minus_normalized_frobenius_distance": 0.9848520269413381
+      },
+      {
+        "replicate": 88,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.07004959288566961,
+        "normalized_frobenius_distance": 0.010919739133151866,
+        "frobenius_cosine_similarity": 0.9998228496272589,
+        "one_minus_normalized_frobenius_distance": 0.9890802608668481
+      },
+      {
+        "replicate": 89,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.07871862770088649,
+        "normalized_frobenius_distance": 0.012519220948157814,
+        "frobenius_cosine_similarity": 0.9998229600279122,
+        "one_minus_normalized_frobenius_distance": 0.9874807790518422
+      },
+      {
+        "replicate": 90,
+        "upper_triangle_spearman": 0.9857142857142854,
+        "frobenius_distance": 0.1870749163538597,
+        "normalized_frobenius_distance": 0.02928999694521953,
+        "frobenius_cosine_similarity": 0.9982841980411965,
+        "one_minus_normalized_frobenius_distance": 0.9707100030547805
+      },
+      {
+        "replicate": 91,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.11917701400990058,
+        "normalized_frobenius_distance": 0.018865930837854143,
+        "frobenius_cosine_similarity": 0.9992937470029177,
+        "one_minus_normalized_frobenius_distance": 0.9811340691621458
+      },
+      {
+        "replicate": 92,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.13258520217677872,
+        "normalized_frobenius_distance": 0.020725679644301203,
+        "frobenius_cosine_similarity": 0.9992179116604554,
+        "one_minus_normalized_frobenius_distance": 0.9792743203556988
+      },
+      {
+        "replicate": 93,
+        "upper_triangle_spearman": 0.9857142857142854,
+        "frobenius_distance": 0.17661279530829382,
+        "normalized_frobenius_distance": 0.02779575181415171,
+        "frobenius_cosine_similarity": 0.9986200958551759,
+        "one_minus_normalized_frobenius_distance": 0.9722042481858483
+      },
+      {
+        "replicate": 94,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.1522044625566349,
+        "normalized_frobenius_distance": 0.02410241435766726,
+        "frobenius_cosine_similarity": 0.9988536313747044,
+        "one_minus_normalized_frobenius_distance": 0.9758975856423328
+      },
+      {
+        "replicate": 95,
+        "upper_triangle_spearman": 0.9964285714285712,
+        "frobenius_distance": 0.1434584713255907,
+        "normalized_frobenius_distance": 0.022454167670961898,
+        "frobenius_cosine_similarity": 0.999234769279129,
+        "one_minus_normalized_frobenius_distance": 0.9775458323290381
+      },
+      {
+        "replicate": 96,
+        "upper_triangle_spearman": 0.9892857142857142,
+        "frobenius_distance": 0.16716051815841176,
+        "normalized_frobenius_distance": 0.026491120788289316,
+        "frobenius_cosine_similarity": 0.9986205433291989,
+        "one_minus_normalized_frobenius_distance": 0.9735088792117107
+      },
+      {
+        "replicate": 97,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.1545655066171497,
+        "normalized_frobenius_distance": 0.02427278310778359,
+        "frobenius_cosine_similarity": 0.9991864212701369,
+        "one_minus_normalized_frobenius_distance": 0.9757272168922164
+      },
+      {
+        "replicate": 98,
+        "upper_triangle_spearman": 1.0,
+        "frobenius_distance": 0.06121059791876247,
+        "normalized_frobenius_distance": 0.009551130117659914,
+        "frobenius_cosine_similarity": 0.999839312647405,
+        "one_minus_normalized_frobenius_distance": 0.99044886988234
+      },
+      {
+        "replicate": 99,
+        "upper_triangle_spearman": 0.9928571428571428,
+        "frobenius_distance": 0.0876012744844017,
+        "normalized_frobenius_distance": 0.01387998360674222,
+        "frobenius_cosine_similarity": 0.9997922748353456,
+        "one_minus_normalized_frobenius_distance": 0.9861200163932577
+      }
+    ]
+  },
+  "full_replicate_matrices": "stimulus_subset_geometries.npz"
+}

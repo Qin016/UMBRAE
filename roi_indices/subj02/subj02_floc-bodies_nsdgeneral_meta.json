@@ -1,0 +1,42 @@
+{
+  "subject": "subj02",
+  "roi_name": "floc-bodies",
+  "roi_indices_pkl": "/opt/data/private/BA/UMBRAE/roi_indices/subj02/subj02_floc-bodies_indices.pkl",
+  "nsdgeneral_nii_path": "/opt/data/private/BA/NSD/nsddata/ppdata/subj02/func1pt8mm/roi/nsdgeneral.nii.gz",
+  "nsdgeneral_shape": [
+    82,
+    106,
+    84
+  ],
+  "nsdgeneral_voxel_count": 14278,
+  "labels": [
+    1,
+    3
+  ],
+  "label_names": [
+    "EBA",
+    "FBA-2"
+  ],
+  "per_label": {
+    "1": {
+      "name": "EBA",
+      "num_voxels_wholebrain": 3439,
+      "num_voxels_in_nsdgeneral": 2351,
+      "coverage_ratio": 0.6836289619075313,
+      "missing_count": 1088
+    },
+    "3": {
+      "name": "FBA-2",
+      "num_voxels_wholebrain": 1217,
+      "num_voxels_in_nsdgeneral": 876,
+      "coverage_ratio": 0.7198027937551356,
+      "missing_count": 341
+    }
+  },
+  "total_wholebrain_roi_voxels": 4656,
+  "total_nsdgeneral_roi_voxels": 3227,
+  "min_coverage_ratio": 0.6836289619075313,
+  "created_time": "2026-06-20T06:13:41.633674+00:00",
+  "flat_index_order": "numpy_C_order",
+  "validation": null
+}

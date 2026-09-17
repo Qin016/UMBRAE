@@ -1,0 +1,18 @@
+{
+  "formula": "softmax_p(-||c_p-mu_v||^2/(2*sigma_v^2))",
+  "sigma_formula": "official_size*sqrt(exponent)",
+  "center_approximation": true,
+  "numerical_method": "subtract row maximum before exp; no uniform fallback; no sigma clamp needed",
+  "sigma_distribution": {
+    "min": 0.0005076971719972789,
+    "p01": 0.0037385912030003963,
+    "p05": 0.009732970502227545,
+    "median": 0.19949868321418762,
+    "p95": 1.0497742593288422,
+    "p99": 2.0287566542625406,
+    "max": 7.4503889083862305,
+    "nonpositive": 0,
+    "nonfinite": 0
+  },
+  "all_rows_normalized": true
+}

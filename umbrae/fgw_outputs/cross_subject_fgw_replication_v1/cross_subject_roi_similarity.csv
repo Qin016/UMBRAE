@@ -1,0 +1,9 @@
+roi,mean_pairwise_cosine_similarity,mean_pairwise_js,preferred_layer_agreement,within_subject_initialization_ambiguity,prior_subj01_ambiguity_flag,cross_subject_stability_interpretation
+V1,1.0,0.0,1.0,none flagged,False,high cross-subject stability
+V2,1.0,0.0,1.0,none flagged,False,high cross-subject stability
+V3,1.0,0.0,1.0,none flagged,False,high cross-subject stability
+hV4,1.0,0.0,1.0,none flagged,False,high cross-subject stability
+FFA,0.3333333333333333,0.46209812037329684,0.3333333333333333,"subj01,subj02",True,low or ambiguous cross-subject stability
+EBA,1.0,0.0,1.0,none flagged,False,high cross-subject stability
+PPA,0.3333333333333333,0.46209812037329684,0.3333333333333333,subj02,True,low or ambiguous cross-subject stability
+OPA,1.0,0.0,1.0,none flagged,True,high cross-subject stability

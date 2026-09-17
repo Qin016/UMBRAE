@@ -1,0 +1,183 @@
+{
+  "primary_mapping": "quality_r2_ge10p1_xy_k64",
+  "capacity": {
+    "REAL_RANDOM_CAPACITY_MATCH": "PASS",
+    "unit_count": [
+      64,
+      64
+    ],
+    "unit_size_vector_match": true,
+    "total_parameters": [
+      1292800,
+      1292800
+    ],
+    "initial_parameter_sha256": [
+      "ae909b87d627cefc0db7b03a723f0b9d4b77a32c89a12b075fa6e03e12e097d2",
+      "ae909b87d627cefc0db7b03a723f0b9d4b77a32c89a12b075fa6e03e12e097d2"
+    ],
+    "teacher_affinity_sha256": [
+      "168b6ca6c8be11fa8d06dae7d08fca49112b4e29e377be412eeb30aeb610d602",
+      "168b6ca6c8be11fa8d06dae7d08fca49112b4e29e377be412eeb30aeb610d602"
+    ],
+    "OPTIMIZATION_PROTOCOL_MATCH": "PASS",
+    "best_epochs": [
+      30,
+      30
+    ],
+    "epochs_run": [
+      30,
+      30
+    ]
+  },
+  "metrics": [
+    {
+      "metric": "Local Cosine",
+      "real": 0.6254187226295471,
+      "random": 0.6253398060798645,
+      "delta_real_minus_random": 7.891654968261719e-05,
+      "ci95_low": -0.00071246271332105,
+      "ci95_high": 0.0008721466263135274
+    },
+    {
+      "metric": "Unit Localization MRR",
+      "real": 0.12049689631216516,
+      "random": 0.1215588752874598,
+      "delta_real_minus_random": -0.0010619789752946418,
+      "ci95_low": -0.002845181299783842,
+      "ci95_high": 0.000744259692368206
+    },
+    {
+      "metric": "Local Sample MRR",
+      "real": 0.03450356112618504,
+      "random": 0.03727389818616019,
+      "delta_real_minus_random": -0.0027703370599751545,
+      "ci95_low": -0.004365789419192041,
+      "ci95_high": -0.00129038288556045
+    },
+    {
+      "metric": "Unit Relation Spearman",
+      "real": 0.49312836117351583,
+      "random": 0.4705735435240815,
+      "delta_real_minus_random": 0.022554817649434344,
+      "ci95_low": 0.016413860277297743,
+      "ci95_high": 0.029000602735415458
+    },
+    {
+      "metric": "Locality Gap",
+      "real": -0.10722136497497559,
+      "random": -0.10703179985284805,
+      "delta_real_minus_random": -0.00018956512212753296,
+      "ci95_low": -0.0009674530262127519,
+      "ci95_high": 0.0005696934399505456
+    }
+  ],
+  "bootstrap": {
+    "local_cos": {
+      "observed_delta": 7.884979248046876e-05,
+      "ci95": [
+        -0.00071246271332105,
+        0.0008721466263135274
+      ],
+      "probability_delta_gt0": 0.5752,
+      "resampling_unit_count": 300,
+      "repeats": 10000,
+      "seed": 42
+    },
+    "unit_localization_mrr": {
+      "observed_delta": -0.0010619789752946524,
+      "ci95": [
+        -0.002845181299783842,
+        0.000744259692368206
+      ],
+      "probability_delta_gt0": 0.1285,
+      "resampling_unit_count": 300,
+      "repeats": 10000,
+      "seed": 42
+    },
+    "local_sample_mrr": {
+      "observed_delta": -0.002770337059975158,
+      "ci95": [
+        -0.004365789419192041,
+        -0.00129038288556045
+      ],
+      "probability_delta_gt0": 0.0,
+      "resampling_unit_count": 300,
+      "repeats": 10000,
+      "seed": 42
+    },
+    "unit_relation_spearman": {
+      "observed_delta": 0.022554817649434344,
+      "ci95": [
+        0.016413860277297743,
+        0.029000602735415458
+      ],
+      "probability_delta_gt0": 1.0,
+      "resampling_unit_count": 300,
+      "repeats": 10000,
+      "seed": 42
+    },
+    "locality_gap": {
+      "observed_delta": -0.00018955886363983154,
+      "ci95": [
+        -0.0009674530262127519,
+        0.0005696934399505456
+      ],
+      "probability_delta_gt0": 0.3294,
+      "resampling_unit_count": 300,
+      "repeats": 10000,
+      "seed": 42
+    },
+    "unit_bootstrap": {
+      "local_cos": {
+        "observed_delta": 7.885182276368141e-05,
+        "ci95": [
+          -0.0005533916992135346,
+          0.0006784256780520081
+        ],
+        "probability_delta_gt0": 0.6003,
+        "resampling_unit_count": 64,
+        "repeats": 10000,
+        "seed": 42
+      },
+      "localization_MRR": {
+        "observed_delta": -0.001061978975294654,
+        "ci95": [
+          -0.002968500392907442,
+          0.0008944552175650699
+        ],
+        "probability_delta_gt0": 0.1421,
+        "resampling_unit_count": 64,
+        "repeats": 10000,
+        "seed": 42
+      },
+      "sample_MRR": {
+        "observed_delta": -0.002770337059975157,
+        "ci95": [
+          -0.004544515965106382,
+          -0.001103431982128845
+        ],
+        "probability_delta_gt0": 0.0001,
+        "resampling_unit_count": 64,
+        "repeats": 10000,
+        "seed": 42
+      }
+    }
+  },
+  "teacher_shuffle": {
+    "local_cos": 0.6229714751243591,
+    "unit_localization_mrr": 0.11389696444555064,
+    "local_sample_mrr": 0.029854104540991362,
+    "unit_relation_spearman": 0.43791094239475437,
+    "locality_gap": -0.11678879708051682
+  },
+  "LOCAL_VISUAL_RECOVERY": "WEAK",
+  "SPATIAL_SPECIFICITY": "NEGATIVE",
+  "PRF_GROUNDED_STRUCTURE_SIGNAL": "NEGATIVE",
+  "REAL_RANDOM_CAPACITY_MATCH": "PASS",
+  "OPTIMIZATION_PROTOCOL_MATCH": "PASS",
+  "OPTIMIZATION_EXPOSURE_MATCH": "PASS",
+  "FINE_GRAINED_REPRESENTATION": "NOT_VALIDATED",
+  "P11B_STATUS": "NO_RELIABLE_PRF_STRUCTURE_ADVANTAGE",
+  "NEXT_STAGE": "REASSESS_LOCAL_ENCODING_OR_FMRI_INFORMATION_LIMIT",
+  "test_used": false
+}

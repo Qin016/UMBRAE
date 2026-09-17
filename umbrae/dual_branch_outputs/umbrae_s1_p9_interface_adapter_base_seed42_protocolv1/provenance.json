@@ -1,0 +1,27 @@
+{
+  "experiment_name": "umbrae_s1_p9_interface_adapter_base_seed42_protocolv1",
+  "source_kind": "umbrae",
+  "source_checkpoint": "train_logs/brainx-v-1-4/last.pth",
+  "source_checkpoint_sha256": "b38aa7ce9d11d56c36ede011ec757a3fda4194c5deaa5f7b0f5f8e42187bb4fb",
+  "trainable_policy": "adapter_and_gate_only",
+  "parameter_counts": {
+    "adapter_without_gate": 527616,
+    "gate": 1,
+    "total_trainable": 527617
+  },
+  "trainable_over_brainx_percent": 0.3601466281969287,
+  "initialization_equivalence": {
+    "max_abs_error": 0.0,
+    "mean_abs_error": 0.0,
+    "cosine_similarity": 1.0,
+    "gate": 0.09975048154592514
+  },
+  "mm_projector": "/opt/data/private/BA/UMBRAE/umbrae/model_weights/mm_projector.bin",
+  "mm_projector_sha256": "357a4a6a42c7214ecf3eca7cb17dfdadb9cdb9dba05f1daff764b969c71403ea",
+  "clip_teacher": "openai/clip-vit-large-patch14 hidden_states[-2][:,1:,:]",
+  "brain_representation_frozen": true,
+  "projector_frozen": true,
+  "shikra_used_in_training": false,
+  "test_used": false,
+  "seed": 42
+}

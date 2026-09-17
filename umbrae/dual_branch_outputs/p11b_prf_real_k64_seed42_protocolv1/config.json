@@ -1,0 +1,437 @@
+{
+  "config": "configs/dual_branch/p11b_prf_real_k64_protocol_v1.json",
+  "protocol": "configs/dual_branch/protocol_v1.json",
+  "mapping": "dual_branch_outputs/p11b0_prf_grounded_unit_construction/selected_mapping_real.json",
+  "teacher_metadata": "protocol_outputs/protocol_v1/subj01/p11b_local_teacher_k64/metadata.json",
+  "teacher_affinity": "dual_branch_outputs/p11b0_prf_grounded_unit_construction/selected_patch_affinity_real.npy",
+  "train_cache": "protocol_outputs/protocol_v1/subj01/stage_a_cache/train",
+  "val_cache": "protocol_outputs/protocol_v1/subj01/stage_a_cache/val",
+  "output_dir": "dual_branch_outputs/p11b_prf_real_k64_seed42_protocolv1",
+  "experiment_name": "p11b_prf_real_k64_seed42_protocolv1",
+  "batch_size": 64,
+  "num_workers": 4,
+  "max_epochs": 30,
+  "min_epochs": 10,
+  "patience": 7,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "gradient_clip_norm": 1.0,
+  "temperature": 0.07,
+  "seed": 42,
+  "device": "cuda:0",
+  "amp": true,
+  "architecture": "unit-specific Linear(Vr,256) + shared GELU/LayerNorm/Linear(256,1024)",
+  "unit_embedding": false,
+  "roi_embedding": false,
+  "hemisphere_embedding": false,
+  "prf_coordinate_input": false,
+  "objective_weights": {
+    "local_cos": 1.0,
+    "local_mse": 0.1,
+    "unit_rel": 0.1,
+    "local_nce": 0.1
+  },
+  "parameter_report": {
+    "number_of_units": 64,
+    "unit_size_vector": [
+      155,
+      111,
+      54,
+      50,
+      56,
+      44,
+      46,
+      42,
+      35,
+      32,
+      154,
+      66,
+      79,
+      76,
+      40,
+      46,
+      30,
+      33,
+      35,
+      170,
+      102,
+      63,
+      47,
+      43,
+      71,
+      28,
+      20,
+      12,
+      196,
+      57,
+      89,
+      65,
+      59,
+      58,
+      37,
+      28,
+      22,
+      26,
+      176,
+      93,
+      74,
+      66,
+      45,
+      35,
+      36,
+      23,
+      196,
+      73,
+      37,
+      36,
+      57,
+      40,
+      17,
+      32,
+      120,
+      86,
+      37,
+      14,
+      20,
+      124,
+      81,
+      23,
+      22,
+      16
+    ],
+    "input_linear_shapes": [
+      [
+        256,
+        155
+      ],
+      [
+        256,
+        111
+      ],
+      [
+        256,
+        54
+      ],
+      [
+        256,
+        50
+      ],
+      [
+        256,
+        56
+      ],
+      [
+        256,
+        44
+      ],
+      [
+        256,
+        46
+      ],
+      [
+        256,
+        42
+      ],
+      [
+        256,
+        35
+      ],
+      [
+        256,
+        32
+      ],
+      [
+        256,
+        154
+      ],
+      [
+        256,
+        66
+      ],
+      [
+        256,
+        79
+      ],
+      [
+        256,
+        76
+      ],
+      [
+        256,
+        40
+      ],
+      [
+        256,
+        46
+      ],
+      [
+        256,
+        30
+      ],
+      [
+        256,
+        33
+      ],
+      [
+        256,
+        35
+      ],
+      [
+        256,
+        170
+      ],
+      [
+        256,
+        102
+      ],
+      [
+        256,
+        63
+      ],
+      [
+        256,
+        47
+      ],
+      [
+        256,
+        43
+      ],
+      [
+        256,
+        71
+      ],
+      [
+        256,
+        28
+      ],
+      [
+        256,
+        20
+      ],
+      [
+        256,
+        12
+      ],
+      [
+        256,
+        196
+      ],
+      [
+        256,
+        57
+      ],
+      [
+        256,
+        89
+      ],
+      [
+        256,
+        65
+      ],
+      [
+        256,
+        59
+      ],
+      [
+        256,
+        58
+      ],
+      [
+        256,
+        37
+      ],
+      [
+        256,
+        28
+      ],
+      [
+        256,
+        22
+      ],
+      [
+        256,
+        26
+      ],
+      [
+        256,
+        176
+      ],
+      [
+        256,
+        93
+      ],
+      [
+        256,
+        74
+      ],
+      [
+        256,
+        66
+      ],
+      [
+        256,
+        45
+      ],
+      [
+        256,
+        35
+      ],
+      [
+        256,
+        36
+      ],
+      [
+        256,
+        23
+      ],
+      [
+        256,
+        196
+      ],
+      [
+        256,
+        73
+      ],
+      [
+        256,
+        37
+      ],
+      [
+        256,
+        36
+      ],
+      [
+        256,
+        57
+      ],
+      [
+        256,
+        40
+      ],
+      [
+        256,
+        17
+      ],
+      [
+        256,
+        32
+      ],
+      [
+        256,
+        120
+      ],
+      [
+        256,
+        86
+      ],
+      [
+        256,
+        37
+      ],
+      [
+        256,
+        14
+      ],
+      [
+        256,
+        20
+      ],
+      [
+        256,
+        124
+      ],
+      [
+        256,
+        81
+      ],
+      [
+        256,
+        23
+      ],
+      [
+        256,
+        22
+      ],
+      [
+        256,
+        16
+      ]
+    ],
+    "unit_specific_first_layer_parameters": [
+      39936,
+      28672,
+      14080,
+      13056,
+      14592,
+      11520,
+      12032,
+      11008,
+      9216,
+      8448,
+      39680,
+      17152,
+      20480,
+      19712,
+      10496,
+      12032,
+      7936,
+      8704,
+      9216,
+      43776,
+      26368,
+      16384,
+      12288,
+      11264,
+      18432,
+      7424,
+      5376,
+      3328,
+      50432,
+      14848,
+      23040,
+      16896,
+      15360,
+      15104,
+      9728,
+      7424,
+      5888,
+      6912,
+      45312,
+      24064,
+      19200,
+      17152,
+      11776,
+      9216,
+      9472,
+      6144,
+      50432,
+      18944,
+      9728,
+      9472,
+      14848,
+      10496,
+      4608,
+      8448,
+      30976,
+      22272,
+      9728,
+      3840,
+      5376,
+      32000,
+      20992,
+      6144,
+      5888,
+      4352
+    ],
+    "shared_projection_parameters": 263680,
+    "total_parameters": 1292800,
+    "trainable_parameters": 1292800
+  },
+  "initial_parameter_sha256": "ae909b87d627cefc0db7b03a723f0b9d4b77a32c89a12b075fa6e03e12e097d2",
+  "brainx_used": false,
+  "shikra_used": false,
+  "fusion_used": false,
+  "lora_used": false,
+  "mm_projector_used": false,
+  "test_loaded": false
+}

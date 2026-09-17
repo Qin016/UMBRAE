@@ -1,0 +1,12 @@
+{
+  "FINAL_PLAN_HASH": "51e65527f3bbc1a3951ec376dd8be3662cab9e6b5f682d2a0da26fb347e20760",
+  "hash_algorithm": "SHA256 over exact .npy file bytes",
+  "baseline_plan_sha256": "90cdeb344ce181a9f2331cf1542c7424869ce7e8c11bb70800990ead1d3cd3a8",
+  "final_refit_config_sha256": "5ead1040238d61a7ff5a48a13120d306828c6d5840a1e61240f4987c8abed8f9",
+  "pretest_null_plan_hashes": {
+    "pretest_brain_identity_null_plans.npy": "c86c4aa7ba94d1e52f8f112a78770d51144f812d3427aa37a6698529afa32ccf",
+    "pretest_clip_identity_null_plans.npy": "0435dbcc4bc6fded92a28f3d11e7402b7f7dc1f24865209f2e798b479aca8d9d",
+    "pretest_independent_roi_null_plans.npy": "d98f15e6752ee3bf27d61d3ac73bfbce14ec48cd3389a779df146f76228455fd",
+    "pretest_feature_pairing_null_plans.npy": "bdb028a5ffc649f2c0c7963e41aa2d743cc1abf53dfecb253cfbd1dd33a14aa9"
+  }
+}

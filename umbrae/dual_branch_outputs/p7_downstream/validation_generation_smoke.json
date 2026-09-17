@@ -1,0 +1,18 @@
+{
+  "umbrae": {
+    "response": "<s> A living room filled with furniture and a book shelf.</s>",
+    "caption": "A living room filled with furniture and a book shelf."
+  },
+  "lora": {
+    "response": "<s> A living room filled with furniture and a book shelf.</s>",
+    "caption": "A living room filled with furniture and a book shelf."
+  },
+  "full_real": {
+    "response": "<s> A living room with furniture and a book shelf.</s></s>",
+    "caption": "A living room with furniture and a book shelf."
+  },
+  "full_random": {
+    "response": "<s> A living room with furniture and a book shelf.</s></s>",
+    "caption": "A living room with furniture and a book shelf."
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "nsd_root": "/opt/data/private/BA/UMBRAE",
+  "ppdata_root": "/opt/data/private/BA/UMBRAE/ppdata",
+  "space": "func1pt8mm",
+  "required_rois": [
+    "nsdgeneral",
+    "prf-visualrois",
+    "floc-faces",
+    "floc-places",
+    "floc-bodies",
+    "streams"
+  ],
+  "complete_subjects": [],
+  "all_valid": false,
+  "subjects": [
+    {
+      "subject": 1,
+      "roi_dir": "/opt/data/private/BA/UMBRAE/ppdata/subj01/func1pt8mm/roi",
+      "expected_nsdgeneral_voxel_count": 15724,
+      "files": {
+        "nsdgeneral": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj01/func1pt8mm/roi/nsdgeneral.nii.gz",
+          "found": false
+        },
+        "prf-visualrois": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj01/func1pt8mm/roi/prf-visualrois.nii.gz",
+          "found": false
+        },
+        "floc-faces": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj01/func1pt8mm/roi/floc-faces.nii.gz",
+          "found": false
+        },
+        "floc-places": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj01/func1pt8mm/roi/floc-places.nii.gz",
+          "found": false
+        },
+        "floc-bodies": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj01/func1pt8mm/roi/floc-bodies.nii.gz",
+          "found": false
+        },
+        "streams": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj01/func1pt8mm/roi/streams.nii.gz",
+          "found": false
+        }
+      },
+      "errors": [
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj01/func1pt8mm/roi/nsdgeneral.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj01/func1pt8mm/roi/prf-visualrois.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj01/func1pt8mm/roi/floc-faces.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj01/func1pt8mm/roi/floc-places.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj01/func1pt8mm/roi/floc-bodies.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj01/func1pt8mm/roi/streams.nii.gz"
+      ],
+      "valid": false
+    },
+    {
+      "subject": 2,
+      "roi_dir": "/opt/data/private/BA/UMBRAE/ppdata/subj02/func1pt8mm/roi",
+      "expected_nsdgeneral_voxel_count": 14278,
+      "files": {
+        "nsdgeneral": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj02/func1pt8mm/roi/nsdgeneral.nii.gz",
+          "found": false
+        },
+        "prf-visualrois": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj02/func1pt8mm/roi/prf-visualrois.nii.gz",
+          "found": false
+        },
+        "floc-faces": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj02/func1pt8mm/roi/floc-faces.nii.gz",
+          "found": false
+        },
+        "floc-places": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj02/func1pt8mm/roi/floc-places.nii.gz",
+          "found": false
+        },
+        "floc-bodies": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj02/func1pt8mm/roi/floc-bodies.nii.gz",
+          "found": false
+        },
+        "streams": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj02/func1pt8mm/roi/streams.nii.gz",
+          "found": false
+        }
+      },
+      "errors": [
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj02/func1pt8mm/roi/nsdgeneral.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj02/func1pt8mm/roi/prf-visualrois.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj02/func1pt8mm/roi/floc-faces.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj02/func1pt8mm/roi/floc-places.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj02/func1pt8mm/roi/floc-bodies.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj02/func1pt8mm/roi/streams.nii.gz"
+      ],
+      "valid": false
+    },
+    {
+      "subject": 5,
+      "roi_dir": "/opt/data/private/BA/UMBRAE/ppdata/subj05/func1pt8mm/roi",
+      "expected_nsdgeneral_voxel_count": 13039,
+      "files": {
+        "nsdgeneral": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj05/func1pt8mm/roi/nsdgeneral.nii.gz",
+          "found": false
+        },
+        "prf-visualrois": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj05/func1pt8mm/roi/prf-visualrois.nii.gz",
+          "found": false
+        },
+        "floc-faces": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj05/func1pt8mm/roi/floc-faces.nii.gz",
+          "found": false
+        },
+        "floc-places": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj05/func1pt8mm/roi/floc-places.nii.gz",
+          "found": false
+        },
+        "floc-bodies": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj05/func1pt8mm/roi/floc-bodies.nii.gz",
+          "found": false
+        },
+        "streams": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj05/func1pt8mm/roi/streams.nii.gz",
+          "found": false
+        }
+      },
+      "errors": [
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj05/func1pt8mm/roi/nsdgeneral.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj05/func1pt8mm/roi/prf-visualrois.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj05/func1pt8mm/roi/floc-faces.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj05/func1pt8mm/roi/floc-places.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj05/func1pt8mm/roi/floc-bodies.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj05/func1pt8mm/roi/streams.nii.gz"
+      ],
+      "valid": false
+    },
+    {
+      "subject": 7,
+      "roi_dir": "/opt/data/private/BA/UMBRAE/ppdata/subj07/func1pt8mm/roi",
+      "expected_nsdgeneral_voxel_count": 12682,
+      "files": {
+        "nsdgeneral": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj07/func1pt8mm/roi/nsdgeneral.nii.gz",
+          "found": false
+        },
+        "prf-visualrois": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj07/func1pt8mm/roi/prf-visualrois.nii.gz",
+          "found": false
+        },
+        "floc-faces": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj07/func1pt8mm/roi/floc-faces.nii.gz",
+          "found": false
+        },
+        "floc-places": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj07/func1pt8mm/roi/floc-places.nii.gz",
+          "found": false
+        },
+        "floc-bodies": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj07/func1pt8mm/roi/floc-bodies.nii.gz",
+          "found": false
+        },
+        "streams": {
+          "path": "/opt/data/private/BA/UMBRAE/ppdata/subj07/func1pt8mm/roi/streams.nii.gz",
+          "found": false
+        }
+      },
+      "errors": [
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj07/func1pt8mm/roi/nsdgeneral.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj07/func1pt8mm/roi/prf-visualrois.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj07/func1pt8mm/roi/floc-faces.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj07/func1pt8mm/roi/floc-places.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj07/func1pt8mm/roi/floc-bodies.nii.gz",
+        "missing /opt/data/private/BA/UMBRAE/ppdata/subj07/func1pt8mm/roi/streams.nii.gz"
+      ],
+      "valid": false
+    }
+  ]
+}

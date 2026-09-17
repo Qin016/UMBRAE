@@ -1,0 +1,150 @@
+{
+  "seed": 8042,
+  "iterations": 10000,
+  "cluster_count": 982,
+  "query_count": 2419,
+  "cluster_unit": "fMRI/image sample_id",
+  "paired_cluster_indices": true,
+  "comparisons": {
+    "lora_minus_umbrae": {
+      "mean_iou": {
+        "mean_delta": -0.004520389683989368,
+        "median_delta": -0.004486943469471483,
+        "standard_deviation": 0.0017003583301254113,
+        "percentile_2_5": -0.007917681181306462,
+        "percentile_97_5": -0.0012527314700956703,
+        "confidence_interval_95": [
+          -0.007917681181306462,
+          -0.0012527314700956703
+        ],
+        "probability_delta_gt_0": 0.0034,
+        "probability_delta_lt_0": 0.9966
+      },
+      "accuracy_at_0_5": {
+        "mean_delta": -0.002476974262745335,
+        "median_delta": -0.002473206924979404,
+        "standard_deviation": 0.004278225673349784,
+        "percentile_2_5": -0.010989010989011005,
+        "percentile_97_5": 0.005852904005964391,
+        "confidence_interval_95": [
+          -0.010989010989011005,
+          0.005852904005964391
+        ],
+        "probability_delta_gt_0": 0.266,
+        "probability_delta_lt_0": 0.6997
+      }
+    },
+    "full_real_minus_umbrae": {
+      "mean_iou": {
+        "mean_delta": -0.002887815126570357,
+        "median_delta": -0.0028697948727756523,
+        "standard_deviation": 0.0018601489488241968,
+        "percentile_2_5": -0.006542376211422838,
+        "percentile_97_5": 0.000781907702129175,
+        "confidence_interval_95": [
+          -0.006542376211422838,
+          0.000781907702129175
+        ],
+        "probability_delta_gt_0": 0.0588,
+        "probability_delta_lt_0": 0.9412
+      },
+      "accuracy_at_0_5": {
+        "mean_delta": 0.0003877522144448182,
+        "median_delta": 0.00041067761806981573,
+        "standard_deviation": 0.004408908855405157,
+        "percentile_2_5": -0.008220642574643913,
+        "percentile_97_5": 0.008968849514088459,
+        "confidence_interval_95": [
+          -0.008220642574643913,
+          0.008968849514088459
+        ],
+        "probability_delta_gt_0": 0.514,
+        "probability_delta_lt_0": 0.4477
+      }
+    },
+    "full_random_minus_umbrae": {
+      "mean_iou": {
+        "mean_delta": -0.00347541496023316,
+        "median_delta": -0.0034767937783426184,
+        "standard_deviation": 0.0017706960391519063,
+        "percentile_2_5": -0.006946031379483316,
+        "percentile_97_5": -7.221627925381681e-06,
+        "confidence_interval_95": [
+          -0.006946031379483316,
+          -7.221627925381681e-06
+        ],
+        "probability_delta_gt_0": 0.0249,
+        "probability_delta_lt_0": 0.9751
+      },
+      "accuracy_at_0_5": {
+        "mean_delta": -0.0033245046904724733,
+        "median_delta": -0.003306468419775957,
+        "standard_deviation": 0.0041073989929123885,
+        "percentile_2_5": -0.011391375101708706,
+        "percentile_97_5": 0.004625833255458993,
+        "confidence_interval_95": [
+          -0.011391375101708706,
+          0.004625833255458993
+        ],
+        "probability_delta_gt_0": 0.1983,
+        "probability_delta_lt_0": 0.7732
+      }
+    },
+    "full_real_minus_lora": {
+      "mean_iou": {
+        "mean_delta": 0.0016325745574190108,
+        "median_delta": 0.0016425446068190214,
+        "standard_deviation": 0.0013933955901519086,
+        "percentile_2_5": -0.0011043288426987325,
+        "percentile_97_5": 0.004362106216675715,
+        "confidence_interval_95": [
+          -0.0011043288426987325,
+          0.004362106216675715
+        ],
+        "probability_delta_gt_0": 0.8789,
+        "probability_delta_lt_0": 0.1211
+      },
+      "accuracy_at_0_5": {
+        "mean_delta": 0.0028647264771901534,
+        "median_delta": 0.00287474332648871,
+        "standard_deviation": 0.003550405350811711,
+        "percentile_2_5": -0.004135692073618306,
+        "percentile_97_5": 0.009876644862235644,
+        "confidence_interval_95": [
+          -0.004135692073618306,
+          0.009876644862235644
+        ],
+        "probability_delta_gt_0": 0.7731,
+        "probability_delta_lt_0": 0.1951
+      }
+    },
+    "full_real_minus_full_random": {
+      "mean_iou": {
+        "mean_delta": 0.0005875998336628031,
+        "median_delta": 0.000570135248571052,
+        "standard_deviation": 0.0011669901337375878,
+        "percentile_2_5": -0.0016466771895605802,
+        "percentile_97_5": 0.0029107923884903394,
+        "confidence_interval_95": [
+          -0.0016466771895605802,
+          0.0029107923884903394
+        ],
+        "probability_delta_gt_0": 0.6863,
+        "probability_delta_lt_0": 0.3137
+      },
+      "accuracy_at_0_5": {
+        "mean_delta": 0.003712256904917291,
+        "median_delta": 0.0037144036318613183,
+        "standard_deviation": 0.0027644861731591975,
+        "percentile_2_5": -0.0016467682173733906,
+        "percentile_97_5": 0.00916284881299459,
+        "confidence_interval_95": [
+          -0.0016467682173733906,
+          0.00916284881299459
+        ],
+        "probability_delta_gt_0": 0.903,
+        "probability_delta_lt_0": 0.0754
+      }
+    }
+  }
+}

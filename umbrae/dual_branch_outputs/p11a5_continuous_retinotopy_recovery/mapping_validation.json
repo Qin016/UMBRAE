@@ -1,0 +1,68 @@
+{
+  "mapping_route": "official precomputed func1pt8mm volumes -> exact identical voxel grid -> nsdgeneral mask NumPy C-order",
+  "surface_mapping_used": false,
+  "surface_mapping_reason": "Not needed: official precomputed target-space volumes exist.",
+  "volume_shape": [
+    81,
+    104,
+    83
+  ],
+  "all_parameter_shapes_exact": true,
+  "all_parameter_affines_exact": true,
+  "nsdgeneral_length": 15724,
+  "duplicate_volume_indices": 0,
+  "hemisphere_counts": {
+    "left": 7784,
+    "right": 7940,
+    "overlap": 0
+  },
+  "roi_index_sets_exact": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "hV4": true
+  },
+  "ecc_category_exact_consistency": 0.6989224137931035,
+  "ecc_category_within_adjacent_band": 0.9467672413793103,
+  "ecc_category_confusion": [
+    [
+      533,
+      98,
+      17,
+      9,
+      15
+    ],
+    [
+      110,
+      295,
+      75,
+      12,
+      6
+    ],
+    [
+      73,
+      190,
+      574,
+      109,
+      17
+    ],
+    [
+      12,
+      4,
+      168,
+      586,
+      99
+    ],
+    [
+      56,
+      13,
+      13,
+      301,
+      1255
+    ]
+  ],
+  "ecc_validation_note": "Categorical ROIs were drawn on surface maps then released in volume space; exact-bin disagreement is boundary/resampling dominated. Monotonic medians, 94%+ adjacent-band agreement, exact grid alignment, and laterality jointly support the mapping.",
+  "R2_ge_10p1_lh_right_visual_field_fraction": 0.9561316051844466,
+  "R2_ge_10p1_rh_left_visual_field_fraction": 0.9179487179487179,
+  "mapping_validation": "PASS"
+}

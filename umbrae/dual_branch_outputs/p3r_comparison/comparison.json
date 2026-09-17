@@ -1,0 +1,163 @@
+{
+  "protocol_version": "protocol_v1",
+  "same_initialization": true,
+  "initial_parameter_sha256": "29ba36d5465cf609787c5cd0ed0b1e7bbdea050ec1373039fd5ea4385c685504",
+  "p3r": {
+    "real": {
+      "best_epoch": 8,
+      "best_val_total_loss": 1.2373334121704103,
+      "roi_rel_loss": 0.9980752762158712,
+      "global_contrastive_loss": 2.392581183115641,
+      "global_spearman_rsa": 0.28071484685194176,
+      "global_pearson_rsa": 0.30883972395488246,
+      "mean_roi_spearman_rsa": 0.4983554294098843,
+      "mean_roi_pearson_rsa": 0.5111136175692081,
+      "roi_wise_rsa": {
+        "V1": {
+          "spearman": 0.34418083331117383,
+          "pearson": 0.36471641063690186
+        },
+        "V2": {
+          "spearman": 0.43053633607550834,
+          "pearson": 0.462051659822464
+        },
+        "V3": {
+          "spearman": 0.5324531655926776,
+          "pearson": 0.5441849231719971
+        },
+        "hV4": {
+          "spearman": 0.4706963148696126,
+          "pearson": 0.4785313606262207
+        },
+        "FFA": {
+          "spearman": 0.45981841111910143,
+          "pearson": 0.4627593159675598
+        },
+        "EBA": {
+          "spearman": 0.5564826114120538,
+          "pearson": 0.5682796835899353
+        },
+        "PPA": {
+          "spearman": 0.5511552793259149,
+          "pearson": 0.5518702864646912
+        },
+        "OPA": {
+          "spearman": 0.6415204835730317,
+          "pearson": 0.6565153002738953
+        }
+      },
+      "recall_at_1": 0.14,
+      "recall_at_5": 0.47,
+      "recall_at_10": 0.6833333333333333,
+      "median_rank": 6.0,
+      "mean_rank": 11.876666666666667,
+      "mean_roi_token_norm": 21.864476267496745,
+      "mean_pairwise_roi_cosine": -0.01830387059599161,
+      "across_sample_variance": 0.2832488667964935,
+      "initial_global_spearman_rsa": 0.09792726920371192,
+      "initial_mean_roi_spearman_rsa": 0.09707316782978272,
+      "best_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_stageA_relational_real_seed42_protocolv1/best.pth",
+      "best_checkpoint_sha256": "4e6149e65379b2eeb53ec293c0a2dca57b4b299fae7d2bc99ee39ad5d7c35ee2"
+    },
+    "random": {
+      "best_epoch": 16,
+      "best_val_total_loss": 0.8708415214220683,
+      "roi_rel_loss": 0.657445198694865,
+      "global_contrastive_loss": 2.1339631938934325,
+      "global_spearman_rsa": 0.29892533147121647,
+      "global_pearson_rsa": 0.3408158441081899,
+      "mean_roi_spearman_rsa": 0.6672350664552393,
+      "mean_roi_pearson_rsa": 0.6838241219520569,
+      "roi_wise_rsa": {
+        "V1": {
+          "spearman": 0.6877694749367443,
+          "pearson": 0.7068655490875244
+        },
+        "V2": {
+          "spearman": 0.700354408801456,
+          "pearson": 0.7156221866607666
+        },
+        "V3": {
+          "spearman": 0.653370270248795,
+          "pearson": 0.6711868047714233
+        },
+        "hV4": {
+          "spearman": 0.6172041102960061,
+          "pearson": 0.6348859667778015
+        },
+        "FFA": {
+          "spearman": 0.6802536687127534,
+          "pearson": 0.6853359937667847
+        },
+        "EBA": {
+          "spearman": 0.6850074885907461,
+          "pearson": 0.7030779719352722
+        },
+        "PPA": {
+          "spearman": 0.6438586691289657,
+          "pearson": 0.6581370234489441
+        },
+        "OPA": {
+          "spearman": 0.6700624409264486,
+          "pearson": 0.6954814791679382
+        }
+      },
+      "recall_at_1": 0.23666666666666666,
+      "recall_at_5": 0.5633333333333334,
+      "recall_at_10": 0.7566666666666667,
+      "median_rank": 4.0,
+      "mean_rank": 9.733333333333333,
+      "mean_roi_token_norm": 23.87509651184082,
+      "mean_pairwise_roi_cosine": -0.04012074862917264,
+      "across_sample_variance": 0.27639734943707783,
+      "initial_global_spearman_rsa": 0.09492432576880391,
+      "initial_mean_roi_spearman_rsa": 0.14514910405566647,
+      "best_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_stageA_relational_random42_seed42_protocolv1/best.pth",
+      "best_checkpoint_sha256": "8cf23b725875170a0381b6841b279ea68a0e770ebbca7de6bf1f83bd45553354"
+    }
+  },
+  "old_p3": {
+    "real": {
+      "best_epoch": 20,
+      "best_val_uot": 0.5235310419400533,
+      "spearman_rsa": 0.1984755741582873,
+      "pearson_rsa": 0.21347425243558812,
+      "recall_at_1": 0.02,
+      "recall_at_5": 0.08333333333333333,
+      "recall_at_10": 0.13666666666666666,
+      "median_rank": 53.5,
+      "mean_rank": 79.22333333333333,
+      "transport_mass": 0.9090502826372783,
+      "normalized_transport_entropy": 0.8878363871574402,
+      "max_transport_fraction": 0.005351304803043604,
+      "mean_roi_token_norm": 32.883194580078126,
+      "mean_pairwise_roi_cosine": 0.6111343431472779,
+      "best_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_stageA_real_seed42_protocolv1/best.pth",
+      "best_checkpoint_sha256": "7299799911c77663633dfad96ed5c5e53df47993a3d8b500c336723a90fe8cd4"
+    },
+    "random": {
+      "best_epoch": 20,
+      "best_val_uot": 0.5142983945210775,
+      "spearman_rsa": 0.21520977426046287,
+      "pearson_rsa": 0.2190380494039265,
+      "recall_at_1": 0.03666666666666667,
+      "recall_at_5": 0.14,
+      "recall_at_10": 0.20666666666666667,
+      "median_rank": 35.5,
+      "mean_rank": 62.31,
+      "transport_mass": 0.9114016731580098,
+      "normalized_transport_entropy": 0.8781399615605672,
+      "max_transport_fraction": 0.005604462033758561,
+      "mean_roi_token_norm": 32.8849131266276,
+      "mean_pairwise_roi_cosine": 0.5737082187334697,
+      "best_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_stageA_random42_seed42_protocolv1/best.pth",
+      "best_checkpoint_sha256": "eb1bd7505fd74906361c2bdac7f34a3c5b08ab7871f46e0644c98108b1fd27e2"
+    }
+  },
+  "interpretation": {
+    "ROI_REPRESENTATION_LEARNING": "POSITIVE",
+    "ROI_SPECIALIZATION_SIGNAL": "POSITIVE",
+    "STRUCTURE_SIGNAL": "NEGATIVE",
+    "P3R_STATUS": "COARSE_ROI_STRUCTURE_STILL_WEAK"
+  }
+}

@@ -28,6 +28,7 @@ import torch.nn.functional as F
 
 sys.path.append(str(Path(__file__).parent.parent.parent))
 from model import BrainEncoder, BrainXS
+from models.clip_layer_bank import CLIPLayerBank
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -73,6 +74,25 @@ parser.add_argument('--ckpt_interval', type=int, default=5, help='save backup ck
 parser.add_argument('--ckpt_saving', action=argparse.BooleanOptionalAction, default=True)
 parser.add_argument('--save_at_end', action=argparse.BooleanOptionalAction, default=False, help='if True, saves best.ckpt at end of training. \
         if False and ckpt_saving==True, save best.ckpt whenever epoch shows best validation score')
+parser.add_argument('--use_clip_layer_bank', action=argparse.BooleanOptionalAction, default=False)
+parser.add_argument('--clip_selected_layers', type=int, nargs='+', default=[4, 8, 12, 16, 20, 24])
+parser.add_argument('--clip_layer_target_dim', type=int, default=1024)
+parser.add_argument('--freeze_clip', action=argparse.BooleanOptionalAction, default=True)
+parser.add_argument('--use_roi_tokenizer', action=argparse.BooleanOptionalAction, default=False)
+parser.add_argument('--roi_names', nargs='+', default=['V1', 'V2', 'V3', 'hV4', 'LOC', 'FFA', 'PPA'])
+parser.add_argument('--roi_token_dim', type=int, default=1024)
+parser.add_argument('--roi_tokenizer_type', choices=['shared_mlp', 'roi_specific_mlp'], default='shared_mlp')
+parser.add_argument('--use_roi_embeddings', action=argparse.BooleanOptionalAction, default=True)
+parser.add_argument('--use_subject_embeddings', action=argparse.BooleanOptionalAction, default=False)
+parser.add_argument('--roi_indices_path', type=str, default='')
+parser.add_argument('--roi_mapping_format', choices=['json', 'npy'], default='json')
+parser.add_argument('--strict_roi_check', action=argparse.BooleanOptionalAction, default=True)
+parser.add_argument('--use_roi_layer_router', action=argparse.BooleanOptionalAction, default=False)
+parser.add_argument('--router_temperature', type=float, default=1.0)
+parser.add_argument('--router_topk', type=int, default=0)
+parser.add_argument('--router_entropy_weight', type=float, default=0.0)
+parser.add_argument('--router_balance_weight', type=float, default=0.0)
+parser.add_argument('--router_smoothness_weight', type=float, default=0.0)
 args = parser.parse_args()
 
 # create global variables without the args prefix
@@ -152,7 +172,14 @@ voxels_per_subj = {1: 15724, 2: 14278, 3: 15226, 4: 13153, 5: 13039, 6: 17907, 7
 num_voxels = voxels_per_subj.get(subj)
 
 print(f'\ncreating brainencoder: {fmri_encoder}')
-image2emb = BrainEncoder()
+if use_clip_layer_bank:
+    image2emb = CLIPLayerBank(
+        selected_layers=clip_selected_layers,
+        target_dim=clip_layer_target_dim,
+        freeze_clip=freeze_clip,
+    )
+else:
+    image2emb = BrainEncoder()
 image2emb.to(device)
 
 if fmri_encoder == 'brainxs':
@@ -168,13 +195,28 @@ if local_rank==0:
     utils.count_params(voxel2emb)
 
 voxel2emb.requires_grad_(True)
-image2emb.requires_grad_(False)
+if use_clip_layer_bank:
+    image2emb.projection_heads.requires_grad_(True)
+else:
+    image2emb.requires_grad_(False)
+
+if use_clip_layer_bank and feat_dim != clip_layer_target_dim:
+    if not (feat_dim == 4096 and clip_layer_target_dim == 1024):
+        raise ValueError(
+            "clip_layer_target_dim must match feat_dim, except target_dim=1024 "
+            "may use the existing 1024->4096 mm_projector"
+        )
 
 no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
 opt_grouped_parameters = [
     {'params': [p for n, p in voxel2emb.named_parameters() if not any(nd in n for nd in no_decay)], 'weight_decay': 1e-2},
     {'params': [p for n, p in voxel2emb.named_parameters() if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
 ]
+if use_clip_layer_bank:
+    opt_grouped_parameters.append({
+        'params': [p for p in image2emb.parameters() if p.requires_grad],
+        'weight_decay': 0.0,
+    })
 optimizer = torch.optim.AdamW(opt_grouped_parameters, lr=max_lr)
 
 global_batch_size = batch_size * num_devices
@@ -218,6 +260,14 @@ def save_ckpt(tag):
             'train_losses': losses,
             'val_losses': val_losses,
             'lrs': lrs,
+            **({
+                'clip_layer_bank_projection_state_dict':
+                    accelerator.unwrap_model(image2emb).projection_heads.state_dict(),
+                **({
+                    'clip_layer_bank_clip_state_dict':
+                        accelerator.unwrap_model(image2emb).clip.state_dict()
+                } if not freeze_clip else {}),
+            } if use_clip_layer_bank else {}),
             }, ckpt_path)
     except:
         print("Couldn't save... moving on to prevent crashing.")
@@ -230,6 +280,12 @@ if resume:
     print(f"loading checkpoint from {resume}")
     checkpoint = torch.load(resume, map_location='cpu')
     voxel2emb.load_state_dict(checkpoint['model_state_dict'])
+    if use_clip_layer_bank and 'clip_layer_bank_projection_state_dict' in checkpoint:
+        image2emb.projection_heads.load_state_dict(
+            checkpoint['clip_layer_bank_projection_state_dict']
+        )
+    if use_clip_layer_bank and 'clip_layer_bank_clip_state_dict' in checkpoint:
+        image2emb.clip.load_state_dict(checkpoint['clip_layer_bank_clip_state_dict'])
     epoch = checkpoint['epoch']
     optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
     lr_scheduler.load_state_dict(checkpoint['lr_scheduler'])
@@ -245,9 +301,14 @@ else:
     best_val_loss = 1e9
     print(f"starting from scratch")
 
-voxel2emb, optimizer, train_dl, val_dl, lr_scheduler = accelerator.prepare(
-voxel2emb, optimizer, train_dl, val_dl, lr_scheduler
-)
+if use_clip_layer_bank:
+    voxel2emb, image2emb, optimizer, train_dl, val_dl, lr_scheduler = accelerator.prepare(
+        voxel2emb, image2emb, optimizer, train_dl, val_dl, lr_scheduler
+    )
+else:
+    voxel2emb, optimizer, train_dl, val_dl, lr_scheduler = accelerator.prepare(
+        voxel2emb, optimizer, train_dl, val_dl, lr_scheduler
+    )
 
 if feat_dim == 4096:
     # load mm_projector
@@ -261,8 +322,15 @@ progress_bar = tqdm(range(epoch, num_epochs), ncols=120, disable=(local_rank!=0)
 
 loss_fn = get_loss_func(recon_loss)
 
+def encode_image_targets(image):
+    if use_clip_layer_bank:
+        return image2emb(image)["layer_tokens"].mean(dim=1)
+    return image2emb.encode_image(image, 'image')
+
 for epoch in progress_bar:
     voxel2emb.train()
+    if use_clip_layer_bank:
+        image2emb.train()
 
     loss_recon_sum = 0.
     val_loss_recon_sum = 0.
@@ -279,7 +347,7 @@ for epoch in progress_bar:
 
             if use_image_aug:
                 image = img_augment(image)
-            emb_image = image2emb.encode_image(image, 'image') # torch.Size([16, 256, 1024])
+            emb_image = encode_image_targets(image) # torch.Size([B, 256, target_dim])
             if feat_dim == 4096:
                 emb_image = mm_projector(emb_image.to(torch.float16))
 
@@ -299,6 +367,8 @@ for epoch in progress_bar:
                 lr_scheduler.step()
 
     voxel2emb.eval()
+    if use_clip_layer_bank:
+        image2emb.eval()
     for val_i, (voxel, image) in enumerate(val_dl): 
         with torch.no_grad():
             with torch.cuda.amp.autocast():
@@ -307,7 +377,7 @@ for epoch in progress_bar:
                 voxel = torch.mean(voxel, axis=1).float()
                 emb_voxel = voxel2emb(voxel)
 
-                emb_image = image2emb.encode_image(image, 'image')
+                emb_image = encode_image_targets(image)
                 if feat_dim == 4096:
                     emb_image = mm_projector(emb_image.to(torch.float16))
 

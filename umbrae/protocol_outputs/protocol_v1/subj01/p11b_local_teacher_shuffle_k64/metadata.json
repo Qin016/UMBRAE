@@ -1,0 +1,39 @@
+{
+  "mapping": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/p11b0_prf_grounded_unit_construction/selected_mapping_teacher_shuffle_seed42.json",
+  "mapping_sha256": "0ee5acc94c449f6bf84873fdbcd49b7c6a4e922ca2215134811e621e9d77e906",
+  "affinity": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/p11b0_prf_grounded_unit_construction/selected_patch_affinity_teacher_shuffle_seed42.npy",
+  "affinity_sha256": "f33e495abdbfd1c12ff8c4c5a98e79862f87f37bc5b7cdba0f01517db02f2914",
+  "teacher_definition": "einsum(kp,bpd->bkd) over cached frozen CLIP hidden_states[-2][:,1:,:]",
+  "dtype": "float16",
+  "splits": {
+    "train": {
+      "sample_count": 8559,
+      "source_clip": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/train/clip_patch_fp16.npy",
+      "source_clip_sha256": "fa817f49d9a20f8e2d2beb8b0ff8bcc31ddc4b1d402bd016f3196b935dde34fd",
+      "manifest_sha256": "75ddb3f94350e54989bc52b94b299cac97b096fe5dcfc869415013ce1df4d663",
+      "sample_id_index": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/train/sample_ids.json",
+      "path": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/p11b_local_teacher_shuffle_k64/train_local_teacher_fp16.npy",
+      "shape": [
+        8559,
+        64,
+        1024
+      ],
+      "sha256": "f3c0432c6593b34c2433500c3dbd38b61969f234ac210b69f18d777e53323464"
+    },
+    "val": {
+      "sample_count": 300,
+      "source_clip": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/val/clip_patch_fp16.npy",
+      "source_clip_sha256": "d8cfe84210034e0ccac6799bc46e6e2908959f8f623d53d04610614ce566cb11",
+      "manifest_sha256": "8b7807cf162d8543feebd8d8a3600d56794b585196b33949091c7dc8f4c27467",
+      "sample_id_index": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/val/sample_ids.json",
+      "path": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/p11b_local_teacher_shuffle_k64/val_local_teacher_fp16.npy",
+      "shape": [
+        300,
+        64,
+        1024
+      ],
+      "sha256": "2f50367ec82a963ea483d9398cab8b8f1f90c4e673e9ef139adf186206e19bb2"
+    }
+  },
+  "test_loaded": false
+}

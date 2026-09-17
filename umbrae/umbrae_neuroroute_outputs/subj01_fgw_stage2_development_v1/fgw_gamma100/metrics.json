@@ -1,0 +1,43 @@
+{
+  "epoch": 1,
+  "train_loss": 1.857391516133168,
+  "val_loss": 1.9383742455641428,
+  "caption_metrics": {
+    "BLEU-1": 0.5147689977278465,
+    "BLEU-2": 0.3418273743694299,
+    "BLEU-3": 0.23409412295105556,
+    "BLEU-4": 0.1643290568482566,
+    "ROUGE-L": 0.39705388215732523,
+    "CIDEr": 0.3936401297660021,
+    "METEOR": null,
+    "SPICE": null,
+    "unavailable_metrics": {
+      "METEOR": "Java runtime is unavailable",
+      "SPICE": "Java runtime is unavailable"
+    },
+    "reference_mode": "multi_reference",
+    "reference_count_min": 5,
+    "reference_count_max": 5
+  },
+  "num_generated_captions": 300,
+  "uses_image_clip_tokens_at_eval": false,
+  "bridge_type": "shikra_patch",
+  "fusion_mode": "fgw_prior",
+  "training_time_seconds": 1680.2068150271662,
+  "epoch_time_seconds": 1582.2498124539852,
+  "peak_gpu_memory_bytes": 19673799168,
+  "trainable_parameter_count": 40167424,
+  "leakage_assertions": {
+    "bridge_type": "shikra_patch",
+    "uses_image_clip_tokens_at_eval": false,
+    "oracle_image_token_mode": false,
+    "transport_plan_frozen": true,
+    "transport_plan_gradient": "none",
+    "protected_test_used_for_training": false,
+    "protected_test_used_for_checkpoint_selection": false,
+    "gamma_selected_on_subj01_only": true
+  },
+  "selected_epoch": 1,
+  "selected_checkpoint": "checkpoint_epoch001.pt",
+  "selected_checkpoint_sha256": "edab9eb76642abddaaeee00c23ecbfa86fdffe354e1fd18269a4503837852f29"
+}

@@ -1,0 +1,8 @@
+{
+  "MOT_STYLE_BASELINE_STATUS": "NOT_CURRENTLY_REPRODUCIBLE",
+  "reason": "The current FGW cache contains fixed-dimensional ROI tokens, not per-voxel stimulus response functions. CLIP assets contain only mean-patch 1024-dimensional layer embeddings, not a declared inner unit/patch transport representation. Exact stimulus IDs are aligned, but both faithful inner domains are not preserved in the cache.",
+  "raw_nsd_voxels_exist_outside_cache": true,
+  "proposed_future_plan_only": "Build a new stimulus-aligned per-voxel ROI response cache and an explicit CLIP unit/patch response cache, define inner-domain costs and regularization, then validate inner and outer transports separately.",
+  "implemented_in_prompt3": false,
+  "balanced_outer_ot_labeled_as_mot": false
+}

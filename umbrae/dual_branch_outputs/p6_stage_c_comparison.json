@@ -1,0 +1,118 @@
+{
+  "report": "P6 Full Stage-C",
+  "protocol_version": "protocol_v1",
+  "comparison": {
+    "frozen_umbrae": {
+      "spearman_rsa": 0.8527783547748258,
+      "pearson_rsa": 0.8659444923997058,
+      "recall_at_1": 0.9933333333333333,
+      "recall_at_5": 0.9966666666666667,
+      "recall_at_10": 0.9966666666666667,
+      "median_rank": 1.0,
+      "mean_rank": 1.0433333333333332
+    },
+    "lora_only": {
+      "spearman_rsa": 0.8675653393740864,
+      "pearson_rsa": 0.879611801309389,
+      "recall_at_1": 0.9966666666666667,
+      "recall_at_5": 0.9966666666666667,
+      "recall_at_10": 1.0,
+      "median_rank": 1.0,
+      "mean_rank": 1.0166666666666666,
+      "base_lora_cosine": 0.9982865603764852,
+      "relative_feature_delta": 0.06234488815069199,
+      "pooled_relative_delta": 0.058208835323651634,
+      "pooled_linear_cka": 0.9952217928608741,
+      "best_epoch": 20,
+      "best_val_total_loss": 0.07227287073930104
+    },
+    "real_fusion": {
+      "spearman_rsa": 0.8635159936006498,
+      "pearson_rsa": 0.8790288521425821,
+      "recall_at_1": 0.99,
+      "recall_at_5": 0.9966666666666667,
+      "recall_at_10": 1.0,
+      "median_rank": 1.0,
+      "mean_rank": 1.0266666666666666,
+      "preservation_cosine": 0.998466252485911,
+      "gate": 0.018544863909482956,
+      "delta_ratio": 0.04351053088903427,
+      "best_epoch": 4,
+      "best_val_total_loss": 0.07286159406105677
+    },
+    "random_fusion": {
+      "spearman_rsa": 0.8662781698998472,
+      "pearson_rsa": 0.8809886881186774,
+      "recall_at_1": 0.9933333333333333,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "median_rank": 1.0,
+      "mean_rank": 1.0166666666666666,
+      "preservation_cosine": 0.9984818092981974,
+      "gate": 0.01854083314538002,
+      "delta_ratio": 0.046052402009566624,
+      "best_epoch": 4,
+      "best_val_total_loss": 0.07275470763444901
+    },
+    "full_real": {
+      "spearman_rsa": 0.8745309277048089,
+      "pearson_rsa": 0.888191848690146,
+      "recall_at_1": 0.9966666666666667,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "median_rank": 1.0,
+      "mean_rank": 1.0133333333333334,
+      "base_lora_cosine": 0.9986874953905741,
+      "base_calibrated_cosine": 0.9975585103034973,
+      "lora_relative_delta": 0.058090746104717254,
+      "fusion_delta_ratio": 0.0367329241335392,
+      "final_relative_delta": 0.07131396929423015,
+      "final_pooled_linear_cka": 0.9896067684027039,
+      "gate": 0.01878281496465206,
+      "best_epoch": 2,
+      "best_val_total_loss": 0.07209417114655177
+    },
+    "full_random": {
+      "spearman_rsa": 0.8751833738967691,
+      "pearson_rsa": 0.8877349792147778,
+      "recall_at_1": 0.9966666666666667,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "median_rank": 1.0,
+      "mean_rank": 1.0133333333333334,
+      "base_lora_cosine": 0.99864910364151,
+      "base_calibrated_cosine": 0.9975602491696676,
+      "lora_relative_delta": 0.05797725131114324,
+      "fusion_delta_ratio": 0.03671861802538236,
+      "final_relative_delta": 0.07117539227008819,
+      "final_pooled_linear_cka": 0.9900558119041905,
+      "gate": 0.018564682453870773,
+      "best_epoch": 1,
+      "best_val_total_loss": 0.07199801991383235
+    }
+  },
+  "structural_gain_on_lora": {
+    "real": 0.006965588330722472,
+    "random": 0.007618034522682726,
+    "full_real_minus_full_random": -0.0006524461919602542
+  },
+  "combined_gain_vs_base": {
+    "real": 0.021752572929983116,
+    "random": 0.02240501912194337
+  },
+  "interaction": {
+    "real": -0.003772050495101542,
+    "random": -0.005881780602338682
+  },
+  "judgement_thresholds": {
+    "material_rsa_margin": 0.001,
+    "maximum_r1_drop": 0.01,
+    "minimum_base_calibrated_cosine": 0.99,
+    "maximum_final_relative_delta": 0.2
+  },
+  "FULL_MODEL_GAIN": "POSITIVE",
+  "LORA_FUSION_SYNERGY": "POSITIVE",
+  "COARSE_STRUCTURE_SIGNAL": "INCONCLUSIVE",
+  "SEMANTIC_PRESERVATION": "PASS",
+  "P6_STATUS": "FULL_MODEL_VALIDATED"
+}

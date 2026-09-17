@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-08-20T17:34:11.400135+00:00",
+  "FINAL_PLAN_HASH": "a3d3ab31770ecc0fc62599597538a7b931df2721fdd22aabb13e8e7e8f7c8da0",
+  "final_plan_sha256": "a3d3ab31770ecc0fc62599597538a7b931df2721fdd22aabb13e8e7e8f7c8da0",
+  "baseline_plan_sha256": "dec15442ed5fda65f17948b5883193e248b77dbb1c589f2cddacdba0ebb22abd",
+  "config_sha256": "f81f76f6dede1b8976aadc7d9631e8a71d2d38d4f975161775ef9379934ac1fd",
+  "training_stimulus_id_sha256": "b5facb2945a2440702e452c4574e01b04efcc4c6e73d0877ebfd04f7d5430a1f",
+  "selected_initialization": [
+    "random",
+    1013
+  ],
+  "stimulus_manifest_sha256": "6e8b1836eccdab8917617e0280ba6069ee80bb23b515cabead116fa50c93e591",
+  "offline_test_accessed_before_marker": false,
+  "transport_plan_must_never_change_after_this_marker": true
+}

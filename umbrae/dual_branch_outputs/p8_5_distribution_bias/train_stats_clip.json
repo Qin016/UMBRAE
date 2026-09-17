@@ -1,0 +1,13 @@
+{
+  "source": "clip",
+  "train_samples": 8559,
+  "token_count": 2191104,
+  "shape": [
+    8559,
+    256,
+    1024
+  ],
+  "device": "cuda:1",
+  "accumulation": "FP64 sums with per-batch GPU FP32 cross-product",
+  "no_training": true
+}

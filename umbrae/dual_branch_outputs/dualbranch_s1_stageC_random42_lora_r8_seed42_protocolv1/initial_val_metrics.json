@@ -1,0 +1,39 @@
+{
+  "total_loss": 0.07336081544558207,
+  "global_loss": 0.07087227195501328,
+  "rel_loss": 0.0019885879848152398,
+  "preserve_loss": 0.0049995669101675355,
+  "base_lora_cosine": 0.9982865603764852,
+  "base_calibrated_cosine": 0.9950004402796427,
+  "lora_relative_delta": 0.06234488815069199,
+  "fusion_delta_ratio": 0.045866709997256595,
+  "final_relative_delta": 0.08404573996861776,
+  "final_pooled_linear_cka": 0.9849118939082561,
+  "gate": 0.01854083314538002,
+  "sample_count": 300,
+  "rsa": {
+    "primary_metric": "spearman_upper_triangle_cosine_rdm",
+    "spearman_rsa": 0.8645070019900485,
+    "pearson_rsa": 0.8798759888613445,
+    "stimulus_count": 300,
+    "rdm_upper_triangle_count": 44850
+  },
+  "retrieval": {
+    "primary_direction": "brain_to_image",
+    "candidate_count": 300,
+    "brain_to_image": {
+      "recall_at_1": 0.9933333333333333,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "median_rank": 1.0,
+      "mean_rank": 1.0166666666666666
+    },
+    "image_to_brain": {
+      "recall_at_1": 0.9966666666666667,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "median_rank": 1.0,
+      "mean_rank": 1.0033333333333334
+    }
+  }
+}

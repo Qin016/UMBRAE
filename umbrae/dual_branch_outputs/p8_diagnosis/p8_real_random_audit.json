@@ -1,0 +1,154 @@
+{
+  "REAL_RANDOM_CAPACITY_MATCH": "FAIL",
+  "matched_dimensions": {
+    "structural_branch_parameter_count": true,
+    "fusion_parameter_count": true,
+    "lora_parameter_count": true,
+    "group_count": true,
+    "token_dimension": true,
+    "structural_token_count": true,
+    "optimizer_hyperparameters": true,
+    "seed": true,
+    "sample_order_policy": true,
+    "group_sizes_exactly_matched": true,
+    "structural_training_steps": false,
+    "stage_c_training_steps": false,
+    "checkpoint_selection_rule": true
+  },
+  "parameter_counts": {
+    "real": {
+      "brainx_base_parameters": 146500608,
+      "lora_parameters": 245760,
+      "fusion_parameters": 4202497,
+      "structural_branch_parameters": 4628992,
+      "structural_pool_parameters_unused": 1024,
+      "total_trainable_parameters": 4448257,
+      "trainable_ratio_percent_of_brainx": 3.0363402996935003
+    },
+    "random": {
+      "brainx_base_parameters": 146500608,
+      "lora_parameters": 245760,
+      "fusion_parameters": 4202497,
+      "structural_branch_parameters": 4628992,
+      "structural_pool_parameters_unused": 1024,
+      "total_trainable_parameters": 4448257,
+      "trainable_ratio_percent_of_brainx": 3.0363402996935003
+    }
+  },
+  "partition_sizes": {
+    "real": {
+      "V1": 1350,
+      "V2": 1433,
+      "V3": 1187,
+      "hV4": 687,
+      "FFA": 687,
+      "EBA": 2238,
+      "PPA": 720,
+      "OPA": 1532
+    },
+    "random": {
+      "V1": 1350,
+      "V2": 1433,
+      "V3": 1187,
+      "hV4": 687,
+      "FFA": 687,
+      "EBA": 2238,
+      "PPA": 720,
+      "OPA": 1532
+    },
+    "real_summary": {
+      "mean": 1229.25,
+      "std": 501.81165540469465,
+      "min": 687,
+      "max": 2238
+    },
+    "random_summary": {
+      "mean": 1229.25,
+      "std": 501.81165540469465,
+      "min": 687,
+      "max": 2238
+    }
+  },
+  "checkpoints": {
+    "structural_real": {
+      "epoch": 8,
+      "best_epoch": 8,
+      "checkpoint_selection_metric": "validation total loss"
+    },
+    "structural_random": {
+      "epoch": 16,
+      "best_epoch": 16,
+      "checkpoint_selection_metric": "validation total loss"
+    },
+    "stage_c_real": {
+      "epoch": 2,
+      "best_epoch": 2,
+      "checkpoint_selection_metric": "validation total loss"
+    },
+    "stage_c_random": {
+      "epoch": 1,
+      "best_epoch": 1,
+      "checkpoint_selection_metric": "validation total loss"
+    }
+  },
+  "training_protocol": {
+    "structural_real": {
+      "protocol": "configs/dual_branch/protocol_v1.json",
+      "mapping_kind": "real",
+      "roi_mapping": "../roi_indices/subj01_neuroroute_v1.json",
+      "train_cache": "protocol_outputs/protocol_v1/subj01/stage_a_cache/train",
+      "val_cache": "protocol_outputs/protocol_v1/subj01/stage_a_cache/val",
+      "train_relational_cache": "protocol_outputs/protocol_v1/subj01/p3r_cache/train",
+      "val_relational_cache": "protocol_outputs/protocol_v1/subj01/p3r_cache/val",
+      "routing_weights": "stage1_outputs/cross_subject_projector/subj01/soft/val_routing_weights_mean.npy",
+      "router_checkpoint": "stage1_outputs/cross_subject_projector/subj01/soft/checkpoint_best.pt",
+      "output_dir": "dual_branch_outputs",
+      "experiment_name": "dualbranch_s1_stageA_relational_real_seed42_protocolv1",
+      "batch_size": 64,
+      "num_workers": 4,
+      "max_epochs": 20,
+      "min_epochs": 5,
+      "patience": 5,
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "gradient_clip_norm": 1.0,
+      "lambda_global": 0.1,
+      "temperature": 0.07,
+      "rdm_eps": 1e-06,
+      "seed": 42,
+      "device": "cuda",
+      "amp": true,
+      "resume": false
+    },
+    "structural_random": {
+      "protocol": "configs/dual_branch/protocol_v1.json",
+      "mapping_kind": "random",
+      "roi_mapping": "protocol_outputs/protocol_v1/subj01/random_structure_control_seed42.json",
+      "train_cache": "protocol_outputs/protocol_v1/subj01/stage_a_cache/train",
+      "val_cache": "protocol_outputs/protocol_v1/subj01/stage_a_cache/val",
+      "train_relational_cache": "protocol_outputs/protocol_v1/subj01/p3r_cache/train",
+      "val_relational_cache": "protocol_outputs/protocol_v1/subj01/p3r_cache/val",
+      "routing_weights": "stage1_outputs/cross_subject_projector/subj01/soft/val_routing_weights_mean.npy",
+      "router_checkpoint": "stage1_outputs/cross_subject_projector/subj01/soft/checkpoint_best.pt",
+      "output_dir": "dual_branch_outputs",
+      "experiment_name": "dualbranch_s1_stageA_relational_random42_seed42_protocolv1",
+      "batch_size": 64,
+      "num_workers": 4,
+      "max_epochs": 20,
+      "min_epochs": 5,
+      "patience": 5,
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "gradient_clip_norm": 1.0,
+      "lambda_global": 0.1,
+      "temperature": 0.07,
+      "rdm_eps": 1e-06,
+      "seed": 42,
+      "device": "cuda",
+      "amp": true,
+      "resume": false
+    }
+  },
+  "RANDOM_CONTROL_LIMITATION": "UNEQUAL_OPTIMIZATION_EXPOSURE_AND_SINGLE_RANDOM_SEED",
+  "interpretation": "Architectural capacity and partition sizes are exactly matched, but selected checkpoint epochs differ; this is not a strict optimization-exposure-matched causal anatomy control."
+}

@@ -1,0 +1,35 @@
+{
+  "subject": "subj07",
+  "num_samples": 300,
+  "retrieval_protocol": "multi_positive_coco73k",
+  "protocol": "multi_positive_coco73k",
+  "num_queries": 300,
+  "num_gallery_items": 300,
+  "num_unique_coco_ids": 300,
+  "average_positives_per_brain_query": 1.0,
+  "average_positives_per_query": 1.0,
+  "average_positives_per_image_query": 1.0,
+  "min_positives_per_query": 1,
+  "max_positives_per_query": 1,
+  "brain_to_image": {
+    "recall_at_1": 0.006666666666666667,
+    "recall_at_5": 0.03,
+    "recall_at_10": 0.08666666666666667,
+    "median_rank": 112.0,
+    "mean_rank": 122.56333333333333
+  },
+  "image_to_brain": {
+    "recall_at_1": 0.03666666666666667,
+    "recall_at_5": 0.10666666666666667,
+    "recall_at_10": 0.2,
+    "median_rank": 37.0,
+    "mean_rank": 58.43333333333333
+  },
+  "leakage_protocol": {
+    "brain_query_source": "fMRI -> ROITokenizer -> BrainToCLIPProjector -> ROI pooling",
+    "image_gallery_source": "frozen CLIP image features (l24)",
+    "image_features_used_in_brain_query": false,
+    "oracle_image_token_mode": false,
+    "routed_gallery_weights_source": null
+  }
+}

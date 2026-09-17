@@ -1,0 +1,21 @@
+{
+  "protocol": "/opt/data/private/BA/UMBRAE/umbrae/configs/dual_branch/protocol_v1.json",
+  "protocol_sha256": "ab78ae590c108f0edd26f092a154d8ef690e6660f839c9003f0e413edf0f4626",
+  "mapping": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/p11b0_prf_grounded_unit_construction/selected_mapping_random_seed42.json",
+  "mapping_sha256": "c023ad2d2a643aa40b63babe084d119029f3a52a73a3cfcbad77ad59c604348d",
+  "teacher_affinity": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/p11b0_prf_grounded_unit_construction/selected_patch_affinity_real.npy",
+  "teacher_affinity_sha256": "168b6ca6c8be11fa8d06dae7d08fca49112b4e29e377be412eeb30aeb610d602",
+  "teacher_cache_metadata": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/p11b_local_teacher_k64/metadata.json",
+  "teacher_cache_metadata_sha256": "210f138df71dcb8a5a8715f61ffdbc47d65a129c5be5ad18aa65a46782d52ede",
+  "train_manifest_sha256": "75ddb3f94350e54989bc52b94b299cac97b096fe5dcfc869415013ce1df4d663",
+  "val_manifest_sha256": "8b7807cf162d8543feebd8d8a3600d56794b585196b33949091c7dc8f4c27467",
+  "repeat_policy": "mean_over_num_uniques_valid_repeats",
+  "seed": 42,
+  "batch_order_seed_rule": "seed+epoch",
+  "initial_parameter_sha256": "ae909b87d627cefc0db7b03a723f0b9d4b77a32c89a12b075fa6e03e12e097d2",
+  "gpu": "NVIDIA RTX A6000",
+  "training_seconds": 314.0837585926056,
+  "test_loaded": false,
+  "brainx_used": false,
+  "shikra_used": false
+}

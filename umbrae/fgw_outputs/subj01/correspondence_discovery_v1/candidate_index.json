@@ -1,0 +1,137 @@
+{
+  "stage": "offline_discovery_only",
+  "scientific_best_method_declared": false,
+  "best_transport_plan_created": false,
+  "candidate_count": 14,
+  "candidates": [
+    {
+      "directory": "source_constrained_feature_routing",
+      "method": "source_constrained_feature_routing",
+      "structure_weight": 0.0,
+      "coverage_weight": 0.0,
+      "total_objective": 0.5533574210947124,
+      "maximum_target_mass": 1.0,
+      "effective_target_layer_count": 0.9999999999989999
+    },
+    {
+      "directory": "source_constrained_feature_coverage_lambda_0p01",
+      "method": "source_constrained_feature_coverage",
+      "structure_weight": 0.0,
+      "coverage_weight": 0.01,
+      "total_objective": 0.571275015787003,
+      "maximum_target_mass": 1.0,
+      "effective_target_layer_count": 0.9999999999989999
+    },
+    {
+      "directory": "source_constrained_feature_coverage_lambda_0p1",
+      "method": "source_constrained_feature_coverage",
+      "structure_weight": 0.0,
+      "coverage_weight": 0.1,
+      "total_objective": 0.7246857685747509,
+      "maximum_target_mass": 0.9245244789028326,
+      "effective_target_layer_count": 1.417144949780583
+    },
+    {
+      "directory": "balanced_outer_ot",
+      "method": "balanced_outer_ot",
+      "structure_weight": 0.0,
+      "coverage_weight": 0.0,
+      "total_objective": 0.971107817499967,
+      "maximum_target_mass": 0.16666666666666669,
+      "effective_target_layer_count": 5.999999999963998
+    },
+    {
+      "directory": "sr_gw",
+      "method": "sr_gw",
+      "structure_weight": 1.0,
+      "coverage_weight": 0.0,
+      "total_objective": 0.274054538295042,
+      "maximum_target_mass": 0.25,
+      "effective_target_layer_count": 4.7568284599871
+    },
+    {
+      "directory": "sr_fgw_beta_0p25",
+      "method": "sr_fgw",
+      "structure_weight": 0.25,
+      "coverage_weight": 0.0,
+      "total_objective": 0.6572005518458891,
+      "maximum_target_mass": 0.5,
+      "effective_target_layer_count": 2.828427124737705
+    },
+    {
+      "directory": "sr_fgw_coverage_beta_0p25_lambda_0p01",
+      "method": "sr_fgw_coverage",
+      "structure_weight": 0.25,
+      "coverage_weight": 0.01,
+      "total_objective": 0.6647209151789986,
+      "maximum_target_mass": 0.5,
+      "effective_target_layer_count": 2.828471170401235
+    },
+    {
+      "directory": "sr_fgw_coverage_beta_0p25_lambda_0p1",
+      "method": "sr_fgw_coverage",
+      "structure_weight": 0.25,
+      "coverage_weight": 0.1,
+      "total_objective": 0.7196645554654963,
+      "maximum_target_mass": 0.450523769991473,
+      "effective_target_layer_count": 4.117193449117744
+    },
+    {
+      "directory": "sr_fgw_beta_0p5",
+      "method": "sr_fgw",
+      "structure_weight": 0.5,
+      "coverage_weight": 0.0,
+      "total_objective": 0.5653939592927908,
+      "maximum_target_mass": 0.375,
+      "effective_target_layer_count": 4.455659733490235
+    },
+    {
+      "directory": "sr_fgw_coverage_beta_0p5_lambda_0p01",
+      "method": "sr_fgw_coverage",
+      "structure_weight": 0.5,
+      "coverage_weight": 0.01,
+      "total_objective": 0.5713649595205812,
+      "maximum_target_mass": 0.375,
+      "effective_target_layer_count": 4.455667838987256
+    },
+    {
+      "directory": "sr_fgw_coverage_beta_0p5_lambda_0p1",
+      "method": "sr_fgw_coverage",
+      "structure_weight": 0.5,
+      "coverage_weight": 0.1,
+      "total_objective": 0.5917764846680893,
+      "maximum_target_mass": 0.375,
+      "effective_target_layer_count": 4.782372698155704
+    },
+    {
+      "directory": "sr_fgw_beta_0p75",
+      "method": "sr_fgw",
+      "structure_weight": 0.75,
+      "coverage_weight": 0.0,
+      "total_objective": 0.43752092318760993,
+      "maximum_target_mass": 0.25,
+      "effective_target_layer_count": 4.7568284599871
+    },
+    {
+      "directory": "sr_fgw_coverage_beta_0p75_lambda_0p01",
+      "method": "sr_fgw_coverage",
+      "structure_weight": 0.75,
+      "coverage_weight": 0.01,
+      "total_objective": 0.4411890057967649,
+      "maximum_target_mass": 0.25,
+      "effective_target_layer_count": 4.802077526847092
+    },
+    {
+      "directory": "sr_fgw_coverage_beta_0p75_lambda_0p1",
+      "method": "sr_fgw_coverage",
+      "structure_weight": 0.75,
+      "coverage_weight": 0.1,
+      "total_objective": 0.45021514643125116,
+      "maximum_target_mass": 0.25,
+      "effective_target_layer_count": 5.656854249458438
+    }
+  ],
+  "offline_validation_loaded": false,
+  "offline_test_loaded": false,
+  "elapsed_seconds": 49.20591855049133
+}

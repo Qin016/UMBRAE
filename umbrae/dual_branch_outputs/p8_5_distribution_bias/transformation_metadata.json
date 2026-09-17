@@ -1,0 +1,100 @@
+{
+  "fit_split": "train",
+  "train_samples": 8559,
+  "train_token_count": 2191104,
+  "epsilon_cov": 0.0001,
+  "PCA_method": "full symmetric eigendecomposition; first 256 reported",
+  "MMD_seed": 85242,
+  "MMD_sample_tokens": 8192,
+  "TEST_STATUS": "POST_HOC_REUSED_TEST",
+  "test_derived_fit_statistics": false,
+  "transforms": {
+    "umbrae": {
+      "source_eigensystem": {
+        "smallest_eigenvalue": 3.065690459449567e-08,
+        "largest_eigenvalue": 295.1934599312368,
+        "condition_number_before_clamp": 9628938858.499031,
+        "clamped_dimension_count": 281,
+        "epsilon_cov": 0.0001
+      },
+      "target_eigensystem": {
+        "smallest_eigenvalue": 0.07575240297257764,
+        "largest_eigenvalue": 319.7605889587205,
+        "condition_number_before_clamp": 4221.127996091079,
+        "clamped_dimension_count": 0,
+        "epsilon_cov": 0.0001
+      }
+    },
+    "lora": {
+      "source_eigensystem": {
+        "smallest_eigenvalue": 2.818178168089451e-08,
+        "largest_eigenvalue": 290.1604691197504,
+        "condition_number_before_clamp": 10296029981.541626,
+        "clamped_dimension_count": 271,
+        "epsilon_cov": 0.0001
+      },
+      "target_eigensystem": {
+        "smallest_eigenvalue": 0.07575240297257764,
+        "largest_eigenvalue": 319.7605889587205,
+        "condition_number_before_clamp": 4221.127996091079,
+        "clamped_dimension_count": 0,
+        "epsilon_cov": 0.0001
+      }
+    },
+    "full_real": {
+      "source_eigensystem": {
+        "smallest_eigenvalue": 6.774918225926227e-06,
+        "largest_eigenvalue": 289.6385910312376,
+        "condition_number_before_clamp": 42751599.55774077,
+        "clamped_dimension_count": 242,
+        "epsilon_cov": 0.0001
+      },
+      "target_eigensystem": {
+        "smallest_eigenvalue": 0.07575240297257764,
+        "largest_eigenvalue": 319.7605889587205,
+        "condition_number_before_clamp": 4221.127996091079,
+        "clamped_dimension_count": 0,
+        "epsilon_cov": 0.0001
+      }
+    },
+    "full_random": {
+      "source_eigensystem": {
+        "smallest_eigenvalue": 5.338076748339488e-06,
+        "largest_eigenvalue": 290.06824089036246,
+        "condition_number_before_clamp": 54339466.17208038,
+        "clamped_dimension_count": 249,
+        "epsilon_cov": 0.0001
+      },
+      "target_eigensystem": {
+        "smallest_eigenvalue": 0.07575240297257764,
+        "largest_eigenvalue": 319.7605889587205,
+        "condition_number_before_clamp": 4221.127996091079,
+        "clamped_dimension_count": 0,
+        "epsilon_cov": 0.0001
+      }
+    }
+  },
+  "no_trainable_parameters": true,
+  "no_optimizer": true,
+  "no_backward": true,
+  "provenance": {
+    "brainx_sha256": "b38aa7ce9d11d56c36ede011ec757a3fda4194c5deaa5f7b0f5f8e42187bb4fb",
+    "p6_full_real_sha256": "e3900c48ff377ebe14b0ceb90c4424906f5c2035875ef5f8ac83f8f79a645483",
+    "mm_projector_sha256": "357a4a6a42c7214ecf3eca7cb17dfdadb9cdb9dba05f1daff764b969c71403ea",
+    "CLIP_model": "openai/clip-vit-large-patch14",
+    "CLIP_feature": "hidden_states[-2][:,1:,:]",
+    "Shikra_identifier": "/opt/data/private/BA/UMBRAE/umbrae/model_weights/shikra-7b",
+    "train_samples": 8559,
+    "train_tokens": 2191104,
+    "test_samples": 982,
+    "TEST_STATUS": "POST_HOC_REUSED_TEST",
+    "dual_gpu_execution": {
+      "gpus": [
+        "cuda:0 RTX A6000",
+        "cuda:1 RTX A6000"
+      ],
+      "strategy": "static sample partition plus safe tail repartition",
+      "both_gpus_performed_generation": true
+    }
+  }
+}

@@ -1,0 +1,1005 @@
+{
+  "selection_policy": "deterministic, no result-based selection",
+  "fixed_sample_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "examples": [
+    {
+      "sample_id": 0,
+      "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+      "caption_references": [
+        "People shopping in an open market for vegetables.",
+        "An open market full of people and piles of vegetables.",
+        "People are shopping at an open air produce market.",
+        "Large piles of carrots and potatoes at a crowded outdoor market.",
+        "People shop for vegetables like carrots and potatoes at an open air market."
+      ],
+      "captions": {
+        "umbrae": {
+          "prediction": "A group of people cooking in a kitchen",
+          "status": "success"
+        },
+        "lora": {
+          "prediction": "A group of people preparing food in a kitchen.",
+          "status": "success"
+        },
+        "full_real": {
+          "prediction": "A group of people preparing food inside of a kitchen.",
+          "status": "success"
+        },
+        "full_random": {
+          "prediction": "A group of people preparing food inside of a kitchen.",
+          "status": "success"
+        }
+      },
+      "grounding": {
+        "expression": "umbrella",
+        "ground_truth_boxes": [
+          [
+            0.2484705882352941,
+            0.13025882352941176,
+            0.37268235294117646,
+            0.25545882352941174
+          ],
+          [
+            0.0,
+            0.00411764705882353,
+            0.3124,
+            0.13444705882352942
+          ],
+          [
+            0.0,
+            0.0976470588235294,
+            0.1907764705882353,
+            0.25891764705882353
+          ],
+          [
+            0.26974117647058826,
+            0.19891764705882353,
+            0.36383529411764703,
+            0.2531529411764706
+          ]
+        ],
+        "predictions": {
+          "umbrae": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.263,
+                  0.289,
+                  0.503
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "lora": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.263,
+                  0.289,
+                  0.559
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_real": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.273,
+                  0.223,
+                  0.495
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_random": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.273,
+                  0.223,
+                  0.484
+                ]
+              ]
+            ],
+            "status": "success"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": 1,
+      "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+      "caption_references": [
+        "a couple of people are cooking in a room",
+        "Two people in chef's outfits cooking inside a kitchen.",
+        "two chefs working on seperate parts of a meal at a restaurant",
+        "a couple of chefs standing in front of some food ",
+        "A couple of cooks standing in a kitchen making food."
+      ],
+      "captions": {
+        "umbrae": {
+          "prediction": "A man in a kitchen with a spoon in his hand.",
+          "status": "success"
+        },
+        "lora": {
+          "prediction": "A man in a house kitchen with a lot of kitchen furniture",
+          "status": "success"
+        },
+        "full_real": {
+          "prediction": "A man in a kitchen with a spoon in his hand.",
+          "status": "success"
+        },
+        "full_random": {
+          "prediction": "A man in a kitchen with a spoon in his hand.",
+          "status": "success"
+        }
+      },
+      "grounding": {
+        "expression": "person",
+        "ground_truth_boxes": [
+          [
+            0.0,
+            0.3048470588235294,
+            0.33941176470588236,
+            0.8334588235294118
+          ],
+          [
+            0.5011764705882353,
+            0.22642352941176472,
+            0.9741647058823529,
+            0.7538588235294117
+          ]
+        ],
+        "predictions": {
+          "umbrae": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.252,
+                  0.224,
+                  0.794
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "lora": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.252,
+                  0.18,
+                  0.798
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_real": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.252,
+                  0.18,
+                  0.798
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_random": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.252,
+                  0.173,
+                  0.995
+                ]
+              ]
+            ],
+            "status": "success"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": 2,
+      "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+      "caption_references": [
+        "A person in a wetsuit surfing on a turquoise wave.",
+        "A male surfer riding a wave on the ocean.",
+        "A young man with a surfboard at the ocean waters surfing",
+        "A surfer is riding the top of a wave.",
+        "a person standing on a surfboard riding a wave"
+      ],
+      "captions": {
+        "umbrae": {
+          "prediction": "A man surfing on a wave in the ocean.",
+          "status": "success"
+        },
+        "lora": {
+          "prediction": "A man riding a wave on a surfboard.",
+          "status": "success"
+        },
+        "full_real": {
+          "prediction": "A man surfing in the water on a large wave.",
+          "status": "success"
+        },
+        "full_random": {
+          "prediction": "A man surfing in the water on a wave.",
+          "status": "success"
+        }
+      },
+      "grounding": {
+        "expression": "person",
+        "ground_truth_boxes": [
+          [
+            0.41409411764705883,
+            0.2888941176470588,
+            0.562564705882353,
+            0.5858823529411765
+          ]
+        ],
+        "predictions": {
+          "umbrae": {
+            "boxes": [
+              [
+                [
+                  0.382,
+                  0.22,
+                  0.582,
+                  0.52
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "lora": {
+            "boxes": [
+              [
+                [
+                  0.382,
+                  0.222,
+                  0.592,
+                  0.526
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_real": {
+            "boxes": [
+              [
+                [
+                  0.382,
+                  0.222,
+                  0.592,
+                  0.526
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_random": {
+            "boxes": [
+              [
+                [
+                  0.382,
+                  0.222,
+                  0.592,
+                  0.524
+                ]
+              ]
+            ],
+            "status": "success"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": 3,
+      "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+      "caption_references": [
+        "a windsurfer some water a hill sand and some kayaks",
+        "A windsurfer coming into a beach where kayaks await",
+        "there is a man wind surfing in a lake",
+        "A man is holding a small sail near the canoes.",
+        "A man riding a sail board on a large lake."
+      ],
+      "captions": {
+        "umbrae": {
+          "prediction": "A person is holding a bright blue umbrella.",
+          "status": "success"
+        },
+        "lora": {
+          "prediction": "A person sitting on a lawn chair in a field",
+          "status": "success"
+        },
+        "full_real": {
+          "prediction": "A person walking in the grass with a large book bag.",
+          "status": "success"
+        },
+        "full_random": {
+          "prediction": "A person walking in the grass with a large book bag.",
+          "status": "success"
+        }
+      },
+      "grounding": {
+        "expression": "boat",
+        "ground_truth_boxes": [
+          [
+            0.4814117647058823,
+            0.34157647058823526,
+            0.6005176470588235,
+            0.6651529411764706
+          ],
+          [
+            0.7285411764705882,
+            0.7511294117647059,
+            1.0,
+            0.8074352941176471
+          ],
+          [
+            0.0,
+            0.7528235294117647,
+            0.6387058823529411,
+            0.8224705882352942
+          ]
+        ],
+        "predictions": {
+          "umbrae": {
+            "boxes": [
+              [
+                [
+                  0.492,
+                  0.524,
+                  0.654,
+                  0.808
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "lora": {
+            "boxes": [
+              [
+                [
+                  0.492,
+                  0.524,
+                  0.656,
+                  0.82
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_real": {
+            "boxes": [
+              [
+                [
+                  0.498,
+                  0.522,
+                  0.682,
+                  0.806
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_random": {
+            "boxes": [
+              [
+                [
+                  0.492,
+                  0.524,
+                  0.656,
+                  0.82
+                ]
+              ]
+            ],
+            "status": "success"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": 4,
+      "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+      "caption_references": [
+        "A brick building with a clock on it and pathway.",
+        "a church with a cemetery very close to the building",
+        "A large church with a tall brick clock tower in it's center.",
+        "a very old abandon church with a grave yard",
+        "An old white and rust color building with a clock located in the middle."
+      ],
+      "captions": {
+        "umbrae": {
+          "prediction": "An old building with a clock tower on the roof.",
+          "status": "success"
+        },
+        "lora": {
+          "prediction": "An old building with a clock tower on the roof.",
+          "status": "success"
+        },
+        "full_real": {
+          "prediction": "An old building with a clock tower on the roof.",
+          "status": "success"
+        },
+        "full_random": {
+          "prediction": "An old building with a clock tower on the roof.",
+          "status": "success"
+        }
+      },
+      "grounding": {
+        "expression": "clock",
+        "ground_truth_boxes": [
+          [
+            0.6191764705882352,
+            0.34449411764705884,
+            0.6785176470588236,
+            0.4127294117647059
+          ]
+        ],
+        "predictions": {
+          "umbrae": {
+            "boxes": [
+              [
+                [
+                  0.402,
+                  0.128,
+                  0.684,
+                  0.528
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "lora": {
+            "boxes": [
+              [
+                [
+                  0.412,
+                  0.14,
+                  0.676,
+                  0.51
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_real": {
+            "boxes": [
+              [
+                [
+                  0.402,
+                  0.128,
+                  0.684,
+                  0.528
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_random": {
+            "boxes": [
+              [
+                [
+                  0.402,
+                  0.128,
+                  0.684,
+                  0.528
+                ]
+              ]
+            ],
+            "status": "success"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": 5,
+      "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+      "caption_references": [
+        "a plate of yummy food of some kind",
+        "Food on a white plate with vegetables and a garnish.",
+        "A cooked stir fry dish arranged on a plate.",
+        "A picture of a bowl of food that is mostly vegetables.",
+        "A close up picture of a meal on a white plate."
+      ],
+      "captions": {
+        "umbrae": {
+          "prediction": "A close-up of a plate of food containing broccoli.",
+          "status": "success"
+        },
+        "lora": {
+          "prediction": "A plate of food on a table",
+          "status": "success"
+        },
+        "full_real": {
+          "prediction": "A plate of food on a table",
+          "status": "success"
+        },
+        "full_random": {
+          "prediction": "A plate of food on a table",
+          "status": "success"
+        }
+      },
+      "grounding": {
+        "expression": "spoon",
+        "ground_truth_boxes": [
+          [
+            0.0,
+            0.0033882352941176468,
+            0.5551294117647059,
+            0.16552941176470587
+          ]
+        ],
+        "predictions": {
+          "umbrae": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.255,
+                  0.286,
+                  0.853
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "lora": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.253,
+                  0.286,
+                  0.853
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_real": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.253,
+                  0.286,
+                  0.853
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_random": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.253,
+                  0.286,
+                  0.853
+                ]
+              ]
+            ],
+            "status": "success"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": 6,
+      "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+      "caption_references": [
+        "A cup of coffee on a plate with a spoon.",
+        "A cappuccino cup next to plates of deserts.",
+        "Cup of coffee with dessert items on a wooden grained table.",
+        "A cup of liquid with a fancy design on top of it.",
+        "Pastry, water and a cup of coffee with spoon."
+      ],
+      "captions": {
+        "umbrae": {
+          "prediction": "A plate of food on a dining table.",
+          "status": "success"
+        },
+        "lora": {
+          "prediction": "A plate of food on a dining table.",
+          "status": "success"
+        },
+        "full_real": {
+          "prediction": "A small piece of food is on a plate",
+          "status": "success"
+        },
+        "full_random": {
+          "prediction": "A small piece of food is on a plate",
+          "status": "success"
+        }
+      },
+      "grounding": {
+        "expression": "dining table",
+        "ground_truth_boxes": [
+          [
+            0.0,
+            0.004894117647058824,
+            1.0,
+            1.0
+          ]
+        ],
+        "predictions": {
+          "umbrae": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.002,
+                  1.0,
+                  0.995
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "lora": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.002,
+                  1.0,
+                  0.995
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_real": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.002,
+                  1.0,
+                  0.995
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_random": {
+            "boxes": [
+              [
+                [
+                  0.0,
+                  0.002,
+                  1.0,
+                  0.995
+                ]
+              ]
+            ],
+            "status": "success"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": 7,
+      "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+      "caption_references": [
+        "Three young women are trying to catch a frisbee.",
+        "A group of woman standing in a field trying to catch a frisbee",
+        "Three girls playing frisbee together in a field.",
+        "3 people attempt to catch a frisbee in midair.",
+        "three people in a grass field reaching for a frisbee in the air"
+      ],
+      "captions": {
+        "umbrae": {
+          "prediction": "A group of people playing soccer against each other on a field.",
+          "status": "success"
+        },
+        "lora": {
+          "prediction": "A group of people playing soccer against each other on a field.",
+          "status": "success"
+        },
+        "full_real": {
+          "prediction": "A group of people playing soccer against each other on a field.",
+          "status": "success"
+        },
+        "full_random": {
+          "prediction": "A group of people playing soccer against each other on a field.",
+          "status": "success"
+        }
+      },
+      "grounding": {
+        "expression": "person",
+        "ground_truth_boxes": [
+          [
+            0.688329411764706,
+            0.4576705882352941,
+            0.9573882352941177,
+            0.9374823529411764
+          ],
+          [
+            0.39237647058823527,
+            0.34294117647058825,
+            0.6188235294117647,
+            0.950564705882353
+          ],
+          [
+            0.19825882352941177,
+            0.5235764705882353,
+            0.4052941176470588,
+            0.9415764705882353
+          ]
+        ],
+        "predictions": {
+          "umbrae": {
+            "boxes": [
+              [
+                [
+                  0.002,
+                  0.35,
+                  0.988,
+                  0.984
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "lora": {
+            "boxes": [
+              [
+                [
+                  0.002,
+                  0.35,
+                  0.998,
+                  0.934
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_real": {
+            "boxes": [
+              [
+                [
+                  0.002,
+                  0.35,
+                  0.998,
+                  0.934
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_random": {
+            "boxes": [
+              [
+                [
+                  0.002,
+                  0.35,
+                  0.998,
+                  0.934
+                ]
+              ]
+            ],
+            "status": "success"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": 8,
+      "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+      "caption_references": [
+        "a cat is sitting on top of a vehicle",
+        "A cat sitting on top of a car near bushes.",
+        "a black gray and white cat a car and bushes",
+        "Cat sitting on top of car with brush behind.",
+        "A curious looking cat sitting on a car."
+      ],
+      "captions": {
+        "umbrae": {
+          "prediction": "A cat sits on the sandy beach by the water.",
+          "status": "success"
+        },
+        "lora": {
+          "prediction": "A cat sits on the ground and looks at the camera.",
+          "status": "success"
+        },
+        "full_real": {
+          "prediction": "A cat sits on the ground and looks at the camera.",
+          "status": "success"
+        },
+        "full_random": {
+          "prediction": "A cat sits on the ground and looks at the camera.",
+          "status": "success"
+        }
+      },
+      "grounding": {
+        "expression": "cat",
+        "ground_truth_boxes": [
+          [
+            0.17209411764705881,
+            0.2580470588235294,
+            0.886070588235294,
+            0.8301176470588235
+          ]
+        ],
+        "predictions": {
+          "umbrae": {
+            "boxes": [
+              [
+                [
+                  0.155,
+                  0.239,
+                  0.93,
+                  0.894
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "lora": {
+            "boxes": [
+              [
+                [
+                  0.155,
+                  0.239,
+                  0.93,
+                  0.894
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_real": {
+            "boxes": [
+              [
+                [
+                  0.155,
+                  0.239,
+                  0.93,
+                  0.894
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_random": {
+            "boxes": [
+              [
+                [
+                  0.155,
+                  0.239,
+                  0.93,
+                  0.894
+                ]
+              ]
+            ],
+            "status": "success"
+          }
+        }
+      }
+    },
+    {
+      "sample_id": 9,
+      "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+      "caption_references": [
+        "A man in swim shorts is riding a surf board.",
+        "A surfer is riding a wave in the ocean.",
+        "A fit young man surfing a wave in the ocean.",
+        "A man riding a surfboard on a wave.",
+        "A shirtless man riding shortboard on a wave."
+      ],
+      "captions": {
+        "umbrae": {
+          "prediction": "A surfer is riding a wave in the ocean.",
+          "status": "success"
+        },
+        "lora": {
+          "prediction": "A surfer is riding a wave in the ocean.",
+          "status": "success"
+        },
+        "full_real": {
+          "prediction": "A surfer is riding a wave in the ocean.",
+          "status": "success"
+        },
+        "full_random": {
+          "prediction": "A surfer is riding a wave in the ocean.",
+          "status": "success"
+        }
+      },
+      "grounding": {
+        "expression": "person",
+        "ground_truth_boxes": [
+          [
+            0.2276235294117647,
+            0.2832235294117647,
+            0.6082823529411764,
+            0.6213176470588235
+          ]
+        ],
+        "predictions": {
+          "umbrae": {
+            "boxes": [
+              [
+                [
+                  0.272,
+                  0.386,
+                  0.531,
+                  0.627
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "lora": {
+            "boxes": [
+              [
+                [
+                  0.282,
+                  0.362,
+                  0.532,
+                  0.624
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_real": {
+            "boxes": [
+              [
+                [
+                  0.282,
+                  0.362,
+                  0.532,
+                  0.624
+                ]
+              ]
+            ],
+            "status": "success"
+          },
+          "full_random": {
+            "boxes": [
+              [
+                [
+                  0.282,
+                  0.362,
+                  0.532,
+                  0.624
+                ]
+              ]
+            ],
+            "status": "success"
+          }
+        }
+      }
+    }
+  ]
+}

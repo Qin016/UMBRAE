@@ -1,0 +1,173 @@
+{
+  "method": "source_constrained_feature_coverage",
+  "candidate_stage": "offline_discovery_only",
+  "scientific_method_selected": false,
+  "source_marginal": [
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ],
+  "target_marginal": "free",
+  "structure_weight": 0.0,
+  "coverage_weight": 0.1,
+  "entropy_weight": 0.0,
+  "entropy_role": "disabled; not used as a scientific anti-collapse mechanism",
+  "eps_scale": 1e-12,
+  "eps_coverage": 1e-12,
+  "loss_scales": {
+    "s_feature": 0.18190438003847248,
+    "s_gw": 0.202123349231981
+  },
+  "objective": "(1-beta)*feature_raw/(s_feature+eps_scale) + beta*gw_raw/(s_gw+eps_scale) + lambda_cov*KL(target||uniform) + epsilon_entropy*sum(T log(T+eps))",
+  "solver": "projected gradient with Euclidean row-simplex projection and backtracking",
+  "allows_exact_zero_entries": true,
+  "coverage_guarantees_nonzero_target_mass": false,
+  "learning_rate": 0.1,
+  "max_iterations": 2500,
+  "tolerance": 1e-11,
+  "patience": 80,
+  "initializations": {
+    "winner_index": 2,
+    "winner_kind": "random",
+    "winner_seed": 23,
+    "selection_metric": "lowest offline_discovery total objective for fixed config",
+    "all_results": [
+      {
+        "initialization_kind": "uniform",
+        "initialization_seed": 0,
+        "components": {
+          "total_objective": 0.724685768574825,
+          "feature_raw": 0.10557261876835171,
+          "feature_normalized": 0.5803742534701083,
+          "gw_raw": 0.4260683111030979,
+          "gw_normalized": 2.1079618595275837,
+          "coverage_loss": 1.443115151047167,
+          "entropy_loss": -2.263230289237627,
+          "shannon_plan_entropy": 2.263230289237627
+        },
+        "converged": true,
+        "iterations": 1009,
+        "stopping_reason": "objective_patience",
+        "source_marginal_feasibility_error": 1.3877787807814457e-17
+      },
+      {
+        "initialization_kind": "random",
+        "initialization_seed": 11,
+        "components": {
+          "total_objective": 0.7246857685748536,
+          "feature_raw": 0.10557261542678446,
+          "feature_normalized": 0.5803742351001975,
+          "gw_raw": 0.426068345738392,
+          "gw_normalized": 2.1079620308847984,
+          "coverage_loss": 1.4431153347465606,
+          "entropy_loss": -2.263230204332431,
+          "shannon_plan_entropy": 2.263230204332431
+        },
+        "converged": true,
+        "iterations": 1354,
+        "stopping_reason": "objective_patience",
+        "source_marginal_feasibility_error": 1.3877787807814457e-17
+      },
+      {
+        "initialization_kind": "random",
+        "initialization_seed": 23,
+        "components": {
+          "total_objective": 0.7246857685747509,
+          "feature_raw": 0.10557261750808969,
+          "feature_normalized": 0.5803742465419517,
+          "gw_raw": 0.42606825474813476,
+          "gw_normalized": 2.1079615807128733,
+          "coverage_loss": 1.4431152203279913,
+          "entropy_loss": -2.263230141558397,
+          "shannon_plan_entropy": 2.263230141558397
+        },
+        "converged": true,
+        "iterations": 713,
+        "stopping_reason": "objective_patience",
+        "source_marginal_feasibility_error": 1.3877787807814457e-17
+      },
+      {
+        "initialization_kind": "random",
+        "initialization_seed": 37,
+        "components": {
+          "total_objective": 0.7246857685747649,
+          "feature_raw": 0.10557262092877129,
+          "feature_normalized": 0.5803742653467854,
+          "gw_raw": 0.42606827102651756,
+          "gw_normalized": 2.107961661249748,
+          "coverage_loss": 1.4431150322797943,
+          "entropy_loss": -2.263230298739533,
+          "shannon_plan_entropy": 2.263230298739533
+        },
+        "converged": true,
+        "iterations": 1252,
+        "stopping_reason": "objective_patience",
+        "source_marginal_feasibility_error": 0.0
+      },
+      {
+        "initialization_kind": "feature_informed",
+        "initialization_seed": 0,
+        "components": {
+          "total_objective": 0.7246857685748038,
+          "feature_raw": 0.10557261779831406,
+          "feature_normalized": 0.5803742481374294,
+          "gw_raw": 0.4260683100301649,
+          "gw_normalized": 2.1079618542192757,
+          "coverage_loss": 1.4431152043737443,
+          "entropy_loss": -2.263230236072364,
+          "shannon_plan_entropy": 2.263230236072364
+        },
+        "converged": true,
+        "iterations": 1056,
+        "stopping_reason": "objective_patience",
+        "source_marginal_feasibility_error": 1.3877787807814457e-17
+      }
+    ],
+    "variability": {
+      "initialization_count": 5,
+      "objective_min": 0.7246857685747509,
+      "objective_max": 0.7246857685748536,
+      "objective_range": 1.0269562977782698e-13,
+      "pairwise_plan_frobenius_min": 2.3553240999426506e-08,
+      "pairwise_plan_frobenius_mean": 2.858779465946827e-07,
+      "pairwise_plan_frobenius_max": 6.577153595176818e-07,
+      "converged_count": 5
+    }
+  },
+  "roi_order": [
+    "V1",
+    "V2",
+    "V3",
+    "hV4",
+    "FFA",
+    "EBA",
+    "PPA",
+    "OPA"
+  ],
+  "clip_layer_order": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "matrix_and_provenance_hashes": {
+    "feature_cost_oof_sha256": "11e217440ed1f47e6ca1f9dbeec8a60c7d4147285c4abb77ff0343f7fba8e1a7",
+    "brain_geometry_sha256": "0ce5e158f71f50fe0ccd619890aee75b2d888f372d619fc9a3dc6bf96842f976",
+    "clip_geometry_sha256": "d6524f1537608d1fe6e2e4a719a24432ed22a18757c6d05dea6b8f90abc564bb",
+    "feature_cost_config_sha256": "da65072e9f1fbda76d1db3b6fd31133e3d4e72438aef0d86eb8eeedd9cd6dfa1",
+    "geometry_config_sha256": "84e21a7e2f89936d16cd8c06b010a2c9c205647bf4e733f75301bc0d98e7d258",
+    "stimulus_manifest_sha256": "9ad3e1111e730040e82655ecaad7c76a8b0525574391ecc3ab884d584dfebee0",
+    "loss_scale_calibration_sha256": "56d05a2c16d2b392f7a37efe47bea933161542b588c156b9242650e4aa4c34db"
+  },
+  "offline_validation_loaded": false,
+  "offline_test_loaded": false,
+  "protected_validation_loaded": false,
+  "protected_test_loaded": false
+}

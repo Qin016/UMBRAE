@@ -1,0 +1,28 @@
+{
+  "label": "source_baseline",
+  "epoch": 0,
+  "checkpoint": null,
+  "caption": {
+    "BLEU-1": 0.6665517241377011,
+    "BLEU-2": 0.4806098303389134,
+    "BLEU-3": 0.3390234425862133,
+    "BLEU-4": 0.23738960584825491,
+    "ROUGE-L": 0.48966877823591887,
+    "CIDEr": 0.857437869365815,
+    "sample_count": 300,
+    "success": 300,
+    "empty": 0,
+    "failed": 0,
+    "mean_output_length": 17.346666666666668,
+    "median_output_length": 17.0
+  },
+  "grounding": {
+    "query_count": 840,
+    "mean_iou": 0.23770882189273834,
+    "grounding_accuracy": 0.2261904761904762,
+    "parse_failures": 0,
+    "target_failures": 0
+  },
+  "reused_from": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p9_interface_adapter_p6real_seed42_protocolv1/source_downstream_baseline.json",
+  "reuse_reason": "P9 locked validation baseline; downstream path unchanged in P10"
+}

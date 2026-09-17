@@ -1,0 +1,94 @@
+{
+  "all_plans_fitted_and_hashed_before_offline_test_access": true,
+  "evaluation_matrices": "original unpermuted offline_test matrices",
+  "brain_geometry_identity_mismatch": {
+    "count": 200,
+    "offline_test_gw_normalized": {
+      "count": 200,
+      "mean": 0.6409732550412802,
+      "std": 0.10319717875973275,
+      "median": 0.6665093775849428,
+      "ci_2_5": 0.39855240468394043,
+      "ci_97_5": 0.7892806570546169
+    },
+    "offline_test_composite": {
+      "count": 200,
+      "mean": 0.7148918576807444,
+      "std": 0.05211387316610837,
+      "median": 0.72602254885225,
+      "ci_2_5": 0.5957856594209484,
+      "ci_97_5": 0.7890787885504545
+    },
+    "one_sided_p_real_gw_lower": 0.004975124378109453
+  },
+  "clip_geometry_identity_mismatch": {
+    "count": 200,
+    "offline_test_gw_normalized": {
+      "count": 200,
+      "mean": 0.44327179810439715,
+      "std": 0.11938569971780316,
+      "median": 0.4412134033204873,
+      "ci_2_5": 0.2408438044430063,
+      "ci_97_5": 0.6730927277520447
+    },
+    "offline_test_composite": {
+      "count": 200,
+      "mean": 0.6308593195403553,
+      "std": 0.07558968278434681,
+      "median": 0.6233482610879548,
+      "ci_2_5": 0.5256220102341235,
+      "ci_97_5": 0.7951777154783025
+    },
+    "one_sided_p_real_gw_lower": 0.009950248756218905
+  },
+  "independent_roi_stimulus_geometry": {
+    "count": 200,
+    "offline_test_gw_normalized": {
+      "count": 200,
+      "mean": 0.468588494574484,
+      "std": 1.669513551129383e-16,
+      "median": 0.4685884945744838,
+      "ci_2_5": 0.4685884945744838,
+      "ci_97_5": 0.4685884945744838
+    },
+    "offline_test_composite": {
+      "count": 200,
+      "mean": 0.6212842414276852,
+      "std": 0.0,
+      "median": 0.6212842414276852,
+      "ci_2_5": 0.6212842414276852,
+      "ci_97_5": 0.6212842414276852
+    },
+    "one_sided_p_real_gw_lower": 0.004975124378109453
+  },
+  "feature_pairing": {
+    "count": 20,
+    "offline_test_feature_normalized": {
+      "count": 20,
+      "mean": 0.7747498607207945,
+      "std": 1.1390647892519134e-16,
+      "median": 0.7747498607207947,
+      "ci_2_5": 0.7747498607207947,
+      "ci_97_5": 0.7747498607207947
+    },
+    "offline_test_gw_normalized": {
+      "count": 20,
+      "mean": 0.22488686344626357,
+      "std": 2.8476619731297836e-17,
+      "median": 0.22488686344626355,
+      "ci_2_5": 0.22488686344626355,
+      "ci_97_5": 0.22488686344626355
+    },
+    "offline_test_composite": {
+      "count": 20,
+      "mean": 0.4998183620835291,
+      "std": 0.0,
+      "median": 0.4998183620835291,
+      "ci_2_5": 0.4998183620835291,
+      "ci_97_5": 0.4998183620835291
+    },
+    "one_sided_p_real_feature_lower": 1.0,
+    "affects_locked_configuration": false,
+    "affects_pass_status": false
+  }
+}

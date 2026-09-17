@@ -1,0 +1,23 @@
+{
+  "epoch": 1,
+  "train_loss": 7.220096111297607,
+  "val_loss": 10.161372184753418,
+  "caption_metrics": {
+    "BLEU-1": 0.0,
+    "BLEU-2": 0.0,
+    "BLEU-3": 0.0,
+    "BLEU-4": 0.0,
+    "ROUGE-L": 0.0,
+    "CIDEr": 0.0,
+    "METEOR": null,
+    "SPICE": null,
+    "unavailable_metrics": {
+      "METEOR": "Java runtime is unavailable",
+      "SPICE": "Java runtime is unavailable"
+    }
+  },
+  "num_generated_captions": 1,
+  "uses_image_clip_tokens_at_eval": false,
+  "bridge_type": "shikra_patch",
+  "fusion_mode": "umbrae_plus_soft"
+}

@@ -1,0 +1,13 @@
+{
+  "subject": "subj01",
+  "coordinate_system": "unresolved: continuous pRF coordinate system unavailable",
+  "selection_status": "BLOCKED",
+  "primary_k_retino": null,
+  "primary_k_total": null,
+  "secondary_k_retino": null,
+  "units": [],
+  "high_level_roi_policy": "FFA/EBA/PPA/OPA retained conceptually as one semantic unit each; no unit mapping emitted until retinotopic mapping is valid",
+  "blockers": [
+    "The local NSD copy has categorical prf-visualrois/prf-eccrois labels but no voxel-wise polar angle or x/y center, continuous eccentricity, pRF size/sigma, or fit-quality data. Gaussian voxel-to-patch affinity and pRF-coordinate clustering therefore cannot be constructed without fabricating values."
+  ]
+}

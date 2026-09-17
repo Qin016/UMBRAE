@@ -1,0 +1,54 @@
+{
+  "shape": [
+    982,
+    256,
+    4096
+  ],
+  "modes": {
+    "umbrae": {
+      "paired_projected_token_cosine": 0.5370844858726999,
+      "projected_oracle_gap": 0.46291551412730014,
+      "paired_projected_token_mse": 5.30570654276675,
+      "paired_projected_pooled_cosine": 0.9107900221818819,
+      "projected_norm_ratio_to_oracle": 0.6304579495928229,
+      "projected_per_feature_variance_mean": 1.6442584453842728,
+      "projected_per_feature_variance_std": 1.7782956212076522
+    },
+    "lora": {
+      "paired_projected_token_cosine": 0.5377050959893982,
+      "projected_oracle_gap": 0.4622949040106018,
+      "paired_projected_token_mse": 5.165198375639751,
+      "paired_projected_pooled_cosine": 0.9081221401327254,
+      "projected_norm_ratio_to_oracle": 0.6184271775250365,
+      "projected_per_feature_variance_mean": 1.4857818578222686,
+      "projected_per_feature_variance_std": 1.5608751972239094
+    },
+    "full_real": {
+      "paired_projected_token_cosine": 0.5373878777634102,
+      "projected_oracle_gap": 0.46261212223658976,
+      "paired_projected_token_mse": 5.163789515097127,
+      "paired_projected_pooled_cosine": 0.9066767420642488,
+      "projected_norm_ratio_to_oracle": 0.5988829145189635,
+      "projected_per_feature_variance_mean": 1.468301903323551,
+      "projected_per_feature_variance_std": 1.5552362944814233
+    },
+    "full_real_alpha_025": {
+      "paired_projected_token_cosine": 0.5377274066998856,
+      "projected_oracle_gap": 0.4622725933001144,
+      "paired_projected_token_mse": 5.258362146598987,
+      "paired_projected_pooled_cosine": 0.910229158255816,
+      "projected_norm_ratio_to_oracle": 0.6218104288200461,
+      "projected_per_feature_variance_mean": 1.5890948546039725,
+      "projected_per_feature_variance_std": 1.7099688709202234
+    },
+    "exact_clip_token_oracle": {
+      "paired_projected_token_cosine": 1.0,
+      "projected_oracle_gap": 0.0,
+      "paired_projected_token_mse": 0.0,
+      "paired_projected_pooled_cosine": 0.9999999898028714,
+      "projected_norm_ratio_to_oracle": 1.0,
+      "projected_per_feature_variance_mean": 4.703274454444236,
+      "projected_per_feature_variance_std": 3.734965350412443
+    }
+  }
+}

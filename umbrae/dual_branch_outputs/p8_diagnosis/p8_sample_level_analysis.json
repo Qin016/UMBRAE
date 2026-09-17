@@ -1,0 +1,2042 @@
+{
+  "caption": {
+    "metric": "per-sample CIDEr-D with fixed locked-test reference-corpus IDF",
+    "sample_count": 982,
+    "real_wins": 144,
+    "random_wins": 117,
+    "ties": 721,
+    "mean_delta": 0.008291649962105189,
+    "median_delta": 0.0,
+    "per_sample_delta": [
+      0.0,
+      0.0,
+      -0.19567846653531817,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.002243299912277343,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.015020406638713513,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4517900732014719,
+      -0.2736617371926755,
+      -0.02943161932800166,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.21119693761295089,
+      -0.07668491957354928,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.4688756417690223,
+      0.0,
+      0.0,
+      0.025039652817901215,
+      -0.3306640346797638,
+      0.009858829641080882,
+      0.0,
+      0.0,
+      0.0,
+      0.06251716294964027,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5503639452890509,
+      -0.2248166460005403,
+      0.0,
+      0.0,
+      0.07527166775749984,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.052667652623061084,
+      0.842419847336767,
+      0.000787444816201123,
+      0.0,
+      0.27345973936842816,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.211972774188703,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.004174212725784332,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.011747089831650265,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4947473149464775,
+      0.0018069202976119187,
+      0.0,
+      0.0,
+      -0.005570828493168951,
+      0.004324377071143192,
+      0.0,
+      0.0,
+      -0.0291498294850287,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.22960244030327126,
+      0.0,
+      0.0,
+      0.0,
+      0.0010666197905062277,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.22674625644420643,
+      -0.004964505274722503,
+      0.0,
+      0.0,
+      0.0070415567780649085,
+      -0.020974589697531548,
+      0.0,
+      0.0,
+      0.038726901395689795,
+      0.0,
+      0.6173017970235174,
+      0.0,
+      0.0,
+      0.0,
+      -7.932836804147385e-05,
+      -0.31671999489727587,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.11566924481906898,
+      -0.014625525881206303,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.10397640794285201,
+      0.0,
+      0.001491457728635503,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.13369916191407938,
+      0.0,
+      0.0,
+      0.0,
+      -1.632780041238918,
+      0.0,
+      0.384570663730045,
+      0.0,
+      0.22810014127888378,
+      0.0,
+      0.0,
+      0.08036186698068593,
+      0.19630658340550433,
+      0.11326341481988889,
+      0.0,
+      0.0,
+      -0.1270502699538294,
+      0.021639163021966834,
+      0.0,
+      0.0,
+      0.0,
+      -0.013531373462252305,
+      0.0,
+      0.0,
+      0.004305244404281788,
+      0.0,
+      -0.3757694779809727,
+      0.0,
+      0.0,
+      0.0,
+      0.16401798669940937,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0011442812201666063,
+      0.0,
+      0.0,
+      0.0,
+      -0.577981565956195,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.15489566919366304,
+      0.0,
+      0.012465809979753543,
+      0.0,
+      0.0,
+      0.0,
+      -0.07604724735146139,
+      0.0,
+      0.0,
+      0.0,
+      -0.0018165266874747288,
+      0.06797177432009083,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03571626461963461,
+      -0.2344755661942849,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.01756229719507102,
+      -2.5061052324291326e-05,
+      0.23284727308909314,
+      -0.3851462647569739,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.062085300589072356,
+      0.0,
+      1.437660785231723,
+      -0.00016607658525133072,
+      0.0,
+      0.0,
+      -0.005562870961806479,
+      0.7284702639491296,
+      0.0,
+      0.0,
+      0.0,
+      0.0011224205078491784,
+      -0.0016395108862354204,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.03758231964572107,
+      0.05185285922894306,
+      0.0,
+      0.0,
+      -0.17310811125433478,
+      0.0,
+      0.0,
+      0.0,
+      0.17027138226735783,
+      0.0,
+      -1.7731791149920233,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.005428572063057524,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.06918643863798576,
+      0.0,
+      0.0,
+      0.0,
+      -0.1160335997522679,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0009325644644781056,
+      0.00014866071109194932,
+      0.7388845732132274,
+      -0.15135106032919687,
+      0.11582021800716813,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.06064628148921125,
+      0.0,
+      0.0,
+      0.0,
+      0.15694342897115265,
+      0.0,
+      -0.018535213551464813,
+      0.0,
+      0.001828083048821589,
+      0.05959613497682423,
+      0.0,
+      -0.1900069887176683,
+      0.0,
+      -0.3324526523551943,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0019640477846085552,
+      0.0,
+      0.0,
+      -0.033525976504194865,
+      -0.4893279748031018,
+      -5.947627395266e-08,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.35222384257332306,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.377973103856611,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.725833447881908,
+      0.0,
+      -1.2182608409849749e-05,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.05303592249984411,
+      0.04313539655306997,
+      0.0,
+      0.7575129681459407,
+      0.0,
+      0.10295178150140546,
+      -0.007973591314103821,
+      0.07413089935655118,
+      0.0,
+      0.7050001774634937,
+      0.0,
+      -0.001564792833784301,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.17041025057210857,
+      0.0,
+      -0.16381150679466971,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07094636276406624,
+      0.21497828904391447,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0004968100049824072,
+      0.16955560464312325,
+      -0.0013131552290111407,
+      0.0,
+      0.0,
+      0.02503714620875741,
+      0.0,
+      -4.757225994822371e-05,
+      -0.012471600413074973,
+      0.0,
+      0.0,
+      0.0,
+      -0.13748258154687373,
+      0.1443267892796015,
+      0.0,
+      -0.39696465251025576,
+      0.0,
+      0.0,
+      0.7160233545263301,
+      0.0,
+      0.0,
+      0.0,
+      0.10513765959807109,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.14157496261685198,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.14564550632470719,
+      0.46226886287823676,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.33082566835300586,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.20316758857450798,
+      0.0,
+      0.0,
+      -0.006595308652935061,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.061288443743496124,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.1732164901745613,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08417140125224642,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.457022262738754,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.16338012440080818,
+      0.0,
+      -0.6786936130086034,
+      -0.18468077078373413,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.05331821416833693,
+      0.0,
+      -0.011168415049046039,
+      0.0,
+      0.08541102022967362,
+      0.0,
+      -1.2794244345153758,
+      -0.3165712432496489,
+      0.24248683459065967,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.001132166726348055,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.00019764932702105026,
+      -0.3404321427376855,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3912539745653205,
+      0.0,
+      0.0,
+      0.0,
+      -0.01193886290214527,
+      0.0022816227328096494,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.04149665112901435,
+      0.0,
+      0.0,
+      0.004323335027400482,
+      0.0,
+      -0.0021191985370500855,
+      0.0,
+      0.0,
+      0.0,
+      -0.1672881612575158,
+      0.0,
+      0.002932910763133489,
+      0.007086985857789969,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.04167873039157133,
+      0.0,
+      0.0011361619858077637,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0012977618692808276,
+      -0.433633773868052,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.14174598388383008,
+      -0.17079217304244934,
+      0.0,
+      0.0,
+      0.021870861845999456,
+      -0.014399562924745646,
+      0.0,
+      0.0,
+      0.027629733266882756,
+      0.0,
+      0.0,
+      -0.0018367633024758186,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.8415709571623412,
+      0.0016235484284456009,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.010371099678306517,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5605684019747217,
+      0.29286676579293947,
+      0.0,
+      0.0,
+      0.0,
+      0.004224021696866365,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.12775302440995062,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.003011249946300059,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.05027315564413937,
+      0.0,
+      0.02593930630260355,
+      0.0,
+      0.0,
+      -0.006651309203799083,
+      0.0,
+      0.0,
+      -0.1020350439929153,
+      0.0,
+      0.0,
+      0.04286746116132291,
+      0.0,
+      0.12852164282698597,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5267069515661974,
+      0.0,
+      0.0,
+      0.0,
+      -0.2087694662908624,
+      0.17984445451891912,
+      0.0,
+      0.0,
+      0.04095177096490116,
+      0.0,
+      0.0,
+      0.0,
+      0.16614386434643735,
+      0.0,
+      0.0,
+      -0.04421847459684586,
+      -0.8465785978075364,
+      1.1459898517011095e-08,
+      0.0,
+      0.0,
+      0.2017535659092664,
+      -0.21204623976888926,
+      0.016413313846042804,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0026394499253964143,
+      0.0,
+      0.0,
+      0.0,
+      -0.12551844888379649,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.055347519893674806,
+      0.0,
+      0.0,
+      -0.32585352252308253,
+      0.0,
+      0.046375201016052636,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.06329737152137915,
+      0.0008445571323846754,
+      0.41268205725283436,
+      0.0,
+      1.269455066658593,
+      -0.2625491781032174,
+      0.0,
+      -0.008914774016579863,
+      0.030497988870848425,
+      0.0,
+      0.0,
+      0.18965373879066044,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.09557379172339564,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07540042467415076,
+      0.0017335441752408878,
+      -0.06510255545051011,
+      0.0,
+      -0.6430726894158261,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0008851873324275802,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.00402068640729923,
+      0.0,
+      -0.04646872506016264,
+      0.14578280821399853,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.27007391565469274,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.15496904984925297,
+      0.0,
+      0.35203268327625614,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.35552226137312193,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4684983928147254,
+      0.0,
+      0.0,
+      0.0,
+      0.404199700715831,
+      0.0,
+      0.015328584525055033,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.8856897587577672,
+      0.0,
+      0.003359895289418829,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.9513983782461755,
+      0.18580810970178088,
+      0.0,
+      0.03384107145830001,
+      0.0,
+      0.1045680979405727,
+      -0.0019408489842646787,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.014427288522242829,
+      0.7555089277762206,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.39038816644196184,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.007604918444052033,
+      -0.2380401375284345,
+      -0.5459134046151142,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.2450607559223718,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3923687934638043,
+      0.0,
+      0.411020205305312,
+      -0.2877787058636283,
+      0.0,
+      0.0,
+      0.0008792062476794768,
+      0.2787378969243295,
+      0.0,
+      0.0,
+      0.0,
+      0.13561396459838848,
+      0.0,
+      0.0,
+      0.9603387836262188,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.18057744669545067,
+      0.0,
+      0.6413195505433129,
+      0.0,
+      0.005386334265278375,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.033371276940494465,
+      0.0,
+      0.0,
+      0.0,
+      -0.845440653471726,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0010488511432001565,
+      0.5074061888381649,
+      0.0,
+      0.0,
+      0.19399941432270662,
+      0.0,
+      0.0,
+      0.18056493225655212,
+      -0.017189847404924408,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.3372290399155379,
+      0.0,
+      0.0,
+      0.0,
+      -0.04776552254927191,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5596629383445226,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0016055725896015633,
+      0.0,
+      0.16023680644781646,
+      -0.009648236468993245,
+      -0.11371520738075715,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.676269930683991,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1584816060776978,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "grounding": {
+    "query_count": 2419,
+    "real_wins": 321,
+    "random_wins": 320,
+    "ties": 1778,
+    "mean_delta": 0.0005896797268619169,
+    "median_delta": 0.0,
+    "by_baseline_difficulty": {
+      "umbrae_iou_0_to_0.25": {
+        "query_count": 1581,
+        "mean_real_minus_random_iou": 0.0009585939277966066,
+        "real_wins": 175,
+        "random_wins": 170,
+        "ties": 1236
+      },
+      "umbrae_iou_0.25_to_0.5": {
+        "query_count": 360,
+        "mean_real_minus_random_iou": 0.0073251453718173876,
+        "real_wins": 78,
+        "random_wins": 63,
+        "ties": 219
+      },
+      "umbrae_iou_0.5_to_1": {
+        "query_count": 478,
+        "mean_real_minus_random_iou": -0.005703251201719075,
+        "real_wins": 68,
+        "random_wins": 87,
+        "ties": 323
+      }
+    },
+    "by_target_box_area": {
+      "small_area_le_0.05": {
+        "query_count": 1211,
+        "mean_real_minus_random_iou": 0.0012031867162477462,
+        "real_wins": 131,
+        "random_wins": 121,
+        "ties": 959
+      },
+      "medium_area_0.05_to_0.2": {
+        "query_count": 583,
+        "mean_real_minus_random_iou": -0.0009945123484333702,
+        "real_wins": 91,
+        "random_wins": 92,
+        "ties": 400
+      },
+      "large_area_gt_0.2": {
+        "query_count": 625,
+        "mean_real_minus_random_iou": 0.0008786829520633777,
+        "real_wins": 99,
+        "random_wins": 107,
+        "ties": 419
+      }
+    }
+  },
+  "qualitative_fixed_ids_0_to_9": {
+    "selection_policy": "deterministic, no result-based selection",
+    "examples": [
+      {
+        "sample_id": 0,
+        "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+        "caption_references": [
+          "People shopping in an open market for vegetables.",
+          "An open market full of people and piles of vegetables.",
+          "People are shopping at an open air produce market.",
+          "Large piles of carrots and potatoes at a crowded outdoor market.",
+          "People shop for vegetables like carrots and potatoes at an open air market."
+        ],
+        "captions": {
+          "umbrae": {
+            "prediction": "A group of people cooking in a kitchen",
+            "status": "success"
+          },
+          "lora": {
+            "prediction": "A group of people preparing food in a kitchen.",
+            "status": "success"
+          },
+          "full_real": {
+            "prediction": "A group of people preparing food inside of a kitchen.",
+            "status": "success"
+          },
+          "full_random": {
+            "prediction": "A group of people preparing food inside of a kitchen.",
+            "status": "success"
+          }
+        },
+        "grounding": {
+          "expression": "umbrella",
+          "ground_truth_boxes": [
+            [
+              0.2484705882352941,
+              0.13025882352941176,
+              0.37268235294117646,
+              0.25545882352941174
+            ],
+            [
+              0.0,
+              0.00411764705882353,
+              0.3124,
+              0.13444705882352942
+            ],
+            [
+              0.0,
+              0.0976470588235294,
+              0.1907764705882353,
+              0.25891764705882353
+            ],
+            [
+              0.26974117647058826,
+              0.19891764705882353,
+              0.36383529411764703,
+              0.2531529411764706
+            ]
+          ],
+          "predictions": {
+            "umbrae": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.263,
+                    0.289,
+                    0.503
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "lora": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.263,
+                    0.289,
+                    0.559
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_real": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.273,
+                    0.223,
+                    0.495
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_random": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.273,
+                    0.223,
+                    0.484
+                  ]
+                ]
+              ],
+              "status": "success"
+            }
+          }
+        }
+      },
+      {
+        "sample_id": 1,
+        "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+        "caption_references": [
+          "a couple of people are cooking in a room",
+          "Two people in chef's outfits cooking inside a kitchen.",
+          "two chefs working on seperate parts of a meal at a restaurant",
+          "a couple of chefs standing in front of some food ",
+          "A couple of cooks standing in a kitchen making food."
+        ],
+        "captions": {
+          "umbrae": {
+            "prediction": "A man in a kitchen with a spoon in his hand.",
+            "status": "success"
+          },
+          "lora": {
+            "prediction": "A man in a house kitchen with a lot of kitchen furniture",
+            "status": "success"
+          },
+          "full_real": {
+            "prediction": "A man in a kitchen with a spoon in his hand.",
+            "status": "success"
+          },
+          "full_random": {
+            "prediction": "A man in a kitchen with a spoon in his hand.",
+            "status": "success"
+          }
+        },
+        "grounding": {
+          "expression": "person",
+          "ground_truth_boxes": [
+            [
+              0.0,
+              0.3048470588235294,
+              0.33941176470588236,
+              0.8334588235294118
+            ],
+            [
+              0.5011764705882353,
+              0.22642352941176472,
+              0.9741647058823529,
+              0.7538588235294117
+            ]
+          ],
+          "predictions": {
+            "umbrae": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.252,
+                    0.224,
+                    0.794
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "lora": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.252,
+                    0.18,
+                    0.798
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_real": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.252,
+                    0.18,
+                    0.798
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_random": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.252,
+                    0.173,
+                    0.995
+                  ]
+                ]
+              ],
+              "status": "success"
+            }
+          }
+        }
+      },
+      {
+        "sample_id": 2,
+        "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+        "caption_references": [
+          "A person in a wetsuit surfing on a turquoise wave.",
+          "A male surfer riding a wave on the ocean.",
+          "A young man with a surfboard at the ocean waters surfing",
+          "A surfer is riding the top of a wave.",
+          "a person standing on a surfboard riding a wave"
+        ],
+        "captions": {
+          "umbrae": {
+            "prediction": "A man surfing on a wave in the ocean.",
+            "status": "success"
+          },
+          "lora": {
+            "prediction": "A man riding a wave on a surfboard.",
+            "status": "success"
+          },
+          "full_real": {
+            "prediction": "A man surfing in the water on a large wave.",
+            "status": "success"
+          },
+          "full_random": {
+            "prediction": "A man surfing in the water on a wave.",
+            "status": "success"
+          }
+        },
+        "grounding": {
+          "expression": "person",
+          "ground_truth_boxes": [
+            [
+              0.41409411764705883,
+              0.2888941176470588,
+              0.562564705882353,
+              0.5858823529411765
+            ]
+          ],
+          "predictions": {
+            "umbrae": {
+              "boxes": [
+                [
+                  [
+                    0.382,
+                    0.22,
+                    0.582,
+                    0.52
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "lora": {
+              "boxes": [
+                [
+                  [
+                    0.382,
+                    0.222,
+                    0.592,
+                    0.526
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_real": {
+              "boxes": [
+                [
+                  [
+                    0.382,
+                    0.222,
+                    0.592,
+                    0.526
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_random": {
+              "boxes": [
+                [
+                  [
+                    0.382,
+                    0.222,
+                    0.592,
+                    0.524
+                  ]
+                ]
+              ],
+              "status": "success"
+            }
+          }
+        }
+      },
+      {
+        "sample_id": 3,
+        "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+        "caption_references": [
+          "a windsurfer some water a hill sand and some kayaks",
+          "A windsurfer coming into a beach where kayaks await",
+          "there is a man wind surfing in a lake",
+          "A man is holding a small sail near the canoes.",
+          "A man riding a sail board on a large lake."
+        ],
+        "captions": {
+          "umbrae": {
+            "prediction": "A person is holding a bright blue umbrella.",
+            "status": "success"
+          },
+          "lora": {
+            "prediction": "A person sitting on a lawn chair in a field",
+            "status": "success"
+          },
+          "full_real": {
+            "prediction": "A person walking in the grass with a large book bag.",
+            "status": "success"
+          },
+          "full_random": {
+            "prediction": "A person walking in the grass with a large book bag.",
+            "status": "success"
+          }
+        },
+        "grounding": {
+          "expression": "boat",
+          "ground_truth_boxes": [
+            [
+              0.4814117647058823,
+              0.34157647058823526,
+              0.6005176470588235,
+              0.6651529411764706
+            ],
+            [
+              0.7285411764705882,
+              0.7511294117647059,
+              1.0,
+              0.8074352941176471
+            ],
+            [
+              0.0,
+              0.7528235294117647,
+              0.6387058823529411,
+              0.8224705882352942
+            ]
+          ],
+          "predictions": {
+            "umbrae": {
+              "boxes": [
+                [
+                  [
+                    0.492,
+                    0.524,
+                    0.654,
+                    0.808
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "lora": {
+              "boxes": [
+                [
+                  [
+                    0.492,
+                    0.524,
+                    0.656,
+                    0.82
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_real": {
+              "boxes": [
+                [
+                  [
+                    0.498,
+                    0.522,
+                    0.682,
+                    0.806
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_random": {
+              "boxes": [
+                [
+                  [
+                    0.492,
+                    0.524,
+                    0.656,
+                    0.82
+                  ]
+                ]
+              ],
+              "status": "success"
+            }
+          }
+        }
+      },
+      {
+        "sample_id": 4,
+        "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+        "caption_references": [
+          "A brick building with a clock on it and pathway.",
+          "a church with a cemetery very close to the building",
+          "A large church with a tall brick clock tower in it's center.",
+          "a very old abandon church with a grave yard",
+          "An old white and rust color building with a clock located in the middle."
+        ],
+        "captions": {
+          "umbrae": {
+            "prediction": "An old building with a clock tower on the roof.",
+            "status": "success"
+          },
+          "lora": {
+            "prediction": "An old building with a clock tower on the roof.",
+            "status": "success"
+          },
+          "full_real": {
+            "prediction": "An old building with a clock tower on the roof.",
+            "status": "success"
+          },
+          "full_random": {
+            "prediction": "An old building with a clock tower on the roof.",
+            "status": "success"
+          }
+        },
+        "grounding": {
+          "expression": "clock",
+          "ground_truth_boxes": [
+            [
+              0.6191764705882352,
+              0.34449411764705884,
+              0.6785176470588236,
+              0.4127294117647059
+            ]
+          ],
+          "predictions": {
+            "umbrae": {
+              "boxes": [
+                [
+                  [
+                    0.402,
+                    0.128,
+                    0.684,
+                    0.528
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "lora": {
+              "boxes": [
+                [
+                  [
+                    0.412,
+                    0.14,
+                    0.676,
+                    0.51
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_real": {
+              "boxes": [
+                [
+                  [
+                    0.402,
+                    0.128,
+                    0.684,
+                    0.528
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_random": {
+              "boxes": [
+                [
+                  [
+                    0.402,
+                    0.128,
+                    0.684,
+                    0.528
+                  ]
+                ]
+              ],
+              "status": "success"
+            }
+          }
+        }
+      },
+      {
+        "sample_id": 5,
+        "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+        "caption_references": [
+          "a plate of yummy food of some kind",
+          "Food on a white plate with vegetables and a garnish.",
+          "A cooked stir fry dish arranged on a plate.",
+          "A picture of a bowl of food that is mostly vegetables.",
+          "A close up picture of a meal on a white plate."
+        ],
+        "captions": {
+          "umbrae": {
+            "prediction": "A close-up of a plate of food containing broccoli.",
+            "status": "success"
+          },
+          "lora": {
+            "prediction": "A plate of food on a table",
+            "status": "success"
+          },
+          "full_real": {
+            "prediction": "A plate of food on a table",
+            "status": "success"
+          },
+          "full_random": {
+            "prediction": "A plate of food on a table",
+            "status": "success"
+          }
+        },
+        "grounding": {
+          "expression": "spoon",
+          "ground_truth_boxes": [
+            [
+              0.0,
+              0.0033882352941176468,
+              0.5551294117647059,
+              0.16552941176470587
+            ]
+          ],
+          "predictions": {
+            "umbrae": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.255,
+                    0.286,
+                    0.853
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "lora": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.253,
+                    0.286,
+                    0.853
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_real": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.253,
+                    0.286,
+                    0.853
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_random": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.253,
+                    0.286,
+                    0.853
+                  ]
+                ]
+              ],
+              "status": "success"
+            }
+          }
+        }
+      },
+      {
+        "sample_id": 6,
+        "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+        "caption_references": [
+          "A cup of coffee on a plate with a spoon.",
+          "A cappuccino cup next to plates of deserts.",
+          "Cup of coffee with dessert items on a wooden grained table.",
+          "A cup of liquid with a fancy design on top of it.",
+          "Pastry, water and a cup of coffee with spoon."
+        ],
+        "captions": {
+          "umbrae": {
+            "prediction": "A plate of food on a dining table.",
+            "status": "success"
+          },
+          "lora": {
+            "prediction": "A plate of food on a dining table.",
+            "status": "success"
+          },
+          "full_real": {
+            "prediction": "A small piece of food is on a plate",
+            "status": "success"
+          },
+          "full_random": {
+            "prediction": "A small piece of food is on a plate",
+            "status": "success"
+          }
+        },
+        "grounding": {
+          "expression": "dining table",
+          "ground_truth_boxes": [
+            [
+              0.0,
+              0.004894117647058824,
+              1.0,
+              1.0
+            ]
+          ],
+          "predictions": {
+            "umbrae": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.002,
+                    1.0,
+                    0.995
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "lora": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.002,
+                    1.0,
+                    0.995
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_real": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.002,
+                    1.0,
+                    0.995
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_random": {
+              "boxes": [
+                [
+                  [
+                    0.0,
+                    0.002,
+                    1.0,
+                    0.995
+                  ]
+                ]
+              ],
+              "status": "success"
+            }
+          }
+        }
+      },
+      {
+        "sample_id": 7,
+        "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+        "caption_references": [
+          "Three young women are trying to catch a frisbee.",
+          "A group of woman standing in a field trying to catch a frisbee",
+          "Three girls playing frisbee together in a field.",
+          "3 people attempt to catch a frisbee in midair.",
+          "three people in a grass field reaching for a frisbee in the air"
+        ],
+        "captions": {
+          "umbrae": {
+            "prediction": "A group of people playing soccer against each other on a field.",
+            "status": "success"
+          },
+          "lora": {
+            "prediction": "A group of people playing soccer against each other on a field.",
+            "status": "success"
+          },
+          "full_real": {
+            "prediction": "A group of people playing soccer against each other on a field.",
+            "status": "success"
+          },
+          "full_random": {
+            "prediction": "A group of people playing soccer against each other on a field.",
+            "status": "success"
+          }
+        },
+        "grounding": {
+          "expression": "person",
+          "ground_truth_boxes": [
+            [
+              0.688329411764706,
+              0.4576705882352941,
+              0.9573882352941177,
+              0.9374823529411764
+            ],
+            [
+              0.39237647058823527,
+              0.34294117647058825,
+              0.6188235294117647,
+              0.950564705882353
+            ],
+            [
+              0.19825882352941177,
+              0.5235764705882353,
+              0.4052941176470588,
+              0.9415764705882353
+            ]
+          ],
+          "predictions": {
+            "umbrae": {
+              "boxes": [
+                [
+                  [
+                    0.002,
+                    0.35,
+                    0.988,
+                    0.984
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "lora": {
+              "boxes": [
+                [
+                  [
+                    0.002,
+                    0.35,
+                    0.998,
+                    0.934
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_real": {
+              "boxes": [
+                [
+                  [
+                    0.002,
+                    0.35,
+                    0.998,
+                    0.934
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_random": {
+              "boxes": [
+                [
+                  [
+                    0.002,
+                    0.35,
+                    0.998,
+                    0.934
+                  ]
+                ]
+              ],
+              "status": "success"
+            }
+          }
+        }
+      },
+      {
+        "sample_id": 8,
+        "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+        "caption_references": [
+          "a cat is sitting on top of a vehicle",
+          "A cat sitting on top of a car near bushes.",
+          "a black gray and white cat a car and bushes",
+          "Cat sitting on top of car with brush behind.",
+          "A curious looking cat sitting on a car."
+        ],
+        "captions": {
+          "umbrae": {
+            "prediction": "A cat sits on the sandy beach by the water.",
+            "status": "success"
+          },
+          "lora": {
+            "prediction": "A cat sits on the ground and looks at the camera.",
+            "status": "success"
+          },
+          "full_real": {
+            "prediction": "A cat sits on the ground and looks at the camera.",
+            "status": "success"
+          },
+          "full_random": {
+            "prediction": "A cat sits on the ground and looks at the camera.",
+            "status": "success"
+          }
+        },
+        "grounding": {
+          "expression": "cat",
+          "ground_truth_boxes": [
+            [
+              0.17209411764705881,
+              0.2580470588235294,
+              0.886070588235294,
+              0.8301176470588235
+            ]
+          ],
+          "predictions": {
+            "umbrae": {
+              "boxes": [
+                [
+                  [
+                    0.155,
+                    0.239,
+                    0.93,
+                    0.894
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "lora": {
+              "boxes": [
+                [
+                  [
+                    0.155,
+                    0.239,
+                    0.93,
+                    0.894
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_real": {
+              "boxes": [
+                [
+                  [
+                    0.155,
+                    0.239,
+                    0.93,
+                    0.894
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_random": {
+              "boxes": [
+                [
+                  [
+                    0.155,
+                    0.239,
+                    0.93,
+                    0.894
+                  ]
+                ]
+              ],
+              "status": "success"
+            }
+          }
+        }
+      },
+      {
+        "sample_id": 9,
+        "selection": "fixed first 10 sample IDs; first annotation-order grounding expression",
+        "caption_references": [
+          "A man in swim shorts is riding a surf board.",
+          "A surfer is riding a wave in the ocean.",
+          "A fit young man surfing a wave in the ocean.",
+          "A man riding a surfboard on a wave.",
+          "A shirtless man riding shortboard on a wave."
+        ],
+        "captions": {
+          "umbrae": {
+            "prediction": "A surfer is riding a wave in the ocean.",
+            "status": "success"
+          },
+          "lora": {
+            "prediction": "A surfer is riding a wave in the ocean.",
+            "status": "success"
+          },
+          "full_real": {
+            "prediction": "A surfer is riding a wave in the ocean.",
+            "status": "success"
+          },
+          "full_random": {
+            "prediction": "A surfer is riding a wave in the ocean.",
+            "status": "success"
+          }
+        },
+        "grounding": {
+          "expression": "person",
+          "ground_truth_boxes": [
+            [
+              0.2276235294117647,
+              0.2832235294117647,
+              0.6082823529411764,
+              0.6213176470588235
+            ]
+          ],
+          "predictions": {
+            "umbrae": {
+              "boxes": [
+                [
+                  [
+                    0.272,
+                    0.386,
+                    0.531,
+                    0.627
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "lora": {
+              "boxes": [
+                [
+                  [
+                    0.282,
+                    0.362,
+                    0.532,
+                    0.624
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_real": {
+              "boxes": [
+                [
+                  [
+                    0.282,
+                    0.362,
+                    0.532,
+                    0.624
+                  ]
+                ]
+              ],
+              "status": "success"
+            },
+            "full_random": {
+              "boxes": [
+                [
+                  [
+                    0.282,
+                    0.362,
+                    0.532,
+                    0.624
+                  ]
+                ]
+              ],
+              "status": "success"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

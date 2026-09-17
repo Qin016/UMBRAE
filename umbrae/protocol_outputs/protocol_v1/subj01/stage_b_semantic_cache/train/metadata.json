@@ -1,0 +1,48 @@
+{
+  "protocol_version": "protocol_v1",
+  "split": "train",
+  "sample_count": 8559,
+  "sample_ids": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/train/sample_ids.json",
+  "manifest_sha256": "75ddb3f94350e54989bc52b94b299cac97b096fe5dcfc869415013ce1df4d663",
+  "repeat_policy": "mean_over_num_uniques_valid_repeats",
+  "brainx_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/train_logs/brainx-v-1-4/last.pth",
+  "brainx_checkpoint_sha256": "b38aa7ce9d11d56c36ede011ec757a3fda4194c5deaa5f7b0f5f8e42187bb4fb",
+  "brain_model_kind": "BrainX",
+  "z_sem_path": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_b_semantic_cache/train/z_sem_fp16.npy",
+  "z_sem_dtype": "float16",
+  "z_sem_shape": [
+    8559,
+    256,
+    1024
+  ],
+  "z_sem_valid_stages": [
+    "B"
+  ],
+  "z_sem_forbidden_stage": "C",
+  "z_cal_cached": false,
+  "h_struct_cached": false,
+  "source_stage_a_cache_metadata": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/stage_a_cache/train/metadata.json",
+  "online_equivalence": [
+    {
+      "sample_id": "sample000002338",
+      "comparison_batch_size": 64,
+      "cosine_similarity": 0.9999999999999999,
+      "mean_abs_error": 0.0,
+      "max_abs_error": 0.0
+    },
+    {
+      "sample_id": "sample000000763",
+      "comparison_batch_size": 64,
+      "cosine_similarity": 0.9999999999999999,
+      "mean_abs_error": 0.0,
+      "max_abs_error": 0.0
+    },
+    {
+      "sample_id": "sample000005321",
+      "comparison_batch_size": 64,
+      "cosine_similarity": 1.0,
+      "mean_abs_error": 0.0,
+      "max_abs_error": 0.0
+    }
+  ]
+}

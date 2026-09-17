@@ -1,0 +1,339 @@
+{
+  "target_utilization": {
+    "target_marginal": {
+      "L4": 0.25,
+      "L8": 0.03168120485937301,
+      "L12": 0.09331879514062699,
+      "L16": 0.125,
+      "L20": 0.125,
+      "L24": 0.375
+    },
+    "target_entropy": 1.5649368037146854,
+    "effective_target_layer_count": 4.782372698155704,
+    "maximum_target_mass": 0.375,
+    "target_mass_sum": 1.0
+  },
+  "roi_rows": {
+    "V1": {
+      "row_distribution": {
+        "L4": 1.0,
+        "L8": 0.0,
+        "L12": 0.0,
+        "L16": 0.0,
+        "L20": 0.0,
+        "L24": 0.0
+      },
+      "row_entropy": -1.000088900581841e-12,
+      "row_max_mass": 1.0,
+      "preferred_layer_descriptive": "L4",
+      "expected_clip_depth_under_coupling": 4.0
+    },
+    "V2": {
+      "row_distribution": {
+        "L4": 1.0,
+        "L8": 0.0,
+        "L12": 0.0,
+        "L16": 0.0,
+        "L20": 0.0,
+        "L24": 0.0
+      },
+      "row_entropy": -1.000088900581841e-12,
+      "row_max_mass": 1.0,
+      "preferred_layer_descriptive": "L4",
+      "expected_clip_depth_under_coupling": 4.0
+    },
+    "V3": {
+      "row_distribution": {
+        "L4": 0.0,
+        "L8": 0.25344963887498406,
+        "L12": 0.7465503611250159,
+        "L16": 0.0,
+        "L20": 0.0,
+        "L24": 0.0
+      },
+      "row_entropy": 0.566093323449015,
+      "row_max_mass": 0.7465503611250159,
+      "preferred_layer_descriptive": "L12",
+      "expected_clip_depth_under_coupling": 10.986201444500063
+    },
+    "hV4": {
+      "row_distribution": {
+        "L4": 0.0,
+        "L8": 0.0,
+        "L12": 0.0,
+        "L16": 1.0,
+        "L20": 0.0,
+        "L24": 0.0
+      },
+      "row_entropy": -1.000088900581841e-12,
+      "row_max_mass": 1.0,
+      "preferred_layer_descriptive": "L16",
+      "expected_clip_depth_under_coupling": 16.0
+    },
+    "FFA": {
+      "row_distribution": {
+        "L4": 0.0,
+        "L8": 0.0,
+        "L12": 0.0,
+        "L16": 0.0,
+        "L20": 0.0,
+        "L24": 1.0
+      },
+      "row_entropy": -1.000088900581841e-12,
+      "row_max_mass": 1.0,
+      "preferred_layer_descriptive": "L24",
+      "expected_clip_depth_under_coupling": 24.0
+    },
+    "EBA": {
+      "row_distribution": {
+        "L4": 0.0,
+        "L8": 0.0,
+        "L12": 0.0,
+        "L16": 0.0,
+        "L20": 0.0,
+        "L24": 1.0
+      },
+      "row_entropy": -1.000088900581841e-12,
+      "row_max_mass": 1.0,
+      "preferred_layer_descriptive": "L24",
+      "expected_clip_depth_under_coupling": 24.0
+    },
+    "PPA": {
+      "row_distribution": {
+        "L4": 0.0,
+        "L8": 0.0,
+        "L12": 0.0,
+        "L16": 0.0,
+        "L20": 1.0,
+        "L24": 0.0
+      },
+      "row_entropy": -1.000088900581841e-12,
+      "row_max_mass": 1.0,
+      "preferred_layer_descriptive": "L20",
+      "expected_clip_depth_under_coupling": 20.0
+    },
+    "OPA": {
+      "row_distribution": {
+        "L4": 0.0,
+        "L8": 0.0,
+        "L12": 0.0,
+        "L16": 0.0,
+        "L20": 0.0,
+        "L24": 1.0
+      },
+      "row_entropy": -1.000088900581841e-12,
+      "row_max_mass": 1.0,
+      "preferred_layer_descriptive": "L24",
+      "expected_clip_depth_under_coupling": 24.0
+    }
+  },
+  "mean_row_entropy": 0.0707616654302518,
+  "pairwise_jensen_shannon_divergence": [
+    [
+      0.0,
+      0.0,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454
+    ],
+    [
+      0.0,
+      0.0,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454
+    ],
+    [
+      0.6931471805599454,
+      0.6931471805599454,
+      0.0,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454
+    ],
+    [
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.0,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454
+    ],
+    [
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.0,
+      0.0,
+      0.6931471805599454,
+      0.0
+    ],
+    [
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.0,
+      0.0,
+      0.6931471805599454,
+      0.0
+    ],
+    [
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.0,
+      0.6931471805599454
+    ],
+    [
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.6931471805599454,
+      0.0,
+      0.0,
+      0.6931471805599454,
+      0.0
+    ]
+  ],
+  "mean_pairwise_jensen_shannon_divergence": 0.5941261547656674,
+  "row_correlation_matrix": [
+    [
+      1.0,
+      1.0,
+      -0.27069349957065203,
+      -0.20000000000000004,
+      -0.2,
+      -0.2,
+      -0.2,
+      -0.2
+    ],
+    [
+      1.0,
+      1.0,
+      -0.27069349957065203,
+      -0.20000000000000004,
+      -0.2,
+      -0.2,
+      -0.2,
+      -0.2
+    ],
+    [
+      -0.27069349957065203,
+      -0.27069349957065203,
+      1.0,
+      -0.27069349957065203,
+      -0.270693499570652,
+      -0.270693499570652,
+      -0.270693499570652,
+      -0.270693499570652
+    ],
+    [
+      -0.20000000000000007,
+      -0.20000000000000007,
+      -0.27069349957065203,
+      1.0,
+      -0.19999999999999998,
+      -0.19999999999999998,
+      -0.20000000000000004,
+      -0.19999999999999998
+    ],
+    [
+      -0.2,
+      -0.2,
+      -0.27069349957065203,
+      -0.19999999999999998,
+      1.0,
+      1.0,
+      -0.19999999999999998,
+      1.0
+    ],
+    [
+      -0.2,
+      -0.2,
+      -0.27069349957065203,
+      -0.19999999999999998,
+      1.0,
+      1.0,
+      -0.19999999999999998,
+      1.0
+    ],
+    [
+      -0.2,
+      -0.2,
+      -0.27069349957065203,
+      -0.20000000000000004,
+      -0.19999999999999998,
+      -0.19999999999999998,
+      1.0,
+      -0.19999999999999998
+    ],
+    [
+      -0.2,
+      -0.2,
+      -0.27069349957065203,
+      -0.19999999999999998,
+      1.0,
+      1.0,
+      -0.19999999999999998,
+      1.0
+    ]
+  ],
+  "specialization_caution": "High pairwise JS alone is not evidence of meaningful or stable ROI specialization.",
+  "depth_caution": "Expected CLIP depth under coupling is descriptive, not biological hierarchy.",
+  "feature_variance_confound_diagnostics": {
+    "registered_prompt2r_rho": 0.776,
+    "registered_prompt2r_p": 0.0236,
+    "feature_variance_vs_row_entropy": {
+      "spearman": -0.41239304942116123,
+      "two_sided_p": 0.30995873550624103
+    },
+    "feature_variance_vs_row_max_mass": {
+      "spearman": 0.41239304942116123,
+      "two_sided_p": 0.30995873550624103
+    },
+    "feature_variance_vs_expected_clip_depth": {
+      "spearman": 0.6997157779998369,
+      "two_sided_p": 0.053362469677282115
+    },
+    "used_for_candidate_selection": false
+  },
+  "optimization": {
+    "total_objective": 0.5917764846680893,
+    "feature_raw": 0.15075163410955236,
+    "feature_normalized": 0.8287410895594701,
+    "gw_raw": 0.06254653412101523,
+    "gw_normalized": 0.30944734667403456,
+    "coverage_loss": 0.2268226655133697,
+    "entropy_loss": -2.1502032071022126,
+    "shannon_plan_entropy": 2.1502032071022126,
+    "method": "sr_fgw_coverage",
+    "structure_weight": 0.5,
+    "coverage_weight": 0.1,
+    "entropy_weight": 0.0,
+    "initialization_variability": {
+      "initialization_count": 5,
+      "objective_min": 0.5917764846680893,
+      "objective_max": 0.6347902248495099,
+      "objective_range": 0.04301374018142057,
+      "pairwise_plan_frobenius_min": 1.0661910231227575e-14,
+      "pairwise_plan_frobenius_mean": 0.3848714576983731,
+      "pairwise_plan_frobenius_max": 0.48914564066992566,
+      "converged_count": 5
+    }
+  }
+}

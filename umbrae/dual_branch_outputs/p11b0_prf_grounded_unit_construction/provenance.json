@@ -1,0 +1,37 @@
+{
+  "input_hashes": {
+    "p11a5_table": "92e48761028b81cf14252c5d550cba946762dac5ed5d95c01b86b6afeb3a50db",
+    "roi_mapping": "c4f2cc9368e8030a6ff3ce2df77cc93db07c3670960aad64abeff7d0a18750a3",
+    "official_prf_code": "dc03032ad15ec309dde84269c7b79c80931af8aaa5ebbde92ea6f797136c8865",
+    "clip_teacher_code": "66fb74f8cb1fcb8ebd8496b3ae210831711bccef3cd1f9918a49affd47ef8531"
+  },
+  "clip_identifier": "openai/clip-vit-large-patch14",
+  "clip_preprocessing": "Resize224 bicubic antialias; CenterCrop224; CLIP normalization",
+  "patch_ordering": "16x16 row-major",
+  "visual_angle_convention": "8.4x8.4 deg, x-right/y-up",
+  "sigma_formula": "effective_size*sqrt(exponent)",
+  "quality_policies": [
+    "r2_gt0",
+    "r2_ge10p1"
+  ],
+  "clustering": "KMeans seed42 n_init10; within-group z-score",
+  "candidate_K": [
+    32,
+    48,
+    64,
+    96,
+    128
+  ],
+  "selected_mapping_hashes": {
+    "selected_mapping_real.json": "904d2de9683d9ce280a68fa29c2ba1b4ca4328197a9ddbcdd6db4438db89cfb5",
+    "selected_patch_affinity_real.npy": "168b6ca6c8be11fa8d06dae7d08fca49112b4e29e377be412eeb30aeb610d602",
+    "selected_mapping_random_seed42.json": "c023ad2d2a643aa40b63babe084d119029f3a52a73a3cfcbad77ad59c604348d",
+    "selected_mapping_teacher_shuffle_seed42.json": "0ee5acc94c449f6bf84873fdbcd49b7c6a4e922ca2215134811e621e9d77e906"
+  },
+  "optimizer_created": false,
+  "backward_called": false,
+  "training_started": false,
+  "stimulus_responses_used_for_mapping": false,
+  "clip_features_used_for_mapping": false,
+  "clip_features_used_post_lock_diagnostic": true
+}

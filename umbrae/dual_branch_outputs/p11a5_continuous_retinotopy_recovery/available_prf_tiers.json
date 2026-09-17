@@ -1,0 +1,9 @@
+{
+  "scope": "V1/V2/V3/hV4 nsdgeneral voxels",
+  "total_retinotopic_voxels": 4657,
+  "FULL_PRF": 4656,
+  "CENTER_ONLY": 0,
+  "CATEGORICAL_ONLY": 1,
+  "FULL_PRF_R2_GT_0": 4473,
+  "FULL_PRF_R2_GE_10P1": 3956
+}

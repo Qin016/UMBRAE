@@ -1,0 +1,102 @@
+{
+  "subject": "subj07",
+  "roi_name": "floc-places",
+  "roi_path": "/opt/data/private/BA/NSD/nsddata/ppdata/subj07/func1pt8mm/roi/floc-places.nii.gz",
+  "roi_shape": [
+    78,
+    95,
+    81
+  ],
+  "affine": [
+    [
+      1.7999999523162842,
+      0.0,
+      0.0,
+      -69.30000305175781
+    ],
+    [
+      0.0,
+      1.7999999523162842,
+      0.0,
+      -84.5999984741211
+    ],
+    [
+      0.0,
+      0.0,
+      1.7999999523162842,
+      -72.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "zooms": [
+    1.7999999523162842,
+    1.7999999523162842,
+    1.7999999523162842
+  ],
+  "valid_labels": [
+    1,
+    2,
+    3
+  ],
+  "label_id_to_name": {
+    "1": "OPA",
+    "2": "PPA",
+    "3": "RSC"
+  },
+  "voxel_counts": {
+    "1": 1083,
+    "2": 912,
+    "3": 694
+  },
+  "total_valid_roi_voxels": 2689,
+  "excluded_labels": [
+    -1,
+    0
+  ],
+  "created_time": "2026-06-20T06:13:29.697269+00:00",
+  "flat_index_order": "numpy_C_order",
+  "roi_overlap": {
+    "sum_label_voxels": 2689,
+    "union_voxels": 2689,
+    "overlap_assignments": 0,
+    "passed": true
+  },
+  "nsdgeneral_overlap": {
+    "path": "/opt/data/private/BA/NSD/nsddata/ppdata/subj07/func1pt8mm/roi/nsdgeneral.nii.gz",
+    "shape": [
+      78,
+      95,
+      81
+    ],
+    "mask_voxels": 12682,
+    "per_label": {
+      "1": {
+        "name": "OPA",
+        "voxels": 1083,
+        "overlap_voxels": 1078,
+        "overlap_ratio": 0.9953831948291783
+      },
+      "2": {
+        "name": "PPA",
+        "voxels": 912,
+        "overlap_voxels": 652,
+        "overlap_ratio": 0.7149122807017544
+      },
+      "3": {
+        "name": "RSC",
+        "voxels": 694,
+        "overlap_voxels": 0,
+        "overlap_ratio": 0.0
+      }
+    }
+  },
+  "wholebrain_extraction": null,
+  "warnings": [
+    "label=3, name=RSC, has low nsdgeneral overlap ratio 0.0000"
+  ]
+}

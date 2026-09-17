@@ -1,0 +1,134 @@
+{
+  "P8_DIAGNOSIS": "OVER_CALIBRATION",
+  "CALIBRATION_DIRECTION": "PROMISING",
+  "CURRENT_CALIBRATION_STRENGTH": "TOO_STRONG",
+  "ANATOMICAL_SIGNAL": "DIRECTIONAL_ONLY",
+  "NEXT_STAGE": "P9_PRESERVATION_CONSTRAINED_CALIBRATION",
+  "P9_RECOMMENDATION": "A_STRONGER_PRESERVATION_PLUS_C_WEAKER_FUSION_AND_D_PROJECTOR_AWARE_PRESERVATION",
+  "sweet_spot": {
+    "variant": "full_real",
+    "alpha": 0.25,
+    "RSA": 0.46563557448875154,
+    "variant_to_base_cosine": 0.9998102188110352,
+    "feature_norm_ratio": 0.9902302622795105,
+    "CIDEr": 0.6108679465739338,
+    "BLEU-4": 0.19100336225653905,
+    "ROUGE-L": 0.4358595350052822,
+    "Mean_IoU": 0.2206224799156189,
+    "Grounding_Accuracy": 0.19842910293509713,
+    "parse_failures": 6
+  },
+  "projector_amplification": {
+    "lora": 1.0158549254664335,
+    "full_real": 1.0332460377596766,
+    "full_random": 1.0337001392240983
+  },
+  "projector_interface_mismatch": false,
+  "geometry_survives_projector": true,
+  "hard_retrieval": {
+    "umbrae": {
+      "recall_at_1": 0.17311608961303462,
+      "recall_at_5": 0.4317718940936864,
+      "recall_at_10": 0.5570264765784114,
+      "mrr": 0.29872017086932706,
+      "median_rank": 8.0
+    },
+    "lora": {
+      "recall_at_1": 0.17209775967413443,
+      "recall_at_5": 0.439918533604888,
+      "recall_at_10": 0.5539714867617108,
+      "mrr": 0.3004326816564881,
+      "median_rank": 8.0
+    },
+    "full_real": {
+      "recall_at_1": 0.17820773930753564,
+      "recall_at_5": 0.445010183299389,
+      "recall_at_10": 0.5682281059063137,
+      "mrr": 0.30750122314359746,
+      "median_rank": 7.0
+    },
+    "full_random": {
+      "recall_at_1": 0.17718940936863545,
+      "recall_at_5": 0.45010183299389,
+      "recall_at_10": 0.5641547861507128,
+      "mrr": 0.30721471394192584,
+      "median_rank": 7.0
+    }
+  },
+  "real_random_capacity_match": "FAIL",
+  "random_control_limitation": "UNEQUAL_OPTIMIZATION_EXPOSURE_AND_SINGLE_RANDOM_SEED",
+  "bootstrap_caption_real_random": {
+    "CIDEr": {
+      "mean_delta": 0.008265026666652183,
+      "median_delta": 0.00831945568745529,
+      "standard_deviation": 0.006037987190576504,
+      "percentile_2_5": -0.0038229741763646545,
+      "percentile_97_5": 0.020192713301394327,
+      "confidence_interval_95": [
+        -0.0038229741763646545,
+        0.020192713301394327
+      ],
+      "probability_delta_gt_0": 0.9147,
+      "probability_delta_lt_0": 0.0853
+    },
+    "BLEU-4": {
+      "mean_delta": 0.0006847748168909731,
+      "median_delta": 0.0006519800416892457,
+      "standard_deviation": 0.0028933935394031317,
+      "percentile_2_5": -0.004964698039260854,
+      "percentile_97_5": 0.006373829515562786,
+      "confidence_interval_95": [
+        -0.004964698039260854,
+        0.006373829515562786
+      ],
+      "probability_delta_gt_0": 0.5979,
+      "probability_delta_lt_0": 0.4021
+    },
+    "ROUGE-L": {
+      "mean_delta": 0.0030409004337287296,
+      "median_delta": 0.0030325349706378513,
+      "standard_deviation": 0.002022174039422471,
+      "percentile_2_5": -0.0009230092680654181,
+      "percentile_97_5": 0.006934068136088627,
+      "confidence_interval_95": [
+        -0.0009230092680654181,
+        0.006934068136088627
+      ],
+      "probability_delta_gt_0": 0.9324,
+      "probability_delta_lt_0": 0.0676
+    }
+  },
+  "bootstrap_grounding_real_random": {
+    "mean_iou": {
+      "mean_delta": 0.0005875998336628031,
+      "median_delta": 0.000570135248571052,
+      "standard_deviation": 0.0011669901337375878,
+      "percentile_2_5": -0.0016466771895605802,
+      "percentile_97_5": 0.0029107923884903394,
+      "confidence_interval_95": [
+        -0.0016466771895605802,
+        0.0029107923884903394
+      ],
+      "probability_delta_gt_0": 0.6863,
+      "probability_delta_lt_0": 0.3137
+    },
+    "accuracy_at_0_5": {
+      "mean_delta": 0.003712256904917291,
+      "median_delta": 0.0037144036318613183,
+      "standard_deviation": 0.0027644861731591975,
+      "percentile_2_5": -0.0016467682173733906,
+      "percentile_97_5": 0.00916284881299459,
+      "confidence_interval_95": [
+        -0.0016467682173733906,
+        0.00916284881299459
+      ],
+      "probability_delta_gt_0": 0.903,
+      "probability_delta_lt_0": 0.0754
+    }
+  },
+  "P8_STATUS": "COMPLETE",
+  "NEW_TRAINING_STARTED": false,
+  "PARCEL_STAGE_STARTED": false,
+  "PRF_STAGE_STARTED": false,
+  "RETINOTOPY_STAGE_STARTED": false
+}

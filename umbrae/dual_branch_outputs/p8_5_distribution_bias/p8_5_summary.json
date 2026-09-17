@@ -1,0 +1,84 @@
+{
+  "comparison": {
+    "umbrae_raw": {
+      "RSA": 0.45906886883928133,
+      "CIDEr": 0.6064128805899661,
+      "BLEU-4": 0.19028850855317814,
+      "ROUGE-L": 0.43617266481957284,
+      "Mean_IoU": 0.22082647681236267,
+      "Grounding_Accuracy": 0.1976023150062009
+    },
+    "full_real_raw": {
+      "RSA": 0.4799934431481292,
+      "CIDEr": 0.5909716376180367,
+      "BLEU-4": 0.18183095227197188,
+      "ROUGE-L": 0.4349953753934815,
+      "Mean_IoU": 0.2179408222436905,
+      "Grounding_Accuracy": 0.19801570897064902
+    },
+    "full_real_alpha_0_25": {
+      "RSA": 0.46563557448875154,
+      "CIDEr": 0.6108679465739338,
+      "BLEU-4": 0.19100336225653905,
+      "ROUGE-L": 0.4358595350052822,
+      "Mean_IoU": 0.2206224799156189,
+      "Grounding_Accuracy": 0.19842910293509713
+    },
+    "full_real_mean": {
+      "RSA": 0.4769714372342372,
+      "CIDEr": 0.5870685224377572,
+      "BLEU-4": 0.1816311761358494,
+      "ROUGE-L": 0.43379023216778345,
+      "Mean_IoU": 0.2181234508752823,
+      "Grounding_Accuracy": 0.19842910293509713,
+      "parse_failures": 3,
+      "Hard_R1": 0.17718940936863545,
+      "Hard_MRR": 0.305298492251686,
+      "Projected_RSA": 0.44249198913763976
+    },
+    "full_real_affine": {
+      "RSA": 0.510450012356408,
+      "CIDEr": 0.5407658576481015,
+      "BLEU-4": 0.08612712831962811,
+      "ROUGE-L": 0.39655987094462686,
+      "Mean_IoU": 0.16682133078575134,
+      "Grounding_Accuracy": 0.14634146341463414,
+      "parse_failures": 460,
+      "Hard_R1": 0.20672097759674135,
+      "Hard_MRR": 0.3494412356252745,
+      "Projected_RSA": 0.45791969221465817
+    },
+    "full_real_wct": {
+      "RSA": 0.43904442451842074,
+      "CIDEr": 0.5144371169723884,
+      "BLEU-4": 0.11316196972939654,
+      "ROUGE-L": 0.4042736662256668,
+      "Mean_IoU": 0.18816502392292023,
+      "Grounding_Accuracy": 0.1653575857792476,
+      "parse_failures": 180,
+      "Hard_R1": 0.2505091649694501,
+      "Hard_MRR": 0.3873037575710294,
+      "Projected_RSA": 0.3593810674322721
+    }
+  },
+  "MEAN_BIAS_SIGNAL": "WEAK",
+  "CHANNEL_SCALE_BIAS_SIGNAL": "NEGATIVE",
+  "COVARIANCE_BIAS_SIGNAL": "NEGATIVE",
+  "DISTRIBUTION_BIAS_HYPOTHESIS": "NOT_SUPPORTED",
+  "OVER_CALIBRATION_HYPOTHESIS": "SUPPORTED",
+  "mechanism": "MAGNITUDE_CONTROL_DOMINANT",
+  "NEXT_STAGE": "P9_PRESERVATION_CONSTRAINED_STRENGTH_CONTROL",
+  "TEST_STATUS": "POST_HOC_REUSED_TEST",
+  "safety_checks": {
+    "NO_TRAINABLE_PARAMETERS": true,
+    "NO_OPTIMIZER": true,
+    "NO_BACKWARD": true,
+    "NO_TEST_DERIVED_TRANSFORM_STATISTICS": true,
+    "NO_TEST_CLIP_LEAKAGE_IN_FITTING": true,
+    "NO_CHECKPOINT_MODIFICATION": true,
+    "PARCEL_STAGE_STARTED": false,
+    "PRF_STAGE_STARTED": false,
+    "RETINOTOPY_STAGE_STARTED": false
+  },
+  "P8_5_STATUS": "COMPLETE"
+}

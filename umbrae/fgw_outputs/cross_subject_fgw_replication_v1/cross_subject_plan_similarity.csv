@@ -1,0 +1,4 @@
+subject_pair,flattened_spearman,flattened_pearson,frobenius_distance,cosine_similarity,target_marginal_js,preferred_layer_agreement
+subj01-subj02,0.7000000000000001,0.6999999999999997,2.0,0.7499999999999999,0.0,0.75
+subj01-subj05,0.7000000000000001,0.6999999999999997,2.0,0.7499999999999999,0.0,0.75
+subj02-subj05,1.0,0.9999999999999999,0.0,0.9999999999999998,0.0,1.0

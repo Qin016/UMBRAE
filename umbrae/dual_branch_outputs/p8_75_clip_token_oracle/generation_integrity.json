@@ -1,0 +1,75 @@
+{
+  "length_definition": "whitespace-token count of parsed caption or raw grounding response",
+  "modes": {
+    "umbrae": {
+      "caption_count": 982,
+      "caption_success": 982,
+      "caption_empty": 0,
+      "caption_failed": 0,
+      "caption_mean_length": 9.537678207739308,
+      "caption_median_length": 9.0,
+      "grounding_count": 2419,
+      "grounding_success": 2412,
+      "grounding_parse_failures": 7,
+      "grounding_generation_failures": 0,
+      "grounding_mean_length": 4.001653575857793,
+      "grounding_median_length": 4.0
+    },
+    "lora": {
+      "caption_count": 982,
+      "caption_success": 982,
+      "caption_empty": 0,
+      "caption_failed": 0,
+      "caption_mean_length": 9.477596741344195,
+      "caption_median_length": 9.0,
+      "grounding_count": 2419,
+      "grounding_success": 2412,
+      "grounding_parse_failures": 7,
+      "grounding_generation_failures": 0,
+      "grounding_mean_length": 4.0045473336089294,
+      "grounding_median_length": 4.0
+    },
+    "full_real": {
+      "caption_count": 982,
+      "caption_success": 981,
+      "caption_empty": 1,
+      "caption_failed": 0,
+      "caption_mean_length": 9.536659877800407,
+      "caption_median_length": 9.0,
+      "grounding_count": 2419,
+      "grounding_success": 2415,
+      "grounding_parse_failures": 4,
+      "grounding_generation_failures": 0,
+      "grounding_mean_length": 3.999586606035552,
+      "grounding_median_length": 4.0
+    },
+    "full_real_alpha_025": {
+      "caption_count": 982,
+      "caption_success": 981,
+      "caption_empty": 1,
+      "caption_failed": 0,
+      "caption_mean_length": 9.495926680244398,
+      "caption_median_length": 9.0,
+      "grounding_count": 2419,
+      "grounding_success": 2413,
+      "grounding_parse_failures": 6,
+      "grounding_generation_failures": 0,
+      "grounding_mean_length": 4.001240181893344,
+      "grounding_median_length": 4.0
+    },
+    "exact_clip_token_oracle": {
+      "caption_count": 982,
+      "caption_success": 982,
+      "caption_empty": 0,
+      "caption_failed": 0,
+      "caption_mean_length": 10.130346232179226,
+      "caption_median_length": 10.0,
+      "grounding_count": 2419,
+      "grounding_success": 2418,
+      "grounding_parse_failures": 1,
+      "grounding_generation_failures": 0,
+      "grounding_mean_length": 4.0,
+      "grounding_median_length": 4.0
+    }
+  }
+}

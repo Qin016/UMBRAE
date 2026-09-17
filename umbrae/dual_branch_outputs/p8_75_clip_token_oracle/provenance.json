@@ -1,0 +1,58 @@
+{
+  "experiment": "EXACT_CLIP_TOKEN_ORACLE",
+  "pure_inference": true,
+  "optimizer_created": false,
+  "backward_called": false,
+  "ORACLE_USES_GROUND_TRUTH_IMAGE": true,
+  "test_status": "POST_HOC_REUSED_TEST",
+  "split": "subj01 test",
+  "sample_count": 982,
+  "grounding_query_count": 2419,
+  "clip_model": "openai/clip-vit-large-patch14",
+  "clip_layer_definition": "vision_encoder.hidden_states[-2][:,1:,:]",
+  "clip_preprocessing": {
+    "input_color": "RGB",
+    "resize": 224,
+    "interpolation": "bicubic",
+    "antialias": true,
+    "center_crop": 224,
+    "mean": [
+      0.48145466,
+      0.4578275,
+      0.40821073
+    ],
+    "std": [
+      0.26862954,
+      0.26130258,
+      0.27577711
+    ]
+  },
+  "clip_cache": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/p8_5_distribution_bias/test_clip_patch_fp16.npy",
+  "clip_cache_sha256": "10b73eaab9084f9ead4353b2b0da0c72594721cf4a7e701192875466f5abc240",
+  "mm_projector": "/opt/data/private/BA/UMBRAE/umbrae/model_weights/mm_projector.bin",
+  "mm_projector_sha256": "357a4a6a42c7214ecf3eca7cb17dfdadb9cdb9dba05f1daff764b969c71403ea",
+  "shikra_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/model_weights/shikra-7b",
+  "brainx_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/train_logs/brainx-v-1-4/last.pth",
+  "brainx_sha256": "b38aa7ce9d11d56c36ede011ec757a3fda4194c5deaa5f7b0f5f8e42187bb4fb",
+  "p5_lora_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/umbrae_s1_lora_qv_r8_seed42_protocolv1/best.pth",
+  "p5_lora_sha256": "048f58633ef743bf95eb174a0dd184731386de0d4e30138af39b424dbecbe144",
+  "p6_full_real_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_stageC_real_lora_r8_seed42_protocolv1/best.pth",
+  "p6_full_real_sha256": "e3900c48ff377ebe14b0ceb90c4424906f5c2035875ef5f8ac83f8f79a645483",
+  "dataset_manifest": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/test_manifest.jsonl",
+  "dataset_manifest_sha256": "ebb968dc824e90fedb4e48d7f4a8f02d4ed45bf6f36ef3ccf9586648c01237ae",
+  "decoder_config": {
+    "max_new_tokens": 512,
+    "do_sample": false,
+    "use_cache": true,
+    "pad_token_id": 2,
+    "bos_token_id": 1,
+    "eos_token_id": 2
+  },
+  "caption_prompt": "Describe this image <image> as simply as possible.",
+  "grounding_prompt": "Locate <expr> in <image> and provide its coordinates, please",
+  "image_patch_placeholder_count": 256,
+  "tokenizer": "/opt/data/private/BA/UMBRAE/umbrae/model_weights/shikra-7b",
+  "caption_evaluator": "locked BrainHub pycocoevalcap",
+  "bbox_parser": "BrainHub utils.extract_boxes",
+  "grounding_evaluator": "BrainHub eval_bbox_rec.calculate_metric(threshold=0.5)"
+}

@@ -1,0 +1,149 @@
+{
+  "protocol_version": "prompt5b_locked_one_shot_replication_v1",
+  "subject": "subj05",
+  "offline_test_accessed_when_written": false,
+  "locked_structural": {
+    "method": "sr_fgw",
+    "structure_weight": 0.5,
+    "coverage_weight": 0.0,
+    "entropy_weight": 0.0,
+    "VALIDATION_STATUS": "READY_FOR_OFFLINE_TEST"
+  },
+  "locked_baseline": {
+    "slug": "source_constrained_feature_coverage_lambda_1",
+    "method": "source_constrained_feature_coverage",
+    "structure_weight": 0.0,
+    "coverage_weight": 1.0,
+    "best_discovery_initialization": [
+      "random",
+      1003
+    ]
+  },
+  "feature_protocol": {
+    "final_plan_cost": "5-fold OOF over combined discovery+validation",
+    "test_probe": "same ridge refit once on all combined discovery+validation",
+    "fold_count": 5,
+    "fold_seed": 42,
+    "ridge_alpha": 100.0,
+    "std_epsilon": 1e-06,
+    "cost": "mean over OOF stimuli of 1 - cosine(predicted CLIP feature, true CLIP feature)"
+  },
+  "geometry_protocol": {
+    "stimulus_distance": "1 - cosine similarity",
+    "node_relation": "1 - Spearman correlation of RDM strict upper triangles",
+    "brain_semantics": "ROI representational geometry relation matrix",
+    "anatomical_distance": false,
+    "hierarchy_claimed": false,
+    "brain_representation": "roi_tokens_before_projector",
+    "anchor_count": 1500,
+    "random_seed": 42,
+    "random_stream": "NumPy SeedSequence(seed).spawn(5)[0]",
+    "variance_standardized_geometry_used": false
+  },
+  "loss_calibration_rule": "reuse the subject-specific Prompt-5A discovery calibration exactly, matching the frozen subj01 final-refit rule; no final-train or test recalibration",
+  "fixed_loss_calibration": {
+    "s_feature": 0.17698953463770248,
+    "s_gw": 0.1749916033240142,
+    "eps_scale": 1e-12,
+    "rule": "subject discovery matrices evaluated at uniform feasible plan"
+  },
+  "solver": {
+    "learning_rate": 0.1,
+    "max_iterations": 2500,
+    "tolerance": 1e-11,
+    "patience": 80,
+    "eps_coverage": 1e-12,
+    "entropy_weight": 0.0,
+    "projection": "Euclidean row-simplex projection"
+  },
+  "null_protocol": {
+    "brain_geometry_unique_permutations": 200,
+    "clip_geometry_unique_permutations": 200,
+    "independent_roi_stimulus_permutations": 200,
+    "feature_pairing_permutations": 20,
+    "null_fit_initializations": [
+      [
+        "uniform",
+        0
+      ],
+      [
+        "feature_informed",
+        0
+      ],
+      [
+        "random",
+        1001
+      ]
+    ],
+    "seed": 42001,
+    "fit_split": "offline_discovery + offline_validation only",
+    "test_evaluation": "original unpermuted offline_test matrices"
+  },
+  "test_subsampling": {
+    "count": 200,
+    "fraction": 0.8,
+    "without_replacement": true,
+    "seed": 41001,
+    "plans_refit": false
+  },
+  "decision_rule": {
+    "EXPLORATORY_PASS": "composite difference < 0; paired GW-difference CI upper < 0; all three geometry-null one-sided p < 0.05; no test fitting; pretest hash valid",
+    "FAIL": "mean GW difference >= 0 or any required geometry-null p >= 0.05",
+    "INCONCLUSIVE": "remaining mixed criterion outcomes",
+    "feature_pairing_null_affects_status": false
+  },
+  "final_fit_count": 6545,
+  "final_fit_id_sha256": "b5facb2945a2440702e452c4574e01b04efcc4c6e73d0877ebfd04f7d5430a1f",
+  "discovery_id_sha256": "919311340db8eaedc0cebf8379c7ad99617d889a0f53fe975ff01b9cac57f40a",
+  "validation_id_sha256": "4cae7abbe9428dda2379565beab12a2a45a2fa128a0f7476da9b7046adfe1db7",
+  "offline_test_declared_id_sha256_pretest": "82850e52911fc7d797bb169507f405f822e7fdd824c0b76bf5f8a636912fa580",
+  "offline_test_actual_id_hash_recomputed": false,
+  "protected_overlap": 0,
+  "OOF_fold_id_hashes": [
+    "1a68608a1291c1cc9dbe4dbfdfc81365524d4db9f661cfe8df624e7fff49c9f7",
+    "1304e4a5b100755f86bd730596392f35c97dda61f8133b4d84e94f5efa7856d0",
+    "7763513ed3fcaff5116ac4553f88b0dde30ea67440bcde863ef3a75ad756f62a",
+    "49fd5dea56878d169810391ba8e1399ab62b4d295d9c6dd297497a016dfa8d92",
+    "4a2585e52e23fe0c54c507b98a4c654f525fce70b9f730b2825b05d662a932ec"
+  ],
+  "full_probe_parameter_sha256": "44e7a9660d104ecf5dd8694629f5afd1ad4dc5ca830785e5baaabbca0dc601c4",
+  "source_hashes": {
+    "stimulus_manifest_sha256": "6e8b1836eccdab8917617e0280ba6069ee80bb23b515cabead116fa50c93e591",
+    "preregistered_grid_sha256": "bb7cc9e182aa1c903996666609721724c1f01e0637b1cafeed571a81e8795413",
+    "feature_cost_discovery_sha256": "70de835a059bf792ac73fb77a6546ebe777b7fce0e7e5d3d579461e833446453",
+    "brain_geometry_discovery_sha256": "4af54a0a8880d5d0d89929572ca6a4d6b96acddf264d806781bb0303ffb58f2e",
+    "clip_geometry_discovery_sha256": "fa174ec8382015d45a14df0c5749ecc88452b34e67dfa4d4c8ba74a312894b31",
+    "feature_cost_validation_sha256": "1d998d75acff213677a32454586c68dd38d75ea3c639a2b5b0a628353cf8eb8f",
+    "brain_geometry_validation_sha256": "b8316c697344808e13bac6936e3dc414df2d36b8eaf9c9740767a7fd56926c40",
+    "clip_geometry_validation_sha256": "ea79a6a5e9e858ccd3321db11d0330f4602aad04ce0a7036e1d3630c40b98d7e",
+    "validation_script_sha256": "29535bf22b0f68ebefb7a8e0cea9a8c6a6ec5436e8fb8d91bef89d0aab7d26e8"
+  },
+  "protocol_config_hashes": {
+    "feature_cost_config_sha256": "1ac4962f08200f706c4106d3f741306dd09cbeae7ddb5c4e457ac47e6de2cc59",
+    "geometry_config_sha256": "3f7540ec70748467339699d394adb2043eec72281531d9707030c525da8fef31"
+  },
+  "final_train_matrix_hashes": {
+    "feature": "a70957ac44c6e41378533f90ebb3af1673864d14ef75a5bb152bce2b55b6b56c",
+    "brain_geometry": "b9cdb62402068ed1c0027e6125aad5a4996c00d2f5932105dfae91f91982ae6b",
+    "clip_geometry": "80d523d78c8c94749e04c6ef97f40bc92f9c6df333de92b4fe47c85b2902c34d"
+  },
+  "final_plan_fit_count": 1,
+  "s_feature_final": 0.17698953463770248,
+  "s_gw_final": 0.1749916033240142,
+  "final_scale_provenance": "reuse the subject-specific Prompt-5A discovery calibration exactly, matching the frozen subj01 final-refit rule; no final-train or test recalibration",
+  "uniform_reference_losses_recomputed_on_final_train_for_audit_not_used": {
+    "s_feature": 0.1705833974921175,
+    "s_gw": 0.17035313324438092
+  },
+  "final_plan_initialization": [
+    "random",
+    1013
+  ],
+  "baseline_plan_initialization": [
+    "random",
+    1003
+  ],
+  "offline_test_used_for_fitting": false,
+  "stage2_run": false,
+  "caption_metrics_used": false
+}

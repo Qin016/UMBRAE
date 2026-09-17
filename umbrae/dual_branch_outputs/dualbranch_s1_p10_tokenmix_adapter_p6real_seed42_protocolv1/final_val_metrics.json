@@ -1,0 +1,343 @@
+{
+  "selection_rule": "CIDEr >= source AND grounding accuracy >= source; then lowest projected oracle gap, CIDEr tie-break",
+  "source_baseline": {
+    "label": "source_baseline",
+    "epoch": 0,
+    "checkpoint": null,
+    "caption": {
+      "BLEU-1": 0.6665517241377011,
+      "BLEU-2": 0.4806098303389134,
+      "BLEU-3": 0.3390234425862133,
+      "BLEU-4": 0.23738960584825491,
+      "ROUGE-L": 0.48966877823591887,
+      "CIDEr": 0.857437869365815,
+      "sample_count": 300,
+      "success": 300,
+      "empty": 0,
+      "failed": 0,
+      "mean_output_length": 17.346666666666668,
+      "median_output_length": 17.0
+    },
+    "grounding": {
+      "query_count": 840,
+      "mean_iou": 0.23770882189273834,
+      "grounding_accuracy": 0.2261904761904762,
+      "parse_failures": 0,
+      "target_failures": 0
+    },
+    "reused_from": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p9_interface_adapter_p6real_seed42_protocolv1/source_downstream_baseline.json",
+    "reuse_reason": "P9 locked validation baseline; downstream path unchanged in P10"
+  },
+  "candidates": [
+    {
+      "label": "epoch_002",
+      "epoch": 2,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p10_tokenmix_adapter_p6real_seed42_protocolv1/epoch_002.pth",
+      "caption": {
+        "BLEU-1": 0.6680555555553236,
+        "BLEU-2": 0.47843458849591414,
+        "BLEU-3": 0.33927612385375217,
+        "BLEU-4": 0.24028150966723022,
+        "ROUGE-L": 0.4873945629377299,
+        "CIDEr": 0.8548097132452975,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.333333333333332,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.2404835969209671,
+        "grounding_accuracy": 0.23095238095238096,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.38846234877904257,
+      "downstream_compatible": false
+    },
+    {
+      "label": "epoch_004",
+      "epoch": 4,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p10_tokenmix_adapter_p6real_seed42_protocolv1/epoch_004.pth",
+      "caption": {
+        "BLEU-1": 0.6680526680524366,
+        "BLEU-2": 0.47949722095734343,
+        "BLEU-3": 0.3409290917936522,
+        "BLEU-4": 0.2416864277877229,
+        "ROUGE-L": 0.48955355349235047,
+        "CIDEr": 0.8593948559046108,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.266666666666666,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.2403164803981781,
+        "grounding_accuracy": 0.23095238095238096,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.3878719238440196,
+      "downstream_compatible": true
+    },
+    {
+      "label": "epoch_006",
+      "epoch": 6,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p10_tokenmix_adapter_p6real_seed42_protocolv1/epoch_006.pth",
+      "caption": {
+        "BLEU-1": 0.6632088520053032,
+        "BLEU-2": 0.47181015568865553,
+        "BLEU-3": 0.33176909930932436,
+        "BLEU-4": 0.23125214319782678,
+        "ROUGE-L": 0.4860524820895236,
+        "CIDEr": 0.8370500285830933,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.266666666666666,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.23861105740070343,
+        "grounding_accuracy": 0.225,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.38759040395418803,
+      "downstream_compatible": false
+    },
+    {
+      "label": "epoch_008",
+      "epoch": 8,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p10_tokenmix_adapter_p6real_seed42_protocolv1/epoch_008.pth",
+      "caption": {
+        "BLEU-1": 0.6664362253713563,
+        "BLEU-2": 0.47665502090923545,
+        "BLEU-3": 0.33633998819273847,
+        "BLEU-4": 0.23618589328715953,
+        "ROUGE-L": 0.4898451408681075,
+        "CIDEr": 0.8536850698152072,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.186666666666667,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.24102656543254852,
+        "grounding_accuracy": 0.23095238095238096,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.38742873191833493,
+      "downstream_compatible": false
+    },
+    {
+      "label": "epoch_010",
+      "epoch": 10,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p10_tokenmix_adapter_p6real_seed42_protocolv1/epoch_010.pth",
+      "caption": {
+        "BLEU-1": 0.6639032815196325,
+        "BLEU-2": 0.4720552195759034,
+        "BLEU-3": 0.3311500615771078,
+        "BLEU-4": 0.23121064125111462,
+        "ROUGE-L": 0.4847223492913931,
+        "CIDEr": 0.8332271672565158,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.16,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.24124620854854584,
+        "grounding_accuracy": 0.23095238095238096,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.38728144447008767,
+      "downstream_compatible": false
+    },
+    {
+      "label": "epoch_012",
+      "epoch": 12,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p10_tokenmix_adapter_p6real_seed42_protocolv1/epoch_012.pth",
+      "caption": {
+        "BLEU-1": 0.6676997245176765,
+        "BLEU-2": 0.4752893278831685,
+        "BLEU-3": 0.3337010861780925,
+        "BLEU-4": 0.2333854523232151,
+        "ROUGE-L": 0.4877958144499377,
+        "CIDEr": 0.8380064208447745,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.093333333333334,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.24264077842235565,
+        "grounding_accuracy": 0.23095238095238096,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.3872066843509674,
+      "downstream_compatible": false
+    },
+    {
+      "label": "epoch_014",
+      "epoch": 14,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p10_tokenmix_adapter_p6real_seed42_protocolv1/epoch_014.pth",
+      "caption": {
+        "BLEU-1": 0.6655219780217495,
+        "BLEU-2": 0.4743238544602442,
+        "BLEU-3": 0.3325711976257386,
+        "BLEU-4": 0.2336433275242647,
+        "ROUGE-L": 0.48841309823528967,
+        "CIDEr": 0.8355513263400968,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.173333333333332,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.24111557006835938,
+        "grounding_accuracy": 0.2357142857142857,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.38718722025553387,
+      "downstream_compatible": false
+    },
+    {
+      "label": "epoch_016",
+      "epoch": 16,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p10_tokenmix_adapter_p6real_seed42_protocolv1/epoch_016.pth",
+      "caption": {
+        "BLEU-1": 0.6647038448213839,
+        "BLEU-2": 0.47116470755862344,
+        "BLEU-3": 0.3272368327991683,
+        "BLEU-4": 0.22828498571176142,
+        "ROUGE-L": 0.48490281394814344,
+        "CIDEr": 0.8321709049408748,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.026666666666667,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.2426157146692276,
+        "grounding_accuracy": 0.2369047619047619,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.387162458896637,
+      "downstream_compatible": false
+    },
+    {
+      "label": "epoch_018",
+      "epoch": 18,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p10_tokenmix_adapter_p6real_seed42_protocolv1/epoch_018.pth",
+      "caption": {
+        "BLEU-1": 0.6704702627936824,
+        "BLEU-2": 0.47845808420177455,
+        "BLEU-3": 0.3357665772241716,
+        "BLEU-4": 0.23663378488468156,
+        "ROUGE-L": 0.4900965304561486,
+        "CIDEr": 0.8512369083361094,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.186666666666667,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.24411079287528992,
+        "grounding_accuracy": 0.2357142857142857,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.38716540098190305,
+      "downstream_compatible": false
+    },
+    {
+      "label": "epoch_020",
+      "epoch": 20,
+      "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p10_tokenmix_adapter_p6real_seed42_protocolv1/epoch_020.pth",
+      "caption": {
+        "BLEU-1": 0.670828997571741,
+        "BLEU-2": 0.47833445505680733,
+        "BLEU-3": 0.33436597961191017,
+        "BLEU-4": 0.2368726952652083,
+        "ROUGE-L": 0.4895991172888268,
+        "CIDEr": 0.8401634621162279,
+        "sample_count": 300,
+        "success": 300,
+        "empty": 0,
+        "failed": 0,
+        "mean_output_length": 17.133333333333333,
+        "median_output_length": 17.0
+      },
+      "grounding": {
+        "query_count": 840,
+        "mean_iou": 0.24353572726249695,
+        "grounding_accuracy": 0.23214285714285715,
+        "parse_failures": 0,
+        "target_failures": 0
+      },
+      "projected_oracle_gap": 0.3870887013276418,
+      "downstream_compatible": false
+    }
+  ],
+  "selected": {
+    "label": "epoch_004",
+    "epoch": 4,
+    "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/dualbranch_s1_p10_tokenmix_adapter_p6real_seed42_protocolv1/epoch_004.pth",
+    "caption": {
+      "BLEU-1": 0.6680526680524366,
+      "BLEU-2": 0.47949722095734343,
+      "BLEU-3": 0.3409290917936522,
+      "BLEU-4": 0.2416864277877229,
+      "ROUGE-L": 0.48955355349235047,
+      "CIDEr": 0.8593948559046108,
+      "sample_count": 300,
+      "success": 300,
+      "empty": 0,
+      "failed": 0,
+      "mean_output_length": 17.266666666666666,
+      "median_output_length": 17.0
+    },
+    "grounding": {
+      "query_count": 840,
+      "mean_iou": 0.2403164803981781,
+      "grounding_accuracy": 0.23095238095238096,
+      "parse_failures": 0,
+      "target_failures": 0
+    },
+    "projected_oracle_gap": 0.3878719238440196,
+    "downstream_compatible": true
+  },
+  "selection_status": "DOWNSTREAM_COMPATIBLE_CHECKPOINT_FOUND",
+  "test_used": false
+}

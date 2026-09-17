@@ -1,0 +1,6 @@
+{
+  "source": "/opt/data/private/BA/UMBRAE/umbrae/dual_branch_outputs/p11a5_continuous_retinotopy_recovery/categorical_fallback_mapping.json",
+  "source_sha256": "e5035e944ab160d0c62cc6f1fe2aaca9b7f41a998186634ec9c9062bd6ab0346",
+  "status": "CATEGORY_RETINOTOPIC_BASELINE",
+  "note": "NO_POLAR_ANGLE_LOCALIZATION; no pRF patch affinity added"
+}

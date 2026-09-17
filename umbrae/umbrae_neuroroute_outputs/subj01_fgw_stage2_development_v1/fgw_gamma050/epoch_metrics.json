@@ -1,0 +1,47 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.8608906454154264,
+    "val_loss": 1.9446665271123251,
+    "CIDEr": 0.4150722314371146,
+    "BLEU-1": 0.5128589263420724,
+    "BLEU-2": 0.34382210002149793,
+    "BLEU-3": 0.2356661844279469,
+    "BLEU-4": 0.164803740239906,
+    "ROUGE-L": 0.4027829894651382,
+    "checkpoint": "checkpoint_epoch001.pt",
+    "checkpoint_sha256": "900b90c231396c934f96fd23e758d037bb0abce0e80344ba875a0ea374f36171",
+    "elapsed_seconds": 1625.0326416911557,
+    "peak_gpu_memory_bytes": 19673799168
+  },
+  {
+    "epoch": 2,
+    "train_loss": 1.6624860534392227,
+    "val_loss": 1.943414112329483,
+    "CIDEr": 0.3604166202603008,
+    "BLEU-1": 0.5101045296167247,
+    "BLEU-2": 0.3330714496708019,
+    "BLEU-3": 0.22570401023193187,
+    "BLEU-4": 0.15998365337302017,
+    "ROUGE-L": 0.40171058037011337,
+    "checkpoint": "checkpoint_epoch002.pt",
+    "checkpoint_sha256": "d67fccdc2f02c8ce26cccd31210852220bfa05ad4a756aa5477f361beb43f602",
+    "elapsed_seconds": 3104.1695688003674,
+    "peak_gpu_memory_bytes": 19675003904
+  },
+  {
+    "epoch": 3,
+    "train_loss": 1.5830886782956457,
+    "val_loss": 1.9151194580396016,
+    "CIDEr": 0.40220789555582714,
+    "BLEU-1": 0.5081813931743806,
+    "BLEU-2": 0.337187909415071,
+    "BLEU-3": 0.23521848734792652,
+    "BLEU-4": 0.16984474567334074,
+    "ROUGE-L": 0.40672861495090207,
+    "checkpoint": "checkpoint_epoch003.pt",
+    "checkpoint_sha256": "1c5806c4bcb4a230d7bd8b21aecc3302b8cf7aef074fde88e072325efd7a8f16",
+    "elapsed_seconds": 4588.61830948526,
+    "peak_gpu_memory_bytes": 19675003904
+  }
+]

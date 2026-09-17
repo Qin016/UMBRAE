@@ -1,0 +1,46 @@
+{
+  "umbrae": {
+    "shape": [
+      2,
+      256,
+      1024
+    ],
+    "all_finite": true,
+    "max_abs_error": 0.0,
+    "mean_abs_error": 0.0,
+    "cosine_similarity": 1.0
+  },
+  "lora": {
+    "shape": [
+      2,
+      256,
+      1024
+    ],
+    "all_finite": true,
+    "max_abs_error": 0.0,
+    "mean_abs_error": 0.0,
+    "cosine_similarity": 1.0
+  },
+  "full_real": {
+    "shape": [
+      2,
+      256,
+      1024
+    ],
+    "all_finite": true,
+    "max_abs_error": 0.0,
+    "mean_abs_error": 0.0,
+    "cosine_similarity": 1.0
+  },
+  "full_random": {
+    "shape": [
+      2,
+      256,
+      1024
+    ],
+    "all_finite": true,
+    "max_abs_error": 0.0,
+    "mean_abs_error": 0.0,
+    "cosine_similarity": 0.9999999403953552
+  }
+}

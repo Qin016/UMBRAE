@@ -1,0 +1,413 @@
+{
+  "rule": "V1,V2,V3,hV4; within ROI left then right; within group mean eccentricity then polar angle; append FFA,EBA,PPA,OPA",
+  "tokens": [
+    {
+      "token_index": 0,
+      "unit_id": "V1_left_u000",
+      "parent_roi": "V1",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 1,
+      "unit_id": "V1_left_u001",
+      "parent_roi": "V1",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 2,
+      "unit_id": "V1_left_u002",
+      "parent_roi": "V1",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 3,
+      "unit_id": "V1_left_u003",
+      "parent_roi": "V1",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 4,
+      "unit_id": "V1_left_u004",
+      "parent_roi": "V1",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 5,
+      "unit_id": "V1_left_u005",
+      "parent_roi": "V1",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 6,
+      "unit_id": "V1_left_u006",
+      "parent_roi": "V1",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 7,
+      "unit_id": "V1_left_u007",
+      "parent_roi": "V1",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 8,
+      "unit_id": "V1_left_u008",
+      "parent_roi": "V1",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 9,
+      "unit_id": "V1_left_u009",
+      "parent_roi": "V1",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 10,
+      "unit_id": "V1_right_u000",
+      "parent_roi": "V1",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 11,
+      "unit_id": "V1_right_u001",
+      "parent_roi": "V1",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 12,
+      "unit_id": "V1_right_u002",
+      "parent_roi": "V1",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 13,
+      "unit_id": "V1_right_u003",
+      "parent_roi": "V1",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 14,
+      "unit_id": "V1_right_u004",
+      "parent_roi": "V1",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 15,
+      "unit_id": "V1_right_u005",
+      "parent_roi": "V1",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 16,
+      "unit_id": "V1_right_u006",
+      "parent_roi": "V1",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 17,
+      "unit_id": "V1_right_u007",
+      "parent_roi": "V1",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 18,
+      "unit_id": "V1_right_u008",
+      "parent_roi": "V1",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 19,
+      "unit_id": "V2_left_u000",
+      "parent_roi": "V2",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 20,
+      "unit_id": "V2_left_u001",
+      "parent_roi": "V2",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 21,
+      "unit_id": "V2_left_u002",
+      "parent_roi": "V2",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 22,
+      "unit_id": "V2_left_u003",
+      "parent_roi": "V2",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 23,
+      "unit_id": "V2_left_u004",
+      "parent_roi": "V2",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 24,
+      "unit_id": "V2_left_u005",
+      "parent_roi": "V2",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 25,
+      "unit_id": "V2_left_u006",
+      "parent_roi": "V2",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 26,
+      "unit_id": "V2_left_u007",
+      "parent_roi": "V2",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 27,
+      "unit_id": "V2_left_u008",
+      "parent_roi": "V2",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 28,
+      "unit_id": "V2_right_u000",
+      "parent_roi": "V2",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 29,
+      "unit_id": "V2_right_u001",
+      "parent_roi": "V2",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 30,
+      "unit_id": "V2_right_u002",
+      "parent_roi": "V2",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 31,
+      "unit_id": "V2_right_u003",
+      "parent_roi": "V2",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 32,
+      "unit_id": "V2_right_u004",
+      "parent_roi": "V2",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 33,
+      "unit_id": "V2_right_u005",
+      "parent_roi": "V2",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 34,
+      "unit_id": "V2_right_u006",
+      "parent_roi": "V2",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 35,
+      "unit_id": "V2_right_u007",
+      "parent_roi": "V2",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 36,
+      "unit_id": "V2_right_u008",
+      "parent_roi": "V2",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 37,
+      "unit_id": "V2_right_u009",
+      "parent_roi": "V2",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 38,
+      "unit_id": "V3_left_u000",
+      "parent_roi": "V3",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 39,
+      "unit_id": "V3_left_u001",
+      "parent_roi": "V3",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 40,
+      "unit_id": "V3_left_u002",
+      "parent_roi": "V3",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 41,
+      "unit_id": "V3_left_u003",
+      "parent_roi": "V3",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 42,
+      "unit_id": "V3_left_u004",
+      "parent_roi": "V3",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 43,
+      "unit_id": "V3_left_u005",
+      "parent_roi": "V3",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 44,
+      "unit_id": "V3_left_u006",
+      "parent_roi": "V3",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 45,
+      "unit_id": "V3_left_u007",
+      "parent_roi": "V3",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 46,
+      "unit_id": "V3_right_u000",
+      "parent_roi": "V3",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 47,
+      "unit_id": "V3_right_u001",
+      "parent_roi": "V3",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 48,
+      "unit_id": "V3_right_u002",
+      "parent_roi": "V3",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 49,
+      "unit_id": "V3_right_u003",
+      "parent_roi": "V3",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 50,
+      "unit_id": "V3_right_u004",
+      "parent_roi": "V3",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 51,
+      "unit_id": "V3_right_u005",
+      "parent_roi": "V3",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 52,
+      "unit_id": "V3_right_u006",
+      "parent_roi": "V3",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 53,
+      "unit_id": "V3_right_u007",
+      "parent_roi": "V3",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 54,
+      "unit_id": "hV4_left_u000",
+      "parent_roi": "hV4",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 55,
+      "unit_id": "hV4_left_u001",
+      "parent_roi": "hV4",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 56,
+      "unit_id": "hV4_left_u002",
+      "parent_roi": "hV4",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 57,
+      "unit_id": "hV4_left_u003",
+      "parent_roi": "hV4",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 58,
+      "unit_id": "hV4_left_u004",
+      "parent_roi": "hV4",
+      "hemisphere": "left"
+    },
+    {
+      "token_index": 59,
+      "unit_id": "hV4_right_u000",
+      "parent_roi": "hV4",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 60,
+      "unit_id": "hV4_right_u001",
+      "parent_roi": "hV4",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 61,
+      "unit_id": "hV4_right_u002",
+      "parent_roi": "hV4",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 62,
+      "unit_id": "hV4_right_u003",
+      "parent_roi": "hV4",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 63,
+      "unit_id": "hV4_right_u004",
+      "parent_roi": "hV4",
+      "hemisphere": "right"
+    },
+    {
+      "token_index": 64,
+      "unit_id": "FFA",
+      "parent_roi": "FFA",
+      "hemisphere": "bilateral_or_atlas_defined"
+    },
+    {
+      "token_index": 65,
+      "unit_id": "EBA",
+      "parent_roi": "EBA",
+      "hemisphere": "bilateral_or_atlas_defined"
+    },
+    {
+      "token_index": 66,
+      "unit_id": "PPA",
+      "parent_roi": "PPA",
+      "hemisphere": "bilateral_or_atlas_defined"
+    },
+    {
+      "token_index": 67,
+      "unit_id": "OPA",
+      "parent_roi": "OPA",
+      "hemisphere": "bilateral_or_atlas_defined"
+    }
+  ]
+}

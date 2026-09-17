@@ -1,0 +1,13 @@
+{
+  "unit_count": 40,
+  "covered_voxels": 4641,
+  "total_retinotopic_voxels": 4657,
+  "coverage_ratio": 0.9965643117887052,
+  "unassigned_missing_categorical_label": 16,
+  "min_voxels": 1,
+  "median_voxels": 98.0,
+  "mean_voxels": 116.025,
+  "max_voxels": 293,
+  "visual_field_2d_localization": false,
+  "gaussian_affinity": false
+}

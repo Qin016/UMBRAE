@@ -1,0 +1,32 @@
+{
+  "subject": "subj01",
+  "space": "native subject func1pt8mm nsdgeneral vector",
+  "voxel_index": "zero-based UMBRAE nsdgeneral vector index in NumPy C-order mask extraction",
+  "available_fields": {
+    "visual_roi_label": "categorical V1v/V1d/V2v/V2d/V3v/V3d/hV4",
+    "ecc_roi_label": "categorical ecc0pt5/ecc1/ecc2/ecc4/ecc4+; exact continuous value unavailable",
+    "ijk_xyz": "functional-volume voxel index and affine world millimetres",
+    "hemisphere": "derived from aligned lh/rh nsdgeneral masks"
+  },
+  "unavailable_fields": {
+    "x_prf": "no local source file",
+    "y_prf": "no local source file",
+    "angle_prf": "no local prfangle surface/volume file",
+    "eccentricity_prf": "only categorical labels exist; no continuous estimate",
+    "sigma_prf": "no local pRF size/sigma file; Gaussian sigma semantics cannot be established",
+    "quality_prf": "no local R2/variance-explained/fit-quality file"
+  },
+  "angle_units_zero_direction_rotation": null,
+  "eccentricity_units": "categorical label names suggest degrees but no continuous values are encoded; not used numerically",
+  "sigma_semantics": null,
+  "quality_metric_semantics": null,
+  "default_quality_threshold": null,
+  "quality_distribution": null,
+  "missing_value_policy": "NaN plus valid_prf=false; no fill, nearest-neighbor, or ROI-mean imputation",
+  "official_code_evidence": {
+    "repository": "https://github.com/cvnlab/nsdcode",
+    "file": "examples/examples_nsdmapdata.py",
+    "evidence": "official polar-angle mapping example expects freesurfer/subjXX/label/lh.prfangle.mgz",
+    "local_expected_file_present": false
+  }
+}

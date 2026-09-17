@@ -1,0 +1,48 @@
+{
+  "construction": "unique random ROI-row permutations of real T; preserves source and target marginals exactly and preserves the row-entropy multiset exactly",
+  "count": 500,
+  "real_mean_pairwise_roi_js": 0.5941261547656673,
+  "null_mean_pairwise_roi_js": {
+    "count": 500,
+    "mean": 0.5941261547656672,
+    "std": 1.111334915764742e-16,
+    "median": 0.5941261547656673,
+    "ci_2_5": 0.5941261547656673,
+    "ci_97_5": 0.5941261547656673
+  },
+  "real_preferred_layer_diversity": 5,
+  "null_preferred_layer_diversity": {
+    "count": 500,
+    "mean": 5.0,
+    "std": 0.0,
+    "median": 5.0,
+    "ci_2_5": 5.0,
+    "ci_97_5": 5.0
+  },
+  "row_correlation_to_real": {
+    "count": 500,
+    "mean": 0.08979999999999999,
+    "std": 0.18336631755266738,
+    "median": 0.1,
+    "ci_2_5": -0.2,
+    "ci_97_5": 0.55
+  },
+  "preferred_layer_agreement_to_real": {
+    "count": 500,
+    "mean": 0.2415,
+    "std": 0.15280526462722283,
+    "median": 0.25,
+    "ci_2_5": 0.0,
+    "ci_97_5": 0.625
+  },
+  "validation_gw_normalized": {
+    "count": 500,
+    "mean": 0.650824359285711,
+    "std": 0.10811238028321753,
+    "median": 0.6736291196473356,
+    "ci_2_5": 0.3767339713744952,
+    "ci_97_5": 0.8065424812145181
+  },
+  "one_sided_p_real_gw_lower": 0.001996007984031936,
+  "interpretation": "JS/diversity alone cannot distinguish real row identity from this null"
+}

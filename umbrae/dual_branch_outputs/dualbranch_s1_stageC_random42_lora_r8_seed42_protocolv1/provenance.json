@@ -1,0 +1,35 @@
+{
+  "protocol_version": "protocol_v1",
+  "protocol_sha256": "ab78ae590c108f0edd26f092a154d8ef690e6660f839c9003f0e413edf0f4626",
+  "git_commit_hash": "UNAVAILABLE",
+  "base_brainx_sha256": "b38aa7ce9d11d56c36ede011ec757a3fda4194c5deaa5f7b0f5f8e42187bb4fb",
+  "initial_lora_checkpoint_sha256": "048f58633ef743bf95eb174a0dd184731386de0d4e30138af39b424dbecbe144",
+  "structural_checkpoint_sha256": "8cf23b725875170a0381b6841b279ea68a0e770ebbca7de6bf1f83bd45553354",
+  "initial_fusion_checkpoint_sha256": "43c553152c12aa8bab26136c0dee4d13245b8bdf74d1a764a441de7fde5423a7",
+  "rank": 8,
+  "alpha": 16.0,
+  "dropout": 0.05,
+  "lora_targets": [
+    "encoder.perceiver.perceiver.layers.0.0.to_q",
+    "encoder.perceiver.perceiver.layers.0.0.to_kv[value_only]",
+    "encoder.perceiver.perceiver.layers.1.0.to_q",
+    "encoder.perceiver.perceiver.layers.1.0.to_kv[value_only]",
+    "encoder.perceiver.perceiver.layers.2.0.to_q",
+    "encoder.perceiver.perceiver.layers.2.0.to_kv[value_only]",
+    "encoder.perceiver.perceiver.layers.3.0.to_q",
+    "encoder.perceiver.perceiver.layers.3.0.to_kv[value_only]",
+    "encoder.perceiver.perceiver.layers.4.0.to_q",
+    "encoder.perceiver.perceiver.layers.4.0.to_kv[value_only]",
+    "encoder.perceiver.perceiver.layers.5.0.to_q",
+    "encoder.perceiver.perceiver.layers.5.0.to_kv[value_only]"
+  ],
+  "fusion_config": {
+    "dim": 1024,
+    "num_heads": 8,
+    "dropout": 0.0
+  },
+  "mapping_kind": "random",
+  "seed": 42,
+  "gpu": "NVIDIA RTX A6000",
+  "training_seconds": 214.9246039390564
+}

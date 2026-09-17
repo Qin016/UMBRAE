@@ -1,0 +1,27 @@
+{
+  "config": "configs/dual_branch/stage_b_debug.json",
+  "stage": "B",
+  "subject": "subj01",
+  "train_tar": [
+    "nsd/webdataset_avg_split/train/train_subj01_0.tar"
+  ],
+  "roi_mapping": "../roi_indices/subj01_neuroroute_v1.json",
+  "brainx_checkpoint": "train_logs/brainx-v-1-4/last.pth",
+  "clip_model": "openai/clip-vit-large-patch14",
+  "token_dim": 1024,
+  "fusion_heads": 8,
+  "epsilon": 0.05,
+  "tau": 1.0,
+  "sinkhorn_iters": 100,
+  "sinkhorn_tol": 1e-05,
+  "repeat_aggregation": "mean",
+  "batch_size": 1,
+  "lr": 0.0001,
+  "weight_decay": 0.01,
+  "max_steps": 1,
+  "num_workers": 0,
+  "device": "cuda",
+  "output_dir": "dual_branch_outputs/stage_b_debug",
+  "seed": 42,
+  "smoke_fusion_connectivity": true
+}

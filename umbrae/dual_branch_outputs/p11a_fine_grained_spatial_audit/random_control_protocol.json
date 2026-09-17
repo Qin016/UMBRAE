@@ -1,0 +1,19 @@
+{
+  "protocol": "within_roi_spatial_randomization_v1",
+  "design_ready": true,
+  "executable_mapping_ready": false,
+  "reason": "Protocol is specified, but there is no valid real unit assignment to randomize.",
+  "preserve": [
+    "total token count",
+    "unit voxel-count distribution",
+    "parent ROI",
+    "ROI voxel coverage",
+    "pRF quality distribution when available"
+  ],
+  "destroy": [
+    "within-ROI voxel-to-pRF/unit spatial organization"
+  ],
+  "algorithm": "For each parent ROI independently, permute the pooled eligible voxels and repartition using the real unit-size sequence with a fixed seed.",
+  "seed": 42,
+  "whole_brain_random_grouping": false
+}

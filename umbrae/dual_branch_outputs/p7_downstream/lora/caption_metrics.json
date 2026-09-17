@@ -1,0 +1,14 @@
+{
+  "BLEU-1": 0.5915236051501511,
+  "BLEU-2": 0.39988217951891214,
+  "BLEU-3": 0.2687558624726802,
+  "BLEU-4": 0.1833407157444846,
+  "ROUGE-L": 0.43412488082070305,
+  "CIDEr": 0.5816784891303525,
+  "sample_count": 982,
+  "denominator": 982,
+  "successful_generations": 982,
+  "empty_outputs": 0,
+  "failed_generations": 0,
+  "failure_policy": "empty caption retained in denominator"
+}

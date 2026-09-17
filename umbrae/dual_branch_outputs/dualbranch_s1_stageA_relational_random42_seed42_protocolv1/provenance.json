@@ -1,0 +1,16 @@
+{
+  "protocol_version": "protocol_v1",
+  "protocol_sha256": "ab78ae590c108f0edd26f092a154d8ef690e6660f839c9003f0e413edf0f4626",
+  "git_commit_hash": "UNAVAILABLE",
+  "active_roi_mapping": "/opt/data/private/BA/UMBRAE/umbrae/protocol_outputs/protocol_v1/subj01/random_structure_control_seed42.json",
+  "active_roi_mapping_sha256": "e6bcf129189f64d9987421d73f3428d56ba79aef9858c441e249d30a6c46ac12",
+  "routing_weights": "/opt/data/private/BA/UMBRAE/umbrae/stage1_outputs/cross_subject_projector/subj01/soft/val_routing_weights_mean.npy",
+  "routing_weights_sha256": "af8782448f8166662c26045b7a0e49ab9bc73890091783fb1e1c3c85bdd424ab",
+  "router_checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/stage1_outputs/cross_subject_projector/subj01/soft/checkpoint_best.pt",
+  "router_checkpoint_sha256": "2cad72dc809534709b8bfd12a1d9e6512687fdb9d7b408b311ae66f19d837dea",
+  "router_prior_available": true,
+  "seed": 42,
+  "initial_parameter_sha256": "29ba36d5465cf609787c5cd0ed0b1e7bbdea050ec1373039fd5ea4385c685504",
+  "gpu": "NVIDIA RTX A6000",
+  "training_seconds": 107.28627610206604
+}

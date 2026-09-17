@@ -1,0 +1,147 @@
+{
+  "checkpoint": "/opt/data/private/BA/UMBRAE/umbrae/stage1_outputs/subj01/soft_contrastive_attention/checkpoint_best.pt",
+  "checkpoint_keys": [
+    "epoch",
+    "best_val_alignment_loss",
+    "model",
+    "optimizer",
+    "config"
+  ],
+  "num_model_state_entries": 430,
+  "modules": {
+    "roi_tokenizer": {
+      "present": true,
+      "num_state_entries": 15
+    },
+    "brain_clip_projector": {
+      "present": true,
+      "num_state_entries": 6
+    },
+    "roi_layer_router": {
+      "present": true,
+      "num_state_entries": 5
+    },
+    "retrieval_pooler": {
+      "present": true,
+      "num_state_entries": 1
+    },
+    "attention_pooler": {
+      "present": true,
+      "num_state_entries": 1
+    },
+    "flatten_mlp_pooler": {
+      "present": false,
+      "num_state_entries": 0
+    }
+  },
+  "config": {
+    "config": "configs/neuroroute/stage1_routing_s1_debug.json",
+    "subject": "subj01",
+    "train_tar": [
+      "nsd/webdataset_avg_split/train/train_subj01_0.tar"
+    ],
+    "train_data": null,
+    "val_tar": [
+      "nsd/webdataset_avg_split/val/val_subj01_0.tar"
+    ],
+    "val_data": null,
+    "roi_mapping_json": "/opt/data/private/BA/UMBRAE/roi_indices/subj01_neuroroute_v1.json",
+    "selected_clip_layers": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      24
+    ],
+    "clip_model_name_or_path": "openai/clip-vit-large-patch14",
+    "roi_token_dim": 1024,
+    "clip_layer_target_dim": 1024,
+    "use_brain_clip_projector": true,
+    "projector_type": "mlp",
+    "projector_hidden_dim": 1024,
+    "projector_dropout": 0.1,
+    "detach_routed_targets": true,
+    "router_hidden_dim": null,
+    "router_temperature": 1.0,
+    "router_type": "soft",
+    "router_topk": 0,
+    "single_router_layer": null,
+    "hard_intermediate_layers": [
+      8,
+      12,
+      16,
+      20
+    ],
+    "hard_final_layers": [
+      24
+    ],
+    "fmri_repeat_mode": "mean",
+    "batch_size": 2,
+    "epochs": 1,
+    "lr": 0.0001,
+    "weight_decay": 0.01,
+    "mse_weight": 1.0,
+    "cos_weight": 1.0,
+    "contrastive_loss_weight": 0.1,
+    "contrastive_temperature": 0.07,
+    "contrastive_image_target": "routed",
+    "contrastive_brain_pooling": "attention",
+    "router_entropy_weight": 0.0,
+    "router_balance_weight": 0.0,
+    "router_smoothness_weight": 0.0,
+    "device": "cuda",
+    "output_dir": "stage1_outputs/subj01/soft_contrastive_attention",
+    "debug_max_steps": 10,
+    "num_workers": 0,
+    "show_progress": true,
+    "seed": 42
+  },
+  "missing_retrieval_config_fields": [],
+  "metrics_train_path": "/opt/data/private/BA/UMBRAE/umbrae/stage1_outputs/subj01/soft_contrastive_attention/metrics_train.jsonl",
+  "metrics_val_path": "/opt/data/private/BA/UMBRAE/umbrae/stage1_outputs/subj01/soft_contrastive_attention/metrics_val.jsonl",
+  "train_metric_keys": [
+    "balance_loss",
+    "contrastive_loss",
+    "cosine_loss",
+    "entropy_loss",
+    "epoch",
+    "learning_rate",
+    "mse_loss",
+    "projected_feature_norm",
+    "raw_roi_token_norm",
+    "routed_target_norm",
+    "routing_entropy_mean",
+    "routing_max_weight_mean",
+    "smoothness_loss",
+    "steps",
+    "total_loss"
+  ],
+  "val_metric_keys": [
+    "balance_loss",
+    "contrastive_loss",
+    "cosine_loss",
+    "entropy_loss",
+    "epoch",
+    "learning_rate",
+    "mse_loss",
+    "projected_feature_norm",
+    "raw_roi_token_norm",
+    "routed_target_norm",
+    "routing_entropy_mean",
+    "routing_max_weight_mean",
+    "smoothness_loss",
+    "steps",
+    "total_loss"
+  ],
+  "num_train_epochs_logged": 1,
+  "num_val_epochs_logged": 1,
+  "best_epoch_checkpoint": 1,
+  "best_epoch_from_val_total": 1,
+  "final_epoch": 1,
+  "requested_brain_pooling": "attention",
+  "requested_pooling_compatible": true,
+  "warnings": [
+    "Training used debug_max_steps=10; this may be a smoke run rather than a stable checkpoint."
+  ]
+}

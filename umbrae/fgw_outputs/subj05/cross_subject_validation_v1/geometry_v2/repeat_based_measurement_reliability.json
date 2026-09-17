@@ -1,0 +1,8 @@
+{
+  "REPEAT_RELIABILITY_STATUS": "NOT_AVAILABLE",
+  "computed": false,
+  "reason": "The existing feature cache stores one ROI-token row after averaging all valid fMRI repeats for each stimulus. It does not contain independent repeat-resolved ROI tokens or session/run partitions, so same-stimulus measurement sets A and B cannot be constructed from this cache.",
+  "disjoint_stimulus_subsets_used_as_repeat_proxy": false,
+  "crossnobis_computed": false,
+  "interpretation_limit": "Stimulus-subset stability does not establish neural measurement reliability."
+}

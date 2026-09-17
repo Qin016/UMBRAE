@@ -1,0 +1,238 @@
+{
+  "CONTINUOUS_POLAR_ANGLE": "AVAILABLE",
+  "CONTINUOUS_ECCENTRICITY": "AVAILABLE",
+  "PRF_SIZE": "AVAILABLE",
+  "PRF_QUALITY": "AVAILABLE",
+  "PRF_EXPONENT": "AVAILABLE",
+  "PRF_XY_MAPPING": "READY",
+  "FULL_GAUSSIAN_AFFINITY": "READY",
+  "MAPPING_VALIDATION": "PASS",
+  "PRF_DATA_AVAILABILITY": "SUFFICIENT",
+  "P11B_FULL_PRF_READY": true,
+  "P11B_CENTER_ONLY_READY": true,
+  "P11B_READY": true,
+  "MANUAL_DOWNLOAD_REQUIRED": false,
+  "REQUIRED_FILES": [],
+  "CATEGORY_RETINOTOPIC_TOKENIZATION_FEASIBLE": true,
+  "P11A5_STATUS": "BLOCKER_RESOLVED",
+  "quality_threshold_policy": {
+    "selected_for_readiness_audit": "R2 > 0 (positive explained variance; not a training/K-selection threshold)",
+    "source_derived_stricter_candidate": "R2 >= 10.1%, reported by nsddatapaper analysis_prf.m tail-threshold audit",
+    "threshold_lock_deferred": true
+  },
+  "tiers": {
+    "scope": "V1/V2/V3/hV4 nsdgeneral voxels",
+    "total_retinotopic_voxels": 4657,
+    "FULL_PRF": 4656,
+    "CENTER_ONLY": 0,
+    "CATEGORICAL_ONLY": 1,
+    "FULL_PRF_R2_GT_0": 4473,
+    "FULL_PRF_R2_GE_10P1": 3956
+  },
+  "coverage_by_roi": [
+    {
+      "roi": "V1",
+      "total_voxels": 1350,
+      "angle_available": 1350,
+      "ecc_available": 1350,
+      "xy_available": 1350,
+      "size_available": 1350,
+      "exponent_available": 1350,
+      "quality_available": 1350,
+      "full_prf_available": 1350,
+      "full_coverage_ratio": 1.0,
+      "quality_gt0": 1313,
+      "quality_ge10p1": 1184,
+      "median_ecc_deg": 2.1853842735290527,
+      "median_effective_size_deg": 0.3603997826576233,
+      "median_gaussian_sigma_deg": 0.14336666464805603,
+      "median_R2_percent": 48.955081939697266
+    },
+    {
+      "roi": "V2",
+      "total_voxels": 1433,
+      "angle_available": 1433,
+      "ecc_available": 1433,
+      "xy_available": 1433,
+      "size_available": 1433,
+      "exponent_available": 1433,
+      "quality_available": 1433,
+      "full_prf_available": 1433,
+      "full_coverage_ratio": 1.0,
+      "quality_gt0": 1362,
+      "quality_ge10p1": 1193,
+      "median_ecc_deg": 2.098398208618164,
+      "median_effective_size_deg": 0.37690770626068115,
+      "median_gaussian_sigma_deg": 0.15470004081726074,
+      "median_R2_percent": 47.120635986328125
+    },
+    {
+      "roi": "V3",
+      "total_voxels": 1187,
+      "angle_available": 1187,
+      "ecc_available": 1187,
+      "xy_available": 1187,
+      "size_available": 1187,
+      "exponent_available": 1187,
+      "quality_available": 1187,
+      "full_prf_available": 1187,
+      "full_coverage_ratio": 1.0,
+      "quality_gt0": 1163,
+      "quality_ge10p1": 1036,
+      "median_ecc_deg": 2.409548759460449,
+      "median_effective_size_deg": 0.5839232206344604,
+      "median_gaussian_sigma_deg": 0.23381328582763672,
+      "median_R2_percent": 54.67264175415039
+    },
+    {
+      "roi": "hV4",
+      "total_voxels": 687,
+      "angle_available": 687,
+      "ecc_available": 686,
+      "xy_available": 686,
+      "size_available": 687,
+      "exponent_available": 687,
+      "quality_available": 687,
+      "full_prf_available": 686,
+      "full_coverage_ratio": 0.9985443959243085,
+      "quality_gt0": 635,
+      "quality_ge10p1": 543,
+      "median_ecc_deg": 1.3923028707504272,
+      "median_effective_size_deg": 0.6652413606643677,
+      "median_gaussian_sigma_deg": 0.28337445855140686,
+      "median_R2_percent": 33.426429748535156
+    }
+  ],
+  "quality_distribution_global_retino": {
+    "count": 4657,
+    "min": -626.0380859375,
+    "mean": 43.06000518798828,
+    "median": 47.747962951660156,
+    "p75": 65.72948455810547,
+    "p90": 75.29202575683594,
+    "p95": 79.2006591796875,
+    "max": 88.68031311035156
+  },
+  "quality_distribution_by_roi": {
+    "V1": {
+      "count": 1350,
+      "min": -230.7142333984375,
+      "mean": 44.19349670410156,
+      "median": 48.955081939697266,
+      "p75": 64.51540184020996,
+      "p90": 73.6818618774414,
+      "p95": 76.96988220214844,
+      "max": 86.61735534667969
+    },
+    "V2": {
+      "count": 1433,
+      "min": -626.0380859375,
+      "mean": 42.393760681152344,
+      "median": 47.120635986328125,
+      "p75": 66.7874755859375,
+      "p90": 76.89979095458985,
+      "p95": 80.65753021240234,
+      "max": 87.8755111694336
+    },
+    "V3": {
+      "count": 1187,
+      "min": -160.02256774902344,
+      "mean": 48.23261642456055,
+      "median": 54.67264175415039,
+      "p75": 70.4609603881836,
+      "p90": 77.64934539794922,
+      "p95": 80.77657546997071,
+      "max": 88.68031311035156
+    },
+    "hV4": {
+      "count": 687,
+      "min": -318.59307861328125,
+      "mean": 33.28505325317383,
+      "median": 33.426429748535156,
+      "p75": 56.30340576171875,
+      "p90": 68.5227783203125,
+      "p95": 72.86119842529295,
+      "max": 85.12736511230469
+    }
+  },
+  "mapping_validation_details": {
+    "mapping_route": "official precomputed func1pt8mm volumes -> exact identical voxel grid -> nsdgeneral mask NumPy C-order",
+    "surface_mapping_used": false,
+    "surface_mapping_reason": "Not needed: official precomputed target-space volumes exist.",
+    "volume_shape": [
+      81,
+      104,
+      83
+    ],
+    "all_parameter_shapes_exact": true,
+    "all_parameter_affines_exact": true,
+    "nsdgeneral_length": 15724,
+    "duplicate_volume_indices": 0,
+    "hemisphere_counts": {
+      "left": 7784,
+      "right": 7940,
+      "overlap": 0
+    },
+    "roi_index_sets_exact": {
+      "V1": true,
+      "V2": true,
+      "V3": true,
+      "hV4": true
+    },
+    "ecc_category_exact_consistency": 0.6989224137931035,
+    "ecc_category_within_adjacent_band": 0.9467672413793103,
+    "ecc_category_confusion": [
+      [
+        533,
+        98,
+        17,
+        9,
+        15
+      ],
+      [
+        110,
+        295,
+        75,
+        12,
+        6
+      ],
+      [
+        73,
+        190,
+        574,
+        109,
+        17
+      ],
+      [
+        12,
+        4,
+        168,
+        586,
+        99
+      ],
+      [
+        56,
+        13,
+        13,
+        301,
+        1255
+      ]
+    ],
+    "ecc_validation_note": "Categorical ROIs were drawn on surface maps then released in volume space; exact-bin disagreement is boundary/resampling dominated. Monotonic medians, 94%+ adjacent-band agreement, exact grid alignment, and laterality jointly support the mapping.",
+    "R2_ge_10p1_lh_right_visual_field_fraction": 0.9561316051844466,
+    "R2_ge_10p1_rh_left_visual_field_fraction": 0.9179487179487179,
+    "mapping_validation": "PASS"
+  },
+  "no_training": true,
+  "p11b_started": false,
+  "safety": {
+    "optimizer_created": false,
+    "backward_called": false,
+    "brainx_updated": false,
+    "lora_updated": false,
+    "fusion_updated": false,
+    "stimulus_responses_used": false,
+    "clip_embeddings_used": false,
+    "p11b_training_started": false
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "preregistration_version": 1,
+  "written_before_offline_validation_feature_access_for_prompt4a": true,
+  "source_split_for_fitting": "offline_discovery",
+  "evaluation_split": "offline_validation",
+  "offline_test_access_permitted": false,
+  "fixed_loss_scales": {
+    "s_feature": 0.18190438003847248,
+    "s_gw": 0.202123349231981,
+    "eps_scale": 1e-12
+  },
+  "fixed_validation_composite": {
+    "feature_weight": 0.5,
+    "gw_weight": 0.5,
+    "coverage_included": false
+  },
+  "candidate_grid": {
+    "source_constrained_feature_routing": [
+      {
+        "structure_weight": 0.0,
+        "coverage_weight": 0.0
+      }
+    ],
+    "source_constrained_feature_coverage": [
+      {
+        "structure_weight": 0.0,
+        "coverage_weight": 0.03
+      },
+      {
+        "structure_weight": 0.0,
+        "coverage_weight": 0.1
+      },
+      {
+        "structure_weight": 0.0,
+        "coverage_weight": 0.3
+      },
+      {
+        "structure_weight": 0.0,
+        "coverage_weight": 1.0
+      }
+    ],
+    "balanced_outer_ot": [
+      {
+        "structure_weight": 0.0,
+        "coverage_weight": null,
+        "hard_uniform_target": true
+      }
+    ],
+    "sr_fgw": [
+      {
+        "structure_weight": 0.25,
+        "coverage_weight": 0.0
+      },
+      {
+        "structure_weight": 0.5,
+        "coverage_weight": 0.0
+      },
+      {
+        "structure_weight": 0.75,
+        "coverage_weight": 0.0
+      }
+    ],
+    "sr_fgw_coverage": [
+      {
+        "structure_weight": 0.25,
+        "coverage_weight": 0.03
+      },
+      {
+        "structure_weight": 0.25,
+        "coverage_weight": 0.1
+      },
+      {
+        "structure_weight": 0.25,
+        "coverage_weight": 0.3
+      },
+      {
+        "structure_weight": 0.25,
+        "coverage_weight": 1.0
+      },
+      {
+        "structure_weight": 0.5,
+        "coverage_weight": 0.03
+      },
+      {
+        "structure_weight": 0.5,
+        "coverage_weight": 0.1
+      },
+      {
+        "structure_weight": 0.5,
+        "coverage_weight": 0.3
+      },
+      {
+        "structure_weight": 0.5,
+        "coverage_weight": 1.0
+      },
+      {
+        "structure_weight": 0.75,
+        "coverage_weight": 0.03
+      },
+      {
+        "structure_weight": 0.75,
+        "coverage_weight": 0.1
+      },
+      {
+        "structure_weight": 0.75,
+        "coverage_weight": 0.3
+      },
+      {
+        "structure_weight": 0.75,
+        "coverage_weight": 1.0
+      }
+    ]
+  },
+  "structural_initializations": {
+    "count": 20,
+    "specifications": [
+      [
+        "uniform",
+        0
+      ],
+      [
+        "feature_informed",
+        0
+      ],
+      [
+        "random",
+        1001
+      ],
+      [
+        "random",
+        1002
+      ],
+      [
+        "random",
+        1003
+      ],
+      [
+        "random",
+        1004
+      ],
+      [
+        "random",
+        1005
+      ],
+      [
+        "random",
+        1006
+      ],
+      [
+        "random",
+        1007
+      ],
+      [
+        "random",
+        1008
+      ],
+      [
+        "random",
+        1009
+      ],
+      [
+        "random",
+        1010
+      ],
+      [
+        "random",
+        1011
+      ],
+      [
+        "random",
+        1012
+      ],
+      [
+        "random",
+        1013
+      ],
+      [
+        "random",
+        1014
+      ],
+      [
+        "random",
+        1015
+      ],
+      [
+        "random",
+        1016
+      ],
+      [
+        "random",
+        1017
+      ],
+      [
+        "random",
+        1018
+      ]
+    ]
+  },
+  "nonstructural_initializations": "same 20 specifications when applicable",
+  "near_optimal_relative_threshold": 0.01,
+  "top_k_identifiability": 5,
+  "validation_subsampling": {
+    "count": 200,
+    "fraction": 0.75,
+    "without_replacement": true,
+    "seed": 41001
+  },
+  "validation_geometry": {
+    "anchor_count": 1500,
+    "anchor_selection": "without replacement from offline_validation, then sorted for deterministic access",
+    "seed": 43001,
+    "matches_geometry_v2_anchor_count": true
+  },
+  "null_experiments": {
+    "brain_geometry_unique_permutations": 200,
+    "clip_geometry_unique_permutations": 200,
+    "feature_pairing_permutations": 20,
+    "independent_roi_stimulus_permutations": 200,
+    "matched_marginal_unique_row_permutations": 500,
+    "null_fit_initializations": [
+      [
+        "uniform",
+        0
+      ],
+      [
+        "feature_informed",
+        0
+      ],
+      [
+        "random",
+        1001
+      ]
+    ],
+    "seed": 42001
+  },
+  "solver": {
+    "learning_rate": 0.1,
+    "max_iterations": 2500,
+    "tolerance": 1e-11,
+    "patience": 80,
+    "eps_coverage": 1e-12,
+    "entropy_weight": 0.0,
+    "projection": "Euclidean row-simplex projection"
+  },
+  "selection": {
+    "scope": "converged structural candidates only",
+    "criterion": "lowest 0.5*validation_feature_norm + 0.5*validation_gw_norm",
+    "coverage_in_validation_score": false,
+    "initialization_selected_by_validation": false
+  },
+  "decision_thresholds": {
+    "null_separation_one_sided_p_max": 0.05,
+    "structural_benefit_requires_subsample_gw_difference_ci_97_5_below_zero": true,
+    "composite_benefit_requires_subsample_difference_ci_97_5_below_zero": true,
+    "identifiability_reference_set": "near-optimal 1% set when it has at least two plans, otherwise top-5 converged",
+    "minimum_median_preferred_layer_agreement": 0.5,
+    "minimum_median_row_correlation": 0.0,
+    "maximum_selected_composite_coefficient_of_variation": 0.1
+  },
+  "variance_sensitivity": {
+    "run_once_after_primary_validation_selection": true,
+    "used_for_selection": false
+  }
+}
